@@ -10,6 +10,8 @@ class UnitModel {
   String? preClassActivityVideo;
   String? preClassActivityUploadLink;
   List<PreClassQuestion>? preClassQuestions;
+  List<SurveyQuestion>? preClassSurvey;
+  String? preClassActivityLocalVideo;  // Local video file path
 
   String instructionsText;
   String instructionVideoId;
@@ -18,12 +20,14 @@ class UnitModel {
   String? practiceActivityLink;
   String? practiceActivityVideo;
   List<PracticeQuestion1>? practiceActivityQuestions1;
+  List<PracticeQuestionMCQ>? practiceActivityMCQ;
   String? practiceUploadLink;
 
   String practiceActivityDescription2;
   String? practiceVideoUrl;
   String? practiceUploadLink2;
   String? practiceActivityLink2;
+  List<PracticeQuestion2>? practiceActivityQuestions2;
 
   String summary;
   String inClassActivity;
@@ -40,6 +44,8 @@ class UnitModel {
     this.preClassActivityVideo,
     this.preClassQuestions,
     this.preClassActivityUploadLink,
+    this.preClassSurvey,
+    this.preClassActivityLocalVideo,
 
     required this.instructionsText,
     required this.instructionVideoId,
@@ -49,11 +55,13 @@ class UnitModel {
     this.practiceActivityVideo,
     this.practiceUploadLink,
     this.practiceActivityQuestions1,
+    this.practiceActivityMCQ,
 
     required this.practiceActivityDescription2,
     this.practiceVideoUrl,
     this.practiceActivityLink2,
     this.practiceUploadLink2,
+    this.practiceActivityQuestions2,
 
     required this.summary,
     required this.inClassActivity,
@@ -80,16 +88,67 @@ class QuizQuestion {
 }
 class PreClassQuestion {
   final String questionText;
-  final String correctAnswer;
+  final List<String>? options;
+  final int? correctOptionIndex;
+  final String? correctAnswer;
+  final bool isTextAnswer;
 
-  PreClassQuestion({required this.questionText, required this.correctAnswer});
+  PreClassQuestion({
+    required this.questionText,
+    this.options,
+    this.correctOptionIndex,
+    this.correctAnswer,
+    this.isTextAnswer = false,
+  });
 }
+
 
 class PracticeQuestion1 {
   final String questionText;
+  final List<String>? options;
+  final int? correctOptionIndex;
+  final String? correctAnswer;
+  final bool isTextAnswer;
+
+  PracticeQuestion1({
+    required this.questionText,
+    this.options,
+    this.correctOptionIndex,
+    this.correctAnswer,
+    this.isTextAnswer = false,
+  });
+}
+
+
+class PracticeQuestion2 {
+  final String questionText;
   final String correctAnswer;
 
-  PracticeQuestion1({required this.questionText, required this.correctAnswer});
+  PracticeQuestion2({required this.questionText, required this.correctAnswer});
+}
+
+class PracticeQuestionMCQ {
+  final String questionText;
+  final List<String> options;
+  final int correctOptionIndex;
+
+  PracticeQuestionMCQ({
+    required this.questionText,
+    required this.options,
+    required this.correctOptionIndex,
+  });
+}
+
+class SurveyQuestion {
+  final String questionText;
+  final List<String>? options;
+  final bool allowsMultipleAnswers;
+
+  SurveyQuestion({
+    required this.questionText,
+    this.options,
+    this.allowsMultipleAnswers = false,
+  });
 }
 
 

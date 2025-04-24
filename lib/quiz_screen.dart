@@ -49,6 +49,9 @@ class _QuizScreenState extends State<QuizScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final total = quizQuestions.length;
+    final answered = selectedAnswers.where((a) => a != null && a!.isNotEmpty).length;
+
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -57,7 +60,7 @@ class _QuizScreenState extends State<QuizScreen> {
         ),
         backgroundColor: const Color(0xFF010066),
         centerTitle: true,
-        elevation: 0,
+        elevation: 2,
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: widget.unitData == null || quizQuestions.isEmpty
@@ -67,63 +70,100 @@ class _QuizScreenState extends State<QuizScreen> {
           style: TextStyle(fontSize: 18, color: Colors.grey),
         ),
       )
-          : Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            if (errorMessage != null)
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8.0),
-                child: Text(
-                  errorMessage!,
-                  style: const TextStyle(
-                    color: Colors.red,
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+          : Column(
+        children: [
+
+          if (errorMessage != null)
+            Container(
+              width: double.infinity,
+              color: Colors.red.shade100,
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                errorMessage!,
+                style: const TextStyle(
+                    color: Colors.red, fontWeight: FontWeight.bold),
               ),
-            Expanded(
-              child: ListView.builder(
-                itemCount: quizQuestions.length,
-                itemBuilder: (context, index) {
-                  final question = quizQuestions[index];
-                  return Card(
-                    margin: const EdgeInsets.symmetric(vertical: 8.0),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12.0),
-                    ),
-                    elevation: 5.0,
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            question.question,
-                            style: const TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black,
-                            ),
-                          ),
-                          const SizedBox(height: 10),
-                          if (question.options != null)
-                            ...question.options!.map((option) {
-                              bool isCorrect = showResults &&
-                                  option == question.options![question.correctOptionIndex!];
-                              bool isSelected = selectedAnswers[index] == option;
-                              return RadioListTile<String>(
+            ),
+
+
+          Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: LinearProgressIndicator(
+              value: total == 0 ? 0 : answered / total,
+              minHeight: 8,
+              backgroundColor: Colors.grey.shade300,
+              valueColor: AlwaysStoppedAnimation<Color>(
+                  answered == total ? Colors.green : Colors.orange),
+            ),
+          ),
+          const Text(
+            "🎯 End Lesson Quiz",
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+              color: Color(0xFF010066),
+            ),
+          ),
+
+          Expanded(
+            child: ListView.builder(
+              padding: const EdgeInsets.all(12),
+              itemCount: quizQuestions.length,
+              itemBuilder: (context, index) {
+                final question = quizQuestions[index];
+                final isCorrect = question.options != null &&
+                    selectedAnswers[index] ==
+                        question.options![question.correctOptionIndex ?? 0];
+
+                return Card(
+                  elevation: 6,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  margin: const EdgeInsets.only(bottom: 16),
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Q${index + 1}: ${question.question}",
+                          style: const TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(height: 12),
+
+                        if (question.options != null)
+                          ...question.options!.map((option) {
+                            bool selected =
+                                selectedAnswers[index] == option;
+                            bool correct = option ==
+                                question.options![
+                                question.correctOptionIndex ?? 0];
+
+                            return Tooltip(
+                              message: showResults && correct
+                                  ? "This is the correct answer"
+                                  : "",
+                              child: RadioListTile<String>(
+                                activeColor: showResults
+                                    ? (correct
+                                    ? Colors.green
+                                    : Colors.red)
+                                    : const Color(0xFF010066),
                                 title: Text(
                                   option,
                                   style: TextStyle(
-                                    color: isCorrect
+                                    color: showResults
+                                        ? (correct
                                         ? Colors.green
-                                        : isSelected && showResults
+                                        : selected
                                         ? Colors.red
+                                        : Colors.black)
                                         : Colors.black,
-                                    fontWeight:
-                                    isCorrect ? FontWeight.bold : FontWeight.normal,
+                                    fontWeight: selected
+                                        ? FontWeight.bold
+                                        : FontWeight.normal,
                                   ),
                                 ),
                                 value: option,
@@ -135,89 +175,90 @@ class _QuizScreenState extends State<QuizScreen> {
                                     selectedAnswers[index] = value;
                                   });
                                 },
-                              );
-                            }).toList(),
-                          if (question.isTextAnswer)
-                            TextField(
-                              onChanged: (value) {
-                                selectedAnswers[index] = value;
-                              },
-                              decoration: const InputDecoration(
-                                labelText: "Your Answer",
-                                border: OutlineInputBorder(),
                               ),
-                              enabled: !showResults,
+                            );
+                          }),
+
+                        if (question.isTextAnswer)
+                          TextField(
+                            onChanged: (value) {
+                              selectedAnswers[index] = value;
+                            },
+                            decoration: const InputDecoration(
+                              labelText: "Your Answer",
+                              border: OutlineInputBorder(),
                             ),
-                          if (showResults && question.isTextAnswer)
-                            Padding(
-                              padding: const EdgeInsets.only(top: 10),
-                              child: Text(
-                                "Correct Answer: ${question.correctTextAnswer}",
-                                style: const TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.green,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-                        ],
-                      ),
-                    ),
-                  );
-                },
-              ),
-            ),
-            // Buttons
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFFFF6100),
-                      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                      minimumSize: const Size(150, 50),
-                    ),
-                    onPressed: showResults ? null : uploadAnswers,
-                    child: const Text(
-                      "Submit Answers",
-                      style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),
-                    ),
-                  ),
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFF010066),
-                      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                      minimumSize: const Size(150, 50),
-                    ),
-                    onPressed: showResults
-                        ? () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SummaryScreen(
-                            unitIndex: widget.unitIndex,
-                            subunitIndex: widget.subunitIndex,
-                            subunitTitle: widget.subunitTitle,
-                            unitData: widget.unitData,
+                            enabled: !showResults,
                           ),
-                        ),
-                      );
-                    }
-                        : null,
-                    child: const Text(
-                      "Next: Summary",
-                      style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),
+
+                        if (showResults && question.isTextAnswer)
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10),
+                            child: Text(
+                              "Correct Answer: ${question.correctTextAnswer}",
+                              style: const TextStyle(
+                                  color: Colors.green,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                      ],
                     ),
                   ),
-                ],
-              ),
+                );
+              },
             ),
-          ],
-        ),
+          ),
+
+          Padding(
+            padding:
+            const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton.icon(
+                  onPressed: showResults ? null : uploadAnswers,
+                  icon: const Icon(Icons.check_circle_outline),
+                  label: const Text("Submit Answers"),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF010066),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20, vertical: 14),
+                    minimumSize: const Size(160, 50),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12)),
+                  ),
+                ),
+                ElevatedButton.icon(
+                  onPressed: showResults
+                      ? () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SummaryScreen(
+                          unitIndex: widget.unitIndex,
+                          subunitIndex: widget.subunitIndex,
+                          subunitTitle: widget.subunitTitle,
+                          unitData: widget.unitData,
+                        ),
+                      ),
+                    );
+                  }
+                      : null,
+                  icon: const Icon(Icons.arrow_forward, color: Colors.white),
+                  label: const Text("Next: Summary"),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF010066),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20, vertical: 14),
+                    minimumSize: const Size(160, 50),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12)),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }

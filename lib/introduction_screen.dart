@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:eng_app_2/models/unit_model.dart';
 import 'package:eng_app_2/pre_class_activity_screen.dart';
-import 'package:eng_app_2/models/all_units.dart' as unit_data; // Alias to match HomeScreen
 
 class IntroductionScreen extends StatefulWidget {
   final int unitIndex;
@@ -23,9 +22,11 @@ class IntroductionScreen extends StatefulWidget {
 }
 
 class _IntroductionScreenState extends State<IntroductionScreen> {
-  FlutterTts flutterTts = FlutterTts();
+  final FlutterTts flutterTts = FlutterTts();
   List<String> paragraphs = [];
   int highlightedParagraphIndex = -1;
+  bool isPlaying = false;
+  bool isPaused = false;
 
   @override
   void initState() {
@@ -37,9 +38,6 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
           .toList();
     }
     _setupTts();
-    if (paragraphs.isNotEmpty) {
-      _speakNextParagraph(0);
-    }
   }
 
   void _setupTts() {
@@ -53,6 +51,8 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
       } else {
         setState(() {
           highlightedParagraphIndex = -1;
+          isPlaying = false;
+          isPaused = false;
         });
       }
     });
@@ -61,8 +61,33 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
   void _speakNextParagraph(int index) async {
     setState(() {
       highlightedParagraphIndex = index;
+      isPlaying = true;
+      isPaused = false;
     });
     await flutterTts.speak(paragraphs[index]);
+  }
+
+  Future<void> _stopSpeaking() async {
+    await flutterTts.stop();
+    setState(() {
+      isPlaying = false;
+      isPaused = false;
+      highlightedParagraphIndex = -1;
+    });
+  }
+
+  Future<void> _pauseOrResumeSpeaking() async {
+    if (isPlaying && !isPaused) {
+      await flutterTts.pause();
+      setState(() {
+        isPaused = true;
+      });
+    } else if (isPlaying && isPaused) {
+      await flutterTts.speak(paragraphs[highlightedParagraphIndex]);
+      setState(() {
+        isPaused = false;
+      });
+    }
   }
 
   @override
@@ -79,103 +104,157 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
       appBar: AppBar(
         title: Text(
           unitName,
-          style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
         ),
         backgroundColor: const Color(0xFF010066),
-        elevation: 0,
+        elevation: 2,
         iconTheme: const IconThemeData(color: Colors.white),
       ),
-      body: Container(
-        color: Colors.white,
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            Expanded(
-              child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text(
-                      "Introduction",
-                      style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xFF010066),
-                      ),
+      body: LayoutBuilder(
+        builder: (context, constraints) => Container(
+          color: Colors.white,
+          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                "📘 Introduction",
+                style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xFF010066),
+                ),
+              ),
+              const SizedBox(height: 12),
+
+              if (widget.unitData == null || widget.unitData!.introductionText.isEmpty)
+                const Expanded(
+                  child: Center(
+                    child: Text(
+                      '🧐 No introduction content available.',
+                      style: TextStyle(fontSize: 18, color: Colors.grey),
+                      textAlign: TextAlign.center,
                     ),
-                    const SizedBox(height: 10),
-                    if (widget.unitData == null || widget.unitData!.introductionText.isEmpty)
-                      const Center(
-                        child: Text(
-                          'No introduction content available.',
-                          style: TextStyle(fontSize: 18, color: Colors.grey),
+                  ),
+                )
+              else
+                Expanded(
+                  child: ListView.separated(
+                    itemCount: paragraphs.length,
+                    separatorBuilder: (_, __) => const SizedBox(height: 12),
+                    itemBuilder: (context, index) {
+                      final para = paragraphs[index];
+                      final isHighlighted = index == highlightedParagraphIndex;
+                      return AnimatedContainer(
+                        duration: const Duration(milliseconds: 300),
+                        padding: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          color: isHighlighted ? Colors.orange.shade100 : Colors.grey.shade100,
+                          borderRadius: BorderRadius.circular(12),
+                          border: isHighlighted
+                              ? Border.all(color: Colors.orange, width: 1.5)
+                              : Border.all(color: Colors.grey.shade300),
+                          boxShadow: isHighlighted
+                              ? [
+                            BoxShadow(
+                              color: Colors.orange.withOpacity(0.25),
+                              blurRadius: 8,
+                              offset: const Offset(0, 4),
+                            )
+                          ]
+                              : [],
                         ),
-                      )
-                    else
-                      ...paragraphs.asMap().entries.map((entry) {
-                        int index = entry.key;
-                        String para = entry.value.trim();
-                        return Container(
-                          margin: const EdgeInsets.only(bottom: 16),
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            color: (index == highlightedParagraphIndex)
-                                ? Colors.orange.withOpacity(0.3)
-                                : Colors.grey[100],
-                            borderRadius: BorderRadius.circular(8),
+                        child: Text(
+                          para,
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.black87,
+                            fontWeight: isHighlighted ? FontWeight.w600 : FontWeight.normal,
+                            height: 1.5,
                           ),
-                          child: Text(
-                            para,
-                            style: TextStyle(
-                              fontSize: 18,
-                              color: Colors.black87,
-                              fontWeight: (index == highlightedParagraphIndex)
-                                  ? FontWeight.bold
-                                  : FontWeight.normal,
-                            ),
-                          ),
-                        );
-                      }).toList(),
-                    const SizedBox(height: 20),
-                  ],
-                ),
-              ),
-            ),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFFF6100),
-                  padding: const EdgeInsets.symmetric(vertical: 14),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
+                        ),
+                      );
+                    },
                   ),
                 ),
-                onPressed: () async {
-                  await flutterTts.stop();
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => PreClassActivityScreen(
-                        unitIndex: widget.unitIndex,
-                        subunitIndex: widget.subunitIndex,
-                        subunitTitle: widget.subunitTitle,
-                        unitData: widget.unitData,
-                      ),
+
+              const SizedBox(height: 12),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Tooltip(
+                    message: "Play",
+                    child: IconButton(
+                      icon: const Icon(Icons.play_circle_fill, size: 36, color: Color(0xFF010066)),
+                      onPressed: () {
+                        if (paragraphs.isNotEmpty) {
+                          _speakNextParagraph(0);
+                        }
+                      },
                     ),
-                  );
-                },
-                child: const Text(
-                  "Next: Pre-Class Activity",
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                  ),
+                  Tooltip(
+                    message: isPaused ? "Resume" : "Pause",
+                    child: IconButton(
+                      icon: Icon(
+                        isPaused ? Icons.play_arrow : Icons.pause_circle_filled,
+                        size: 36,
+                        color: Colors.amber,
+                      ),
+                      onPressed: _pauseOrResumeSpeaking,
+                    ),
+                  ),
+                  Tooltip(
+                    message: "Stop",
+                    child: IconButton(
+                      icon: const Icon(Icons.stop_circle, size: 36, color: Colors.red),
+                      onPressed: _stopSpeaking,
+                    ),
+                  ),
+                ],
+              ),
+
+              const SizedBox(height: 16),
+
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF010066),
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    elevation: 2,
+                  ),
+                  onPressed: () async {
+                    await flutterTts.stop();
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => PreClassActivityScreen(
+                          unitIndex: widget.unitIndex,
+                          subunitIndex: widget.subunitIndex,
+                          subunitTitle: widget.subunitTitle,
+                          unitData: widget.unitData,
+                        ),
+                      ),
+                    );
+                  },
+                  icon: const Icon(Icons.arrow_forward, color: Colors.white),
+                  label: const Text(
+                    "Next: Pre-Class Activity",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

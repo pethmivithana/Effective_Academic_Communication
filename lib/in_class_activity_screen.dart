@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:eng_app_2/models/unit_model.dart';
 import 'package:eng_app_2/homescreen.dart';
-import 'package:get_storage/get_storage.dart'; // Assuming username is stored here
+import 'package:get_storage/get_storage.dart';
 
 class InClassActivityScreen extends StatefulWidget {
   final int unitIndex;
@@ -22,12 +22,12 @@ class InClassActivityScreen extends StatefulWidget {
 }
 
 class _InClassActivityScreenState extends State<InClassActivityScreen> {
-  final box = GetStorage(); // For retrieving username
+  final box = GetStorage();
 
   @override
   Widget build(BuildContext context) {
     final unit = widget.unitData;
-    final username = box.read('username') ?? 'User'; // Fallback if username not stored
+    final username = box.read('username') ?? 'User';
 
     return Scaffold(
       appBar: AppBar(
@@ -53,36 +53,90 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              "In-Class Activity",
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFF010066),
-              ),
+            /// Section Title
+            Row(
+              children: const [
+                Icon(Icons.school, color: Color(0xFF010066), size: 30),
+                SizedBox(width: 8),
+                Text(
+                  "In-Class Activity",
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF010066),
+                  ),
+                ),
+              ],
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
+
+            /// Activity Content Box (Styled like PracticeActivityScreen2)
             Expanded(
               child: SingleChildScrollView(
-                child: Text(
-                  unit.inClassActivity,
-                  style: const TextStyle(fontSize: 18, color: Colors.black87),
+                physics: const BouncingScrollPhysics(),
+                child: Card(
+                  elevation: 3,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Icon(Icons.menu_book_outlined,
+                            color: Colors.deepPurple),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: Text(
+                            unit.inClassActivity,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              height: 1.6,
+                              color: Colors.black87,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
               ),
             ),
+
             const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                // Unlock the next unit and redirect to HomeScreen
-                Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => HomeScreen(
-                      username: username,
-                    ),
+
+            /// Finish Button with Confirmation
+            ElevatedButton.icon(
+              onPressed: () async {
+                bool confirm = await showDialog(
+                  context: context,
+                  builder: (_) => AlertDialog(
+                    title: const Text("Confirm Finish"),
+                    content: const Text("Are you sure you want to finish this activity?"),
+                    actions: [
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, false),
+                        child: const Text("Cancel"),
+                      ),
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, true),
+                        child: const Text("Yes, Finish"),
+                      ),
+                    ],
                   ),
                 );
+
+                if (confirm) {
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HomeScreen(username: username),
+                    ),
+                  );
+                }
               },
+              icon: const Icon(Icons.check_circle_outline),
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color(0xFFFF6100),
                 padding: const EdgeInsets.symmetric(vertical: 14),
@@ -91,8 +145,8 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
                 ),
                 minimumSize: const Size(double.infinity, 50),
               ),
-              child: const Text(
-                "Finish",
+              label: const Text(
+                "Finish Activity",
                 style: TextStyle(
                   fontSize: 18,
                   color: Colors.white,

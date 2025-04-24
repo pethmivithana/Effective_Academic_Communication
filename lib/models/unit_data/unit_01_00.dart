@@ -22,16 +22,21 @@ By the end of this lesson, you will be able to:
     """,
     preClassActivityDescription: """
 Follow the steps given and complete it. 
-     """,
-    preClassQuestions: [
-      PreClassQuestion(questionText: "Introduce yourself in 3-4 sentences, including your name, academic background, interests, and life goals. Keep it simple!", correctAnswer: "Self-introduction"),
-      PreClassQuestion(questionText: "Use ChatGPT to ask for feedback on your introduction. Then, let the AI tool generate a sample introduction.", correctAnswer: "Hello, my name is John."),
-      PreClassQuestion(questionText: "Practice your self-introduction again and check for grammar errors and clarity using Grammarly.", correctAnswer: "Self-introduction"),
-      PreClassQuestion(questionText: "Write your self-introduction in the given space so we can get to know you!", correctAnswer: "Hello, my name is John."),
 
-    ],
+Step 1 – Introduce yourself in 3-4 sentences, including your name, academic background, interests, and life goals. Keep it simple!
+
+Step 2 – Use ChatGPT to ask for feedback on your introduction. Then, let the AI tool generate a sample introduction.
+
+Step 3 – Practice your self-introduction again and check for grammar errors and clarity using Grammarly (free version available).
+
+Step 4 – Write your self-introduction in the given space so we can get to know you!
+
+Click the button below to open the Padlet and submit your answers. You can type your responses directly on the Padlet, and they’ll be saved automatically
+     """,
+    preClassActivityLink:"https://example.com/upload-practice-activity",
+
     practiceActivityDescription1: """
-It’s time to do an individual activity to practice what you learnt. You can simply follow the steps given. /n
+It’s time to do an individual activity to practice what you learnt. You can simply follow the steps given.
 
 Step 1: Record a 30-second video or audio introducing yourself.
 
@@ -53,8 +58,7 @@ Play the brief recorded session which will give you more information about self-
     summary: """
 We completed our very first lesson today! The main focus of the lesson was to provide you with background information about the program and what we will be doing in the future. We also covered the lesson on “Self-Introductions,” which will be very helpful for getting to know each other at university. Additionally, you can use this knowledge when a lecturer asks you to introduce yourself.
 
-We hope this lesson was interesting and gave you some motivation to improve your English proficiency!
-  """,
+We hope this lesson was interesting and gave you some motivation to improve your English proficiency!""",
     inClassActivity: "Hello students! We believe you have completed the lesson and are ready to attend the physical class. We will have an interactive session with casual conversations and will use different AI tools to make it more engaging. See you soon!",
     quizQuestions: [
       QuizQuestion(
@@ -78,7 +82,8 @@ We hope this lesson was interesting and gave you some motivation to improve your
         correctOptionIndex: 1,
       ),
       QuizQuestion(
-        question: "Complete the sentence: 'When introducing yourself, you should say your ___, background, and one ___ fact about yourself.'",
+        question: "Complete the sentence: "
+            "'When introducing yourself, you should say your _____ background, and one _____ fact about yourself.'",
         correctTextAnswer: "name, interesting",
         isTextAnswer: true,
       ),

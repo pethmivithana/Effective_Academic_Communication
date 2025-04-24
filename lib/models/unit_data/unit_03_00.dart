@@ -37,6 +37,7 @@ We are sure you have heard of “tenses” before! From your point of view, why 
 Since you have now watched two videos on tenses, it’s time to take a quiz on mixed tenses and assess your strengths and weaknesses. This quiz is for self-awareness only—we will not check your marks. The goal is to help you identify which areas you need to focus on in future lessons. After completing the quiz, take a screenshot of the final page showing your answers and upload it to the designated submission portal as proof of completion.
   """,
   practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceActivityLink2:"",
 
   instructionsText: """
 We use different tenses to show the timing of an action or event. Without tenses, we wouldn't know if something happened in the past, is happening now, or will happen in the future.
@@ -45,8 +46,7 @@ We use different tenses to show the timing of an action or event. Without tenses
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-  This lesson is an introduction to our third unit, where we will learn about the most commonly used tenses. The main goal is to check your current understanding of tenses since they are important for daily communication. In the next lessons, we will focus on each tense separately and do speaking activities to help you use them correctly.
-""",
+  This lesson is an introduction to our third unit, where we will learn about the most commonly used tenses. The main goal is to check your current understanding of tenses since they are important for daily communication. In the next lessons, we will focus on each tense separately and do speaking activities to help you use them correctly.""",
 
   inClassActivity: """
 Hi everyone! We’ll meet in class to talk about useful ways to improve how we use tenses. We’ll also do some fun and interactive activities. See you there!

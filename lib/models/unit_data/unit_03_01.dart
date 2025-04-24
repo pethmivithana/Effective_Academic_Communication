@@ -22,21 +22,21 @@ By the end of this lesson, you should be able to:
   preClassActivityVideo: "https://www.youtube.com/watch?v=OsW5sV3GMDM ",
 
   practiceActivityDescription1: """
-  Step 1: Visit Replika AI (you can use the free version). - https://replika.ai/ 
-Step 2: Create a chatbot and chat with it.
-Step 3: Ask about daily routines, hobbies, food, travel, and other interests.
-Step 4: Take screenshots of your conversation and upload them as proof of completing this activity.
-This activity will help you practice real-life conversations using the simple present tense!
+Step 1: Visit Replika AI (you can use the free version).
 
+Step 2: Create a chatbot and chat with it.
+
+Step 3: Ask about daily routines, hobbies, food, travel, and other interests.
+
+Step 4: Take screenshots of your conversation and upload them as proof of completing this activity.
   """,
   practiceActivityLink: "https://replika.ai/",
   practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
-  Listen to audios about daily routines and habits, then choose the correct answers.
 Step 1 - Click on the link below to access the activity.
-Step 2 - Complete the exercise and upload screenshots as proof of completion.
 
+Step 2 - Complete the exercise and upload screenshots as proof of completion.
  """,
   practiceActivityLink2:"https://www.liveworksheets.com/w/en/english-second-language-esl/209039#google_vignette",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
@@ -60,7 +60,7 @@ Using the correct tense is essential for clear and effective communication.
 
   quizQuestions: [
     QuizQuestion(
-      question: '1) Which sentence is in the simple present tense?',
+      question: 'Which sentence is in the simple present tense?',
       options: [
         'a) She was playing tennis.',
         'b) She plays tennis.',
@@ -70,7 +70,7 @@ Using the correct tense is essential for clear and effective communication.
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2) Which of the following is NOT correct in the simple present tense?',
+      question: 'Which of the following is NOT correct in the simple present tense?',
       options: [
         'a) I wake up early every day.',
         'b) She drinks coffee in the morning.',
@@ -80,7 +80,7 @@ Using the correct tense is essential for clear and effective communication.
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '3) Choose the correct question in the simple present tense:',
+      question: 'Choose the correct question in the simple present tense:',
       options: [
         'a) Do you going to school?',
         'b) Are you go to school?',
@@ -90,7 +90,7 @@ Using the correct tense is essential for clear and effective communication.
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '4) Which sentence is the correct negative form of "She reads books"?',
+      question: 'Which sentence is the correct negative form of "She reads books"?',
       options: [
         'a) She doesn\'t read books.',
         'b) She not reads books.',
@@ -100,22 +100,22 @@ Using the correct tense is essential for clear and effective communication.
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: '5.1 What time do you wake up in the morning?',
+      question: 'What time do you wake up in the morning?',
       correctTextAnswer: 'I usually wake up at 6:30 AM.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5.2 How often do you exercise?',
+      question: 'How often do you exercise?',
       correctTextAnswer: 'I exercise three times a week.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5.3 What do you usually do in the evening?',
+      question: 'What do you usually do in the evening?',
       correctTextAnswer: 'I usually relax, watch TV, or read a book.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5.4 Do you like watching movies? Why or why not?',
+      question: 'Do you like watching movies? Why or why not?',
       correctTextAnswer: 'Yes, I like watching movies because they help me relax and enjoy my free time.',
       isTextAnswer: true,
     ),

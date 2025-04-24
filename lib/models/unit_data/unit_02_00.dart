@@ -13,14 +13,14 @@ By the end of this lesson, you will be able to:
 -	Identify and correct common grammatical mistakes in speech.
     """,
     preClassActivityDescription: """
-    Watch a short video clip where common grammar mistakes are made in spoken English.
+Watch a short video clip where common grammar mistakes are made in spoken English.
  """,
   preClassQuestions: [
     PreClassQuestion(
       questionText: "Write down at least three grammar errors you notice and explain why you think they are wrong.",
       correctAnswer: "1. 'He go to school everyday.' → should be 'goes' (subject-verb agreement)\n"
-         // "2. 'She don’t like apples.' → should be 'doesn’t' (incorrect auxiliary verb)\n"
-         // "3. 'I am agree with you.' → 'agree' is a verb, so 'I agree with you' is correct (no 'am')",
+          "2. 'She don’t like apples.' → should be 'doesn’t' (incorrect auxiliary verb)\n"
+          "3. 'I am agree with you.' → 'agree' is a verb, so 'I agree with you' is correct (no 'am')",
     ),
   ],
 
@@ -41,17 +41,21 @@ Step 04: Upload the screenshot to the submission portal.
     practiceActivityLink: "https://quizizz.com/join?gc=28179076" ,
     practiceUploadLink: "https://example.com/upload-practice-activity",
     practiceActivityDescription2: """
-    Let’s practice more! Follow the instructions.
+Let’s practice more! Follow the instructions.
+    
 Step 01: Visit the given website 
+
 Step 02: Read aloud 5 sentences about your daily routine, focusing on correct grammar and pronunciation.
+
 Step 03: Review the speech-to-text result and identify any mistakes. If there are errors, record the sentence again until you say it correctly.
+
 Step 04: Record your final attempt and submit your best recording here!
     """,
 
     practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
     practiceUploadLink2: "https://example.com/upload-practice-activity",
     instructionsText: """
-    Please click on the given link. 
+Please click on the given link. 
 You will now watch a video lesson explaining the basic grammar skills you need to know when practicing spoken English. Listen very carefully and you may take down notes whenever necessary. Enjoy!
 """,
     instructionVideoId: "8laYlyAFd0o",

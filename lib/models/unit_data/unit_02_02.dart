@@ -14,15 +14,10 @@ By the end of this lesson, you will be able to:
 
   preClassActivityDescription: """
 1. Click on the given link and watch the short video. 
+
 2. Listen carefully and identify the sentence types. 
-3. Write down at least one example of each sentence type (Declarative, Interrogative, Imperative, and Exclamatory) from the video.
-Example:
-- Declarative: I love this song.
-- Interrogative: Where did you find this?
-- Imperative: Turn up the volume!
-- Exclamatory: This is amazing!
-4. Submit Your Answers to the given portal
-  """,
+
+3. Write down at least one example of each sentence type (Declarative, Interrogative, Imperative, and Exclamatory) from the video.""",
 
   preClassActivityVideo: "https://www.youtube.com/watch?v=1t9UHQgtDfU",
 
@@ -89,13 +84,14 @@ Now that you have an understanding of sentence types, let’s practice convertin
   ],
 
   practiceActivityDescription2: """
-Please follow the instructions given. 
 Step 01: Use ChatGPT voice mode.
+
 Step 02: Have a conversation with ChatGPT on any of the given topics. Make sure you use all the types of sentences we have learnt so far in your conversation. 
 - A conversation about a movie/TV series you have watched
 - A conversation planning a trip. 
 - A conversation on the development of AI.
-Step 03: Take a Screenshot/Screenshots of your conversation and submit it here! 
+
+Step 03: Take a Screenshot/Screenshots of your conversation and submit it! 
   """,
 
   practiceUploadLink2: "https://example.com/upload-practice-activity",
@@ -107,13 +103,11 @@ You will now watch a video lesson on Word Order. Make sure you go through the wh
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we explored the four types of sentences and their importance in communication. Understanding sentence types helps in structuring messages clearly and effectively. Keep practicing by identifying different sentence types in daily conversations and writing exercises.
-  """,
+In this lesson, we explored the four types of sentences and their importance in communication. Understanding sentence types helps in structuring messages clearly and effectively. Keep practicing by identifying different sentence types in daily conversations and writing exercises.""",
 
   inClassActivity: """
 Step into the classroom and dive deeper into the different types of sentences! This is a great opportunity to apply what you've learned and clarify any questions directly with your lecturer. 
-Don't miss out—see you there!
-  """,
+Don't miss out—see you there!""",
 
   quizQuestions: [
     QuizQuestion(

@@ -11,16 +11,13 @@ To start, let’s take a moment to clarify our objectives. Knowing what we aim t
 By the end of this lesson, you will be able to:
 -	Recognize the basic word order in English (Subject-Verb-Object structure).
 -	Construct grammatically correct sentences in computing-related contexts.
--	 Identify and correct word order mistakes in simple and complex sentences.
-
-    """,
+-	 Identify and correct word order mistakes in simple and complex sentences.""",
     preClassActivityDescription: """
 You will be given a list of jumbled sentences. Arrange the words in the correct order to form meaning sentences. Refer to the example given and complete the task accordingly.
 
 Example:
 Debugging/good/is/practice
-Debugging is good practice. 
-     """,
+Debugging is good practice. """,
 
     preClassQuestions: [
       PreClassQuestion(
@@ -57,8 +54,7 @@ Debugging is good practice.
       ),
     ],
     practiceActivityDescription1: """
-    Okay, now that you have gone through the lesson, let’s practice what you have learned from the lesson again . 
-    """,
+Okay, now that you have gone through the lesson, let’s practice what you have learned from the lesson again .""",
   practiceActivityQuestions1: [
       PracticeQuestion1(
         questionText: "networking / computers / of / a / system / interconnected / is",
@@ -103,25 +99,29 @@ Debugging is good practice.
     ],
 
     practiceActivityDescription2: """
-    Instructions:
+ Instructions:
+ 
 •	Please click on the link given below. 
+
 •	Once you get directed to the website, scroll down and you will find a sentence “I would like to answer [….] selected from [….]. 
+
 •	Please select 15 questions and 04 parts as the answer to the above blanks. 
+
 •	Click on the “Start test” and complete the activities given. 
 
-    """,
-    practiceUploadLink: "https://example.com/upload-practice-activity",
+•	Submit a screenshot of your test to the given link as proof. """,
     practiceActivityLink2:"https://www.englisch-hilfen.de/en/complex_tests/word_order1/task.php#google_vignette",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
     instructionsText: """
-    You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!
+You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!
 """,
     instructionVideoId: "8laYlyAFd0o",
     summary: """
-   Now, we have come to the end of Lesson 2.1. In this lesson, we explored the basic rules of word order in English, which generally follows the Subject-Verb-Object (SVO) structure. Using the correct word order is essential for making sentences clear and meaningful, especially when communicating in academic, professional, and technical settings. Misplacing words can lead to confusion, so applying these rules correctly helps ensure that your messages are understood as intended. Whether you are writing documentation, sending emails, or having conversations, following proper word order will improve both accuracy and fluency in your communication. 
+Now, we have come to the end of Lesson 2.1. In this lesson, we explored the basic rules of word order in English, which generally follows the Subject-Verb-Object (SVO) structure. Using the correct word order is essential for making sentences clear and meaningful, especially when communicating in academic, professional, and technical settings. Misplacing words can lead to confusion, so applying these rules correctly helps ensure that your messages are understood as intended. Whether you are writing documentation, sending emails, or having conversations, following proper word order will improve both accuracy and fluency in your communication. 
   """,
     inClassActivity: """
-    Join us in the classroom as we put word order into practice! In this session, you'll get the chance to refine your skills in structuring sentences clearly and effectively in spoken English. It’s also the perfect time to ask your lecturer any questions and gain confidence in applying these rules in real conversations.
-  Hope you enjoyed learning and see you there!
+Join us in the classroom as we put word order into practice! In this session, you'll get the chance to refine your skills in structuring sentences clearly and effectively in spoken English. It’s also the perfect time to ask your lecturer any questions and gain confidence in applying these rules in real conversations.
+Hope you enjoyed learning and see you there!
 """,
   quizQuestions: [
     QuizQuestion(
