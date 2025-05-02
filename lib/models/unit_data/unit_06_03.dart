@@ -48,7 +48,7 @@ Write short answers:
     ),
   ],
 
-  preClassActivityUploadLink:"",
+  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription1: """ 
   
@@ -57,7 +57,7 @@ Step 1: Listen to the short video on artificial intelligence by Prof. Mike Woold
 Step 2: Upload the summary document to the portal for review.
 """,
   practiceActivityVideo:"https://www.youtube.com/watch?v=D2JY38VShxI&t=68s ",
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Watch this video for additional strategies to improve your summarizing skills. 

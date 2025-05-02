@@ -25,7 +25,8 @@ class PreClassActivityScreen extends StatefulWidget {
 }
 
 class _PreClassActivityScreenState extends State<PreClassActivityScreen> with TickerProviderStateMixin {
-  List<TextEditingController> controllers = [];
+  List<TextEditingController> questionControllers = [];
+  List<List<bool>> surveySelections = [];
   bool isSubmitted = false;
   bool allAnswered = false;
   YoutubePlayerController? _youtubeController;
@@ -38,11 +39,19 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
 
     final unit = widget.unitData;
     if (unit != null) {
-      controllers = List.generate(
+      // Initialize controllers for regular questions
+      questionControllers = List.generate(
         unit.preClassQuestions?.length ?? 0,
             (_) => TextEditingController(),
       );
 
+      // Initialize selections for survey questions
+      surveySelections = List.generate(
+        unit.preClassSurvey?.length ?? 0,
+            (index) => List<bool>.filled(unit.preClassSurvey![index].options?.length ?? 0, false),
+      );
+
+      // Initialize video controllers
       final videoUrl = unit.preClassActivityVideo;
       if (videoUrl != null && videoUrl.isNotEmpty) {
         final videoId = YoutubePlayer.convertUrlToId(videoUrl);
@@ -68,7 +77,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
   void dispose() {
     _youtubeController?.dispose();
     _localVideoController?.dispose();
-    for (var controller in controllers) {
+    for (var controller in questionControllers) {
       controller.dispose();
     }
     super.dispose();
@@ -77,8 +86,16 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
   void validateAnswers() {
     HapticFeedback.selectionClick();
 
+    // Check regular questions
+    final regularQuestionsAnswered = questionControllers.every((c) => c.text.trim().isNotEmpty);
+
+    // Check survey questions
+    final surveyQuestionsAnswered = surveySelections.every(
+            (selections) => selections.any((selected) => selected)
+    );
+
     setState(() {
-      allAnswered = controllers.every((c) => c.text.trim().isNotEmpty);
+      allAnswered = regularQuestionsAnswered && surveyQuestionsAnswered;
       if (!allAnswered) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text("Please answer all questions."), backgroundColor: Colors.red),
@@ -97,6 +114,66 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
         const SnackBar(content: Text("Could not launch the link."), backgroundColor: Colors.red),
       );
     }
+  }
+
+  Widget _buildSurveyQuestion(SurveyQuestion question, int surveyIndex) {
+    return Card(
+      elevation: 6,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      margin: const EdgeInsets.only(bottom: 16),
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              "Survey Q${surveyIndex + 1}: ${question.questionText}",
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 12),
+            if (question.allowsMultipleAnswers)
+              ...question.options!.asMap().entries.map((entry) {
+                final index = entry.key;
+                final option = entry.value;
+                return CheckboxListTile(
+                  title: Text(option),
+                  value: surveySelections[surveyIndex][index],
+                  onChanged: isSubmitted
+                      ? null
+                      : (value) {
+                    setState(() {
+                      surveySelections[surveyIndex][index] = value!;
+                    });
+                  },
+                );
+              }).toList()
+            else
+              ...question.options!.asMap().entries.map((entry) {
+                final index = entry.key;
+                final option = entry.value;
+                return RadioListTile<String>(
+                  title: Text(option),
+                  value: option,
+                  groupValue: surveySelections[surveyIndex][index]
+                      ? option
+                      : null,
+                  onChanged: isSubmitted
+                      ? null
+                      : (value) {
+                    setState(() {
+                      // Reset all options to false
+                      surveySelections[surveyIndex] =
+                          List.filled(question.options!.length, false);
+                      // Set selected option to true
+                      surveySelections[surveyIndex][index] = true;
+                    });
+                  },
+                );
+              }).toList(),
+          ],
+        ),
+      ),
+    );
   }
 
   @override
@@ -126,7 +203,6 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
               ),
             ),
             const SizedBox(height: 16),
-
             if (isSubmitted)
               Container(
                 padding: const EdgeInsets.all(16),
@@ -142,7 +218,6 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                   ],
                 ),
               ),
-
             const SizedBox(height: 16),
             Container(
               padding: const EdgeInsets.all(16),
@@ -175,9 +250,9 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                 ],
               ),
             ),
-
             const SizedBox(height: 16),
 
+            // Local Video and Upload Button
             if (unit.preClassActivityLocalVideo != null &&
                 unit.preClassActivityUploadLink != null &&
                 unit.preClassActivityDescription.isNotEmpty)
@@ -189,7 +264,6 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                     style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                   ),
                   const SizedBox(height: 10),
-
                   if (_localVideoController != null && _localVideoController!.value.isInitialized)
                     Column(
                       children: [
@@ -213,7 +287,6 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                         ),
                       ],
                     ),
-
                   const SizedBox(height: 10),
                   ElevatedButton.icon(
                     onPressed: () => _launchURL(unit.preClassActivityUploadLink!),
@@ -224,6 +297,18 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                 ],
               ),
 
+            // YouTube or Local Video
+            if (_youtubeController != null)
+              ExpansionTile(
+                leading: const Icon(Icons.play_circle_fill),
+                title: const Text("Watch Video", style: TextStyle(fontWeight: FontWeight.w600)),
+                onExpansionChanged: (value) => setState(() => showVideo = value),
+                children: [
+                  YoutubePlayer(controller: _youtubeController!),
+                ],
+              ),
+
+            // Extra Upload Button
             if (unit.preClassActivityUploadLink != null && unit.preClassActivityUploadLink!.isNotEmpty)
               Padding(
                 padding: const EdgeInsets.only(top: 10),
@@ -235,123 +320,143 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                 ),
               ),
 
+            const SizedBox(height: 20),
 
-            if (_youtubeController != null)
-              ExpansionTile(
-                leading: const Icon(Icons.play_circle_fill),
-                title: const Text("Watch Video", style: TextStyle(fontWeight: FontWeight.w600)),
-                onExpansionChanged: (value) => setState(() => showVideo = value),
+            // Survey Questions
+            if (unit.preClassSurvey != null && unit.preClassSurvey!.isNotEmpty)
+              Column(
                 children: [
-                  if (_youtubeController != null)
-                    YoutubePlayer(controller: _youtubeController!),
-                  if (_localVideoController != null && _localVideoController!.value.isInitialized)
-                    AspectRatio(
-                      aspectRatio: _localVideoController!.value.aspectRatio,
-                      child: VideoPlayer(_localVideoController!),
+                  const Text(
+                    "📊 Survey Questions",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF010066),
                     ),
-                  if (_localVideoController != null)
-                    IconButton(
-                      icon: Icon(
-                        _localVideoController!.value.isPlaying ? Icons.pause : Icons.play_arrow,
-                      ),
-                      onPressed: () {
-                        setState(() {
-                          _localVideoController!.value.isPlaying
-                              ? _localVideoController!.pause()
-                              : _localVideoController!.play();
-                        });
-                      },
-                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  ...List.generate(unit.preClassSurvey!.length, (index) {
+                    return _buildSurveyQuestion(unit.preClassSurvey![index], index);
+                  }),
                 ],
               ),
 
-            if (unit.preClassActivityLink != null && unit.preClassActivityLink!.isNotEmpty)
-              Padding(
-                padding: const EdgeInsets.only(top: 10),
-                child: ElevatedButton.icon(
-                  onPressed: () => _launchURL(unit.preClassActivityLink!),
-                  icon: const Icon(Icons.open_in_browser),
-                  label: const Text("Submit Your Answers"),
-                  style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
-                ),
-              ),
-
-            const SizedBox(height: 20),
-
+            // Regular Questions
             if (unit.preClassQuestions != null && unit.preClassQuestions!.isNotEmpty)
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text("🧠 Answer These", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold)),
-                  const SizedBox(height: 12),
+                  const Text(
+                    "📝 Activity Questions",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF010066),
+                    ),
+                  ),
+                  const SizedBox(height: 8),
                   ListView.builder(
-                    itemCount: unit.preClassQuestions!.length,
                     shrinkWrap: true,
                     physics: const NeverScrollableScrollPhysics(),
+                    itemCount: unit.preClassQuestions!.length,
                     itemBuilder: (context, index) {
-                      final isAnswered = controllers[index].text.isNotEmpty;
-                      return AnimatedContainer(
-                        duration: const Duration(milliseconds: 300),
-                        margin: const EdgeInsets.only(bottom: 12),
-                        padding: const EdgeInsets.all(12),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(12),
-                          color: isAnswered ? Colors.lightGreen.shade50 : Colors.grey.shade100,
-                          border: Border.all(color: isAnswered ? Colors.green : Colors.grey),
-                        ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text("Q${index + 1}: ${unit.preClassQuestions![index].questionText}",
-                                style: const TextStyle(fontWeight: FontWeight.w600)),
-                            const SizedBox(height: 8),
-                            TextField(
-                              controller: controllers[index],
-                              enabled: !isSubmitted,
-                              maxLines: null,
-                              onChanged: (_) => setState(() {}),
-                              decoration: const InputDecoration(
-                                hintText: "Your answer...",
-                                border: OutlineInputBorder(),
+                      final question = unit.preClassQuestions![index];
+                      final isMCQ = question.options != null;
+                      final selected = questionControllers[index].text;
+                      final correctAnswer = isMCQ
+                          ? question.options![question.correctOptionIndex ?? 0]
+                          : question.correctAnswer;
+
+                      final isCorrect = isSubmitted &&
+                          (selected.trim().toLowerCase() ==
+                              correctAnswer?.trim().toLowerCase());
+
+                      return Card(
+                        elevation: 6,
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                        margin: const EdgeInsets.only(bottom: 16),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Q${index + 1}: ${question.questionText}",
+                                style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                               ),
-                            ),
-                            if (isSubmitted)
-                              Padding(
-                                padding: const EdgeInsets.only(top: 10),
-                                child: Container(
-                                  padding: const EdgeInsets.all(10),
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(8),
-                                    color: Colors.blue.shade50,
-                                    border: Border.all(color: Colors.blue),
-                                  ),
-                                  child: Text(
-                                    "✔️ Correct Answer: ${unit.preClassQuestions![index].correctAnswer}",
-                                    style: const TextStyle(
-                                        color: Colors.blue, fontWeight: FontWeight.w600),
+                              const SizedBox(height: 12),
+                              if (isMCQ)
+                                ...question.options!.map((option) {
+                                  final isSelected = selected == option;
+                                  final isOptionCorrect = option == correctAnswer;
+
+                                  return Tooltip(
+                                    message: isSubmitted && isOptionCorrect ? "This is the correct answer" : "",
+                                    child: RadioListTile<String>(
+                                      activeColor: isSubmitted
+                                          ? (isOptionCorrect ? Colors.green : Colors.red)
+                                          : const Color(0xFF010066),
+                                      title: Text(
+                                        option,
+                                        style: TextStyle(
+                                          color: isSubmitted
+                                              ? (isOptionCorrect
+                                              ? Colors.green
+                                              : isSelected
+                                              ? Colors.red
+                                              : Colors.black)
+                                              : Colors.black,
+                                          fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                                        ),
+                                      ),
+                                      value: option,
+                                      groupValue: selected,
+                                      onChanged: isSubmitted
+                                          ? null
+                                          : (val) {
+                                        setState(() {
+                                          questionControllers[index].text = val!;
+                                        });
+                                      },
+                                    ),
+                                  );
+                                }).toList()
+                              else
+                                TextField(
+                                  controller: questionControllers[index],
+                                  enabled: !isSubmitted,
+                                  decoration: InputDecoration(
+                                    labelText: "Your Answer",
+                                    border: const OutlineInputBorder(),
+                                    suffixIcon: isSubmitted
+                                        ? Icon(
+                                      isCorrect ? Icons.check : Icons.close,
+                                      color: isCorrect ? Colors.green : Colors.red,
+                                    )
+                                        : null,
                                   ),
                                 ),
-                              ),
-                          ],
+                            ],
+                          ),
                         ),
                       );
                     },
                   ),
-                  const SizedBox(height: 10),
-                  ElevatedButton.icon(
-                    icon: const Icon(Icons.check, color: Colors.white, size: 20),
-                    label: const Text("Submit Answers",
-                        style:
-                        TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white)),
-                    onPressed: validateAnswers,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFFFF6100),
-                      minimumSize: const Size(double.infinity, 50),
-                    ),
-                  ),
                 ],
               ),
 
+            const SizedBox(height: 20),
+            ElevatedButton.icon(
+              icon: const Icon(Icons.check, color: Colors.white, size: 20),
+              label: const Text(
+                "Submit Answers",
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
+              ),
+              onPressed: validateAnswers,
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFFFF6100),
+                minimumSize: const Size(double.infinity, 50),
+              ),
+            ),
             const SizedBox(height: 20),
             ElevatedButton.icon(
               icon: const Icon(Icons.arrow_forward, size: 20, color: Colors.white),
@@ -360,12 +465,16 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
               ),
               style: ElevatedButton.styleFrom(
-                backgroundColor: (isSubmitted == true || unit.preClassQuestions?.isEmpty != false)
+                backgroundColor: (isSubmitted == true ||
+                    (unit.preClassQuestions?.isEmpty != false &&
+                        unit.preClassSurvey?.isEmpty != false))
                     ? const Color(0xFF010066)
                     : Colors.grey,
                 minimumSize: const Size(double.infinity, 50),
               ),
-              onPressed: (isSubmitted == true || unit.preClassQuestions?.isEmpty != false)
+              onPressed: (isSubmitted == true ||
+                  (unit.preClassQuestions?.isEmpty != false &&
+                      unit.preClassSurvey?.isEmpty != false))
                   ? () {
                 Navigator.push(
                   context,

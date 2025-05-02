@@ -32,7 +32,7 @@ Read the questions below that a computing student might be asked during a viva. 
 """,
   practiceActivityMCQ: [
     PracticeQuestionMCQ(
-      questionText: "1. What made you choose this topic for your final project?",
+      questionText: "What made you choose this topic for your final project?",
       options: [
         "It was the easiest.",
         "I found it interesting.",
@@ -41,7 +41,7 @@ Read the questions below that a computing student might be asked during a viva. 
       correctOptionIndex: 2,
     ),
     PracticeQuestionMCQ(
-      questionText: "2. Can you explain your methodology?",
+      questionText: "Can you explain your methodology?",
       options: [
         "I applied a hybrid model combining agile development and waterfall principles to test the system incrementally.",
         "I did some stuff and got results.",
@@ -50,7 +50,7 @@ Read the questions below that a computing student might be asked during a viva. 
       correctOptionIndex: 0,
     ),
     PracticeQuestionMCQ(
-      questionText: "3. Why didn’t you use a different programming language?",
+      questionText: "Why didn’t you use a different programming language?",
       options: [
         "I just like this one better.",
         "Because I didn't think of using another one.",
@@ -59,7 +59,7 @@ Read the questions below that a computing student might be asked during a viva. 
       correctOptionIndex: 2,
     ),
     PracticeQuestionMCQ(
-      questionText: "4. What challenges did you face during the project?",
+      questionText: "What challenges did you face during the project?",
       options: [
         "Everything went smoothly.",
         "One major challenge was integrating the API with the database, which required several rounds of debugging.",
@@ -68,7 +68,7 @@ Read the questions below that a computing student might be asked during a viva. 
       correctOptionIndex: 1,
     ),
     PracticeQuestionMCQ(
-      questionText: "5. How do you evaluate the success of your project?",
+      questionText: "How do you evaluate the success of your project?",
       options: [
         "I tested it against predefined benchmarks and received positive feedback during the pilot phase.",
         "I think it’s good enough.",

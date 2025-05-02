@@ -39,7 +39,7 @@ Step 2:
 •	Write three key facts from the video that stood out to you.
 """,
   practiceActivityVideo:"https://www.youtube.com/watch?v=MfqPp37KGBQ",
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Self-Reflection Time!
@@ -49,7 +49,6 @@ Think about yourself as a communicator.
 Write a short reflection (4–5 sentences) on the communication weaknesses you think you currently have.
 
 This could relate to how you respond in conversations, your body language, how well you listen, or any difficulties you face when expressing ideas.
-
 """,
   practiceUploadLink2: "https://example.com/upload-practice-activity",
 
@@ -61,10 +60,10 @@ We’ve prepared a short recorded lecture that introduces the concept of communi
 
   summary: """
 In this lesson, we covered:
-✔️ What communication strategies are
-✔️ Why they are important for both verbal and nonverbal communication
-✔️ How to reflect on your own communication style and recognize areas for growth
-✔️ A sneak peek at the exciting lessons coming under this unit
+What communication strategies are
+Why they are important for both verbal and nonverbal communication
+How to reflect on your own communication style and recognize areas for growth
+A sneak peek at the exciting lessons coming under this unit
 """,
 
   inClassActivity: """

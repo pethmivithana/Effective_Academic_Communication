@@ -21,15 +21,15 @@ Before we begin the lesson, let’s warm up by facing a small challenge!
 """,
   preClassQuestions: [
     PreClassQuestion(
-      questionText: "1. What phrases did the student use to explain their ideas?",
+      questionText: "What phrases did the student use to explain their ideas?",
       correctAnswer: "null",
     ),
     PreClassQuestion(
-      questionText: "2. How did the student respond to the examiner’s questions?",
+      questionText: "How did the student respond to the examiner’s questions?",
       correctAnswer: "null",
     ),
     PreClassQuestion(
-      questionText: "3. What body language or tone of voice stood out to you?",
+      questionText: "What body language or tone of voice stood out to you?",
       correctAnswer: "null",
     )
   ],
@@ -40,25 +40,26 @@ Before we begin the lesson, let’s warm up by facing a small challenge!
 Below is a short dialogue from an academic discussion. Read the conversation and fill in the blanks using the most suitable academic words or phrases from the word bank provided.
 
 Word Bank:
-In my opinion – Furthermore – To clarify – I agree with your point – However – That’s a valid question – From a technical perspective – As a result
+In my opinion / Furthermore / To clarify / I agree with your point / However / That’s a valid question / From a technical perspective / As a result
 """,
   practiceActivityQuestions1: [
     PracticeQuestion1(
       questionText: """
-         Examiner: Can you explain why you chose to implement this algorithm?
-         Student: ___________, this algorithm provides faster processing time for large datasets compared to traditional methods.
-          """,
+Examiner: Can you explain why you chose to implement this algorithm?
+
+Student: ___________, this algorithm provides faster processing time for large datasets compared to traditional methods.""",
       correctAnswer: "From a technical perspective",
     ),
     PracticeQuestion1(
       questionText: """
-      Student: ___________, it uses less memory.""",
+Student: ___________, it uses less memory.""",
       correctAnswer: "Furthermore",
     ),
     PracticeQuestion1(
       questionText: """
-       Examiner: I see. Some researchers suggest another approach. What is your view on that?
-       Student:  ___________, the alternative approach has its strengths.""",
+Examiner: I see. Some researchers suggest another approach. What is your view on that?
+
+Student:  ___________, the alternative approach has its strengths.""",
       correctAnswer: "In my opinion",
     ),
     PracticeQuestion1(
@@ -67,14 +68,16 @@ In my opinion – Furthermore – To clarify – I agree with your point – How
     ),
     PracticeQuestion1(
       questionText: """
-      Examiner: Some parts of your explanation were unclear. Can you go over the second step again?
-      Student: ___________, in the second step, the program filters the data based on the user’s input before analysis.""",
+Examiner: Some parts of your explanation were unclear. Can you go over the second step again?
+
+Student: ___________, in the second step, the program filters the data based on the user’s input before analysis.""",
       correctAnswer: "To clarify",
     ),
     PracticeQuestion1(
       questionText: """
-      Examiner: That makes more sense now. Do you think this can be improved further?
-      Student: ___________. We could explore integrating AI-based optimization to enhance performance.""",
+Examiner: That makes more sense now. Do you think this can be improved further?
+
+Student: ___________. We could explore integrating AI-based optimization to enhance performance.""",
       correctAnswer: "That’s a valid question",
     ),
     PracticeQuestion1(

@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart' show LaunchMode, launchUrl;
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -116,11 +115,11 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
   @override
   Widget build(BuildContext context) {
     final unit = widget.unitData;
-    final hasLink = unit?.practiceActivityLink?.isNotEmpty ?? false;
-    final hasUploadLink = unit?.practiceUploadLink?.isNotEmpty ?? false;
-    final hasVideo = unit?.practiceActivityVideo?.isNotEmpty ?? false;
-    final hasQuestions = unit?.practiceActivityQuestions1?.isNotEmpty ?? false;
-    final hasMCQs = unit?.practiceActivityMCQ?.isNotEmpty ?? false;
+    final hasLink = unit?.practiceActivityLink != null && unit!.practiceActivityLink!.isNotEmpty;
+    final hasUploadLink = unit?.practiceUploadLink != null && unit!.practiceUploadLink!.isNotEmpty;
+    final hasVideo = unit?.practiceActivityVideo != null && unit!.practiceActivityVideo!.isNotEmpty;
+    final hasQuestions = unit?.practiceActivityQuestions1 != null && unit!.practiceActivityQuestions1!.isNotEmpty;
+    final hasMCQs = unit?.practiceActivityMCQ != null && unit!.practiceActivityMCQ!.isNotEmpty;
     final canProceed = (hasQuestions || hasMCQs) ? isSubmitted : true;
 
     return Scaffold(
@@ -130,7 +129,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: unit == null
-          ? const Center(child: Text("No practice activity available.", style: TextStyle(fontSize: 18, color: Colors.white)))
+          ? const Center(child: Text("No practice activity available.", style: TextStyle(fontSize: 18, color: Colors.black)))
           : SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -144,11 +143,15 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
                 color: Color(0xFF010066),
               ),
             ),
+
+            const SizedBox(height: 16),
+
             if (unit.practiceActivityDescription1.isNotEmpty)
               Card(
                 color: Colors.indigo.shade50,
                 elevation: 2,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                margin: const EdgeInsets.only(bottom: 16),
                 child: Padding(
                   padding: const EdgeInsets.all(12),
                   child: Text(
@@ -158,10 +161,12 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
                 ),
               ),
 
-            const SizedBox(height: 20),
+            // Buttons section - Always visible if URLs are available
+            if (hasLink)
+              _buildButton("Go to Task Site", unit.practiceActivityLink!, Colors.blue),
 
-            if (hasLink) _buildButton("Go to Task Site", unit!.practiceActivityLink!, Colors.blue),
-            if (hasUploadLink) _buildButton("Upload Your Answer", unit!.practiceUploadLink!, Colors.green),
+            if (hasUploadLink)
+              _buildButton("Upload Your Answer", unit.practiceUploadLink!, Colors.green),
 
             if (hasVideo && _youtubeController != null)
               Padding(
@@ -180,7 +185,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
               ListView.builder(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
-                itemCount: unit!.practiceActivityQuestions1!.length,
+                itemCount: unit.practiceActivityQuestions1!.length,
                 itemBuilder: (context, index) {
                   final question = unit.practiceActivityQuestions1![index];
                   return Card(
@@ -226,7 +231,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
               ListView.builder(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
-                itemCount: unit!.practiceActivityMCQ!.length,
+                itemCount: unit.practiceActivityMCQ!.length,
                 itemBuilder: (context, index) {
                   final mcq = unit.practiceActivityMCQ![index];
                   return Card(
@@ -290,7 +295,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
                   icon: const Icon(Icons.arrow_forward),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xFF010066),
-    iconColor:Colors.white,
+                    iconColor: Colors.white,
                     minimumSize: const Size(double.infinity, 50),
                   ),
                   onPressed: () {
@@ -306,7 +311,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
                       ),
                     );
                   },
-                  label: const Text("Next: Practice Activity 2", style: TextStyle(fontSize: 16, color:Colors.white)),
+                  label: const Text("Next: Practice Activity 2", style: TextStyle(fontSize: 16, color: Colors.white)),
                 ),
               ),
           ],
@@ -319,7 +324,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
     return Padding(
       padding: const EdgeInsets.only(bottom: 12),
       child: ElevatedButton.icon(
-        icon: const Icon(Icons.link),
+        icon: const Icon(Icons.link, color: Colors.white),
         style: ElevatedButton.styleFrom(
           backgroundColor: color,
           minimumSize: const Size(double.infinity, 50),

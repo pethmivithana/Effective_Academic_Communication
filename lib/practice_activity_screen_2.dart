@@ -4,6 +4,13 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:eng_app_2/models/unit_model.dart';
 import 'package:eng_app_2/quiz_screen.dart';
 
+class PracticeQuestion2 {
+  final String questionText;
+  final String correctAnswer;
+
+  PracticeQuestion2({required this.questionText, required this.correctAnswer});
+}
+
 class PracticeActivityScreen2 extends StatefulWidget {
   final int unitIndex;
   final int subunitIndex;
@@ -138,7 +145,6 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
 
             const SizedBox(height: 20),
 
-
             if (hasVideo && _youtubeController != null)
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -154,6 +160,85 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                     ),
                   ),
                   const SizedBox(height: 20),
+                ],
+              ),
+
+            if (unit.practiceActivityQuestions2 != null)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    "Answer the Questions",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 10),
+                  ...List.generate(
+                    unit.practiceActivityQuestions2!.length,
+                        (index) {
+                      final question = unit.practiceActivityQuestions2![index];
+                      final controller = _controllers[index];
+                      final isError = showErrors && controller.text.trim().isEmpty;
+                      final isCorrect = submitted && controller.text.trim() == question.correctAnswer;
+
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: 16),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Question ${index + 1}: ${question.questionText}",
+                              style: const TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            TextField(
+                              controller: controller,
+                              decoration: InputDecoration(
+                                hintText: "Enter your answer here",
+                                border: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                enabledBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(8),
+                                  borderSide: BorderSide(
+                                    color: isError
+                                        ? Colors.red
+                                        : Colors.grey.shade300,
+                                  ),
+                                ),
+                                focusedBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(8),
+                                  borderSide: BorderSide(
+                                    color: isError
+                                        ? Colors.red
+                                        : Colors.blue,
+                                    width: 2,
+                                  ),
+                                ),
+                                errorText: isError ? "This field is required" : null,
+                              ),
+                              enabled: !submitted,
+                            ),
+                            if (submitted)
+                              Padding(
+                                padding: const EdgeInsets.only(top: 8),
+                                child: Text(
+                                  isCorrect
+                                      ? "✓ Correct!"
+                                      : "✗ Incorrect. The correct answer is: ${question.correctAnswer}",
+                                  style: TextStyle(
+                                    color: isCorrect ? Colors.green : Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                          ],
+                        ),
+                      );
+                    },
+                  ),
                 ],
               ),
 

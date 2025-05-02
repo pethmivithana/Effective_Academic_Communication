@@ -39,7 +39,7 @@ Complete at least 3 vocabulary exercises on Duolingo and take screenshots of the
 Step 4:
 Write down 5 new words you learned from the exercises. Try to use them in your own sentences!
 """,
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Step 1:

@@ -83,7 +83,7 @@ Step 1 – Access ChatGPT voice and clearly say the following:
 
 Step 2 – Engage in a Q&A session with ChatGPT. Take a screenshot of the conversation and upload it as proof of completing the activity.
 """,
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Watch this short video for additional techniques to improve communication skills in English.

@@ -32,43 +32,43 @@ Complete these sentences using the correct form of the past continuous:
 
   practiceActivityQuestions1: [
     PracticeQuestion1(
-      questionText: "1. I __________ (study) for my final exams when my friend called me.",
+      questionText: "I __________ (study) for my final exams when my friend called me.",
       correctAnswer: "was studying",
     ),
     PracticeQuestion1(
-      questionText: "2. While we __________ (work) on the project, the power went out.",
+      questionText: "While we __________ (work) on the project, the power went out.",
       correctAnswer: "were working",
     ),
     PracticeQuestion1(
-      questionText: "3. They __________ (discuss) the new software features when I entered the room.",
+      questionText: "They __________ (discuss) the new software features when I entered the room.",
       correctAnswer: "were discussing",
     ),
     PracticeQuestion1(
-      questionText: "4. She __________ (not listen) to the lecture because she was checking her phone.",
+      questionText: "She __________ (not listen) to the lecture because she was checking her phone.",
       correctAnswer: "was not listening",
     ),
     PracticeQuestion1(
-      questionText: "5. I __________ (write) some code when my computer suddenly froze.",
+      questionText: "I __________ (write) some code when my computer suddenly froze.",
       correctAnswer: "was writing",
     ),
     PracticeQuestion1(
-      questionText: "6. The team __________ (test) the website when they found a major bug.",
+      questionText: "The team __________ (test) the website when they found a major bug.",
       correctAnswer: "was testing",
     ),
     PracticeQuestion1(
-      questionText: "7. We __________ (plan) to meet yesterday, but something came up.",
+      questionText: "We __________ (plan) to meet yesterday, but something came up.",
       correctAnswer: "planned",
     ),
     PracticeQuestion1(
-      questionText: "8. The professor __________ (explain) a difficult concept when the students started asking questions.",
+      questionText: "The professor __________ (explain) a difficult concept when the students started asking questions.",
       correctAnswer: "was explaining",
     ),
     PracticeQuestion1(
-      questionText: "9. I __________ (look) for a solution to the problem while my partner __________ (search) for resources.",
+      questionText: "I __________ (look) for a solution to the problem while my partner __________ (search) for resources.",
       correctAnswer: "was looking, was searching",
     ),
     PracticeQuestion1(
-      questionText: "10. He __________ (not pay) attention to the instructions when he made a mistake in the code.",
+      questionText: "He __________ (not pay) attention to the instructions when he made a mistake in the code.",
       correctAnswer: "was not paying",
     ),
   ],

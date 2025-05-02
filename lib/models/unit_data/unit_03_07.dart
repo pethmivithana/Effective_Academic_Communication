@@ -39,7 +39,7 @@ Example Sentences:
 🔹 Scientists had been working on the first computer for years before it was finally completed in 1945.
 
 """,
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Let’s  create a short story using the past perfect continuous tense!

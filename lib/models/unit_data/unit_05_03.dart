@@ -30,7 +30,7 @@ Think about a time when you were asked a challenging question in class or during
 Use phrases like: “I should have clarified…”, “Next time, I would say…”, “I could respond more confidently by…”
 """,
 
-  preClassActivityUploadLink:"",
+  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription1: """ 
 It’s time to practice thinking and speaking under pressure—just like in a viva!
@@ -55,8 +55,8 @@ It’s time to practice thinking and speaking under pressure—just like in a vi
 
 Don’t worry about being perfect—this is all about practicing your response style and tone.
 """,
-  practiceActivityLink:"https://vocaroo.com ",
-  practiceUploadLink:"",
+  practiceActivityLink:"https://vocaroo.com",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Fill in the blanks using the correct phrases from the word bank to complete the dialogue between a student and an examiner.

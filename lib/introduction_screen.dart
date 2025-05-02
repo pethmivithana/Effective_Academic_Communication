@@ -40,10 +40,41 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
     _setupTts();
   }
 
-  void _setupTts() {
-    flutterTts.setLanguage("en-US");
-    flutterTts.setSpeechRate(0.4);
-    flutterTts.setPitch(1.0);
+  void _setupTts() async {
+    // Set language to US English
+    await flutterTts.setLanguage("en-US");
+
+    // Keep the same speech rate
+    await flutterTts.setSpeechRate(0.4);
+
+    // Set a slightly higher pitch for a stronger female voice
+    await flutterTts.setPitch(1.2);
+
+    // Set voice to a female voice
+    // Get available voices
+    var voices = await flutterTts.getVoices;
+
+    // Find a female voice
+    if (voices != null) {
+      for (var voice in voices) {
+        if (voice is Map &&
+            voice['name'].toString().toLowerCase().contains('female') ||
+            voice['name'].toString().toLowerCase().contains('woman') ||
+            voice['name'].toString().contains('en-US-female')) {
+          await flutterTts.setVoice({"name": voice['name'], "locale": voice['locale']});
+          break;
+        }
+      }
+    }
+
+    // Alternate approach: directly set voice by name if platform supports it
+    // This works especially well on iOS
+    await flutterTts.setVoice({"name": "en-US-female", "locale": "en-US"});
+
+    // For Android specific voice setting
+    if (await flutterTts.isLanguageAvailable("en-US")) {
+      await flutterTts.setVoice({"name": "en-us-x-sfg#female_1", "locale": "en-US"});
+    }
 
     flutterTts.setCompletionHandler(() {
       if (highlightedParagraphIndex + 1 < paragraphs.length) {

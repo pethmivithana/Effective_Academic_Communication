@@ -17,13 +17,6 @@ By the end of this lesson, you should be able to:
 
   preClassActivityDescription: """
 Let’s begin with a quick self-assessment to reflect on your current communication strengths and areas for improvement. Please be honest with your answers—this quiz is just for you to better understand your communication habits.
-
-Write short answers:
-3.	You are ordering food at a restaurant, but the waiter doesn’t understand you. What do you do?
-4.	Your friend is speaking too fast. How do you ask them to slow down?
-5.	Think about the last time you had difficulty communicating in English. What happened?
-6.	Which communication problems do you face the most? (Choose: Pronunciation / Vocabulary / Listening / Confidence / Grammar)
-
 """,
   preClassSurvey:[
   SurveyQuestion(
@@ -47,8 +40,32 @@ Write short answers:
     allowsMultipleAnswers: false,
   ),
   ],
+  preClassQuestions:[
+  PreClassQuestion(
+    questionText: "You are ordering food at a restaurant, but the waiter doesn’t understand you. What do you do?",
+    isTextAnswer: true,
+  ),
+  PreClassQuestion(
+    questionText: "Your friend is speaking too fast. How do you ask them to slow down?",
+    isTextAnswer: true,
+  ),
+  PreClassQuestion(
+    questionText: "Think about the last time you had difficulty communicating in English. What happened?",
+    isTextAnswer: true,
+  ),
+  PreClassQuestion(
+    questionText: "Which communication problems do you face the most?",
+    options: [
+      "Pronunciation",
+      "Vocabulary",
+      "Listening",
+      "Confidence",
+      "Grammar",
+    ],
+    isTextAnswer: false,
+  ),
+  ],
 
-  preClassActivityUploadLink:"",
 
   practiceActivityDescription1: """ 
 Practice is the key to improvement! Try out this fun role-play using an AI chatbot.
@@ -66,7 +83,7 @@ Step 4 - Take a screenshot of your conversation and upload it as proof of comple
 This activity will help you practice clarification, confidence, and fluency in everyday settings.
 
 """,
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Watch this short video for additional techniques to improve communication skills in English.

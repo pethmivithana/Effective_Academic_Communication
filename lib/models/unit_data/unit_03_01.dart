@@ -34,7 +34,7 @@ Step 4: Take screenshots of your conversation and upload them as proof of comple
   practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
-Step 1 - Click on the link below to access the activity.
+Step 1 - Go to the task site below and access the activity.
 
 Step 2 - Complete the exercise and upload screenshots as proof of completion.
  """,

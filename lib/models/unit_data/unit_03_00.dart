@@ -28,7 +28,7 @@ We are sure you have heard of “tenses” before! From your point of view, why 
   ],
 
   practiceActivityDescription1: """
-  Dear all, now that you have watched the recorded lecture, we have another video for you. This video, taken from BBC Learning English, will reinforce what you learned in the previous video. If you don’t understand everything in this video, don’t worry! There will be separate lessons on the most common tenses later.
+Dear all, now that you have watched the recorded lecture, we have another video for you. This video, taken from BBC Learning English, will reinforce what you learned in the previous video. If you don’t understand everything in this video, don’t worry! There will be separate lessons on the most common tenses later.
 """,
 
   practiceActivityVideo:"https://www.youtube.com/watch?v=GiI3wjFWSXQ&t=20s ",
@@ -40,8 +40,8 @@ Since you have now watched two videos on tenses, it’s time to take a quiz on m
   practiceActivityLink2:"",
 
   instructionsText: """
-We use different tenses to show the timing of an action or event. Without tenses, we wouldn't know if something happened in the past, is happening now, or will happen in the future.
-  """,
+We have a brief recorded video introducing different tenses. Please watch it before moving on to the activities. Feel free to take notes, as this will help you remember and understand the concepts better.
+""",
 
   instructionVideoId: "8laYlyAFd0o",
 
