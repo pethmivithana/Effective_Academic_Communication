@@ -59,13 +59,15 @@ To begin with – In addition – This demonstrates – For example – Therefor
   ],
 
   practiceActivityDescription2: """
-Follow the instructions given.
+Go to the given website
 
-- Go to the given website
-- Record a 30-second response to this question: Why is clear communication important in a viva?
-- Use at least two academic phrases from the lesson video.
-- Check the speech-to-text output to see if it reflects your intended message.
-- Submit your final audio with clear pronunciation and tone.
+Record a 30-second response to this question: Why is clear communication important in a viva?
+
+Use at least two academic phrases from the lesson video.
+
+Check the speech-to-text output to see if it reflects your intended message.
+
+Submit your final audio with clear pronunciation and tone.
 """,
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
@@ -82,12 +84,21 @@ E – End with a short summary or conclusion
   summary: """
 Excellent work! In this lesson, you’ve taken a deep dive into how to structure your answers effectively for a viva. You learned the value of organizing your thoughts using the ISE method—Introduce, Support, and End. Whether you're answering a technical question about your project or explaining your reasoning to an examiner, a structured response helps you stay focused and sound professional.
 We explored useful linking phrases, practiced turning rough answers into strong, polished ones, and applied these techniques in computing-related scenarios. The ability to give organized, thoughtful answers is a key skill that will help you not just in exams, but also in team meetings, job interviews, and client presentations.
-Keep practicing, and soon, structuring your responses will become second nature!
-""",
+Keep practicing, and soon, structuring your responses will become second nature!""",
 
   inClassActivity: """
-Now that you’ve completed the lesson, it’s time to bring your speaking skills into a real-time setting. In our classroom session, you’ll participate in a mini viva simulation. You’ll be given a common computing-related question and will practice giving a structured response in front of your peers. Don’t worry—we’re all here to learn and improve together.
-If you feel unsure about what to say or how to organize your thoughts, bring your notes! Your lecturer will guide you and give you personalized feedback. This is your chance to gain confidence and polish your response strategy in a supportive environment.
+Now that you’ve completed the lesson, it’s time to bring your speaking skills into a real-time setting. 
+
+In our classroom session, you’ll participate in a mini viva simulation. 
+
+You’ll be given a common computing-related question and will practice giving a structured response in front of your peers. 
+
+Don’t worry—we’re all here to learn and improve together.
+
+If you feel unsure about what to say or how to organize your thoughts, bring your notes! Your lecturer will guide you and give you personalized feedback. 
+
+This is your chance to gain confidence and polish your response strategy in a supportive environment.
+
 Looking forward to hearing your ideas—structured and strong!
 """,
 

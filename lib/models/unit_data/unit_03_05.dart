@@ -55,8 +55,7 @@ Once you've watched the video and completed the quiz, you'll have a better under
 
   summary: """
 Fantastic work, everyone! By now, you should have a strong grasp of the Simple Past Tense. You’ve learned how to describe actions that happened at specific points in the past. We’ve gone through key concepts, practiced using the tense, and even participated in some interactive activities. Remember, the Simple Past tense is used for completed actions or events that happened at a specific time in the past.
-You’ve also completed the pre-class video, quiz, and interactive activities to practice the structure and use of the Simple Past. Keep practicing these skills, and you’ll become more comfortable using this tense in your conversations.
-""",
+You’ve also completed the pre-class video, quiz, and interactive activities to practice the structure and use of the Simple Past. Keep practicing these skills, and you’ll become more comfortable using this tense in your conversations.""",
 
   inClassActivity: """
 In the next class, we’ll dive into some interactive role-playing activities to reinforce your understanding of the Simple Past tense. You'll work in small groups to describe events from your past, whether it’s a trip you took or something exciting that happened last weekend. The goal is to actively use the Simple Past while staying engaged with your classmates.
@@ -64,7 +63,7 @@ In the next class, we’ll dive into some interactive role-playing activities to
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Identify the sentence that correctly uses the Simple Past tense:",
+      question: "Identify the sentence that correctly uses the Simple Past tense:",
       options: [
         "a) By the time we arrived, the show already started.",
         "b) She was leaving when I arrived.",
@@ -74,7 +73,7 @@ In the next class, we’ll dive into some interactive role-playing activities to
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "2. Choose the grammatically correct question:",
+      question: "Choose the grammatically correct question:",
       options: [
         "a) Did she understood the assignment?",
         "b) Was she wrote the email yesterday?",
@@ -84,7 +83,7 @@ In the next class, we’ll dive into some interactive role-playing activities to
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "3. Which sentence contains an incorrect verb form?",
+      question: "Which sentence contains an incorrect verb form?",
       options: [
         "a) I saw him at the store an hour ago.",
         "b) They didn’t went to the concert.",
@@ -94,7 +93,7 @@ In the next class, we’ll dive into some interactive role-playing activities to
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "4. What is the correct past form of “lie” (meaning to rest)?",
+      question: "What is the correct past form of “lie” (meaning to rest)?",
       options: [
         "a) Lied",
         "b) Lay",
@@ -104,7 +103,7 @@ In the next class, we’ll dive into some interactive role-playing activities to
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "5. Which sentence correctly expresses a completed past action?",
+      question: "Which sentence correctly expresses a completed past action?",
       options: [
         "a) I have seen that movie last night.",
         "b) She drived to work yesterday.",

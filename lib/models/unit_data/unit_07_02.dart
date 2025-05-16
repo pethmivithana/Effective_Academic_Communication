@@ -1,3 +1,5 @@
+//practice activity 1 2 not working properly
+
 import '../unit_model.dart';
 
 final UnitModel unit7_2 = UnitModel(
@@ -36,63 +38,67 @@ Now answer the following:
     ),
   ],
 
-  practiceActivityDescription1: """ 
+  practiceActivityDescription2: """ 
 Read the sentences and select the correct type of context clue used. 
 """,
-  practiceActivityQuestions1:[
-    PracticeQuestion1(
-      questionText: "1. The software uses a cache, a small and fast memory that stores frequently accessed data to speed up processing. What type of context clue is used to explain 'cache'?",
+  practiceActivityQuestions2:[
+    PracticeQuestion2(
+      questionText: "The software uses a cache, a small and fast memory that stores frequently accessed data to speed up processing. What type of context clue is used to explain 'cache'?",
       options: ['a) Definition', 'b) Synonym', 'c) Example', 'd) Inference'],
       correctOptionIndex: 0,
       correctAnswer: 'a) Definition',
     ),
-    PracticeQuestion1(
-      questionText: "2. Unlike the old UI, which was rigid and difficult to modify, the new one is far more flexible and user-friendly. What type of context clue helps you understand 'flexible'?",
+    PracticeQuestion2(
+      questionText: "Unlike the old UI, which was rigid and difficult to modify, the new one is far more flexible and user-friendly. What type of context clue helps you understand 'flexible'?",
       options: ['a) Example', 'b) Antonym', 'c) Inference', 'd) Synonym'],
       correctOptionIndex: 1,
       correctAnswer: 'b) Antonym',
     ),
-    PracticeQuestion1(
-      questionText: "3. The interface is very intuitive, just like Dropbox or Google Drive, where users can navigate easily without instruction. What clue type is used to explain 'intuitive'?",
+    PracticeQuestion2(
+      questionText: "The interface is very intuitive, just like Dropbox or Google Drive, where users can navigate easily without instruction. What clue type is used to explain 'intuitive'?",
       options: ['a) Inference', 'b) Definition', 'c) Synonym', 'd) Example'],
       correctOptionIndex: 3,
       correctAnswer: 'd) Example',
     ),
-    PracticeQuestion1(
-      questionText: "4. The Wi-Fi connection was unstable. It disconnected three times during the meeting without warning. What clue helps you understand 'unstable'?",
+    PracticeQuestion2(
+      questionText: "The Wi-Fi connection was unstable. It disconnected three times during the meeting without warning. What clue helps you understand 'unstable'?",
       options: ['a) Definition', 'b) Example', 'c) Synonym', 'd) Inference'],
       correctOptionIndex: 1,
       correctAnswer: 'b) Example',
     ),
-    PracticeQuestion1(
-      questionText: "5. A redundant variable is one that is no longer needed in the program. What clue type is used for 'redundant'?",
+    PracticeQuestion2(
+      questionText: "A redundant variable is one that is no longer needed in the program. What clue type is used for 'redundant'?",
       options: ['a) Antonym', 'b) Definition', 'c) Example', 'd) Inference'],
       correctOptionIndex: 1,
       correctAnswer: 'b) Definition',
     ),
-    PracticeQuestion1(
-      questionText: "6. This function is efficient, meaning it performs tasks quickly without wasting resources. Which clue type explains 'efficient'?",
+    PracticeQuestion2(
+      questionText: "This function is efficient, meaning it performs tasks quickly without wasting resources. Which clue type explains 'efficient'?",
       options: ['a) Synonym', 'b) Antonym', 'c) Definition', 'd) Example'],
       correctOptionIndex: 2,
       correctAnswer: 'c) Definition',
     ),
   ],
 
-  practiceActivityDescription2: """
+  practiceActivityDescription1: """
 You’ll read a computing-related sentence and guess the meaning of the unfamiliar word based on context. Then, explain your guess out loud. Follow the steps given:
 
-	Choose one sentence with an unknown word.
-	Record a 30-second audio explaining what you think the word means, based on surrounding clues.
-	Use one of the clue types in your explanation (e.g., “I used an example clue…”).
-	Record your answer via the given site. 
-	Paste the audio link here!
+Choose one sentence with an unknown word.
+
+Record a 30-second audio explaining what you think the word means, based on surrounding clues.
+
+Use one of the clue types in your explanation (e.g., “I used an example clue…”).
+
+Record your answer via the given site. 
+
+Paste the audio link here!
 
 Example Prompt:
 The program was deprecated, meaning it is no longer supported or recommended.
 Explain: What does “deprecated” mean, and what clue helped you?
 """,
-  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
-  practiceUploadLink2:"",
+  practiceActivityLink:"https://www.speakpipe.com/voice-recorder",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Now, let’s watch the video lesson below. You’ll learn how to use different types of context clues to guess the meaning of unfamiliar words. While watching, pay close attention to examples drawn from computing topics—like documentation, system descriptions, and feature summaries. Take notes on the five types of clues: definition, synonym, antonym, example, and inference. This will help you build confidence in understanding new vocabulary without needing constant translation.

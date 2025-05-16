@@ -22,7 +22,7 @@ We are sure you have heard of “tenses” before! From your point of view, why 
 
   preClassQuestions: [
     PreClassQuestion(
-      questionText: 'Write your thoughts in the shared Padlet.',
+      questionText: 'Write your thoughts in the given Padlet.',
       correctAnswer: """We use different tenses to show the timing of an action or event. Without tenses, we wouldn't know if something happened in the past, is happening now, or will happen in the future.""",
     ),
   ],
@@ -54,7 +54,7 @@ Hi everyone! We’ll meet in class to talk about useful ways to improve how we u
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What is the purpose of tenses in language?',
+      question: 'What is the purpose of tenses in language?',
       options: [
         'a) To describe objects',
         'b) To indicate time in a sentence',
@@ -64,7 +64,7 @@ Hi everyone! We’ll meet in class to talk about useful ways to improve how we u
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2. Which tense is used to describe actions that are happening right now?',
+      question: 'Which tense is used to describe actions that are happening right now?',
       options: [
         'a) Past tense',
         'b) Present tense',
@@ -74,7 +74,7 @@ Hi everyone! We’ll meet in class to talk about useful ways to improve how we u
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '3. What are the three main categories of tenses?',
+      question: 'What are the three main categories of tenses?',
       options: [
         'a) Future, continuous, and perfect',
         'b) Present, past, and future',
@@ -84,12 +84,12 @@ Hi everyone! We’ll meet in class to talk about useful ways to improve how we u
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '4. Why is it important to use the correct tense in communication?',
+      question: 'Why is it important to use the correct tense in communication?',
       correctTextAnswer: 'Using the correct tense helps others understand when an action happened, which makes communication clearer.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5. Identify the tense in the following sentence: "She will be traveling to Japan next month."',
+      question: 'Identify the tense in the following sentence: "She will be traveling to Japan next month."',
       correctTextAnswer: 'Future continuous tense.',
       isTextAnswer: true,
     ),

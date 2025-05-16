@@ -98,8 +98,7 @@ Now that you’ve identified your own communication challenges, please listen to
 
   summary: """
 In this lesson, we explored essential communication strategies such as asking for clarification, paraphrasing, active listening, and overcoming communication barriers. You completed a self-assessment to reflect on your communication challenges, listened to a lecture for deeper understanding, and practiced real-life conversations with an AI.
-These strategies are crucial for becoming an effective communicator—both in academic and social settings. Keep practicing and applying them in your daily interactions!
-""",
+These strategies are crucial for becoming an effective communicator—both in academic and social settings. Keep practicing and applying them in your daily interactions!""",
 
   inClassActivity: """
 We will practice communication strategies in small role-play activities and guided discussions. See you in the class! 

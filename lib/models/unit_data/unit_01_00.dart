@@ -33,7 +33,7 @@ Step 4 – Write your self-introduction in the given space so we can get to know
 
 Click the button below to open the Padlet and submit your answers. You can type your responses directly on the Padlet, and they’ll be saved automatically
      """,
-    preClassActivityLink:"https://example.com/upload-practice-activity",
+    preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=359261",
 
     practiceActivityDescription1: """
 It’s time to do an individual activity to practice what you learnt. You can simply follow the steps given.
@@ -44,7 +44,7 @@ Step 2: Use Speechify or NaturalReader to listen to your introduction and check 
 
 Step 3: Upload your final recording to the given submission link. 
     """,
-    practiceUploadLink: "https://example.com/upload-practice-activity",
+    practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=359261",
 
     practiceActivityDescription2: """
 Next we’ll watch a YouTube video which is about “self-introductions”. These videos can be a good source of information for you to improve your proficiency.
@@ -52,8 +52,7 @@ Next we’ll watch a YouTube video which is about “self-introductions”. Thes
 
     practiceVideoUrl: "https://www.youtube.com/watch?v=8laYlyAFd0o",
     instructionsText: """
-Play the brief recorded session which will give you more information about self-introductions.
-    """,
+Play the brief recorded session which will give you more information about self-introductions.""",
     instructionVideoId: "8laYlyAFd0o",
     summary: """
 We completed our very first lesson today! The main focus of the lesson was to provide you with background information about the program and what we will be doing in the future. We also covered the lesson on “Self-Introductions,” which will be very helpful for getting to know each other at university. Additionally, you can use this knowledge when a lecturer asks you to introduce yourself.
@@ -82,9 +81,10 @@ We hope this lesson was interesting and gave you some motivation to improve your
         correctOptionIndex: 1,
       ),
       QuizQuestion(
-        question: "Complete the sentence: "
-            "'When introducing yourself, you should say your _____ background, and one _____ fact about yourself.'",
-        correctTextAnswer: "name, interesting",
+        question: """
+Complete the sentence: 
+When introducing yourself, you should say your _____ background, and one _____ fact about yourself.""",
+        correctTextAnswer: "family, interesting",
         isTextAnswer: true,
       ),
       QuizQuestion(
@@ -98,9 +98,14 @@ We hope this lesson was interesting and gave you some motivation to improve your
         correctOptionIndex: 1,
       ),
       QuizQuestion(
-        question: "Write one professional greeting and one informal greeting that you might use in different settings.",
+        question: "Write one professional greeting that you might use in different settings.",
         isTextAnswer: true,
-        correctTextAnswer: "Hello, Good morning",
+        correctTextAnswer: "Good Morning",
+      ),
+      QuizQuestion(
+        question: "Write one informal greeting that you might use in different settings.",
+        isTextAnswer: true,
+        correctTextAnswer: "Yo What's up",
       ),
     ]
 );

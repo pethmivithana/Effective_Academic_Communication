@@ -130,7 +130,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              "Lesson Summary",
+              "🕊️Lesson Summary",
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -222,7 +222,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
                   ),
                 );
               },
-              icon: const Icon(Icons.arrow_forward, color: Colors.white),
+              icon: const Icon(Icons.next_plan_outlined, color: Colors.white),
               label: const Text(
                 "Next: In-Class Activity",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
@@ -230,9 +230,6 @@ class _SummaryScreenState extends State<SummaryScreen> {
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color(0xFF010066),
                 padding: const EdgeInsets.symmetric(vertical: 14),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
                 minimumSize: const Size(double.infinity, 50),
               ),
             ),

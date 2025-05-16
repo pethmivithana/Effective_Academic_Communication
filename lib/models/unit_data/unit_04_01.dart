@@ -47,8 +47,7 @@ Once you’ve completed the pre-class activity, please watch the recorded mini l
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we explored how to become a more effective listener during academic lectures. You learned the value of active listening, discovered several note-taking methods, and practiced applying them using real-world content. The goal is not just to take notes—but to take useful notes that help you retain and understand the content.
-""",
+In this lesson, we explored how to become a more effective listener during academic lectures. You learned the value of active listening, discovered several note-taking methods, and practiced applying them using real-world content. The goal is not just to take notes—but to take useful notes that help you retain and understand the content.""",
 
   inClassActivity: """
 We will conduct interactive sessions in class to help you practice what you’ve learned in an engaging and collaborative way.

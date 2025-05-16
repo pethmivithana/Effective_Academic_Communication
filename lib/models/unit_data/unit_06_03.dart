@@ -16,17 +16,37 @@ By the end of this lesson, you should be able to:
 """,
 
   preClassActivityDescription: """
-Start by reflecting on your summarizing skills with the following self-assessment quiz. This will help you identify areas for improvement.
+Start by reflecting on your summarizing skills with the following self-assessment quiz. This will help you identify areas for improvement.""",
 
-Write short answers:
-3. If you had to summarize a meeting in 2-3 sentences, what key aspects would you include?
-4. How do you ensure that your summary is accurate and not misleading?
-5. What challenges do you face when summarizing long conversations?
-6. Which skills do you think are most important for summarizing well? (Choose: Listening / Note-taking / Organizing ideas / Concise wording)
-""",
+  preClassQuestions:[
+  PreClassQuestion(
+    questionText: "If you had to summarize a meeting in 2-3 sentences, what key aspects would you include?",
+    isTextAnswer: true,
+  ),
+  PreClassQuestion(
+    questionText: "How do you ensure that your summary is accurate and not misleading?",
+    isTextAnswer: true,
+  ),
+  PreClassQuestion(
+    questionText: "What challenges do you face when summarizing long conversations?",
+    isTextAnswer: true,
+  ),
+  PreClassQuestion(
+    questionText: "Which skills do you think are most important for summarizing well?",
+    options: [
+      "Listening",
+      "Note-taking",
+      "Organizing ideas",
+      "Concise wording",
+    ],
+    correctOptionIndex: null, // No correct answer provided
+    isTextAnswer: false,
+  ),
+  ],
+
   preClassSurvey:[
     SurveyQuestion(
-      questionText: "1.	What is the most important aspect of summarizing a discussion?",
+      questionText: "What is the most important aspect of summarizing a discussion?",
       options: [
         " a) Repeating everything exactly as it was said",
         "b) Identifying key points and main ideas",
@@ -37,7 +57,7 @@ Write short answers:
       allowsMultipleAnswers: false,
     ),
     SurveyQuestion(
-      questionText: "2.	When summarizing a discussion, what should you avoid?",
+      questionText: "When summarizing a discussion, what should you avoid?",
       options: [
         "a) Using your own words",
         "b) Including examples and unnecessary details",
@@ -48,10 +68,7 @@ Write short answers:
     ),
   ],
 
-  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
-
   practiceActivityDescription1: """ 
-  
 Step 1: Listen to the short video on artificial intelligence by Prof. Mike Wooldridge and summarize the key points. Focus on condensing the ideas into a few sentences.
 
 Step 2: Upload the summary document to the portal for review.
@@ -71,8 +88,7 @@ Listen to the recorded lecture on effective techniques for summarizing discussio
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we focused on effective techniques for summarizing key points in discussions. You learned to identify the main points, use transition phrases, and structure your summaries to communicate ideas concisely. We also practiced identifying essential information in discussions and applied techniques such as active listening and paraphrasing. These strategies are essential in both academic and professional settings for clear and effective communication.
-""",
+In this lesson, we focused on effective techniques for summarizing key points in discussions. You learned to identify the main points, use transition phrases, and structure your summaries to communicate ideas concisely. We also practiced identifying essential information in discussions and applied techniques such as active listening and paraphrasing. These strategies are essential in both academic and professional settings for clear and effective communication.""",
 
   inClassActivity: """
 Be ready to actively participate and apply the strategies we’ve learned!

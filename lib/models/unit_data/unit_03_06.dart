@@ -16,15 +16,19 @@ By the end of this lesson, you will be able to:
 
   preClassActivityDescription: """
 Using the given Padlet link, write down 05 sentences on the following topic. 
+
 What did you used to do when you were a child?
+
 Step 01: Click on the link and go to the Padlet website.
+
 Step 02: Click on the plus mark (+) at the bottom of the page.
+
 Step 03: Write your student number as the “Subject” and your sentences in the “write something incredible” section. 
+
 Step 04: Click on “Publish”. 
 """,
 
   preClassActivityLink: "https://padlet.com/nwelg211/submission",
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
 
   practiceActivityDescription1: """
 Complete these sentences using the correct form of the past continuous:
@@ -92,8 +96,7 @@ You will now watch an instructional video on the usage and formats of Past Conti
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-Great job! In this lesson, you learned how to use the past continuous tense in spoken English to describe actions in progress at a specific time in the past, simultaneous events, and interruptions. We discussed how to correctly form sentences using was/were + verb-ing and practiced applying this tense in different contexts. Understanding and using the past continuous tense helps make your conversations more detailed and natural, especially when telling stories or explaining past events. Keep practicing by using past continuous sentences in your daily speech, and don’t forget to review the key rules.
-""",
+Great job! In this lesson, you learned how to use the past continuous tense in spoken English to describe actions in progress at a specific time in the past, simultaneous events, and interruptions. We discussed how to correctly form sentences using was/were + verb-ing and practiced applying this tense in different contexts. Understanding and using the past continuous tense helps make your conversations more detailed and natural, especially when telling stories or explaining past events. Keep practicing by using past continuous sentences in your daily speech, and don’t forget to review the key rules.""",
 
   inClassActivity: """
 Let’s meet in our classroom to further discuss the use of past continuous and to practice the usage some more! If you need any further clarification, you can ask your lecturer and clarify them as well. 
@@ -102,7 +105,7 @@ See you there!
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Choose the correct sentence using the past continuous tense:",
+      question: "Choose the correct sentence using the past continuous tense:",
       options: [
         "a) I was eat dinner when she arrived.",
         "b) I was eating dinner when she arrived.",
@@ -112,7 +115,7 @@ See you there!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "2. When do we use the past continuous tense?",
+      question: "When do we use the past continuous tense?",
       options: [
         "a) To describe an action that happened at a specific time in the past and is finished.",
         "b) To describe an action that was happening at a specific time in the past.",
@@ -122,7 +125,7 @@ See you there!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "3. Which sentence correctly describes two actions happening at the same time?",
+      question: "Which sentence correctly describes two actions happening at the same time?",
       options: [
         "a) While she was cooking, I was setting the table.",
         "b) While she cooked, I was setting the table.",
@@ -132,17 +135,17 @@ See you there!
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: "4. Rewrite this sentence in the past continuous tense:\nShe studies at 7 PM yesterday.",
+      question: "Rewrite this sentence in the past continuous tense:\nShe studies at 7 PM yesterday.",
       correctTextAnswer: "She was studying at 7 PM yesterday.",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "5. Explain one key rule of using the past continuous in spoken English. Provide an example sentence to support your answer.",
+      question: "Explain one key rule of using the past continuous in spoken English. Provide an example sentence to support your answer.",
       correctTextAnswer: "The past continuous is used to describe an action that was ongoing at a specific time in the past. For example: I was doing my homework at 8 PM.",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "6. Complete the sentence with the correct past continuous form:\nYesterday at noon, we ______ (have) lunch when the phone rang.",
+      question: "Complete the sentence with the correct past continuous form:\nYesterday at noon, we ______ (have) lunch when the phone rang.",
       correctTextAnswer: "were having",
       isTextAnswer: true,
     ),

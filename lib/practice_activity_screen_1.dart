@@ -24,7 +24,7 @@ class PracticeActivityScreen extends StatefulWidget {
 
 class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
   List<TextEditingController> controllers = [];
-  List<int?> selectedOptionIndexes = [];
+  List<String?> selectedAnswers = [];
 
   bool isSubmitted = false;
   bool allAnswered = false;
@@ -44,7 +44,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
       }
 
       if (unit.practiceActivityMCQ != null) {
-        selectedOptionIndexes = List<int?>.filled(unit.practiceActivityMCQ!.length, null);
+        selectedAnswers = List<String?>.filled(unit.practiceActivityMCQ!.length, null);
       }
 
       if (unit.practiceActivityVideo != null &&
@@ -75,7 +75,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
     final hasMCQs = unit?.practiceActivityMCQ != null && unit!.practiceActivityMCQ!.isNotEmpty;
 
     bool questionsAnswered = !hasQuestions || controllers.every((controller) => controller.text.trim().isNotEmpty);
-    bool mcqsAnswered = !hasMCQs || selectedOptionIndexes.every((index) => index != null);
+    bool mcqsAnswered = !hasMCQs || selectedAnswers.every((answer) => answer != null);
 
     setState(() {
       allAnswered = questionsAnswered && mcqsAnswered;
@@ -148,7 +148,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
 
             if (unit.practiceActivityDescription1.isNotEmpty)
               Card(
-                color: Colors.indigo.shade50,
+                color: Colors.white,
                 elevation: 2,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                 margin: const EdgeInsets.only(bottom: 16),
@@ -163,10 +163,29 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
 
             // Buttons section - Always visible if URLs are available
             if (hasLink)
-              _buildButton("Go to Task Site", unit.practiceActivityLink!, Colors.blue),
+              ElevatedButton.icon(
+                onPressed: () => _launchURL(unit.practiceActivityLink!),
+                icon: const Icon(Icons.language, color: Colors.white),
+                label: const Text("Go to Task Site", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue,
+                  minimumSize: const Size(double.infinity, 50),
+                ),
+              ),
 
             if (hasUploadLink)
-              _buildButton("Upload Your Answer", unit.practiceUploadLink!, Colors.green),
+              Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: ElevatedButton.icon(
+                  onPressed: () => _launchURL(unit.practiceUploadLink!),
+                  icon: const Icon(Icons.upload_file, color: Colors.white),
+                  label: const Text("Upload Your Answer", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.green,
+                    minimumSize: const Size(double.infinity, 50),
+                  ),
+                ),
+              ),
 
             if (hasVideo && _youtubeController != null)
               Padding(
@@ -234,42 +253,81 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
                 itemCount: unit.practiceActivityMCQ!.length,
                 itemBuilder: (context, index) {
                   final mcq = unit.practiceActivityMCQ![index];
+                  final isCorrect = mcq.options != null &&
+                      selectedAnswers[index] ==
+                          mcq.options![mcq.correctOptionIndex ?? 0];
+
                   return Card(
+                    elevation: 6,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16),
+                    ),
                     margin: const EdgeInsets.only(bottom: 16),
-                    elevation: 2,
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                     child: Padding(
-                      padding: const EdgeInsets.all(12),
+                      padding: const EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "MCQ ${index + 1}: ${mcq.questionText}",
-                            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                            "Q${index + 1}: ${mcq.questionText}",
+                            style: const TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold
+                            ),
                           ),
-                          const SizedBox(height: 8),
-                          ...List.generate(mcq.options.length, (optionIndex) {
-                            return RadioListTile<int>(
-                              title: Text(mcq.options[optionIndex]),
-                              value: optionIndex,
-                              groupValue: selectedOptionIndexes[index],
-                              onChanged: isSubmitted
-                                  ? null
-                                  : (value) {
-                                setState(() {
-                                  selectedOptionIndexes[index] = value;
-                                });
-                              },
-                            );
-                          }),
-                          if (isSubmitted)
+                          if (mcq.questionText != null &&
+                              mcq.questionText!.isNotEmpty)
                             Padding(
-                              padding: const EdgeInsets.only(top: 8.0),
+                              padding: const EdgeInsets.only(top: 6.0, bottom: 12.0),
                               child: Text(
-                                "Correct Answer: ${mcq.options[mcq.correctOptionIndex]}",
-                                style: const TextStyle(color: Colors.green),
+                                mcq.questionText!,
+                                style: const TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.black87
+                                ),
                               ),
                             ),
+                          if (mcq.options != null)
+                            ...mcq.options!.map((option) {
+                              bool selected = selectedAnswers[index] == option;
+                              bool correct = option ==
+                                  mcq.options![mcq.correctOptionIndex ?? 0];
+
+                              return Tooltip(
+                                message: isSubmitted && correct
+                                    ? "This is the correct answer"
+                                    : "",
+                                child: RadioListTile<String>(
+                                  activeColor: isSubmitted
+                                      ? (correct ? Colors.green : Colors.red)
+                                      : const Color(0xFF010066),
+                                  title: Text(
+                                    option,
+                                    style: TextStyle(
+                                      color: isSubmitted
+                                          ? (correct
+                                          ? Colors.green
+                                          : selected
+                                          ? Colors.red
+                                          : Colors.black)
+                                          : Colors.black,
+                                      fontWeight: selected
+                                          ? FontWeight.bold
+                                          : FontWeight.normal,
+                                    ),
+                                  ),
+                                  value: option,
+                                  groupValue: selectedAnswers[index],
+                                  onChanged: isSubmitted
+                                      ? null
+                                      : (value) {
+                                    setState(() {
+                                      selectedAnswers[index] = value;
+                                    });
+                                  },
+                                ),
+                              );
+                            }).toList(),
                         ],
                       ),
                     ),
@@ -279,20 +337,20 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
 
             if ((hasQuestions || hasMCQs) && !isSubmitted)
               ElevatedButton.icon(
-                icon: const Icon(Icons.check),
+                icon: const Icon(Icons.check, color: Colors.white),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFFF6100),
+                  backgroundColor: const Color(0xFF010066),
                   minimumSize: const Size(double.infinity, 50),
                 ),
                 onPressed: validateAnswers,
-                label: const Text("Submit Answers", style: TextStyle(fontSize: 16)),
+                label: const Text("Submit Answers", style: TextStyle(fontSize: 16, color: Colors.white)),
               ),
 
             if (canProceed)
               Padding(
                 padding: const EdgeInsets.only(top: 16),
                 child: ElevatedButton.icon(
-                  icon: const Icon(Icons.arrow_forward),
+                  icon: const Icon(Icons.local_activity_rounded, color: Colors.white),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xFF010066),
                     iconColor: Colors.white,
@@ -316,21 +374,6 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
               ),
           ],
         ),
-      ),
-    );
-  }
-
-  Widget _buildButton(String label, String url, Color color) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 12),
-      child: ElevatedButton.icon(
-        icon: const Icon(Icons.link, color: Colors.white),
-        style: ElevatedButton.styleFrom(
-          backgroundColor: color,
-          minimumSize: const Size(double.infinity, 50),
-        ),
-        onPressed: () => _launchURL(url),
-        label: Text(label, style: const TextStyle(color: Colors.white, fontSize: 16)),
       ),
     );
   }

@@ -81,14 +81,14 @@ Read the questions below that a computing student might be asked during a viva. 
   practiceActivityDescription2: """
 Follow the instructions given.
 
-- Go to the given website
+Go to the given website
 
--	Record a short 60-second introduction to your imaginary final-year project. Use phrases like:
+Record a short 60-second introduction to your imaginary final-year project. Use phrases like:
 •	My project focuses on…
 •	The main objective was to…
 •	One key challenge I faced was…
 
--	After recording, copy the link and submit your audio response here.
+-After recording, copy the link and submit your audio response here.
 """,
   practiceActivityLink2: "https://www.vocaroo.com ",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
@@ -102,13 +102,15 @@ Watch the video lesson below, where we walk you through the structure of a viva 
   summary: """
 You’ve now taken your first step into understanding the viva voce process. In this lesson, you learned what a viva is, why it's important, and what to expect in terms of structure and examiner interaction. We explored the types of questions typically asked—ranging from project explanations to justifying your decisions—and discussed how to respond with confidence and clarity. Through individual practice activities, you applied academic language to real-world scenarios, building both fluency and professionalism.
 Being able to communicate your work is just as vital as doing the work itself. Whether you're presenting a project, debugging in front of a panel, or explaining a design choice, viva skills will help you thrive in your academic and professional journey.
-Keep practicing—and remember, your voice is your strongest tool in a viva!
-""",
+Keep practicing—and remember, your voice is your strongest tool in a viva!""",
 
   inClassActivity: """
 Well done on completing the lesson!
+
 Now that you’ve explored the basics of the viva voce and how to respond professionally, we’ll bring those skills into the classroom. Get ready to participate in mini viva simulations, where you’ll answer questions about your project or a familiar topic in pairs or small groups.
+
 If you have doubts or need help framing your responses, bring those questions with you—we’ll break them down together, and your lecturer will offer feedback on how to strengthen your delivery.
+
 Let’s get you comfortable, confident, and ready to speak up in your viva!
 """,
 

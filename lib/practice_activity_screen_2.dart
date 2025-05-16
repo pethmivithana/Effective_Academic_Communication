@@ -111,7 +111,6 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
           : SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
-
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
@@ -178,63 +177,67 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                       final question = unit.practiceActivityQuestions2![index];
                       final controller = _controllers[index];
                       final isError = showErrors && controller.text.trim().isEmpty;
-                      final isCorrect = submitted && controller.text.trim() == question.correctAnswer;
 
-                      return Padding(
-                        padding: const EdgeInsets.only(bottom: 16),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              "Question ${index + 1}: ${question.questionText}",
-                              style: const TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            const SizedBox(height: 8),
-                            TextField(
-                              controller: controller,
-                              decoration: InputDecoration(
-                                hintText: "Enter your answer here",
-                                border: OutlineInputBorder(
-                                  borderRadius: BorderRadius.circular(8),
-                                ),
-                                enabledBorder: OutlineInputBorder(
-                                  borderRadius: BorderRadius.circular(8),
-                                  borderSide: BorderSide(
-                                    color: isError
-                                        ? Colors.red
-                                        : Colors.grey.shade300,
-                                  ),
-                                ),
-                                focusedBorder: OutlineInputBorder(
-                                  borderRadius: BorderRadius.circular(8),
-                                  borderSide: BorderSide(
-                                    color: isError
-                                        ? Colors.red
-                                        : Colors.blue,
-                                    width: 2,
-                                  ),
-                                ),
-                                errorText: isError ? "This field is required" : null,
-                              ),
-                              enabled: !submitted,
-                            ),
-                            if (submitted)
-                              Padding(
-                                padding: const EdgeInsets.only(top: 8),
-                                child: Text(
-                                  isCorrect
-                                      ? "✓ Correct!"
-                                      : "✗ Incorrect. The correct answer is: ${question.correctAnswer}",
-                                  style: TextStyle(
-                                    color: isCorrect ? Colors.green : Colors.red,
-                                    fontWeight: FontWeight.bold,
-                                  ),
+                      return Card(
+                        elevation: 6,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        margin: const EdgeInsets.only(bottom: 16),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Question ${index + 1}: ${question.questionText}",
+                                style: const TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
                                 ),
                               ),
-                          ],
+                              const SizedBox(height: 8),
+                              TextField(
+                                controller: controller,
+                                decoration: InputDecoration(
+                                  hintText: "Enter your answer here",
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  enabledBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                    borderSide: BorderSide(
+                                      color: isError
+                                          ? Colors.red
+                                          : Colors.grey.shade300,
+                                    ),
+                                  ),
+                                  focusedBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                    borderSide: BorderSide(
+                                      color: isError
+                                          ? Colors.red
+                                          : Colors.blue,
+                                      width: 2,
+                                    ),
+                                  ),
+                                  errorText: isError ? "This field is required" : null,
+                                ),
+                                enabled: !submitted,
+                              ),
+                              if (submitted)
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 10),
+                                  child: Text(
+                                    "Correct Answer: ${question.correctAnswer}",
+                                    style: const TextStyle(
+                                      color: Colors.green,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                            ],
+                          ),
                         ),
                       );
                     },
@@ -247,12 +250,11 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                 padding: const EdgeInsets.symmetric(vertical: 12),
                 child: ElevatedButton.icon(
                   onPressed: _handleSubmit,
-                  icon: const Icon(Icons.check),
-                  label: const Text("Submit Answers"),
+                  icon: const Icon(Icons.check, color: Colors.white),
+                  label: const Text("Submit Answers", style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.teal,
+                    backgroundColor: Color(0xFF010066),
                     minimumSize: const Size(double.infinity, 50),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                   ),
                 ),
               ),
@@ -260,12 +262,11 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
             if (hasLink)
               ElevatedButton.icon(
                 onPressed: () => _launchURL(unit.practiceActivityLink2!),
-                icon: const Icon(Icons.language),
-                label: const Text("Go to Task Site"),
+                icon: const Icon(Icons.language, color: Colors.white),
+                label: const Text("Go to Task Site", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue,
                   minimumSize: const Size(double.infinity, 50),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                 ),
               ),
 
@@ -274,17 +275,16 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                 padding: const EdgeInsets.only(top: 10),
                 child: ElevatedButton.icon(
                   onPressed: () => _launchURL(unit.practiceUploadLink2!),
-                  icon: const Icon(Icons.upload_file),
-                  label: const Text("Upload Your Answer"),
+                  icon: const Icon(Icons.upload_file, color: Colors.white),
+                  label: const Text("Upload Your Answer", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
                     minimumSize: const Size(double.infinity, 50),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                   ),
                 ),
               ),
 
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
 
             ElevatedButton.icon(
               onPressed: () {
@@ -300,18 +300,16 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                   ),
                 );
               },
-              icon: const Icon(Icons.quiz, color: Colors.white), // White icon color
+              icon: const Icon(Icons.quiz, color: Colors.white),
               label: const Text(
                 "Go to Quiz",
-                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold), // White font color
+                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color(0xFF010066),
                 minimumSize: const Size(double.infinity, 50),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
               ),
             ),
-
           ],
         ),
       ),

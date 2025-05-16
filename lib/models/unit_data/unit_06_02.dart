@@ -97,8 +97,7 @@ Now that you have completed the pre-class activity, it’s time to watch the rec
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we’ve discussed the different types of questions we use in communication. By understanding how to form and use these questions, you will be better equipped to engage in conversations, both casual and professional. Remember to practice using these questions in a variety of situations to become more confident in your communication skills.
-""",
+In this lesson, we’ve discussed the different types of questions we use in communication. By understanding how to form and use these questions, you will be better equipped to engage in conversations, both casual and professional. Remember to practice using these questions in a variety of situations to become more confident in your communication skills.""",
 
   inClassActivity: """
 In class, we will conduct a series of interactive activities to reinforce the strategies you’ve learned. See you! 

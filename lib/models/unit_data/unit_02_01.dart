@@ -105,7 +105,7 @@ Okay, now that you have gone through the lesson, let’s practice what you have 
 
 •	Once you get directed to the website, scroll down and you will find a sentence “I would like to answer [….] selected from [….]. 
 
-•	Please select 15 questions and 04 parts as the answer to the above blanks. 
+•	Please select 15 exercises and 04 parts as the answer to the above blanks. 
 
 •	Click on the “Start test” and complete the activities given. 
 
@@ -117,8 +117,7 @@ You will now watch a video lesson on Word Order. Make sure you go through the wh
 """,
     instructionVideoId: "8laYlyAFd0o",
     summary: """
-Now, we have come to the end of Lesson 2.1. In this lesson, we explored the basic rules of word order in English, which generally follows the Subject-Verb-Object (SVO) structure. Using the correct word order is essential for making sentences clear and meaningful, especially when communicating in academic, professional, and technical settings. Misplacing words can lead to confusion, so applying these rules correctly helps ensure that your messages are understood as intended. Whether you are writing documentation, sending emails, or having conversations, following proper word order will improve both accuracy and fluency in your communication. 
-  """,
+Now, we have come to the end of Lesson 2.1. In this lesson, we explored the basic rules of word order in English, which generally follows the Subject-Verb-Object (SVO) structure. Using the correct word order is essential for making sentences clear and meaningful, especially when communicating in academic, professional, and technical settings. Misplacing words can lead to confusion, so applying these rules correctly helps ensure that your messages are understood as intended. Whether you are writing documentation, sending emails, or having conversations, following proper word order will improve both accuracy and fluency in your communication.""",
     inClassActivity: """
 Join us in the classroom as we put word order into practice! In this session, you'll get the chance to refine your skills in structuring sentences clearly and effectively in spoken English. It’s also the perfect time to ask your lecturer any questions and gain confidence in applying these rules in real conversations.
 Hope you enjoyed learning and see you there!
@@ -165,7 +164,8 @@ Hope you enjoyed learning and see you there!
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "Rearrange the words to form a correct sentence: to / every / school / goes / morning / she",
+      question: """Rearrange the words to form a correct sentence: 
+          to / every / school / goes / morning / she""",
       isTextAnswer: true,
       correctTextAnswer: "She goes to school every morning.",
     ),

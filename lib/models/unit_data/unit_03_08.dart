@@ -29,10 +29,14 @@ Imagine that you are an AI developer in the future. Your task is to describe how
 
 Follow the steps given:
 
-	Choose a technology-related topic (e.g., Artificial Intelligence, Space Travel, Smart Cities).
-	Click on My Tech Future! (You will  need to log in from your SLIIT email address)
-	Choose a sticky note from the tools given at the bottom of the page.
-	Write a paragraph of about 5-8 sentences using the simple future tense to describe future advancements.
+Choose a technology-related topic (e.g., Artificial Intelligence, Space Travel, Smart Cities).
+
+Click on My Tech Future! (You will  need to log in from your SLIIT email address)
+
+Choose a sticky note from the tools given at the bottom of the page.
+
+Write a paragraph of about 5-8 sentences using the simple future tense to describe future advancements.
+
 Example: In the future, AI will be able to create entire programs without human help.
 """,
   practiceActivityLink:"https://whiteboard.office.com/me/whiteboards",
@@ -40,8 +44,7 @@ Example: In the future, AI will be able to create entire programs without human 
   practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
-Click on the link below and complete the given quiz. 
-""",
+Click on the link below and complete the given quiz.""",
 
   practiceActivityLink2: "https://quizizz.com/join",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
@@ -53,8 +56,7 @@ Before we dive into the activities, watch the video lesson on how to use the sim
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-Great job completing this lesson! You now understand how to use the simple future tense to talk about upcoming events, predictions, and spontaneous decisions. We covered its structure with "will" and "be going to" and explored how these forms are used in spoken English. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using the simple future tense in your conversations to improve fluency and confidence. Keep up the great work and see you in the next lesson!
-""",
+Great job completing this lesson! You now understand how to use the simple future tense to talk about upcoming events, predictions, and spontaneous decisions. We covered its structure with "will" and "be going to" and explored how these forms are used in spoken English. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using the simple future tense in your conversations to improve fluency and confidence. Keep up the great work and see you in the next lesson!""",
 
   inClassActivity: """
 That’s a wrap for this lesson!

@@ -42,43 +42,43 @@ Match each sentence to the type of context clue it uses:
   practiceActivityQuestions1:[
   PracticeQuestion1(
     questionText: 'The encryption process ensures data is secure, meaning it is protected from unauthorized access.',
-    correctAnswer: 'Definition',
+    correctAnswer: '🟩 Definition',
   ),
   PracticeQuestion1(
     questionText: 'The system crashed due to a malfunction, a failure that disrupted normal operation.',
-    correctAnswer: 'Definition',
+    correctAnswer: '🟩 Definition',
   ),
   PracticeQuestion1(
     questionText: 'The website was sluggish, similar to how a slow-loading app behaves when the internet is weak.',
-    correctAnswer: 'Synonym',
+    correctAnswer: '🟦 Synonym',
   ),
   PracticeQuestion1(
     questionText: 'While the old software was unstable and crashed frequently, the new version is reliable and smooth.',
-    correctAnswer: 'Antonym',
+    correctAnswer: '🟥 Antonym',
   ),
   PracticeQuestion1(
     questionText: 'The programmer used libraries like NumPy, Pandas, and TensorFlow to speed up the development process.',
-    correctAnswer: 'Example',
+    correctAnswer: '🟨 Example',
   ),
   PracticeQuestion1(
     questionText: 'The code was so inefficient that it took 10 minutes to complete a task normally done in 2 seconds.',
-    correctAnswer: 'Inference',
+    correctAnswer: '🟧 Inference',
   ),
   PracticeQuestion1(
     questionText: 'Authentication, the process of verifying a user’s identity, is a crucial step in login systems.',
-    correctAnswer: 'Definition',
+    correctAnswer: '🟩 Definition',
   ),
   PracticeQuestion1(
     questionText: 'The interface was user-friendly, just like other intuitive platforms such as Google Drive and Dropbox.',
-    correctAnswer: 'Example',
+    correctAnswer: '🟨 Example',
   ),
   PracticeQuestion1(
     questionText: 'Instead of a linear process, where each step follows another, the system used a parallel approach to execute tasks simultaneously.',
-    correctAnswer: 'Antonym',
+    correctAnswer: '🟥 Antonym',
   ),
   PracticeQuestion1(
     questionText: 'The debug tool flagged a syntax error, which is a mistake in the structure of the code.',
-    correctAnswer: 'Definition',
+    correctAnswer: '🟩 Definition',
   ),
   ],
 
@@ -127,8 +127,7 @@ Now, let’s watch the video lesson below. You’ll learn how context helps shap
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, you’ve been introduced to context-based vocabulary development—a skill that allows you to learn and use new words more naturally by analyzing their surroundings. You’ve seen how definitions, examples, synonyms, antonyms, and general logic in a sentence can provide clues about a word’s meaning. Instead of memorizing words in isolation, you now understand how to decode and retain vocabulary by observing how it functions in real-world texts. This skill is especially important in computing, where documentation, error messages, and reports are full of specialized terms. By using context to guide your understanding, you’ll build a more flexible and adaptive vocabulary that supports academic success and professional communication.
-""",
+In this lesson, you’ve been introduced to context-based vocabulary development—a skill that allows you to learn and use new words more naturally by analyzing their surroundings. You’ve seen how definitions, examples, synonyms, antonyms, and general logic in a sentence can provide clues about a word’s meaning. Instead of memorizing words in isolation, you now understand how to decode and retain vocabulary by observing how it functions in real-world texts. This skill is especially important in computing, where documentation, error messages, and reports are full of specialized terms. By using context to guide your understanding, you’ll build a more flexible and adaptive vocabulary that supports academic success and professional communication.""",
 
   inClassActivity: """
 In our classroom session, we’ll take this further by analyzing technical paragraphs from real computing texts—such as user manuals, API documentation, and research abstracts. You’ll work individually to underline unfamiliar words and interpret their meanings based on context. Then, you’ll share your conclusions with a partner or the class and justify your reasoning. This hands-on analysis will help reinforce what you’ve learned and prepare you to approach future readings with confidence. Don’t worry if you’re unsure—this is your chance to practice and ask questions. Let’s build your vocabulary toolbox together!

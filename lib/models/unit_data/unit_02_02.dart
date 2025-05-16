@@ -23,20 +23,24 @@ By the end of this lesson, you will be able to:
 
   preClassQuestions: [
     PreClassQuestion(
-      questionText: 'Write one example of a **Declarative** sentence (e.g., I love this song).',
-      correctAnswer: 'I love this song.',
+      questionText: 'Write one example of a Declarative sentence (e.g. I love this song)',
+      correctAnswer: """Meaning: A sentence that gives information or states a fact.
+      🗣️ It tells something.""",
     ),
     PreClassQuestion(
-      questionText: 'Write one example of an **Interrogative** sentence (e.g., Where did you find this?).',
-      correctAnswer: 'Where did you find this?',
+      questionText: 'Write one example of an Interrogative sentence (e.g. Where did you find this?)',
+      correctAnswer: """Meaning: A sentence that asks a question.
+      🗣️ It wants to know something.""",
     ),
     PreClassQuestion(
-      questionText: 'Write one example of an **Imperative** sentence (e.g., Turn up the volume!).',
-      correctAnswer: 'Turn up the volume!',
+      questionText: 'Write one example of an Imperative sentence (e.g. Turn up the volume!)',
+      correctAnswer: """Meaning: A sentence that gives a command, instruction, or request.
+      🗣️ It tells someone to do something.""",
     ),
     PreClassQuestion(
-      questionText: 'Write one example of an **Exclamatory** sentence (e.g., This is amazing!).',
-      correctAnswer: 'This is amazing!',
+      questionText: 'Write one example of an Exclamatory sentence (e.g. This is amazing!)',
+      correctAnswer: """Meaning: A sentence that shows strong feeling or emotion.
+      🗣️ It expresses surprise, joy, anger, or excitement.""",
     ),
   ],
 
@@ -111,7 +115,7 @@ Don't miss out—see you there!""",
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. Which sentence is interrogative?',
+      question: 'Which sentence is interrogative?',
       options: [
         'a) She is a great singer.',
         'b) Did you see that movie?',
@@ -121,7 +125,7 @@ Don't miss out—see you there!""",
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2. What punctuation mark typically ends an imperative sentence?',
+      question: 'What punctuation mark typically ends an imperative sentence?',
       options: [
         'a) Period (.)',
         'b) Exclamation mark (!)',
@@ -131,7 +135,7 @@ Don't miss out—see you there!""",
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: '3. Choose the exclamatory sentence:',
+      question: 'Choose the exclamatory sentence:',
       options: [
         'a) How did you solve this problem?',
         'b) I am going to the library.',
@@ -141,12 +145,12 @@ Don't miss out—see you there!""",
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '4. Rearrange the words to form a correct imperative sentence:\nhelp / me / please / this / with / assignment',
+      question: 'Rearrange the words to form a correct imperative sentence:\nhelp / me / please / this / with / assignment',
       correctTextAnswer: 'Please help me with this assignment.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5. Define a declarative sentence and provide an example:',
+      question: 'Define a declarative sentence and provide an example:',
       correctTextAnswer: 'A declarative sentence states a fact or opinion. Example: The sky is blue.',
       isTextAnswer: true,
     ),

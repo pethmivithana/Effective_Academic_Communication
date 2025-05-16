@@ -50,7 +50,8 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   Widget build(BuildContext context) {
     final total = quizQuestions.length;
-    final answered = selectedAnswers.where((a) => a != null && a!.isNotEmpty).length;
+    final answered =
+        selectedAnswers.where((a) => a != null && a!.isNotEmpty).length;
 
     return Scaffold(
       appBar: AppBar(
@@ -72,7 +73,6 @@ class _QuizScreenState extends State<QuizScreen> {
       )
           : Column(
         children: [
-
           if (errorMessage != null)
             Container(
               width: double.infinity,
@@ -84,8 +84,6 @@ class _QuizScreenState extends State<QuizScreen> {
                     color: Colors.red, fontWeight: FontWeight.bold),
               ),
             ),
-
-
           Padding(
             padding: const EdgeInsets.all(12.0),
             child: LinearProgressIndicator(
@@ -104,7 +102,6 @@ class _QuizScreenState extends State<QuizScreen> {
               color: Color(0xFF010066),
             ),
           ),
-
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.all(12),
@@ -131,12 +128,20 @@ class _QuizScreenState extends State<QuizScreen> {
                           style: const TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold),
                         ),
-                        const SizedBox(height: 12),
-
+                        if (question.description != null &&
+                            question.description!.isNotEmpty)
+                          Padding(
+                            padding:
+                            const EdgeInsets.only(top: 6.0, bottom: 12.0),
+                            child: Text(
+                              question.description!,
+                              style: const TextStyle(
+                                  fontSize: 16, color: Colors.black87),
+                            ),
+                          ),
                         if (question.options != null)
                           ...question.options!.map((option) {
-                            bool selected =
-                                selectedAnswers[index] == option;
+                            bool selected = selectedAnswers[index] == option;
                             bool correct = option ==
                                 question.options![
                                 question.correctOptionIndex ?? 0];
@@ -147,9 +152,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                   : "",
                               child: RadioListTile<String>(
                                 activeColor: showResults
-                                    ? (correct
-                                    ? Colors.green
-                                    : Colors.red)
+                                    ? (correct ? Colors.green : Colors.red)
                                     : const Color(0xFF010066),
                                 title: Text(
                                   option,
@@ -177,29 +180,33 @@ class _QuizScreenState extends State<QuizScreen> {
                                 },
                               ),
                             );
-                          }),
-
+                          }).toList(),
                         if (question.isTextAnswer)
-                          TextField(
-                            onChanged: (value) {
-                              selectedAnswers[index] = value;
-                            },
-                            decoration: const InputDecoration(
-                              labelText: "Your Answer",
-                              border: OutlineInputBorder(),
-                            ),
-                            enabled: !showResults,
-                          ),
-
-                        if (showResults && question.isTextAnswer)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 10),
-                            child: Text(
-                              "Correct Answer: ${question.correctTextAnswer}",
-                              style: const TextStyle(
-                                  color: Colors.green,
-                                  fontWeight: FontWeight.bold),
-                            ),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              TextField(
+                                onChanged: (value) {
+                                  selectedAnswers[index] = value;
+                                },
+                                decoration: const InputDecoration(
+                                  labelText: "Your Answer",
+                                  border: OutlineInputBorder(),
+                                ),
+                                enabled: !showResults,
+                              ),
+                              if (showResults &&
+                                  question.correctTextAnswer != null)
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 10),
+                                  child: Text(
+                                    "Correct Answer: ${question.correctTextAnswer}",
+                                    style: const TextStyle(
+                                        color: Colors.green,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                            ],
                           ),
                       ],
                     ),
@@ -208,26 +215,26 @@ class _QuizScreenState extends State<QuizScreen> {
               },
             ),
           ),
-
           Padding(
             padding:
             const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                ElevatedButton.icon(
-                  onPressed: showResults ? null : uploadAnswers,
-                  icon: const Icon(Icons.check_circle_outline),
-                  label: const Text("Submit Answers"),
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFF010066),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 14),
-                    minimumSize: const Size(160, 50),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12)),
-                  ),
-                ),
+            ElevatedButton.icon(
+            onPressed: showResults ? null : uploadAnswers,
+              icon: const Icon(Icons.check_circle_outline, color: Colors.white),
+              label: const Text("Submit Answers"),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF010066),
+                foregroundColor: Colors.white, // Makes text color white
+                iconColor: Colors.white,
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+                minimumSize: const Size(160, 50),
+              ),
+            ),
+
+
                 ElevatedButton.icon(
                   onPressed: showResults
                       ? () {
@@ -244,17 +251,17 @@ class _QuizScreenState extends State<QuizScreen> {
                     );
                   }
                       : null,
-                  icon: const Icon(Icons.arrow_forward, color: Colors.white),
+                  icon: const Icon(Icons.summarize, color: Colors.white),
                   label: const Text("Next: Summary"),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xFF010066),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 14),
+                    foregroundColor: Colors.white, // Ensures text color is white
+                    iconColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
                     minimumSize: const Size(160, 50),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12)),
                   ),
                 ),
+
               ],
             ),
           ),

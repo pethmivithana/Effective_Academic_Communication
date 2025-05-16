@@ -107,8 +107,7 @@ Well done! You’ve just added a powerful tense to your spoken English toolbox. 
 
 Whether you're forecasting progress in your tech presentations or writing professional emails, this tense can make your language more precise and forward-thinking.
 
-Keep practicing, and soon this tense will become second nature in your spoken communication.
-""",
+Keep practicing, and soon this tense will become second nature in your spoken communication.""",
 
   inClassActivity: """
 Well done on completing the lesson!
@@ -122,7 +121,7 @@ Can’t wait to see you and hear your “future accomplishments” in action!
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Choose the sentence that uses the Future Perfect Tense correctly:",
+      question: "Choose the sentence that uses the Future Perfect Tense correctly:",
       options: [
         "a) I have finished the task by Friday.",
         "b) I will be finishing the task by Friday.",
@@ -132,7 +131,7 @@ Can’t wait to see you and hear your “future accomplishments” in action!
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "2. What is the correct structure of the Future Perfect Tense?",
+      question: "What is the correct structure of the Future Perfect Tense?",
       options: [
         "a) will + be + verb-ing",
         "b) will + have + past participle",
@@ -142,7 +141,7 @@ Can’t wait to see you and hear your “future accomplishments” in action!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "3. Which of these sentences describes an action that will be complete before another future moment?",
+      question: "Which of these sentences describes an action that will be complete before another future moment?",
       options: [
         "a) I am writing the code.",
         "b) I will write the code.",
@@ -152,12 +151,12 @@ Can’t wait to see you and hear your “future accomplishments” in action!
       correctOptionIndex: 3,
     ),
     QuizQuestion(
-      question: "4. Rewrite the following sentence using Future Perfect Tense:\nShe submits the final assignment before midnight.",
+      question: "Rewrite the following sentence using Future Perfect Tense:\nShe submits the final assignment before midnight.",
       correctTextAnswer: "She will have submitted the final assignment before midnight",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "5. Explain one use of the Future Perfect Tense in a real-life computing scenario. Give an example.",
+      question: "Explain one use of the Future Perfect Tense in a real-life computing scenario. Give an example.",
       correctTextAnswer: "The Future Perfect Tense can be used to describe an action that will be completed before a future deadline. For example: 'By the time the system goes live, the QA team will have tested all major features.'",
       isTextAnswer: true,
     ),

@@ -72,6 +72,7 @@ class UnitModel {
 
 class QuizQuestion {
   String question;
+  String? description; // New optional description field
   List<String>? options;
   int? correctOptionIndex;
   String? correctTextAnswer;
@@ -79,13 +80,14 @@ class QuizQuestion {
 
   QuizQuestion({
     required this.question,
+    this.description,
     this.options,
     this.correctOptionIndex,
     this.correctTextAnswer,
     this.isTextAnswer = false,
   });
-
 }
+
 class PreClassQuestion {
   final String questionText;
   final List<String>? options;
@@ -119,13 +121,22 @@ class PracticeQuestion1 {
   });
 }
 
-
 class PracticeQuestion2 {
   final String questionText;
-  final String correctAnswer;
+  final List<String>? options;
+  final int? correctOptionIndex;
+  final String? correctAnswer;
+  final bool isTextAnswer;
 
-  PracticeQuestion2({required this.questionText, required this.correctAnswer});
+  PracticeQuestion2({
+    required this.questionText,
+    this.options,
+    this.correctOptionIndex,
+    this.correctAnswer,
+    this.isTextAnswer = false,
+  });
 }
+
 
 class PracticeQuestionMCQ {
   final String questionText;
@@ -141,14 +152,19 @@ class PracticeQuestionMCQ {
 
 class SurveyQuestion {
   final String questionText;
-  final List<String>? options;
+  final String? description; // Optional additional description
+  final List<String>? options; // For multiple choice or rating scale
   final bool allowsMultipleAnswers;
+  final bool isTextAnswer; // Indicates if it's an open-ended question
 
   SurveyQuestion({
     required this.questionText,
+    this.description,
     this.options,
     this.allowsMultipleAnswers = false,
+    this.isTextAnswer = false,
   });
 }
+
 
 

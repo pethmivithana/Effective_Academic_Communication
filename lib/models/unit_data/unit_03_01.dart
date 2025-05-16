@@ -50,9 +50,7 @@ Step 2 - Complete the exercise and upload screenshots as proof of completion.
   summary: """
   In this lesson, we explored the simple present tense and its uses in expressing habits, facts, and routines.
 We also practiced real-life conversations, listened to spoken examples, and tested our understanding through quizzes.
-Using the correct tense is essential for clear and effective communication.
-
-  """,
+Using the correct tense is essential for clear and effective communication.""",
 
   inClassActivity: """
   Get ready for more fun activities to apply what you've learned! See you soon! 

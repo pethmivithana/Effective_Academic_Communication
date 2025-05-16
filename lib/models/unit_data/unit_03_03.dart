@@ -16,9 +16,11 @@ So, what should you expect by the end of today’s lesson? Here are the goals fo
 
   preClassActivityDescription: """
 Step 1 - Use an AI chatbot (like ChatGPT or Google Bard) and type in this prompt:
+
 “Hello! I want to practice my tenses knowledge. Imagine you are an undergraduate studying computing. Answer the following questions for me.”
 
 Step 2 - Ask the AI at least five of these questions from the list below:
+
 o	Have you ever learned a new programming language?
 o	Have you ever used AI to complete a task?
 o	Have you ever created a website or an app?
@@ -71,8 +73,7 @@ By now, you’ve had a chance to see Present Perfect in action through the pre-c
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In today’s lesson, we explored the Present Perfect tense, which is essential for discussing past experiences that are relevant to the present. Through a series of engaging activities, such as chatting with AI to highlight Present Perfect sentences and completing a mock interview, you got a hands-on opportunity to practice using the tense in real-life situations. By the end of the lesson, you should feel confident in recognizing and using the Present Perfect in conversations, especially in computing contexts.
-""",
+In today’s lesson, we explored the Present Perfect tense, which is essential for discussing past experiences that are relevant to the present. Through a series of engaging activities, such as chatting with AI to highlight Present Perfect sentences and completing a mock interview, you got a hands-on opportunity to practice using the tense in real-life situations. By the end of the lesson, you should feel confident in recognizing and using the Present Perfect in conversations, especially in computing contexts.""",
 
   inClassActivity: """
 As we move forward, get ready for some exciting in-class activities! In our upcoming classes, we’ll be focusing on making learning more interactive. We’ll dive into discussions, group exercises, and role-plays that will help you apply what you’ve learned about the Present Perfect tense in real-time. These activities are designed to be fun and engaging, and they will give you the chance to practice speaking and listening in a collaborative, dynamic environment.
@@ -80,7 +81,7 @@ As we move forward, get ready for some exciting in-class activities! In our upco
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Choose the correct sentence in the Present Perfect tense:",
+      question: "Choose the correct sentence in the Present Perfect tense:",
       options: [
         "I have finished the project last night.",
         "I finished the project last night.",
@@ -91,7 +92,7 @@ As we move forward, get ready for some exciting in-class activities! In our upco
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "2. Which of the following situations is best described by the Present Perfect tense?",
+      question: "Which of the following situations is best described by the Present Perfect tense?",
       options: [
         "I am finishing my project now.",
         "I have finished my project.",
@@ -102,17 +103,17 @@ As we move forward, get ready for some exciting in-class activities! In our upco
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "3. Complete the sentence with the correct form of the verb in the Present Perfect tense:\nWe ________ (solve) many problems during our coding bootcamp.",
+      question: "Complete the sentence with the correct form of the verb in the Present Perfect tense:\nWe ________ (solve) many problems during our coding bootcamp.",
       correctTextAnswer: "have solved",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "4. Find and correct the mistake in the following sentence:\nShe has visited the new website yesterday.",
+      question: "Find and correct the mistake in the following sentence:\nShe has visited the new website yesterday.",
       correctTextAnswer: "She visited the new website yesterday.",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "5. Answer the following question:\nHave you ever done something adventurous? If yes, describe it!",
+      question: "Answer the following question:\nHave you ever done something adventurous? If yes, describe it!",
       isTextAnswer: true,
     ),
   ],

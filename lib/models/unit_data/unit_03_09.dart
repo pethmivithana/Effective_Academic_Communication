@@ -27,21 +27,24 @@ In 2050, people will be living in smart cities with AI-controlled transportation
   practiceActivityDescription1: """
 Follow the instructions given:
 
-	Choose a scenario from the list below.
+Choose a scenario from the list below.
+
 a)	A Day in the Future! – Describe what you will be doing on a specific day in the future (e.g., your graduation day, your first job interview, or your first day at work).
+
 b)	The Year 2050! – Imagine life in the year 2050. What will people be doing daily?
+
 c)	A Space Adventure! – You are on a space mission. What will you be doing at different times?
 
-	Create a short story (5-8 sentences) describing what will be happening in one of the above scenarios.
+Create a short story (5-8 sentences) describing what will be happening in one of the above scenarios.
 
-	Record yourself reading your story aloud using Reverb Recorder (follow the steps below)
+Record yourself reading your story aloud using Reverb Recorder (follow the steps below)
 -	When you go to the website, click on Record Now. 
 -	Click on Start Recording when you are ready. 
 -	After you finish, write your student number as the Title and click on Save 
 
-	Listen to your recording and check for fluency and accuracy.
+Listen to your recording and check for fluency and accuracy.
 
-	Submit your best recording by pasting the link in the submission portal.
+Submit your best recording by pasting the link in the submission portal.
 """,
   practiceActivityLink:"https://reverb.chat/uses/online-voice-recorder/",
 
@@ -64,16 +67,19 @@ At 2 PM, I will be presenting my first project to my company’s leadership team
   practiceUploadLink2: "https://example.com/upload-practice-activity",
 
   instructionsText: """
-Before you start the activities, watch the video lesson on the future continuous tense. This video will help you understand how to form the future continuous tense using ‘will be + verb-ing’, the common situations where this tense is used in spoken English while providing you with examples of how native speakers use it in real conversations
+Before you start the activities, watch the video lesson on the future continuous tense. 
+
+This video will help you understand how to form the future continuous tense using ‘will be + verb-ing’, the common situations where this tense is used in spoken English while providing you with examples of how native speakers use it in real conversations.
+
 Watch the video carefully. Take notes on key points, including sentence structures and real-life applications. Try to identify examples where this tense is used naturally in everyday speech.
+
 After watching the video, move on to the practice activities!
 """,
 
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-Great job completing this lesson! You now understand how to use the simple future tense to talk about upcoming events, predictions, and spontaneous decisions. We covered its structure with "will" and "be going to" and explored how these forms are used in spoken English. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using the simple future tense in your conversations to improve fluency and confidence. Keep up the great work and see you in the next lesson!
-""",
+Great job completing this lesson! You now understand how to use the simple future tense to talk about upcoming events, predictions, and spontaneous decisions. We covered its structure with "will" and "be going to" and explored how these forms are used in spoken English. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using the simple future tense in your conversations to improve fluency and confidence. Keep up the great work and see you in the next lesson!""",
 
   inClassActivity: """
 That’s a wrap for this lesson!
@@ -84,7 +90,7 @@ Looking forward to seeing you there soon!
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. Identify the correct sentence using the future continuous tense:',
+      question: 'Identify the correct sentence using the future continuous tense:',
       options: [
         'a) I will be works on my project at this time tomorrow.',
         'b) I will working on my project at this time tomorrow.',
@@ -94,7 +100,7 @@ Looking forward to seeing you there soon!
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '2. What is the primary function of the future continuous tense?',
+      question: 'What is the primary function of the future continuous tense?',
       options: [
         'a) To indicate an action happening at a specific time in the future.',
         'b) To describe a habitual action.',
@@ -104,7 +110,7 @@ Looking forward to seeing you there soon!
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: '3. Choose the sentence that correctly uses the future continuous tense:',
+      question: 'Choose the sentence that correctly uses the future continuous tense:',
       options: [
         'a) She will watching TV at 8 PM.',
         'b) She watched TV at 8 PM.',
@@ -114,22 +120,22 @@ Looking forward to seeing you there soon!
       correctOptionIndex: 3,
     ),
     QuizQuestion(
-      question: '4. Fill in the blank with the correct form:\nAt 9 PM tomorrow, we ______ (have) dinner at the new restaurant.',
+      question: 'Fill in the blank with the correct form:\nAt 9 PM tomorrow, we ______ (have) dinner at the new restaurant.',
       correctTextAnswer: 'will be having',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5. Rewrite this sentence using the future continuous tense:\nThey study for their exam tomorrow at 7 PM.',
+      question: 'Rewrite this sentence using the future continuous tense:\nThey study for their exam tomorrow at 7 PM.',
       correctTextAnswer: 'They will be studying for their exam tomorrow at 7 PM.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '6. Explain one key rule of using the future continuous tense in spoken English. Provide an example sentence to support your answer.',
+      question: 'Explain one key rule of using the future continuous tense in spoken English. Provide an example sentence to support your answer.',
       correctTextAnswer: 'The future continuous tense is used to describe an action that will be in progress at a specific time in the future. For example: "I will be working at 10 AM tomorrow."',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '7. Complete the sentence with the correct future continuous form:\nBy this time next week, I ______ (work) on my final project.',
+      question: 'Complete the sentence with the correct future continuous form:\nBy this time next week, I ______ (work) on my final project.',
       correctTextAnswer: 'will be working',
       isTextAnswer: true,
     ),

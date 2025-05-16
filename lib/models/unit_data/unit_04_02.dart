@@ -61,8 +61,7 @@ Once you’ve completed the pre-class activity, watch the recorded mini-lesson p
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we learned that vocabulary expansion is a process that requires consistency and the right strategies. Whether it’s through mobile apps like Duolingo, quizzes, games, or interactive activities, you now have a toolkit to help you become more fluent, articulate, and confident in English communication.
-""",
+In this lesson, we learned that vocabulary expansion is a process that requires consistency and the right strategies. Whether it’s through mobile apps like Duolingo, quizzes, games, or interactive activities, you now have a toolkit to help you become more fluent, articulate, and confident in English communication.""",
 
   inClassActivity: """
 In class, we will conduct a series of interactive activities to reinforce the strategies you’ve learned. See you! 

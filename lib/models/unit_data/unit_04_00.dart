@@ -1,5 +1,5 @@
 import '../unit_model.dart';
-
+//look again about pre class activity
 final UnitModel unit4_0 = UnitModel(
   unitIndex: 16,
   unitName: "Essential Study Skills",
@@ -18,7 +18,7 @@ Fill out the short survey below. Be honest in your responses—there are no righ
 
   preClassSurvey: [
     SurveyQuestion(
-      questionText: "1. How do you usually prepare for an academic lecture?",
+      questionText: "How do you usually prepare for an academic lecture?",
       options: [
         "I read about the topic in advance.",
         "I don’t prepare beforehand.",
@@ -28,7 +28,7 @@ Fill out the short survey below. Be honest in your responses—there are no righ
       allowsMultipleAnswers: false,
     ),
     SurveyQuestion(
-      questionText: "2. While listening to a lecture, how do you identify key points?",
+      questionText: "While listening to a lecture, how do you identify key points?",
       options: [
         "I focus on the lecturer’s repetition and emphasis.",
         "I listen for transition words (e.g., 'first,' 'next,' 'in conclusion').",
@@ -39,7 +39,7 @@ Fill out the short survey below. Be honest in your responses—there are no righ
       allowsMultipleAnswers: true,
     ),
     SurveyQuestion(
-      questionText: "3. What challenges do you face when listening to lectures in English? (Select all that apply)",
+      questionText: "What challenges do you face when listening to lectures in English? (Select all that apply)",
       options: [
         "Understanding fast speech.",
         "Recognizing key ideas versus extra information.",
@@ -50,7 +50,7 @@ Fill out the short survey below. Be honest in your responses—there are no righ
       allowsMultipleAnswers: true,
     ),
     SurveyQuestion(
-      questionText: "4. How do you currently take notes during a lecture?",
+      questionText: "How do you currently take notes during a lecture?",
       options: [
         "I use bullet points.",
         "I write in full sentences.",
@@ -61,7 +61,7 @@ Fill out the short survey below. Be honest in your responses—there are no righ
       allowsMultipleAnswers: false,
     ),
     SurveyQuestion(
-      questionText: "5. Do you review your notes after a lecture?",
+      questionText: "Do you review your notes after a lecture?",
       options: [
         "Yes, I organize and rewrite them.",
         "Sometimes, only before an exam.",
@@ -70,7 +70,7 @@ Fill out the short survey below. Be honest in your responses—there are no righ
       allowsMultipleAnswers: false,
     ),
     SurveyQuestion(
-      questionText: "6. How do you learn new academic vocabulary?",
+      questionText: "How do you learn new academic vocabulary?",
       options: [
         "I use flashcards.",
         "I write down definitions.",
@@ -81,7 +81,7 @@ Fill out the short survey below. Be honest in your responses—there are no righ
       allowsMultipleAnswers: true,
     ),
     SurveyQuestion(
-      questionText: "7. What is the biggest challenge you face when learning new vocabulary?",
+      questionText: "What is the biggest challenge you face when learning new vocabulary?",
       options: [
         "Remembering meanings.",
         "Using words correctly in a sentence.",
@@ -90,25 +90,22 @@ Fill out the short survey below. Be honest in your responses—there are no righ
       ],
       allowsMultipleAnswers: false,
     ),
-    SurveyQuestion(
-      questionText: "8. Write 3–5 sentences answering the following:\n• What do you think is your strongest study skill?\n• What is one area where you would like to improve?\n• What strategy do you think could help you improve your academic listening, note-taking, or vocabulary learning?",
-      options: [],
-      allowsMultipleAnswers: false,
-    ),
   ],
 
   practiceActivityDescription1: """
-After watching the video, you should watch the given YouTube video and write 6 skills that you need to develop.
+After watching the video, write 6 skills that you need to develop.
 """,
 
   practiceActivityVideo: "https://www.youtube.com/watch?v=CPxSzxylRCI",
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Now, you're going to talk about what you will have done if you were the President of Sri Lanka. Think of this as a time-travel log where you're reporting what you've already finished by a specific point in the future.
 
-Step 1: Visit this voice recording tool:
+Step 1: Visit this voice recording tool
+
 Step 2: Click the red “Record” button and speak five Future Perfect sentences of what you will have done if you were the President of Sri Lanka.
+
 Step 3: After recording, click “Save & Share” and copy the audio link and submit it.
 """,
 
@@ -122,8 +119,7 @@ After completing the pre-class activity, you are here for the lecture. Please no
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we discussed the essential study skills needed for academic success in an English-medium instructions. We reflected on strategies for listening to lectures, identified common challenges, and evaluated current note-taking and vocabulary learning methods. Through these activities, we aim to equip you with tools to overcome challenges and improve your academic performance in English.
-""",
+In this lesson, we discussed the essential study skills needed for academic success in an English-medium instructions. We reflected on strategies for listening to lectures, identified common challenges, and evaluated current note-taking and vocabulary learning methods. Through these activities, we aim to equip you with tools to overcome challenges and improve your academic performance in English.""",
 
   inClassActivity: """
 We will engage in some interactive activities in class to help reinforce the skills you have learned today. These activities will allow you to practice identifying key points during a lecture and improve your note-taking and vocabulary acquisition strategies.
@@ -131,7 +127,7 @@ We will engage in some interactive activities in class to help reinforce the ski
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Choose the sentence that uses the Future Perfect Tense correctly:",
+      question: "Choose the sentence that uses the Future Perfect Tense correctly:",
       options: [
         "a) I have finished the task by Friday.",
         "b) I will be finishing the task by Friday.",
@@ -141,7 +137,7 @@ We will engage in some interactive activities in class to help reinforce the ski
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "2. What is the correct structure of the Future Perfect Tense?",
+      question: "What is the correct structure of the Future Perfect Tense?",
       options: [
         "a) will + be + verb-ing",
         "b) will + have + past participle",
@@ -151,7 +147,7 @@ We will engage in some interactive activities in class to help reinforce the ski
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "3. Which of these sentences describes an action that will be complete before another future moment?",
+      question: "Which of these sentences describes an action that will be complete before another future moment?",
       options: [
         "a) I am writing the code.",
         "b) I will write the code.",
@@ -161,12 +157,12 @@ We will engage in some interactive activities in class to help reinforce the ski
       correctOptionIndex: 3,
     ),
     QuizQuestion(
-      question: "4. Rewrite the following sentence using Future Perfect Tense:\nShe submits the final assignment before midnight.",
+      question: "Rewrite the following sentence using Future Perfect Tense:\nShe submits the final assignment before midnight.",
       correctTextAnswer: "She will have submitted the final assignment before midnight",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "5. Explain one use of the Future Perfect Tense in a real-life computing scenario. Give an example.",
+      question: "Explain one use of the Future Perfect Tense in a real-life computing scenario. Give an example.",
       correctTextAnswer: "The Future Perfect Tense can be used to describe an action that will be completed before a future deadline. For example: 'By the time the system goes live, the QA team will have tested all major features.'",
       isTextAnswer: true,
     ),

@@ -21,14 +21,18 @@ Watch this short YouTube video on Present Perfect Continuous. It will introduce 
   preClassQuestions: [
     PreClassQuestion(
         questionText: "After watching the video, please write 3 sentences in the space provided. Each sentence should explain something you have been doing recently.",
-        correctAnswer: "I have been studying English grammar. I have been working on a project. I have been reading a book."
+        correctAnswer: """I have been studying English grammar. 
+        I have been working on a project. 
+        I have been reading a book."""
     ),
   ],
   preClassActivityVideo:"https://www.youtube.com/watch?v=Ttr7DowBUBk ",
 
 
   practiceActivityDescription1: """
-Next, it’s time to test your understanding with an online quiz. This quiz will help you compare the Present Perfect tense and the Present Perfect Continuous tense. Please complete the quiz and upload the screenshot of your completed quiz to the platform as proof of completion.
+Next, it’s time to test your understanding with an online quiz. This quiz will help you compare the Present Perfect tense and the Present Perfect Continuous tense. 
+
+Please complete the quiz and upload the screenshot of your completed quiz to the platform as proof of completion.
  """,
   practiceActivityLink:"https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/ ",
   practiceUploadLink: "https://example.com/upload-practice-activity",
@@ -51,8 +55,7 @@ Now that you've watched the video and started thinking about the Present Perfect
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In today’s lesson, we explored the Present Perfect tense, which is essential for discussing past experiences that are relevant to the present. Through a series of engaging activities, such as chatting with AI to highlight Present Perfect sentences and completing a mock interview, you got a hands-on opportunity to practice using the tense in real-life situations. By the end of the lesson, you should feel confident in recognizing and using the Present Perfect in conversations, especially in computing contexts.
-""",
+In today’s lesson, we explored the Present Perfect tense, which is essential for discussing past experiences that are relevant to the present. Through a series of engaging activities, such as chatting with AI to highlight Present Perfect sentences and completing a mock interview, you got a hands-on opportunity to practice using the tense in real-life situations. By the end of the lesson, you should feel confident in recognizing and using the Present Perfect in conversations, especially in computing contexts.""",
 
   inClassActivity: """
 As we move forward, get ready for some exciting in-class activities! In our upcoming classes, we’ll be focusing on making learning more interactive. We’ll dive into discussions, group exercises, and role-plays that will help you apply what you’ve learned about the Present Perfect tense in real-time. These activities are designed to be fun and engaging, and they will give you the chance to practice speaking and listening in a collaborative, dynamic environment.

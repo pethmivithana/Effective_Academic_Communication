@@ -24,20 +24,24 @@ As the pre-class activity, you have to watch a video today. You can get an idea 
   practiceActivityDescription1: """ 
 Since you have learnt about paraphrasing and the strategies that you can use to do it, it’s time for you to engage in practice activities. 
 
-Step 1 - Paraphrase the following paragraph. This will help you practice reading and paraphrasing accurately.
 Paragraph:
 Public speaking is a skill that many people fear, yet it is an essential part of professional and academic life. To become a confident speaker, individuals must practice regularly, learn to organize their thoughts clearly, and develop strategies to manage nervousness.
-
-Step 2 - Submit your paraphrased version below the paragraph.
 """,
+  practiceActivityQuestions1:[
+    PracticeQuestion1(
+      questionText: "Paraphrase the above paragraph. Submit your paraphrased version below.",
+      correctAnswer:"Public speaking is important but often feared. Confidence grows through practice, clear thinking, and managing nerves",
+      isTextAnswer: true,
+    ),
+  ],
 
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
-We have selected two short videos on different topics related to technology. Watch both videos and paraphrase what the speakers say. Please keep in mind this activity focuses on paraphrasing, not summarizing. 
+We have selected a short video related to technology. Watch both videos and paraphrase what the speakers say. Please keep in mind this activity focuses on paraphrasing, not summarizing. 
 """,
   practiceVideoUrl:"https://www.youtube.com/watch?v=5kOIFj4EhWw ",
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Now that you’ve watched the video and have a general understanding of paraphrasing, please listen to this recorded lecture for a more in-depth explanation of the concept and additional strategies for paraphrasing.
@@ -46,13 +50,11 @@ Now that you’ve watched the video and have a general understanding of paraphra
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we explored the key skill of paraphrasing. We discussed how paraphrasing allows you to express someone else’s ideas using your own words while keeping the original meaning intact. Through various practice activities, you gained hands-on experience paraphrasing sentences, paragraphs, and video content. Understanding and mastering paraphrasing is crucial for both academic and real-life communication as it helps you clarify ideas, avoid plagiarism, and demonstrate comprehension.
-""",
+In this lesson, we explored the key skill of paraphrasing. We discussed how paraphrasing allows you to express someone else’s ideas using your own words while keeping the original meaning intact. Through various practice activities, you gained hands-on experience paraphrasing sentences, paragraphs, and video content. Understanding and mastering paraphrasing is crucial for both academic and real-life communication as it helps you clarify ideas, avoid plagiarism, and demonstrate comprehension.""",
 
   inClassActivity: """
 In our upcoming class, we will practice paraphrasing in small groups. You will work together to paraphrase some challenging texts, which will help improve both your understanding and ability to paraphrase effectively.
 I look forward to seeing you in class!
-
 """,
 
   quizQuestions: [

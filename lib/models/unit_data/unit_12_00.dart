@@ -1,0 +1,119 @@
+import '../unit_model.dart';
+
+final UnitModel unit12_0 = UnitModel(
+  unitIndex: 48,
+  unitName: "Reflection and Self-Improvement in Academic Communication",
+  introductionText: """
+Welcome to Unit 12! In this unit, we will focus on reflection and self-improvement in your academic communication skills. Whether it’s through self-assessment, peer feedback, or group discussions, reflecting on your communication abilities and identifying areas for improvement is essential for continuous growth.
+This unit includes two lessons that will guide you through the process of self-assessment, reflection, and improving your academic communication through peer feedback and group discussion.
+Lesson Objectives:
+By the end of this lesson, students will be able to:
+1.	Reflect on their own academic communication strengths and weaknesses.
+2.	Identify areas of improvement in their speaking and writing skills.
+3.	Set personal goals for further improvement in academic communication.
+""",
+
+  preClassActivityDescription: """
+Instructions:
+Before we begin the lesson, take a few minutes to reflect on your academic communication skills. Think about your speaking and writing abilities in previous assignments, presentations, and discussions. Once you have reflected, answer the following questions:
+""",
+
+  preClassQuestions:[
+    PreClassQuestion(
+      questionText: "1. What do you believe is your strongest communication skill?",
+      isTextAnswer: true,
+    ),
+    PreClassQuestion(
+      questionText: "2. Which area of communication do you find most challenging? (e.g., speaking fluently, structuring arguments, using academic vocabulary, etc.)",
+      isTextAnswer: true,
+    ),
+    PreClassQuestion(
+      questionText: "3. How would you rate your overall academic communication skills on a scale from 1 to 10 (1 = very weak, 10 = excellent)?",
+      isTextAnswer: true,
+    ),
+  ],
+
+  practiceActivityDescription1: """ 
+As a reflective exercise, we’d like you to write 50–100 words about your experience in this course so far. Think about what you’ve learned, any challenges you’ve faced, and how the course has helped improve your academic communication skills.
+Use the following prompts to guide your reflection:
+•	What has been most helpful to you?
+•	Which areas do you feel you have improved in?
+•	What challenges have you encountered?
+•	What would you like to see more of in the course?
+
+Submit your response in the given portal. 
+""",
+
+  practiceUploadLink:"https://example.com/upload-practice-activity",
+
+
+  practiceActivityDescription2: """
+Goal: Deliver a short presentation using rapport-building strategies. 
+Please follow the steps given below. 
+Step 1 - Choose one topic:
+o	A new AI-based product
+o	A cybersecurity concept
+o	The impact of social media on communication
+Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
+Step 3 - Use a mirror or camera to observe your:
+o	Facial expressions
+o	Hand gestures
+o	Voice modulation
+Step 4 - Self-assess with the checklist below:
+✅ Did I make eye contact?
+✅ Was my tone engaging and varied?
+✅ Did I connect with the audience?
+✅ Did I use relevant and relatable examples?
+Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
+
+""",
+
+  practiceUploadLink2:"",
+
+  instructionsText: """
+Watch the short recorded lecture on the importance of self-assessment and reflection in academic communication. The lecture will provide useful tips on identifying your strengths and weaknesses and setting personal goals for improvement.
+""",
+
+  instructionVideoId: "8laYlyAFd0o",
+
+  summary: """
+In this lesson, we explored the role of self-reflection and goal-setting in enhancing academic communication. You assessed your own communication skills, identified areas of strength and improvement, and created personal action plans for growth. Self-assessment is a lifelong skill that supports academic, professional, and personal development.
+""",
+
+  inClassActivity: """
+I’m looking forward to seeing all of you in class for some fun and interactive activities! We’ll reflect together, discuss your responses, and engage in some hands-on communication exercises. See you soon!
+""",
+
+  quizQuestions: [
+    QuizQuestion(
+      question: "1. Which of the following strategies do you find most effective for self-improvement in academic communication?",
+      options: [
+        "a) Regular practice and reflection",
+        "b) Seeking feedback from peers and instructors",
+        "c) Watching recorded presentations of yourself",
+        "d) All of the above"
+      ],
+      correctOptionIndex: 3,
+    ),
+    QuizQuestion(
+      question: "2. Peer feedback is only useful when the person giving the feedback is an expert in the subject.",
+      options: ["True", "False"],
+      correctOptionIndex: 1,
+    ),
+    QuizQuestion(
+      question: "3. How do you plan to continue improving your academic communication skills beyond this course?",
+      isTextAnswer: true,
+      correctTextAnswer: "Open-ended",
+    ),
+    QuizQuestion(
+      question: "4. Which of the following is the best way to maintain self-improvement in academic communication after this course?",
+      options: [
+        "a) Never practicing public speaking again",
+        "b) Continuously setting goals for speaking and writing skills",
+        "c) Avoiding feedback to maintain confidence",
+        "d) Focusing only on written communication"
+      ],
+      correctOptionIndex: 1,
+    ),
+  ],
+);

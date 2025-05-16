@@ -154,7 +154,7 @@ class _InstructionsScreenState extends State<InstructionsScreen> {
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   elevation: 3,
                 ),
-                icon: const Icon(Icons.arrow_forward, color: Colors.white),
+                icon: const Icon(Icons.book_online, color: Colors.white),
                 label: const Text(
                   "Next: Practice Activity",
                   style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),

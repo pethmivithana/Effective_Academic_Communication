@@ -73,19 +73,22 @@ Read each sentence and tap the base word to transform it into the correct form t
   ],
 
   practiceActivityDescription2: """
-You’re going to explain a basic computing task using three different word forms from a single root. 
-Follow the steps given:
-	Go to the given site.
-	Choose ONE base word (e.g., develop, analyze, optimize, connect).
-	Record a 30–45 second explanation of a computing task (like developing a mobile app or analyzing data).
-	Make sure your response includes at least three different forms of your chosen word (e.g., development, developed, developer).
-	Submit your final audio link here!
+Go to the given site.
+
+Choose ONE base word (e.g., develop, analyze, optimize, connect).
+
+Record a 30–45 second explanation of a computing task (like developing a mobile app or analyzing data).
+
+Make sure your response includes at least three different forms of your chosen word (e.g., development, developed, developer).
+
+Submit your final audio link here!
+
 Example Prompt:
 Describe how your team developed a software project. Use words like ‘develop’, ‘developer’, and ‘development’ in your answer.
 
 """,
   practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Now, let’s watch the video lesson below. You’ll learn how to recognize and change word forms. These transformations are common in academic and technical communication, especially in the field of computing. Try to note examples where different word forms are used in real-world tech contexts like documentation, reports, or instructions. 
@@ -94,8 +97,7 @@ Now, let’s watch the video lesson below. You’ll learn how to recognize and c
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, you explored how to change word forms to match academic and technical language needs. You learned how one base word can transform into different grammatical forms depending on its role in a sentence. By identifying the appropriate suffixes and understanding usage patterns, you now have greater control over how you write and speak—essential for clarity in documentation, presentations, and discussions. For example, knowing when to use "analyze" vs. "analysis" or "develop" vs. "development" allows you to communicate ideas precisely. These transformation skills are especially valuable in computing, where concise and correct language improves collaboration and professionalism. Going forward, you’ll be able to spot, build, and use different word forms with greater confidence and fluency.
-""",
+In this lesson, you explored how to change word forms to match academic and technical language needs. You learned how one base word can transform into different grammatical forms depending on its role in a sentence. By identifying the appropriate suffixes and understanding usage patterns, you now have greater control over how you write and speak—essential for clarity in documentation, presentations, and discussions. For example, knowing when to use "analyze" vs. "analysis" or "develop" vs. "development" allows you to communicate ideas precisely. These transformation skills are especially valuable in computing, where concise and correct language improves collaboration and professionalism. Going forward, you’ll be able to spot, build, and use different word forms with greater confidence and fluency.""",
 
   inClassActivity: """
 During our in-class session, we’ll dive into computing-related reading materials like system design briefs, research abstracts, or user manuals. You’ll work individually to highlight different word forms and then rewrite selected sections using alternative forms (e.g., changing a sentence from a noun-based to a verb-based structure). We’ll also play a mini "Word Morph" game where students race to transform as many base words as possible within 2 minutes. Bring any tricky words you’ve come across—we’ll discuss them as a group. 

@@ -45,20 +45,28 @@ Example Sentences:
 Let’s  create a short story using the past perfect continuous tense!
 
 Follow the instructions:
-	Choose a scenario from the list below.
-	Write a short story (3-5 sentences) describing what had been happening before something else occurred.
-	Record yourself reading your story aloud 
-	Listen to your recording and check for fluency and accuracy.
-	Submit your best recording by pasting the link in the submission portal.
+
+Choose a scenario from the list below.
+
+Write a short story (3-5 sentences) describing what had been happening before something else occurred.
+
+Record yourself reading your story aloud 
+
+Listen to your recording and check for fluency and accuracy.
+
+Submit your best recording by pasting the link in the submission portal.
 
 Scenarios (Choose One!)
+
 1.	A Tech Disaster! - You had been working on an important coding project when suddenly...
+
 2.	A Rainy Surprise! - You had been walking home when it suddenly started to rain...
+
 3.	An Unexpected Delay! - You had been driving to an important meeting when...
 
 Example Response: I had been coding for hours when my laptop suddenly froze. I tried restarting it, but it wouldn’t turn on. I had been working so hard on my project that I forgot to save my progress! When I finally got it to work again, everything was gone.
-Now it’s your turn! Create and record your story using past perfect continuous. Have fun!
 
+Now it’s your turn! Create and record your story using past perfect continuous. Have fun!
 """,
 
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
@@ -72,8 +80,7 @@ Before we dive into the activities, watch this short video on the formats and us
 
   summary: """
 Great job completing this lesson! 
-You now understand how to use the past perfect continuous tense to describe actions that were happening over a period before another past event. We covered its structure with ‘had been + verb-ing’ and explored how it helps explain causes and interruptions in conversations. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using it in your speech to improve fluency and confidence. Keep up the great work and see you in the next lesson!
-""",
+You now understand how to use the past perfect continuous tense to describe actions that were happening over a period before another past event. We covered its structure with ‘had been + verb-ing’ and explored how it helps explain causes and interruptions in conversations. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using it in your speech to improve fluency and confidence. Keep up the great work and see you in the next lesson!""",
 
   inClassActivity: """
 That’s a wrap for this lesson!
@@ -85,7 +92,7 @@ Looking forward to seeing you there soon!
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Choose the correct sentence using the past perfect continuous tense:",
+      question: "Choose the correct sentence using the past perfect continuous tense:",
       options: [
         "a) I was been working all day before I took a break.",
         "b) I had been working all day before I took a break.",
@@ -95,7 +102,7 @@ Looking forward to seeing you there soon!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "2. When do we use the past perfect continuous tense?",
+      question: "When do we use the past perfect continuous tense?",
       options: [
         "a) To talk about a completed action at a specific time in the past.",
         "b) To describe an action that started and continued before another event in the past.",
@@ -105,7 +112,7 @@ Looking forward to seeing you there soon!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "3. Which sentence correctly explains the cause of a past event?",
+      question: "Which sentence correctly explains the cause of a past event?",
       options: [
         "a) He had been running, so he was out of breath.",
         "b) He has been running, so he is out of breath.",
@@ -115,17 +122,17 @@ Looking forward to seeing you there soon!
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: "4. Rewrite this sentence in the past perfect continuous tense:\nShe studied for three hours before dinner.",
+      question: "Rewrite this sentence in the past perfect continuous tense:\nShe studied for three hours before dinner.",
       correctTextAnswer: "She had been studying for three hours before dinner.",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "5. Explain one key rule of using the past perfect continuous in spoken English. Provide an example sentence to support your answer.",
+      question: "Explain one key rule of using the past perfect continuous in spoken English. Provide an example sentence to support your answer.",
       correctTextAnswer: "The past perfect continuous is used to show that something started in the past and continued up to another point in the past. For example: He had been working all night before he finally went to sleep.",
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "6. Complete the sentence with the correct past perfect continuous form:\nBefore the company launched the new software, the developers ______ (test) it for months.",
+      question: "Complete the sentence with the correct past perfect continuous form:\nBefore the company launched the new software, the developers ______ (test) it for months.",
       correctTextAnswer: "had been testing",
       isTextAnswer: true,
     ),

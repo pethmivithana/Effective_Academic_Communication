@@ -35,9 +35,9 @@ Use phrases like: “I should have clarified…”, “Next time, I would say…
   practiceActivityDescription1: """ 
 It’s time to practice thinking and speaking under pressure—just like in a viva!
 
-	Go to given website
+Go to given website
 
-	Choose three of the following examiner-style questions to answer in your own words:
+Choose three of the following examiner-style questions to answer in your own words:
 
 •	Can you explain why you selected this method?
 
@@ -49,9 +49,9 @@ It’s time to practice thinking and speaking under pressure—just like in a vi
 
 •	What did you learn from this experience?
 
-	Record a one-minute audio using at least three polite academic expressions from the lesson.
+Record a one-minute audio using at least three polite academic expressions from the lesson.
 
-	Save and submit your audio link via the app.
+Save and submit your audio link via the app.
 
 Don’t worry about being perfect—this is all about practicing your response style and tone.
 """,
@@ -60,6 +60,7 @@ Don’t worry about being perfect—this is all about practicing your response s
 
   practiceActivityDescription2: """
 Fill in the blanks using the correct phrases from the word bank to complete the dialogue between a student and an examiner.
+
 Word Bank:
 If I understand you correctly – That’s a great question – Let me clarify that – Based on my findings – I appreciate your feedback – To be honest – In that case – What I intended to show was
 """,
@@ -92,8 +93,7 @@ Now let’s watch a short video lesson explaining how to handle different types 
   summary: """
 You’ve successfully completed a crucial lesson in viva and academic communication! In this unit, you learned how to handle examiner questions effectively—whether they’re asking for clarification, challenging your choices, or requesting further explanation. You practiced using academic expressions like “Let me clarify that” and “That’s an interesting question,” which help you stay calm, polite, and professional in high-stakes conversations.
 We also explored the importance of listening actively, pausing to think, and framing your answers thoughtfully, especially when you're under pressure. Whether you're in a real viva, an internship interview, or a technical meeting, these skills will help you respond with confidence and clarity.
-Keep practicing, and you’ll soon master the art of academic interaction!
-""",
+Keep practicing, and you’ll soon master the art of academic interaction!""",
 
   inClassActivity: """
 Congratulations on finishing the lesson!

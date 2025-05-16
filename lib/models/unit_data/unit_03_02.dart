@@ -53,8 +53,7 @@ Now that you have watched the video and completed a simple quiz, you should have
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, we explored the Present Continuous Tense, focusing on its structure and usage. We discussed its key functions, including describing actions happening right now, temporary actions, and future plans. Additionally, we learned to form affirmative, negative, and interrogative sentences in the Present Continuous Tense and distinguished it from the Simple Present Tense.
-  """,
+In this lesson, we explored the Present Continuous Tense, focusing on its structure and usage. We discussed its key functions, including describing actions happening right now, temporary actions, and future plans. Additionally, we learned to form affirmative, negative, and interrogative sentences in the Present Continuous Tense and distinguished it from the Simple Present Tense.""",
 
   inClassActivity: """
 In class, we will engage in some interactive and dynamic activities to practice the Present Continuous Tense. These activities are designed to help you reinforce what you have learned and encourage active participation. We’ll focus on real-life scenarios, where you’ll describe things happening around you, role-play conversations, and practice using the Present Continuous Tense in various contexts. These activities will make learning both fun and effective!
@@ -62,7 +61,7 @@ In class, we will engage in some interactive and dynamic activities to practice 
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Which sentence is in the Present Continuous Tense?",
+      question: "Which sentence is in the Present Continuous Tense?",
       options: [
         "She drinks coffee every morning.",
         "She is drinking coffee right now.",
@@ -73,7 +72,7 @@ In class, we will engage in some interactive and dynamic activities to practice 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "2. Which of the following sentences is incorrect?",
+      question: "Which of the following sentences is incorrect?",
       options: [
         "They are playing football in the park.",
         "She is not working at the moment.",
@@ -84,7 +83,7 @@ In class, we will engage in some interactive and dynamic activities to practice 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "3. Which question is correctly formed in the Present Continuous Tense?",
+      question: "Which question is correctly formed in the Present Continuous Tense?",
       options: [
         "Do you watching TV?",
         "Are you watching TV?",
@@ -95,7 +94,7 @@ In class, we will engage in some interactive and dynamic activities to practice 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "4. What is the correct negative form of this sentence? \"He is writing a letter.\"",
+      question: "What is the correct negative form of this sentence? \"He is writing a letter.\"",
       options: [
         "He not writing a letter.",
         "He isn't write a letter.",

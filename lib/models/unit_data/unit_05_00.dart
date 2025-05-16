@@ -87,13 +87,15 @@ Student: ___________. We could explore integrating AI-based optimization to enha
   ],
 
   practiceActivityDescription2: """
-Follow the instructions given.
+Go to the given website
 
-- Go to the given website
-- Record a 30-second response to this question: Why is clear communication important in a viva?
-- Use at least two academic phrases from the lesson video.
-- Check the speech-to-text output to see if it reflects your intended message.
-- Submit your final audio with clear pronunciation and tone.
+Record a 30-second response to this question: Why is clear communication important in a viva?
+
+Use at least two academic phrases from the lesson video.
+
+Check the speech-to-text output to see if it reflects your intended message.
+
+Submit your final audio with clear pronunciation and tone.
 """,
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
@@ -118,7 +120,7 @@ Looking forward to hearing your voices and seeing your confidence grow in action
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. What is the main purpose of an academic discussion?",
+      question: "What is the main purpose of an academic discussion?",
       options: [
         "To talk freely with friends",
         "To present and discuss ideas formally",
@@ -128,7 +130,7 @@ Looking forward to hearing your voices and seeing your confidence grow in action
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "2. Which phrase would best introduce your opinion in a viva?",
+      question: "Which phrase would best introduce your opinion in a viva?",
       options: [
         "You are wrong.",
         "I don’t know.",
@@ -138,7 +140,7 @@ Looking forward to hearing your voices and seeing your confidence grow in action
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "3. Identify the inappropriate response in a formal discussion:",
+      question: "Identify the inappropriate response in a formal discussion:",
       options: [
         "I believe that this approach is suitable.",
         "I totally disagree with you!",
@@ -148,7 +150,7 @@ Looking forward to hearing your voices and seeing your confidence grow in action
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "4. What is a good way to clarify your point if the examiner seems confused?",
+      question: "What is a good way to clarify your point if the examiner seems confused?",
       options: [
         "As I mentioned earlier, let me rephrase…",
         "You weren’t listening!",
@@ -158,7 +160,7 @@ Looking forward to hearing your voices and seeing your confidence grow in action
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: "5. Write one academic expression you could use to politely disagree with someone in a discussion.",
+      question: "Write one academic expression you could use to politely disagree with someone in a discussion.",
       correctTextAnswer: "I see your point, but I have a different perspective.",
       isTextAnswer: true,
     ),

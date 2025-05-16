@@ -14,20 +14,16 @@ By the end of this lesson, you will be able to:
     """,
     preClassActivityDescription: """
 Watch a short video clip where common grammar mistakes are made in spoken English.
- """,
-  preClassQuestions: [
-    PreClassQuestion(
-      questionText: "Write down at least three grammar errors you notice and explain why you think they are wrong.",
-      correctAnswer: "1. 'He go to school everyday.' → should be 'goes' (subject-verb agreement)\n"
-          "2. 'She don’t like apples.' → should be 'doesn’t' (incorrect auxiliary verb)\n"
-          "3. 'I am agree with you.' → 'agree' is a verb, so 'I agree with you' is correct (no 'am')",
-    ),
-  ],
+
+Write down at least three grammar errors you notice and explain why you think they are wrong.
+
+Use the padlet given to answer the questions.""",
 
   preClassActivityVideo:"https://www.youtube.com/watch?v=ePVZvMjSMvE ",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=359261",
 
     practiceActivityDescription1: """
-    We hope that you now have a clear understanding of the basic grammar skills needed for Spoken English. Let’s test what you have learnt so far! Follow the instructions accordingly. 
+We hope that you now have a clear understanding of the basic grammar skills needed for Spoken English. Let’s test what you have learnt so far! Follow the instructions accordingly. 
 
 Step 01: Click on the given link and you will be directed to a website with a quiz.
 
@@ -52,7 +48,7 @@ Step 03: Review the speech-to-text result and identify any mistakes. If there ar
 Step 04: Record your final attempt and submit your best recording here!
     """,
 
-    practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
+    practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
     practiceUploadLink2: "https://example.com/upload-practice-activity",
     instructionsText: """
 Please click on the given link. 
@@ -60,12 +56,12 @@ You will now watch a video lesson explaining the basic grammar skills you need t
 """,
     instructionVideoId: "8laYlyAFd0o",
     summary: """
-    Now, we have come to the end of Unit 2. In this lesson, we explored the fundamental role of grammar in spoken English, focusing on building accuracy and confidence in forming correct sentences. We discussed the importance of sentence structure, particularly the Subject-Verb-Object (SVO) pattern, and how proper grammar usage enhances clarity in communication. Common grammatical mistakes were also highlighted, reinforcing the need for accuracy in both speech and writing. Applying these grammar rules correctly will help you express your thoughts more effectively, whether in casual conversations or professional settings. 
-    """,
+Now, we have come to the end of Unit 2. In this lesson, we explored the fundamental role of grammar in spoken English, focusing on building accuracy and confidence in forming correct sentences. We discussed the importance of sentence structure, particularly the Subject-Verb-Object (SVO) pattern, and how proper grammar usage enhances clarity in communication. Common grammatical mistakes were also highlighted, reinforcing the need for accuracy in both speech and writing. Applying these grammar rules correctly will help you express your thoughts more effectively, whether in casual conversations or professional settings.""",
 
     inClassActivity: """
     Join us in the classroom as we put our basic grammar skills into practice! This is your chance to refine your understanding of sentence structure, avoid common mistakes, and build confidence in forming clear, grammatically correct sentences. Have any questions? Your lecturer will be there to guide you.
-  Keep practicing and see you in the next lesson!
+    
+Keep practicing and see you in the next lesson!
 """,
   quizQuestions: [
     QuizQuestion(
