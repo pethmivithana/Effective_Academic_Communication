@@ -23,7 +23,7 @@ Take a screenshot of your final results page and upload it to the platform.
  Note: This isn’t for grading purposes, but to confirm that you've completed the activity.
 
 """,
-  preClassActivityLink: "https://www.merriam-webster.com/games/vocabulary-quiz ",
+  preClassActivityLink: "https://www.merriam-webster.com/games/vocabulary-quiz",
   preClassActivityUploadLink: "https://example.com/upload-practice-activity",
 
   practiceActivityDescription1: """ 
@@ -58,7 +58,7 @@ Take a screenshot of your final score/result page after checking your answers an
 Once you’ve completed the pre-class activity, watch the recorded mini-lesson provided. It explains various strategies and apps you can use to expand your vocabulary, both for general and academic purposes. 
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=MWZuTkxYMG42T182NzY4Nw==",
 
   summary: """
 In this lesson, we learned that vocabulary expansion is a process that requires consistency and the right strategies. Whether it’s through mobile apps like Duolingo, quizzes, games, or interactive activities, you now have a toolkit to help you become more fluent, articulate, and confident in English communication.""",

@@ -24,7 +24,7 @@ After watching, answer the following quiz:
 
   preClassQuestions:[
     PreClassQuestion(
-      questionText: '1. What is a key challenge of online communication?',
+      questionText: 'What is a key challenge of online communication?',
       options: [
         'a) Difficulty maintaining eye contact with the audience',
         'b) Too much audience interaction',
@@ -34,7 +34,7 @@ After watching, answer the following quiz:
       correctOptionIndex: 0,
     ),
     PreClassQuestion(
-      questionText: '2. How is audience engagement different in an in-person setting?',
+      questionText: 'How is audience engagement different in an in-person setting?',
       options: [
         'a) The audience can respond in real time with facial expressions and body language',
         'b) The speaker can ignore the audience’s reactions',
@@ -44,7 +44,7 @@ After watching, answer the following quiz:
       correctOptionIndex: 0,
     ),
     PreClassQuestion(
-      questionText: '3. In an online presentation, what should a speaker do to maintain engagement?',
+      questionText: 'In an online presentation, what should a speaker do to maintain engagement?',
       options: [
         'a) Use a monotone voice to sound professional',
         'b) Look at the screen instead of the camera',
@@ -57,34 +57,42 @@ After watching, answer the following quiz:
 
   practiceActivityDescription1: """ 
 Step 1: Prepare a 1-minute PowerPoint presentation on: "The Role of Technology in Education". You have to use 2-3 slides for this.   
+
 Step 2: Use Microsoft PowerPoint Coach to rehearse and get feedback.
 Focus on:
 •	Pace
 •	Clarity
 •	Engagement
 •	Tone
+
 Step 3: Reflect on your performance using these questions:
 •	Was I speaking at the right pace?
 •	Did I vary my tone to maintain interest?
 •	How can I improve my body language or online presence?
+
 Step 4: Upload your final recorded presentation to the app for lecturer feedback. If the file size is too large, you can upload the video to the drive and share the link. 
 """,
 
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
 
   practiceActivityDescription2: """
 Goal: Deliver a short presentation using rapport-building strategies. 
+
 Please follow the steps given below. 
+
 Step 1 - Choose one topic:
 o	A new AI-based product
 o	A cybersecurity concept
 o	The impact of social media on communication
+
 Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
+
 Step 3 - Use a mirror or camera to observe your:
 o	Facial expressions
 o	Hand gestures
 o	Voice modulation
+
 Step 4 - Self-assess with the checklist below:
 ✅ Did I make eye contact?
 ✅ Was my tone engaging and varied?
@@ -94,13 +102,13 @@ Step 5 – Do the same presentation using zoom and download it. Now you can shar
 
 """,
 
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Watch the recorded lecture provided. It outlines practical techniques for maintaining rapport throughout your presentation and will support you in completing the activities.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=c0hkdzFJb1BUMV82NzcyNQ==",
 
   summary: """
 In this lesson, you learned how to refine your delivery for both online and in-person presentations. We explored how to adjust your tone, pace, and use of body language to create an impactful and engaging presentation. You also practiced using Microsoft PowerPoint Coach for feedback and reflection.
@@ -112,7 +120,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. Tone and Pace\nHow did you find your pacing?',
+      question: 'Tone and Pace\nHow did you find your pacing?',
       options: [
         'a) I spoke too quickly.',
         'b) My pace was just right.',
@@ -121,7 +129,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2. Use of Filler Words',
+      question: 'Use of Filler Words',
       options: [
         'a) I used many filler words.',
         'b) I used a few.',
@@ -130,7 +138,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '3. Clarity and Enunciation',
+      question: 'Clarity and Enunciation',
       options: [
         'a) My speech was unclear.',
         'b) Some words were unclear.',
@@ -139,7 +147,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '4. Engagement and Eye Contact',
+      question: 'Engagement and Eye Contact',
       options: [
         'a) I didn’t engage well.',
         'b) I tried to engage.',
@@ -148,7 +156,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '5. Feedback from PowerPoint Coach',
+      question: 'Feedback from PowerPoint Coach',
       options: [
         'a) I found it hard to apply all tips.',
         'b) I tried most suggestions.',
@@ -157,7 +165,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '6. Confidence in Delivery',
+      question: 'Confidence in Delivery',
       options: [
         'a) I still felt unsure.',
         'b) I felt somewhat confident.',
@@ -166,7 +174,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '7. Final Self-Assessment',
+      question: 'Final Self-Assessment',
       options: [
         'a) I need more practice.',
         'b) I did okay.',

@@ -28,6 +28,7 @@ class UnitModel {
   String? practiceUploadLink2;
   String? practiceActivityLink2;
   List<PracticeQuestion2>? practiceActivityQuestions2;
+  List<PracticeQuestionMCQ2>? practiceActivityMCQ2;
 
   String summary;
   String inClassActivity;
@@ -62,6 +63,7 @@ class UnitModel {
     this.practiceActivityLink2,
     this.practiceUploadLink2,
     this.practiceActivityQuestions2,
+    this.practiceActivityMCQ2,
 
     required this.summary,
     required this.inClassActivity,
@@ -141,12 +143,24 @@ class PracticeQuestion2 {
 class PracticeQuestionMCQ {
   final String questionText;
   final List<String> options;
-  final int correctOptionIndex;
+  final int? correctOptionIndex;
 
   PracticeQuestionMCQ({
     required this.questionText,
     required this.options,
-    required this.correctOptionIndex,
+    this.correctOptionIndex,
+  });
+}
+
+class PracticeQuestionMCQ2 {
+  final String questionText;
+  final List<String> options;
+  final int? correctOptionIndex;
+
+  PracticeQuestionMCQ2({
+    required this.questionText,
+    required this.options,
+    this.correctOptionIndex,
   });
 }
 

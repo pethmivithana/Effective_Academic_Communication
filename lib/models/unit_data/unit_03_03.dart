@@ -40,7 +40,7 @@ Step 4 - Write down these sentences and submit them for the portal given. This w
   preClassActivityUploadLink: "https://example.com/upload-practice-activity",
 
   practiceActivityDescription1: """
-Step 1 - Watch the recorded session, then head to the quiz.
+Step 1 - Watch the brief lecture session, then head to the quiz.
 
 Step 2 - The quiz will focus on choosing between Present Perfect and Simple Past tenses. You’ll have to select the most appropriate tense for different situations.
 
@@ -70,7 +70,7 @@ Step 5 - Once you’ve finished, reflect on the activity by writing a short para
 By now, you’ve had a chance to see Present Perfect in action through the pre-class activity. Now, let’s take a short detour and watch a recorded session. This video will break down the tense, explain its structure, and highlight how it's different from the Simple Past tense. Don’t worry—it’s brief and packed with examples, so you’ll get a solid understanding of the concept.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=YWJlVThxNUJ1Ql82NzY4Mg==",
 
   summary: """
 In today’s lesson, we explored the Present Perfect tense, which is essential for discussing past experiences that are relevant to the present. Through a series of engaging activities, such as chatting with AI to highlight Present Perfect sentences and completing a mock interview, you got a hands-on opportunity to practice using the tense in real-life situations. By the end of the lesson, you should feel confident in recognizing and using the Present Perfect in conversations, especially in computing contexts.""",

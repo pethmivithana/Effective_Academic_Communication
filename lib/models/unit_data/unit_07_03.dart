@@ -20,28 +20,28 @@ Look at the sentences below and decide whether they are formal or informal. Tap 
 """,
   preClassQuestions:[
     PreClassQuestion(
-      questionText: "1. 'Hey, I’m working on the app. Gimme a sec!' - _____",
+      questionText: "'Hey, I’m working on the app. Gimme a sec!' - _____",
       options: ['a) Informal', 'b) Formal'],
       correctOptionIndex: 0,
       correctAnswer: 'a) Informal',
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "2. 'I am currently developing the application. Please wait a moment.' - _____",
+      questionText: "'I am currently developing the application. Please wait a moment.' - _____",
       options: ['a) Informal', 'b) Formal'],
       correctOptionIndex: 1,
       correctAnswer: 'b) Formal',
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "3. 'Lemme know when it’s done.' - _____",
+      questionText: "'Lemme know when it’s done.' - _____",
       options: ['a) Informal', 'b) Formal'],
       correctOptionIndex: 0,
       correctAnswer: 'a) Informal',
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "4. 'Kindly inform me once the task is completed.' - _____",
+      questionText: "'Kindly inform me once the task is completed.' - _____",
       options: ['a) Informal', 'b) Formal'],
       correctOptionIndex: 1,
       correctAnswer: 'b) Formal',
@@ -50,106 +50,106 @@ Look at the sentences below and decide whether they are formal or informal. Tap 
   ],
 
   practiceActivityDescription1: """ 
-Read the sentences and select the correct type of context clue used. 
+Read each sentence and tap the informal word to switch it to a formal one. Then choose the most suitable formal version from the options. 
 """,
-  practiceActivityQuestions1:[
-    PracticeQuestion1(
-      questionText: "1. The software uses a cache, a small and fast memory that stores frequently accessed data to speed up processing. What type of context clue is used to explain 'cache'?",
-      options: ['a) Definition', 'b) Synonym', 'c) Example', 'd) Inference'],
-      correctOptionIndex: 0,
-      correctAnswer: 'a) Definition',
+  practiceActivityMCQ:[
+    PracticeQuestionMCQ(
+      questionText: "We gotta test the software again.",
+      options: ["must", "maybe", "can"],
+      correctOptionIndex: 0, // a) must
     ),
-    PracticeQuestion1(
-      questionText: "2. Unlike the old UI, which was rigid and difficult to modify, the new one is far more flexible and user-friendly. What type of context clue helps you understand 'flexible'?",
-      options: ['a) Example', 'b) Antonym', 'c) Inference', 'd) Synonym'],
-      correctOptionIndex: 1,
-      correctAnswer: 'b) Antonym',
+    PracticeQuestionMCQ(
+      questionText: "The thing isn’t working properly.",
+      options: ["mechanism", "gadget", "process"],
+      correctOptionIndex: 0, // a) mechanism
     ),
-    PracticeQuestion1(
-      questionText: "3. The interface is very intuitive, just like Dropbox or Google Drive, where users can navigate easily without instruction. What clue type is used to explain 'intuitive'?",
-      options: ['a) Inference', 'b) Definition', 'c) Synonym', 'd) Example'],
-      correctOptionIndex: 3,
-      correctAnswer: 'd) Example',
+    PracticeQuestionMCQ(
+      questionText: "The report looks kinda weird.",
+      options: ["somewhat", "totally", "extremely"],
+      correctOptionIndex: 0, // a) somewhat
     ),
-    PracticeQuestion1(
-      questionText: "4. The Wi-Fi connection was unstable. It disconnected three times during the meeting without warning. What clue helps you understand 'unstable'?",
-      options: ['a) Definition', 'b) Example', 'c) Synonym', 'd) Inference'],
-      correctOptionIndex: 1,
-      correctAnswer: 'b) Example',
-    ),
-    PracticeQuestion1(
-      questionText: "5. A redundant variable is one that is no longer needed in the program. What clue type is used for 'redundant'?",
-      options: ['a) Antonym', 'b) Definition', 'c) Example', 'd) Inference'],
-      correctOptionIndex: 1,
-      correctAnswer: 'b) Definition',
-    ),
-    PracticeQuestion1(
-      questionText: "6. This function is efficient, meaning it performs tasks quickly without wasting resources. Which clue type explains 'efficient'?",
-      options: ['a) Synonym', 'b) Antonym', 'c) Definition', 'd) Example'],
-      correctOptionIndex: 2,
-      correctAnswer: 'c) Definition',
+    PracticeQuestionMCQ(
+      questionText: "Hey guys, here’s my part of the doc!",
+      options: ["Good day team", "Yo peeps", "Dear all"],
+      correctOptionIndex: 0, // a) Good day team
     ),
   ],
 
   practiceActivityDescription2: """
-You’ll read a computing-related sentence and guess the meaning of the unfamiliar word based on context. Then, explain your guess out loud. Follow the steps given:
+Imagine you are preparing to present your final-year project. You recorded your speech informally, but now you need to revise it to sound formal and academic. Use at least 3 formal expressions you learned in the video. Follow the steps given below.
 
-	Choose one sentence with an unknown word.
-	Record a 30-second audio explaining what you think the word means, based on surrounding clues.
-	Use one of the clue types in your explanation (e.g., “I used an example clue…”).
-	Record your answer via the given site. 
-	Paste the audio link here!
+Write a short informal version of your project intro (4-5 lines). 
 
-Example Prompt:
-The program was deprecated, meaning it is no longer supported or recommended.
-Explain: What does “deprecated” mean, and what clue helped you?
+Example:
+“Hey, so we made this really cool tool that helps people code faster.”
+
+Record your informal version using given tool, copy the record link and paste here. 
+
+Then record your formal version using the same link and paste that link here as well. 
+
+02 record links should be submitted. 
 """,
-  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
-  practiceUploadLink2:"",
+  practiceActivityLink:"https://www.speakpipe.com/voice-recorder ",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Watch the video lesson below to understand when and how to use formal vs. informal language. You’ll learn to spot differences in grammar, word choice, and tone. Make notes where necessary.
 By the end, you’ll be more confident choosing the right tone in any setting—whether you’re chatting with peers or writing to a supervisor.
-
 """,
 
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, you learned how to use context clues to understand unfamiliar words—an essential strategy for academic success in computing. We explored five types of clues: definitions, which directly explain the word; synonyms and antonyms, which offer comparisons; examples, which give real-life scenarios; and inferences, which require you to think critically about the meaning. By practicing these techniques, you’ve taken a big step toward becoming an independent reader. Instead of stopping at every unfamiliar term, you can now use the context around it to make sense of what you’re reading. This skill will help you understand documentation, analyze reports, and follow discussions with more ease—making you a more confident communicator in your field.
-""",
+In this lesson, you learned the importance of selecting the right tone in your communication. Whether you are speaking with a classmate, emailing a lecturer, or documenting your work, understanding the difference between formal and informal expressions helps you communicate more clearly and appropriately. You practiced identifying tone, replacing casual words with formal equivalents, and even transformed your own speech. This skill is especially valuable in the computing field, where emails, presentations, and reports often require a polished, professional tone. By mastering this balance, you’ll not only sound more confident but also build credibility in academic and workplace settings.""",
 
   inClassActivity: """
-During our next class, we’ll explore context clues through real computing texts—like open-source project readme files or documentation snippets. You’ll work individually to highlight unfamiliar words, identify the clue type used, and guess the word’s meaning. Then, we’ll compare answers as a group and discuss different interpretations. To make it more fun, we’ll wrap up with a “Context Clue Showdown,” where you’ll compete in teams to solve tricky vocabulary challenges using only clues from sentences. Come prepared to think fast and learn collaboratively!
-""",
+In class, you’ll be given different communication scenarios: writing an email to a supervisor, chatting in a team meeting, or reporting a bug in a project presentation. You’ll work individually to rewrite informal statements into formal ones (and vice versa), and then explain why the change was needed. We’ll also role-play short conversations where you’ll practice switching tone depending on the audience. This is your chance to build fluency and adapt your voice to different real-life computing situations. Don’t worry about making mistakes—we’re here to learn together and polish your professional communication style!""",
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. What is a context clue?",
-      options: ['a) A type of computer program', 'b) A hint in the sentence that helps define a word', 'c) A synonym dictionary'],
-      correctOptionIndex: 1,
-      correctTextAnswer: 'b) A hint in the sentence that helps define a word',
-      isTextAnswer: false,
+      question: "What is the main purpose of using formal language in academic and professional settings?",
+      options: [
+        "To impress friends",
+        "To sound casual and cool",
+        "To communicate clearly and respectfully",
+        "To use difficult words"
+      ],
+      correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "2. What clue type is used here: 'Encryption, the process of converting data into a secure format…'?",
-      options: null,
-      correctOptionIndex: null,
-      correctTextAnswer: 'Definition',
-      isTextAnswer: true,
-    ),
-    QuizQuestion(
-      question: "3. Choose the best word to complete:\nThe design is __________, adjusting automatically to any device.",
-      options: ['a) flexible', 'b) static', 'c) frozen'],
+      question: "Which of the following is the most formal way to start an email?",
+      options: [
+        "Good afternoon, Professor",
+        "Yo team",
+        "Hey dude",
+        "Sup everyone"
+      ],
       correctOptionIndex: 0,
-      correctTextAnswer: 'a) flexible',
-      isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "4. Write your own sentence using a computing term and include a context clue.",
-      options: null,
-      correctOptionIndex: null,
-      correctTextAnswer: 'Example Answer: An API, or Application Programming Interface, allows programs to communicate with each other.',
+      question: "Choose the correct formal version of the sentence below:\nWe gotta finish the thing by tomorrow.",
+      options: [
+        "We gotta wrap up the thing fast.",
+        "We need to complete the task by tomorrow.",
+        "Finish it up already.",
+        "Let’s do the stuff soon."
+      ],
+      correctOptionIndex: 1,
+    ),
+    QuizQuestion(
+      question: "Identify the informal expression in the sentence:\nThe results were kinda unexpected, but it’s all good now.",
+      options: [
+        "results",
+        "unexpected",
+        "kinda",
+        "now"
+      ],
+      correctOptionIndex: 2,
+    ),
+    QuizQuestion(
+      question: """Rewrite this sentence using formal language:
+      "Hey, I checked out the stuff. It looks awesome!""",
+      correctTextAnswer: "Hello, I reviewed the materials. They appear to be excellent.",
       isTextAnswer: true,
     ),
   ],

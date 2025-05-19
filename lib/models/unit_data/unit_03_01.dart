@@ -4,14 +4,13 @@ final UnitModel unit3_1 = UnitModel(
   unitIndex: 6,
   unitName: "Simple Present Tense",
   introductionText: """
-Welcome to Lesson 3! You have now completed the introduction to tenses and have a basic understanding of what tenses are and why they are important. You have also taken a quiz to assess your existing knowledge of tenses.
+Welcome to Unit 3 – Lesson 1. You have now completed the introduction to tenses and have a basic understanding of what tenses are and why they are important. You have also taken a quiz to assess your existing knowledge of tenses.
 Now, in this lesson, we will focus on the simple present tense in detail. I hope you enjoy the lesson! Before we begin, please take a moment to read the objectives carefully. It is important to understand what is expected by the end of the lesson.
 Lesson Objectives
 By the end of this lesson, you should be able to:
 1.	Understand the concept of the simple present tense and its function in expressing habitual actions, general truths, and routines.
 2.	Learn the basic structure of affirmative, negative, and interrogative sentences in the simple present tense.
 3.	Develop the ability to use the simple present tense appropriately in various communicative situations (e.g., describing daily habits, facts, or general observations).
-
   """,
 
   preClassActivityDescription: """
@@ -45,7 +44,7 @@ Step 2 - Complete the exercise and upload screenshots as proof of completion.
   Watch the recorded session on the simple present tense. Feel free to take notes and write down answers to any questions asked by the lecturer. This will help reinforce your understanding.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=elJVdE9VaXFUVF82NzY1OA==",
 
   summary: """
   In this lesson, we explored the simple present tense and its uses in expressing habits, facts, and routines.

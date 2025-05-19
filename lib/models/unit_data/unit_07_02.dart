@@ -38,49 +38,49 @@ Now answer the following:
     ),
   ],
 
-  practiceActivityDescription2: """ 
+  practiceActivityDescription1: """ 
 Read the sentences and select the correct type of context clue used. 
 """,
-  practiceActivityQuestions2:[
-    PracticeQuestion2(
-      questionText: "The software uses a cache, a small and fast memory that stores frequently accessed data to speed up processing. What type of context clue is used to explain 'cache'?",
-      options: ['a) Definition', 'b) Synonym', 'c) Example', 'd) Inference'],
-      correctOptionIndex: 0,
-      correctAnswer: 'a) Definition',
+  practiceActivityMCQ:[
+    PracticeQuestionMCQ(
+      questionText:
+      "The software uses a cache, a small and fast memory that stores frequently accessed data to speed up processing. What type of context clue is used to explain “cache”?",
+      options: ["Definition", "Synonym", "Example", "Inference"],
+      correctOptionIndex: 0, // Definition
     ),
-    PracticeQuestion2(
-      questionText: "Unlike the old UI, which was rigid and difficult to modify, the new one is far more flexible and user-friendly. What type of context clue helps you understand 'flexible'?",
-      options: ['a) Example', 'b) Antonym', 'c) Inference', 'd) Synonym'],
-      correctOptionIndex: 1,
-      correctAnswer: 'b) Antonym',
+    PracticeQuestionMCQ(
+      questionText:
+      "Unlike the old UI, which was rigid and difficult to modify, the new one is far more flexible and user-friendly. What type of context clue helps you understand “flexible”?",
+      options: ["Example", "Antonym", "Inference", "Synonym"],
+      correctOptionIndex: 1, // Antonym
     ),
-    PracticeQuestion2(
-      questionText: "The interface is very intuitive, just like Dropbox or Google Drive, where users can navigate easily without instruction. What clue type is used to explain 'intuitive'?",
-      options: ['a) Inference', 'b) Definition', 'c) Synonym', 'd) Example'],
-      correctOptionIndex: 3,
-      correctAnswer: 'd) Example',
+    PracticeQuestionMCQ(
+      questionText:
+      "The interface is very intuitive, just like Dropbox or Google Drive, where users can navigate easily without instruction. What clue type is used to explain “intuitive”?",
+      options: ["Inference", "Definition", "Synonym", "Example"],
+      correctOptionIndex: 3, // Example
     ),
-    PracticeQuestion2(
-      questionText: "The Wi-Fi connection was unstable. It disconnected three times during the meeting without warning. What clue helps you understand 'unstable'?",
-      options: ['a) Definition', 'b) Example', 'c) Synonym', 'd) Inference'],
-      correctOptionIndex: 1,
-      correctAnswer: 'b) Example',
+    PracticeQuestionMCQ(
+      questionText:
+      "The Wi-Fi connection was unstable. It disconnected three times during the meeting without warning. What clue helps you understand “unstable”?",
+      options: ["Definition", "Example", "Synonym", "Inference"],
+      correctOptionIndex: 1, // Example
     ),
-    PracticeQuestion2(
-      questionText: "A redundant variable is one that is no longer needed in the program. What clue type is used for 'redundant'?",
-      options: ['a) Antonym', 'b) Definition', 'c) Example', 'd) Inference'],
-      correctOptionIndex: 1,
-      correctAnswer: 'b) Definition',
+    PracticeQuestionMCQ(
+      questionText:
+      "A redundant variable is one that is no longer needed in the program. What clue type is used for “redundant”?",
+      options: ["Antonym", "Definition", "Example", "Inference"],
+      correctOptionIndex: 1, // Definition
     ),
-    PracticeQuestion2(
-      questionText: "This function is efficient, meaning it performs tasks quickly without wasting resources. Which clue type explains 'efficient'?",
-      options: ['a) Synonym', 'b) Antonym', 'c) Definition', 'd) Example'],
-      correctOptionIndex: 2,
-      correctAnswer: 'c) Definition',
+    PracticeQuestionMCQ(
+      questionText:
+      "This function is efficient, meaning it performs tasks quickly without wasting resources. Which clue type explains “efficient”?",
+      options: ["Synonym", "Antonym", "Definition", "Example"],
+      correctOptionIndex: 2, // Definition
     ),
   ],
 
-  practiceActivityDescription1: """
+  practiceActivityDescription2: """
 You’ll read a computing-related sentence and guess the meaning of the unfamiliar word based on context. Then, explain your guess out loud. Follow the steps given:
 
 Choose one sentence with an unknown word.
@@ -97,7 +97,7 @@ Example Prompt:
 The program was deprecated, meaning it is no longer supported or recommended.
 Explain: What does “deprecated” mean, and what clue helped you?
 """,
-  practiceActivityLink:"https://www.speakpipe.com/voice-recorder",
+  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
@@ -116,28 +116,28 @@ During our next class, we’ll explore context clues through real computing text
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. What is a context clue?",
+      question: "What is a context clue?",
       options: ['a) A type of computer program', 'b) A hint in the sentence that helps define a word', 'c) A synonym dictionary'],
       correctOptionIndex: 1,
       correctTextAnswer: 'b) A hint in the sentence that helps define a word',
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "2. What clue type is used here: 'Encryption, the process of converting data into a secure format…'?",
+      question: "What clue type is used here: 'Encryption, the process of converting data into a secure format…'?",
       options: null,
       correctOptionIndex: null,
       correctTextAnswer: 'Definition',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: "3. Choose the best word to complete:\nThe design is __________, adjusting automatically to any device.",
+      question: "Choose the best word to complete:\nThe design is __________, adjusting automatically to any device.",
       options: ['a) flexible', 'b) static', 'c) frozen'],
       correctOptionIndex: 0,
       correctTextAnswer: 'a) flexible',
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "4. Write your own sentence using a computing term and include a context clue.",
+      question: "Write your own sentence using a computing term and include a context clue.",
       options: null,
       correctOptionIndex: null,
       correctTextAnswer: 'Example Answer: An API, or Application Programming Interface, allows programs to communicate with each other.',

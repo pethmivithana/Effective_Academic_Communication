@@ -4,14 +4,14 @@ final UnitModel unit5_0 = UnitModel(
   unitIndex: 19,
   unitName: "Academic Discussion and Viva Preparation",
   introductionText: """
-Hello everyone, welcome to Unit 01!
+Hello everyone, welcome to Unit 5!
 In this unit, we begin our journey into preparing for academic discussions and the viva voce. Academic discussions are formal conversations that require clarity, structure, and confidence, especially during a viva, where you are expected to explain, defend, and reflect on your work. As students in the computing field, you’ll often need to present technical ideas, justify decisions, and respond to critical questions.
 This lesson helps you take the first step by focusing on how to express your ideas clearly and appropriately in academic conversations. We'll explore how to stay focused on a topic, respond with relevance, and use appropriate academic language. By strengthening these skills, you’ll be better prepared not just for your viva, but for teamwork, presentations, and interviews in your academic and professional journey.
 By the end of this lesson, you will be able to:
-• Understand what academic discussion involves in a computing context
-• Identify the key features of effective participation in academic conversations
-• Recognize the importance of language, tone, and body language
-• Practice using academic phrases to express opinions and respond clearly
+1. Understand what academic discussion involves in a computing context
+2. Identify the key features of effective participation in academic conversations
+3. Recognize the importance of language, tone, and body language
+4. Practice using academic phrases to express opinions and respond clearly
 """,
 
   preClassActivityDescription: """

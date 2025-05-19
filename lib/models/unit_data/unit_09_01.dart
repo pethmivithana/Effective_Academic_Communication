@@ -98,8 +98,9 @@ You’ve been given part of a casual script for a group presentation. Rewrite it
 """,
     practiceActivityQuestions2:[
   PracticeQuestion2(
-      questionText: '''Casual Version:
-So yeah, we worked on this project that kinda helps with saving files automatically. It was a bit tricky at first ‘cause the code didn’t really do what we wanted. But after playing around with it a bit, we got it working. We used some Python stuff and figured out how to make backups every 10 minutes or so. It’s actually pretty cool ‘cause now people won’t lose their files if something crashes.''',
+      questionText: """
+Casual Version:
+So yeah, we worked on this project that kinda helps with saving files automatically. It was a bit tricky at first ‘cause the code didn’t really do what we wanted. But after playing around with it a bit, we got it working. We used some Python stuff and figured out how to make backups every 10 minutes or so. It’s actually pretty cool ‘cause now people won’t lose their files if something crashes.""",
       correctAnswer: '''(Model Answer: Our project focuses on developing an automated file backup system to prevent data loss. Initially, we encountered some technical challenges, as the program did not perform as expected. However, after refining the code and adjusting the logic, we successfully implemented a solution. Using Python, we created a script that automatically generates file backups at ten-minute intervals. This feature significantly enhances system reliability and ensures that important data is preserved even in the event of a system failure.)'''
   ),
   ],
@@ -111,8 +112,7 @@ Watch the video lesson carefully to understand the structure and tone of academi
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, you explored what makes a presentation academic in both tone and structure. You learned that academic presentations are formal, clear, and well-organized. They include an introduction, a main body with evidence or examples, and a clear conclusion. In the world of computing, this approach is essential for sharing technical work with professors, peers, or even potential employers. You’ve also practiced using appropriate phrases and rewriting casual language to fit an academic setting. With this foundation, you're now ready to build and deliver structured presentations with confidence.
-""",
+In this lesson, you explored what makes a presentation academic in both tone and structure. You learned that academic presentations are formal, clear, and well-organized. They include an introduction, a main body with evidence or examples, and a clear conclusion. In the world of computing, this approach is essential for sharing technical work with professors, peers, or even potential employers. You’ve also practiced using appropriate phrases and rewriting casual language to fit an academic setting. With this foundation, you're now ready to build and deliver structured presentations with confidence.""",
 
   inClassActivity: """
 Now that you’ve completed the lesson, it’s time to bring your speaking skills into a real-time setting. In our classroom session, you’ll do a small presentation on one of the given topics in front of your peers. Don’t worry, we’re all here to learn and improve together. Make a short presentation at home and come prepared to speak in class.
@@ -126,7 +126,7 @@ If you’re unsure about what to say or how to organize your thoughts, bring you
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What is the main purpose of an academic presentation?',
+      question: 'What is the main purpose of an academic presentation?',
       options: [
         'a) To impress your classmates',
         'b) To clearly communicate research, ideas, or projects',
@@ -135,7 +135,7 @@ If you’re unsure about what to say or how to organize your thoughts, bring you
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2. Which is not a typical part of an academic presentation?',
+      question: 'Which is not a typical part of an academic presentation?',
       options: [
         'a) Personal stories',
         'b) Structured content',
@@ -144,7 +144,7 @@ If you’re unsure about what to say or how to organize your thoughts, bring you
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: '3. Choose the best opening line for an academic presentation:',
+      question: 'Choose the best opening line for an academic presentation:',
       options: [
         'a) “Let’s dive into some cool stuff.”',
         'b) “Today we’ll be discussing our project on AI-based fraud detection.”',
@@ -153,17 +153,17 @@ If you’re unsure about what to say or how to organize your thoughts, bring you
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '4. What are the 3 key parts of an academic presentation?',
+      question: 'What are the 3 key parts of an academic presentation?',
       correctTextAnswer: 'Introduction, Body, Conclusion',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5. Why is clear and precise language important in technical presentations?',
+      question: 'Why is clear and precise language important in technical presentations?',
       correctTextAnswer: 'It ensures the audience understands complex concepts accurately and avoids misinterpretation.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '6. Fill in the blank:\n“In conclusion, the findings suggest that our algorithm _________.”',
+      question: 'Fill in the blank:\n“In conclusion, the findings suggest that our algorithm _________.”',
       options: [
         'a) was kinda okay',
         'b) might work, maybe',

@@ -32,6 +32,7 @@ class PracticeActivityScreen2 extends StatefulWidget {
 class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
   YoutubePlayerController? _youtubeController;
   List<TextEditingController> _controllers = [];
+  List<String?> selectedAnswers = [];
   bool submitted = false;
   bool showErrors = false;
 
@@ -56,6 +57,11 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
             (_) => TextEditingController(),
       );
     }
+
+    // Initialize selected answers for MCQs
+    if (widget.unitData?.practiceActivityMCQ2 != null) {
+      selectedAnswers = List<String?>.filled(widget.unitData!.practiceActivityMCQ2!.length, null);
+    }
   }
 
   @override
@@ -77,10 +83,18 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
   }
 
   void _handleSubmit() {
-    if (_controllers.any((c) => c.text.trim().isEmpty)) {
+    final hasQuestions = widget.unitData?.practiceActivityQuestions2 != null &&
+        widget.unitData!.practiceActivityQuestions2!.isNotEmpty;
+    final hasMCQs = widget.unitData?.practiceActivityMCQ2 != null &&
+        widget.unitData!.practiceActivityMCQ2!.isNotEmpty;
+
+    bool questionsAnswered = !hasQuestions || _controllers.every((c) => c.text.trim().isNotEmpty);
+    bool mcqsAnswered = !hasMCQs || selectedAnswers.every((answer) => answer != null);
+
+    if (!questionsAnswered || !mcqsAnswered) {
       setState(() => showErrors = true);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text("Please fill in all answers."), backgroundColor: Colors.red),
+        const SnackBar(content: Text("Please answer all questions!"), backgroundColor: Colors.red),
       );
     } else {
       setState(() {
@@ -99,6 +113,7 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
     final hasVideo = unit?.practiceVideoUrl?.isNotEmpty ?? false;
     final hasLink = unit?.practiceActivityLink2?.isNotEmpty ?? false;
     final hasUploadLink = unit?.practiceUploadLink2?.isNotEmpty ?? false;
+    final hasMCQs = unit?.practiceActivityMCQ2 != null && unit!.practiceActivityMCQ2!.isNotEmpty;
 
     return Scaffold(
       appBar: AppBar(
@@ -245,16 +260,105 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                 ],
               ),
 
-            if (unit.practiceActivityQuestions2 != null)
+            // MCQ Section - Added from the first code
+            if (hasMCQs)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    "Multiple Choice Questions",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 10),
+                  ListView.builder(
+                    shrinkWrap: true,
+                    physics: const NeverScrollableScrollPhysics(),
+                    itemCount: unit.practiceActivityMCQ2!.length,
+                    itemBuilder: (context, index) {
+                      final mcq = unit.practiceActivityMCQ2![index];
+                      final isCorrect = mcq.options != null &&
+                          selectedAnswers[index] ==
+                              mcq.options![mcq.correctOptionIndex ?? 0];
+
+                      return Card(
+                        elevation: 6,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        margin: const EdgeInsets.only(bottom: 16),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Q${index + 1}: ${mcq.questionText}",
+                                style: const TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              if (mcq.options != null)
+                                ...mcq.options!.map((option) {
+                                  bool selected = selectedAnswers[index] == option;
+                                  bool correct = option ==
+                                      mcq.options![mcq.correctOptionIndex ?? 0];
+
+                                  return Tooltip(
+                                    message: submitted && correct
+                                        ? "This is the correct answer"
+                                        : "",
+                                    child: RadioListTile<String>(
+                                      activeColor: submitted
+                                          ? (correct ? Colors.green : Colors.red)
+                                          : const Color(0xFF010066),
+                                      title: Text(
+                                        option,
+                                        style: TextStyle(
+                                          color: submitted
+                                              ? (correct
+                                              ? Colors.green
+                                              : selected
+                                              ? Colors.red
+                                              : Colors.black)
+                                              : Colors.black,
+                                          fontWeight: selected
+                                              ? FontWeight.bold
+                                              : FontWeight.normal,
+                                        ),
+                                      ),
+                                      value: option,
+                                      groupValue: selectedAnswers[index],
+                                      onChanged: submitted
+                                          ? null
+                                          : (value) {
+                                        setState(() {
+                                          selectedAnswers[index] = value;
+                                        });
+                                      },
+                                    ),
+                                  );
+                                }).toList(),
+                            ],
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                ],
+              ),
+
+            if (unit.practiceActivityQuestions2 != null || hasMCQs)
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 12),
                 child: ElevatedButton.icon(
-                  onPressed: _handleSubmit,
+                  onPressed: !submitted ? _handleSubmit : null,
                   icon: const Icon(Icons.check, color: Colors.white),
                   label: const Text("Submit Answers", style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xFF010066),
+                    backgroundColor: const Color(0xFF010066),
                     minimumSize: const Size(double.infinity, 50),
+                    disabledBackgroundColor: Colors.grey,
                   ),
                 ),
               ),

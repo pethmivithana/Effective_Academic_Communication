@@ -570,7 +570,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    "🧠 Answer These Questions",
+                    "🧠 Answer The Questions Given",
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,

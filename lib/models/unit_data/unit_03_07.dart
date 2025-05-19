@@ -8,11 +8,11 @@ Hello everyone, welcome back!
 In today’s lesson, we will explore the past perfect continuous tense, a useful grammar structure that helps you describe actions that were happening over a period of time before another event in the past. This tense is commonly used in spoken English to explain how long something had been happening before another event interrupted it. Imagine you had been working on a project for hours when your computer crashed. You might say:
  "I had been working on my assignment for five hours when my laptop shut down."
 Here, had been working (past perfect continuous) tells us that the action was happening over time before the laptop shut down (past simple).
+Therefore, as the first step let's look at the lesson objectives of today's lesson.
 By the end of this lesson, you will be able to:
--	Understand the past perfect continuous and when to use it.
--	Form sentences correctly using this tense.
--	Use past perfect continuous in real-life conversations
-
+1.	Understand the past perfect continuous and when to use it.
+2.	Form sentences correctly using this tense.
+3.	Use past perfect continuous in real-life conversations.
 """,
 
   preClassActivityDescription: """
@@ -50,7 +50,7 @@ Choose a scenario from the list below.
 
 Write a short story (3-5 sentences) describing what had been happening before something else occurred.
 
-Record yourself reading your story aloud 
+Record yourself reading your story aloud.
 
 Listen to your recording and check for fluency and accuracy.
 
@@ -73,7 +73,7 @@ Now it’s your turn! Create and record your story using past perfect continuous
   practiceUploadLink2: "https://example.com/upload-practice-activity",
 
   instructionsText: """
-Before we dive into the activities, watch this short video on the formats and usage of the past perfect continuous tense in spoken English. It will help you understand how this tense is used in real conversations. Feel free to take notes to reinforce your learning!
+Before we attempt the activities, watch this short video on the formats and usage of the past perfect continuous tense in spoken English. It will help you understand how this tense is used in real conversations. Feel free to take notes to reinforce your learning!
 """,
 
   instructionVideoId: "8laYlyAFd0o",

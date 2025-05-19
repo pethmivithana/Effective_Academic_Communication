@@ -31,7 +31,7 @@ Step 3 – Practice your self-introduction again and check for grammar errors an
 
 Step 4 – Write your self-introduction in the given space so we can get to know you!
 
-Click the button below to open the Padlet and submit your answers. You can type your responses directly on the Padlet, and they’ll be saved automatically
+Click the button below to open the discussion forum and submit your answers. You can type your responses directly on the forum, and they’ll be saved automatically.
      """,
     preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=359261",
 
@@ -53,7 +53,7 @@ Next we’ll watch a YouTube video which is about “self-introductions”. Thes
     practiceVideoUrl: "https://www.youtube.com/watch?v=8laYlyAFd0o",
     instructionsText: """
 Play the brief recorded session which will give you more information about self-introductions.""",
-    instructionVideoId: "8laYlyAFd0o",
+    instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=VjhLdGIyTENEcF82NzY1Ng==",
     summary: """
 We completed our very first lesson today! The main focus of the lesson was to provide you with background information about the program and what we will be doing in the future. We also covered the lesson on “Self-Introductions,” which will be very helpful for getting to know each other at university. Additionally, you can use this knowledge when a lecturer asks you to introduce yourself.
 

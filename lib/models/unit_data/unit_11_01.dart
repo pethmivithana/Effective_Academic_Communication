@@ -20,7 +20,7 @@ Choose the version that sounds more professional and clearer. Each correct choic
 
   preClassQuestions:[
     PreClassQuestion(
-      questionText: "1. Choose the version that sounds more professional and clearer.",
+      questionText: "Choose the version that sounds more professional and clearer.",
       options: [
         "A) I guess it kind of works?",
         "B) This method has proven effective in similar cases.",
@@ -29,7 +29,7 @@ Choose the version that sounds more professional and clearer. Each correct choic
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "2. Choose the version that sounds more professional and clearer.",
+      questionText: "Choose the version that sounds more professional and clearer.",
       options: [
         "A) You know what I mean, right?",
         "B) To clarify, the result depends on user input.",
@@ -38,7 +38,7 @@ Choose the version that sounds more professional and clearer. Each correct choic
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "3. Choose the version that sounds more professional and clearer.",
+      questionText: "Choose the version that sounds more professional and clearer.",
       options: [
         "A) In summary, the key steps are as follows…",
         "B) Umm… so basically like…",
@@ -47,7 +47,7 @@ Choose the version that sounds more professional and clearer. Each correct choic
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "4. Choose the version that sounds more professional and clearer.",
+      questionText: "Choose the version that sounds more professional and clearer.",
       options: [
         "A) I messed up but, like, it’s fine, I guess.",
         "B) There was an issue initially, but I resolved it through debugging.",
@@ -56,7 +56,7 @@ Choose the version that sounds more professional and clearer. Each correct choic
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "5. Choose the version that sounds more professional and clearer.",
+      questionText: "Choose the version that sounds more professional and clearer.",
       options: [
         "A) Yes, I’ve tested the method thoroughly across multiple scenarios.",
         "B) Yeah, yeah, I know what I’m doing.",
@@ -65,7 +65,7 @@ Choose the version that sounds more professional and clearer. Each correct choic
       isTextAnswer: false,
     ),
     PreClassQuestion(
-      questionText: "6. Choose the version that sounds more professional and clearer.",
+      questionText: "Choose the version that sounds more professional and clearer.",
       options: [
         "A) I selected this method due to its efficiency in low-memory environments.",
         "B) Whatever, I just used this method.",
@@ -81,27 +81,27 @@ You’ll see some incomplete confident phrases. Complete each one using your own
 
   practiceActivityQuestions1:[
     PracticeQuestion1(
-      questionText: "1. One thing I’m really proud of is…………………………………………………………………",
+      questionText: "One thing I’m really proud of is…………………………………………………………………",
       isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "2. I’d like to explain how I approached this by…………………………………………………….",
+      questionText: "I’d like to explain how I approached this by…………………………………………………….",
       isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "3. In my experience with coding, I noticed that……………………………………………………",
+      questionText: "In my experience with coding, I noticed that……………………………………………………",
       isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "4. A challenge I overcame recently was……………………………………………………………",
+      questionText: "A challenge I overcame recently was……………………………………………………………",
       isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "5. What makes this solution effective is…………………………………………………………...",
+      questionText: "What makes this solution effective is…………………………………………………………...",
       isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "6. If I had more time, I would have………………………………………………………………...",
+      questionText: "If I had more time, I would have………………………………………………………………...",
       isTextAnswer: true,
     ),
   ],
@@ -138,7 +138,7 @@ If there’s anything that felt unclear or challenging in the lesson, don’t he
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. What’s one benefit of speaking clearly?",
+      question: "What’s one benefit of speaking clearly?",
       options: [
         "a) People will be scared of you",
         "b) You avoid speaking too much",
@@ -148,7 +148,7 @@ If there’s anything that felt unclear or challenging in the lesson, don’t he
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "2. Which of these helps your voice sound more confident?",
+      question: "Which of these helps your voice sound more confident?",
       options: [
         "a) Speaking very fast",
         "b) Speaking too softly",
@@ -158,7 +158,7 @@ If there’s anything that felt unclear or challenging in the lesson, don’t he
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "3. Which is the clearer phrase?",
+      question: "Which is the clearer phrase?",
       options: [
         "a) “Like… yeah…”",
         "b) “Let me explain that part in more detail.”",
@@ -168,7 +168,7 @@ If there’s anything that felt unclear or challenging in the lesson, don’t he
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "4. If you forget your next point, you can say:",
+      question: "If you forget your next point, you can say:",
       options: [
         "a) “Give me a second to gather my thoughts.”",
         "b) “Oh no, I’m lost!”",
@@ -178,7 +178,7 @@ If there’s anything that felt unclear or challenging in the lesson, don’t he
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: "5. What’s a simple trick to sound more confident?",
+      question: "What’s a simple trick to sound more confident?",
       options: [
         "a) Memorize everything",
         "b) Yell your answer",
@@ -188,7 +188,7 @@ If there’s anything that felt unclear or challenging in the lesson, don’t he
       correctOptionIndex: 3,
     ),
     QuizQuestion(
-      question: "6. Choose the best closing line for a short speech:",
+      question: "Choose the best closing line for a short speech:",
       options: [
         "a) That’s it.",
         "b) So… yeah.",
@@ -198,7 +198,7 @@ If there’s anything that felt unclear or challenging in the lesson, don’t he
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "7. What does pausing while speaking do?",
+      question: "What does pausing while speaking do?",
       options: [
         "a) Gives your words more impact",
         "b) Makes people bored",

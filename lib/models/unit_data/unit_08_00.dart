@@ -41,11 +41,10 @@ Step 3 – Take a screenshot of your conversation and submit it to the portal gi
 We have a brief recorded video introducing the concept of structuring ideas in discussions. Be sure to watch it before moving on to the activities, as it will give you a solid foundation for the tasks ahead. Take notes to help retain the key points!
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=QkhoTVdiVm1nd182NzcxOQ==",
 
   summary: """
-In this lesson, we explored the importance of structuring ideas clearly in academic discussions. We learned various strategies, such as using signposts, transitions, and examples, to ensure our arguments are logically organized and easy to follow. By applying these techniques, you can enhance the clarity and persuasiveness of your contributions in discussions and debates.
-""",
+In this lesson, we explored the importance of structuring ideas clearly in academic discussions. We learned various strategies, such as using signposts, transitions, and examples, to ensure our arguments are logically organized and easy to follow. By applying these techniques, you can enhance the clarity and persuasiveness of your contributions in discussions and debates.""",
 
   inClassActivity: """
 In our upcoming class, we will engage in interactive activities where you can practice structuring your ideas in real-time discussions. We'll have group exercises to work on transitions, signposts, and presenting well-organized arguments. I’m excited to see you all in class and help you put these strategies into practice!
@@ -53,7 +52,7 @@ In our upcoming class, we will engage in interactive activities where you can pr
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What is the main purpose of structuring your ideas in academic discussions?',
+      question: 'What is the main purpose of structuring your ideas in academic discussions?',
       options: [
         'a) To confuse the audience with complex ideas',
         'b) To ensure your argument is clear and easy to follow',
@@ -63,7 +62,7 @@ In our upcoming class, we will engage in interactive activities where you can pr
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2. Which of the following is a helpful strategy for structuring ideas in an academic discussion?',
+      question: 'Which of the following is a helpful strategy for structuring ideas in an academic discussion?',
       options: [
         'a) Speaking without pausing',
         'b) Using signposts and transitions to guide the audience',
@@ -73,7 +72,7 @@ In our upcoming class, we will engage in interactive activities where you can pr
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '3. Which method involves presenting a problem and then offering a solution to it?',
+      question: 'Which method involves presenting a problem and then offering a solution to it?',
       options: [
         'a) Chronological order',
         'b) Problem and solution',
@@ -83,7 +82,7 @@ In our upcoming class, we will engage in interactive activities where you can pr
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '4. Which of the following is an example of a signpost used in academic discussions?',
+      question: 'Which of the following is an example of a signpost used in academic discussions?',
       options: [
         'a) "Let me give you an example."',
         'b) "What I mean is…" ',
@@ -93,7 +92,7 @@ In our upcoming class, we will engage in interactive activities where you can pr
       correctOptionIndex: 3,
     ),
     QuizQuestion(
-      question: '5. Why is it important to use transitions in academic discussions?',
+      question: 'Why is it important to use transitions in academic discussions?',
       options: [
         'a) To jump between unrelated topics',
         'b) To make the discussion more interesting',

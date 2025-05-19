@@ -100,23 +100,17 @@ After watching the video, write 6 skills that you need to develop.
   practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
-Now, you're going to talk about what you will have done if you were the President of Sri Lanka. Think of this as a time-travel log where you're reporting what you've already finished by a specific point in the future.
-
-Step 1: Visit this voice recording tool
-
-Step 2: Click the red “Record” button and speak five Future Perfect sentences of what you will have done if you were the President of Sri Lanka.
-
-Step 3: After recording, click “Save & Share” and copy the audio link and submit it.
+Since this lesson is a brief introduction to essential study skills, as the Practice Activity 2, you're suppose to watch the given Youtube video and write 3 things that you would like to develop within yourself. 
 """,
 
-  practiceActivityLink2: "https://vocaroo.com",
+  practiceVideoUrl: "https://www.youtube.com/watch?v=jMhhaAQK1NQ",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
 
   instructionsText: """
 After completing the pre-class activity, you are here for the lecture. Please note that Unit 4’s introduction will only give you a brief overview of what we will discuss in the upcoming lessons. We hope you’ll watch it and enjoy!
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=d09zTVBKWnk4cV82NzY4NQ==",
 
   summary: """
 In this lesson, we discussed the essential study skills needed for academic success in an English-medium instructions. We reflected on strategies for listening to lectures, identified common challenges, and evaluated current note-taking and vocabulary learning methods. Through these activities, we aim to equip you with tools to overcome challenges and improve your academic performance in English.""",

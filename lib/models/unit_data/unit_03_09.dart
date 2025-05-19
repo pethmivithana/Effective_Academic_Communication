@@ -7,9 +7,9 @@ final UnitModel unit3_9 = UnitModel(
 Hello everyone, welcome back!
 In today’s lesson, we will explore the future continuous tense, an essential structure used in English to describe ongoing actions that will be happening at a particular moment in the future. This tense is widely used in spoken English to express plans, predictions, and assumptions about future activities. It allows speakers to talk about scheduled activities and expectations in a more fluid and natural way. It also helps in making polite inquiries and emphasizing the duration of an activity at a given time in the future.
 By the end of this lesson, you will be able to:
-- Understand the future continuous tense and when to use it.
--	Form sentences correctly using this tense.
--	Use future continuous tense in real-life conversations.
+1. Understand the future continuous tense and when to use it.
+2.	Form sentences correctly using this tense.
+3.	Use future continuous tense in real-life conversations.
 """,
 
   preClassActivityDescription: """
@@ -40,7 +40,7 @@ Create a short story (5-8 sentences) describing what will be happening in one of
 Record yourself reading your story aloud using Reverb Recorder (follow the steps below)
 -	When you go to the website, click on Record Now. 
 -	Click on Start Recording when you are ready. 
--	After you finish, write your student number as the Title and click on Save 
+-	After you finish, write your student number as the Title and click on Save.
 
 Listen to your recording and check for fluency and accuracy.
 

@@ -21,7 +21,7 @@ Please watch this short video to understand what topic sentences and supporting 
   preClassActivityVideo:"https://www.youtube.com/watch?v=49jRtuh4rUk",
   preClassQuestions:[
     PreClassQuestion(
-      questionText: '1. What is the purpose of a topic sentence in a paragraph?',
+      questionText: 'What is the purpose of a topic sentence in a paragraph?',
       options: [
         'a) To provide evidence and examples',
         'b) To introduce the main idea',
@@ -31,7 +31,7 @@ Please watch this short video to understand what topic sentences and supporting 
       correctOptionIndex: 1,
     ),
     PreClassQuestion(
-      questionText: '2. Which of the following is a strong topic sentence?',
+      questionText: 'Which of the following is a strong topic sentence?',
       options: [
         'a) Many people like pizza.',
         'b) Exercise is good.',
@@ -41,12 +41,12 @@ Please watch this short video to understand what topic sentences and supporting 
       correctOptionIndex: 2,
     ),
     PreClassQuestion(
-      questionText: '3. Write a topic sentence about the importance of time management.',
+      questionText: 'Write a topic sentence about the importance of time management.',
       isTextAnswer: true,
       correctAnswer: 'Open-ended',
     ),
     PreClassQuestion(
-      questionText: '4. Provide two supporting details for the topic sentence:\n“Social media has changed the way people communicate.”',
+      questionText: 'Provide two supporting details for the topic sentence:\n“Social media has changed the way people communicate.”',
       isTextAnswer: true,
       correctAnswer: 'Open-ended',
     ),
@@ -54,32 +54,36 @@ Please watch this short video to understand what topic sentences and supporting 
 
   practiceActivityDescription1: """ 
 Task: Use ChatGPT to help you build a well-developed paragraph.
+
 Step 1: Use this prompt:
 "Can you help me write a paragraph on the benefits of reading? I will write the topic sentence, and you will help me add supporting details."
+
 Step 2: Type your own topic sentence and let ChatGPT help you expand it with supporting details. Make sure the ideas are logically connected.
+
 Step 3: Take a screenshot of the final paragraph and upload it to the learning portal.
 """,
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Step 1: Choose one of the following topic sentences and write a paragraph including at least three supporting details:
 •	"Technology has significantly improved the way we communicate."
 •	"A healthy diet plays a crucial role in maintaining overall well-being."
 •	"Traveling broadens one’s perspective on life and culture."
+
 Step 2: Review your paragraph and check if the supporting details clearly relate to the topic sentence.
+
 Step 3: Submit your paragraph to the assigned portal.
 """,
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Please listen to the short recorded lecture explaining how to write effective topic sentences and use appropriate supporting details. This will guide you through the upcoming practice tasks.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=U2twQXFaTWx2ZV82NzcyMg==",
 
   summary: """
-In this lesson, you learned how to structure a paragraph using a clear topic sentence followed by supporting details that explain, illustrate, or develop the main idea. You also practiced using these skills to write organized, logical, and coherent academic paragraphs. This foundation is essential for both academic writing and discussions, helping you present your ideas more convincingly and clearly.
-""",
+In this lesson, you learned how to structure a paragraph using a clear topic sentence followed by supporting details that explain, illustrate, or develop the main idea. You also practiced using these skills to write organized, logical, and coherent academic paragraphs. This foundation is essential for both academic writing and discussions, helping you present your ideas more convincingly and clearly.""",
 
   inClassActivity: """
 Looking forward to seeing you in class! 
@@ -88,7 +92,7 @@ We'll do some fun and interactive activities to practice identifying and writing
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What should a good topic sentence do?',
+      question: 'What should a good topic sentence do?',
       options: [
         'a) Repeat the conclusion of the essay',
         'b) Provide all the details of the paragraph',
@@ -98,7 +102,7 @@ We'll do some fun and interactive activities to practice identifying and writing
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '2. Which of the following best supports a topic sentence about "The benefits of learning a new language"?',
+      question: 'Which of the following best supports a topic sentence about "The benefits of learning a new language"?',
       options: [
         'a) I once took a trip to Italy.',
         'b) Learning a new language improves memory and opens up job opportunities.',
@@ -108,7 +112,7 @@ We'll do some fun and interactive activities to practice identifying and writing
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '3. What do supporting details do in a paragraph?',
+      question: 'What do supporting details do in a paragraph?',
       options: [
         'a) Introduce a new topic',
         'b) Conclude the essay',
@@ -118,7 +122,7 @@ We'll do some fun and interactive activities to practice identifying and writing
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '4. Give two supporting details for this topic sentence:\n“Online learning has changed the way students access education.”',
+      question: 'Give two supporting details for this topic sentence:\n“Online learning has changed the way students access education.”',
       isTextAnswer: true,
       correctTextAnswer: 'Open-ended',
     ),

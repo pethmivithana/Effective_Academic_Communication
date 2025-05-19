@@ -4,12 +4,12 @@ final UnitModel unit2_2 = UnitModel(
   unitIndex: 4,
   unitName: "Types of Sentences",
   introductionText: """
-Welcome to Unit 02 – Lesson 02
+Welcome to Unit 2 – Lesson 2
 This lesson will introduce the different types of sentences commonly used in spoken English. Understanding how different sentence types function will help you communicate clearly and effectively. Spoken English relies on a mix of sentence structures to convey meaning, express emotions, and engage in natural conversations. Before diving into the details, reflect on the way you speak. Do you vary your sentences when talking to different people? Recognizing different sentence types will help enhance your communication skills.
 By the end of this lesson, you will be able to:
-- Identify and classify the four main types of sentences in spoken English.
-- Use different sentence structures to enhance fluency and natural speech.
-- Apply sentence variation in conversations to improve engagement and clarity.
+1. Identify and classify the four main types of sentences in spoken English.
+2. Use different sentence structures to enhance fluency and natural speech.
+3. Apply sentence variation in conversations to improve engagement and clarity.
   """,
 
   preClassActivityDescription: """
@@ -45,7 +45,7 @@ By the end of this lesson, you will be able to:
   ],
 
   practiceActivityDescription1: """
-Now that you have an understanding of sentence types, let’s practice converting one type of sentence into another
+Now that you have an understanding of sentence types, let’s practice converting one type of sentence into another.
   """,
 
   practiceActivityQuestions1: [
@@ -91,7 +91,7 @@ Now that you have an understanding of sentence types, let’s practice convertin
 Step 01: Use ChatGPT voice mode.
 
 Step 02: Have a conversation with ChatGPT on any of the given topics. Make sure you use all the types of sentences we have learnt so far in your conversation. 
-- A conversation about a movie/TV series you have watched
+- A conversation about a movie/TV series you have watched.
 - A conversation planning a trip. 
 - A conversation on the development of AI.
 

@@ -5,13 +5,15 @@ final UnitModel unit5_2 = UnitModel(
   unitName: "Structuring responses",
   introductionText: """
 Hello and welcome!
-In this lesson, we’ll explore what a viva voce is and how to prepare for it with confidence and clarity. A viva voce—often simply called a viva—is an oral examination where you present and defend your academic work, such as your final year project or research report. For computing undergraduates, this means explaining your code, decisions, methods, and even the bugs you fixed!
-Unlike written exams, a viva requires you to think on your feet, express ideas fluently, and engage in a professional discussion. It’s not just about knowing your subject—it’s about communicating it effectively. You’ll be assessed on your technical understanding, clarity of explanation, and your ability to respond thoughtfully to questions. In this lesson, we’ll break down the purpose of a viva, typical structures, and common question types so you’ll know exactly what to expect—and how to shine!
+In this lesson, we’ll focus on how to structure your responses clearly and confidently in a viva voce examination. In a viva, it’s not just what you say, but how you say it that matters. A well-structured answer helps you show your understanding, stay calm, and impress your examiners with logical thinking.
+Imagine this: you're asked a complex question about your final-year project. Do you panic—or do you take a moment, structure your response with a clear opening, a logical explanation, and a confident conclusion? That’s what this lesson will help you do.
+You’ll learn simple strategies to organize your ideas, use linking phrases, and handle questions step by step. These skills are essential not only for the viva but also for tech presentations, interviews, and meetings in your professional future.
+Let’s begin building your response strategy!
 By the end of this lesson, you will be able to:
-•	Understand the purpose and format of a viva voce
-•	Identify common types of viva questions and how to respond
-•	Practice introducing your project and defending key decisions
-•	Build confidence using academic and technical vocabulary in speech
+1.	Understand the structure of a clear and complete viva response
+2.	Use linking phrases to organize and guide your speech
+3.	Practice giving answers with a strong opening, explanation, and closing
+4.	Apply logical response frameworks in computing-related contexts
 """,
 
   preClassActivityDescription: """
@@ -19,7 +21,7 @@ Watch this short clip.
 Describe the type of student shown. 
 """,
   preClassActivityLocalVideo:"assets/videos/video_5.2.mp4",
-  preClassActivityUploadLink:"",
+  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription1: """ 
 Choose suitable words/phrases from the box and fill in the blanks to form a well-structured viva response.
@@ -29,45 +31,42 @@ To begin with – In addition – This demonstrates – For example – Therefor
 """,
   practiceActivityQuestions1: [
     PracticeQuestion1(
-      questionText: "___________, this algorithm provides faster processing time for large datasets compared to traditional methods.",
-      correctAnswer: "From a technical perspective",
+      questionText: "__________, my project focuses on user-friendly design and automation.",
+      correctAnswer: "To begin with",
+      isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "___________, it uses less memory.",
-      correctAnswer: "Furthermore",
+      questionText: "__________, it allows users to track inventory in real-time.",
+      correctAnswer: "In addition",
+      isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "___________, the alternative approach has its strengths.",
-      correctAnswer: "In my opinion",
+      questionText: "__________, I used Firebase for the backend and implemented dynamic UI with React.",
+      correctAnswer: "For example",
+      isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "___________, I believe my method suits the project's requirements better.",
-      correctAnswer: "However",
+      questionText: "__________, the system updates stock levels instantly after each transaction.",
+      correctAnswer: "Specifically",
+      isTextAnswer: true,
     ),
     PracticeQuestion1(
-      questionText: "___________, in the second step, the program filters the data based on the user’s input before analysis.",
-      correctAnswer: "To clarify",
-    ),
-    PracticeQuestion1(
-      questionText: "___________. We could explore integrating AI-based optimization to enhance performance.",
-      correctAnswer: "That’s a valid question",
-    ),
-    PracticeQuestion1(
-      questionText: "___________, the system would be more adaptive and scalable.",
-      correctAnswer: "As a result",
+      questionText: "__________, the software enhances both accuracy and user experience.",
+      correctAnswer: "Overall",
+      isTextAnswer: true,
     ),
   ],
 
   practiceActivityDescription2: """
-Go to the given website
+Record your response to the following viva-style question:
+Can you describe the challenges you faced during the development process of your imaginary project?
 
-Record a 30-second response to this question: Why is clear communication important in a viva?
+Follow the ISE structure:
+•	Introduce the main challenge
+•	Support with examples or tools you used
+•	End with how you overcame it or what you learned
 
-Use at least two academic phrases from the lesson video.
-
-Check the speech-to-text output to see if it reflects your intended message.
-
-Submit your final audio with clear pronunciation and tone.
+Submit your final voice recording link here.
 """,
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2: "https://example.com/upload-practice-activity",

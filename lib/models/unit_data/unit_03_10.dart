@@ -12,9 +12,9 @@ We will have completed the interface design by Friday.
 Here, will have completed is the Future Perfect Tense. It shows that an action will be finished before another future moment. It’s like you’re predicting the past—from a future point of view!
 
 By the end of this lesson, you will be able to:
-• Understand the structure and uses of the Future Perfect tense.
-• Form sentences using will + have + past participle.
-• Use the tense confidently in tech-related spoken contexts.
+1. Understand the structure and uses of the Future Perfect tense.
+2. Form sentences using will + have + past participle.
+3. Use the tense confidently in tech-related spoken contexts.
 
 Let’s jump in and start building your grammar for the future!
 """,

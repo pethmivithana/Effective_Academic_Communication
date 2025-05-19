@@ -6,7 +6,7 @@ final UnitModel unit3_5 = UnitModel(
   introductionText: """
 Hello everyone! In the previous lesson, we learned about the Present Perfect Continuous tense. Today, we’re going to focus on the Simple Past Tense. This tense is essential when talking about actions that happened at a specific time in the past. For example, if someone asks, "Hey, what did you do yesterday?", you need to use the Simple Past tense to answer.
 
-Before we dive into today’s activities, let’s take a look at the lesson objectives to understand what you will achieve by the end of the lesson.
+Before we start today’s activities, let’s take a look at the lesson objectives to understand what you will achieve by the end of the lesson.
 
 Lesson Objectives:
 By the end of today’s lesson, you will be able to:
@@ -51,7 +51,7 @@ Step 3 - Answer ChatGPT’s questions and pay attention to the feedback. This wi
 Once you've watched the video and completed the quiz, you'll have a better understanding of how the Simple Past Tense works. Now, please move on to the recorded lecture on the Simple Past Tense. This short video will cover the usage, structure, and provide examples to help reinforce your understanding of this tense.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=TmNBM0ZBTjd4Yl82NzY4NA==",
 
   summary: """
 Fantastic work, everyone! By now, you should have a strong grasp of the Simple Past Tense. You’ve learned how to describe actions that happened at specific points in the past. We’ve gone through key concepts, practiced using the tense, and even participated in some interactive activities. Remember, the Simple Past tense is used for completed actions or events that happened at a specific time in the past.

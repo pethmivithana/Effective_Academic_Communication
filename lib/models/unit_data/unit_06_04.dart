@@ -47,7 +47,7 @@ We have selected a short video related to technology. Watch both videos and para
 Now that you’ve watched the video and have a general understanding of paraphrasing, please listen to this recorded lecture for a more in-depth explanation of the concept and additional strategies for paraphrasing.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=TTFCOVBCekZlcF82NzcxOA==",
 
   summary: """
 In this lesson, we explored the key skill of paraphrasing. We discussed how paraphrasing allows you to express someone else’s ideas using your own words while keeping the original meaning intact. Through various practice activities, you gained hands-on experience paraphrasing sentences, paragraphs, and video content. Understanding and mastering paraphrasing is crucial for both academic and real-life communication as it helps you clarify ideas, avoid plagiarism, and demonstrate comprehension.""",

@@ -50,7 +50,7 @@ Watch the videos linked below and complete the quiz. After finishing, upload scr
 Now that you have watched the video and completed a simple quiz, you should have a basic understanding of the Present Continuous Tense. Next, watch the recorded lecture to learn more about its usage, structure, and how it differs from the Simple Present Tense
   """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=R29hcVE5ZE5vOF82NzY1OQ==",
 
   summary: """
 In this lesson, we explored the Present Continuous Tense, focusing on its structure and usage. We discussed its key functions, including describing actions happening right now, temporary actions, and future plans. Additionally, we learned to form affirmative, negative, and interrogative sentences in the Present Continuous Tense and distinguished it from the Simple Present Tense.""",

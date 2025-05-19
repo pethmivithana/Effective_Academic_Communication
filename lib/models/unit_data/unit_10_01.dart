@@ -22,7 +22,7 @@ After watching, complete the short quiz below to check your understanding.
 
   preClassQuestions:[
   PreClassQuestion(
-    questionText: '1. Why is maintaining rapport important in a presentation?',
+    questionText: 'Why is maintaining rapport important in a presentation?',
     options: [
       'a) It makes the speaker look more professional.',
       'b) It helps keep the audience engaged and interested.',
@@ -32,7 +32,7 @@ After watching, complete the short quiz below to check your understanding.
     correctOptionIndex: 1,
   ),
   PreClassQuestion(
-    questionText: '2. Which of the following is NOT an effective way to build rapport?',
+    questionText: 'Which of the following is NOT an effective way to build rapport?',
     options: [
       'a) Making eye contact with the audience',
       'b) Speaking in a monotonous tone',
@@ -45,51 +45,60 @@ After watching, complete the short quiz below to check your understanding.
 
   practiceActivityDescription1: """ 
 Goal: Practice maintaining rapport from the very beginning of your talk. 
+
 Please follow the steps given below. 
+
 Step 1 - Choose a technology-related topic and record a 1-minute introduction to your presentation.
+
 Focus on:
 o	Making eye contact (if using video)
 o	Speaking with confidence and enthusiasm
 o	Using a relatable example or anecdote
+
 Step 2 - Watch your recording and identify strengths and areas for improvement.
+
 Step 3 - Upload your recording to the portal for feedback. (This can be done in zoom or just before any camera.) 
 """,
 
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
 
   practiceActivityDescription2: """
 Goal: Deliver a short presentation using rapport-building strategies. 
+
 Please follow the steps given below. 
+
 Step 1 - Choose one topic:
 o	A new AI-based product
 o	A cybersecurity concept
 o	The impact of social media on communication
+
 Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
+
 Step 3 - Use a mirror or camera to observe your:
 o	Facial expressions
 o	Hand gestures
 o	Voice modulation
+
 Step 4 - Self-assess with the checklist below:
 ✅ Did I make eye contact?
 ✅ Was my tone engaging and varied?
 ✅ Did I connect with the audience?
 ✅ Did I use relevant and relatable examples?
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 
+Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 """,
 
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Watch the recorded lecture provided. It outlines practical techniques for maintaining rapport throughout your presentation and will support you in completing the activities.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=Yjdpa3FqVmRZUF82NzcyNA==",
 
   summary: """
-In this lesson, we explored the value of building rapport with your audience during a presentation. You learned how to use your voice, body language, and examples to create an engaging atmosphere. We also practiced techniques that help you recognize and respond to audience cues. Remember, a successful presentation is not just about delivering information—it’s about making your audience feel seen, heard, and involved.
-""",
+In this lesson, we explored the value of building rapport with your audience during a presentation. You learned how to use your voice, body language, and examples to create an engaging atmosphere. We also practiced techniques that help you recognize and respond to audience cues. Remember, a successful presentation is not just about delivering information—it’s about making your audience feel seen, heard, and involved.""",
 
   inClassActivity: """
 Hello everyone, it’s very important for us to meet in the classroom to practice what you learn in this course. So, see you soon! 
@@ -97,7 +106,7 @@ Hello everyone, it’s very important for us to meet in the classroom to practic
 
   quizQuestions: [
     QuizQuestion(
-      question: '1️. What is the best way to keep your audience engaged during a presentation?',
+      question: 'What is the best way to keep your audience engaged during a presentation?',
       options: [
         'a) Read from the slides without looking up.',
         'b) Make eye contact and use a friendly tone.',
@@ -107,7 +116,7 @@ Hello everyone, it’s very important for us to meet in the classroom to practic
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2️. Which of these is an effective rapport-building technique?',
+      question: 'Which of these is an effective rapport-building technique?',
       options: [
         'a) Using relatable examples.',
         'b) Speaking in a monotone voice.',
@@ -117,7 +126,7 @@ Hello everyone, it’s very important for us to meet in the classroom to practic
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: '3️. What should you do if you notice your audience losing interest?',
+      question: 'What should you do if you notice your audience losing interest?',
       options: [
         'a) Keep going without making any changes.',
         'b) Raise your voice to get their attention.',

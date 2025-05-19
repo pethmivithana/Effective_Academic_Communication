@@ -4,14 +4,14 @@ final UnitModel unit2_1= UnitModel(
   unitIndex: 3,
     unitName: "Word Order in English",
     introductionText: """
-Welcome to Unit 02 – Lesson 01
+Welcome to Unit 2 – Lesson 1
 This lesson introduces sentence structure. Before we move on to more advanced sentence patterns in upcoming lessons, it is important to first grasp the fundamental rules of word order in English and understand why they matter. Take a moment to reflect on how you currently structure sentences to recognize areas where you might need improvement.
 This lesson will focus on building both accuracy and confidence in forming sentences. We will explore how to arrange words correctly to create clear and effective communication, a key skill for expressing your ideas in English.
 To start, let’s take a moment to clarify our objectives. Knowing what we aim to accomplish will help you stay focused and motivated throughout the lesson. With that in mind, let’s go over the lesson goals.
 By the end of this lesson, you will be able to:
--	Recognize the basic word order in English (Subject-Verb-Object structure).
--	Construct grammatically correct sentences in computing-related contexts.
--	 Identify and correct word order mistakes in simple and complex sentences.""",
+1. Recognize the basic word order in English (Subject-Verb-Object structure).
+2.	Construct grammatically correct sentences in computing-related contexts.
+3.	 Identify and correct word order mistakes in simple and complex sentences.""",
     preClassActivityDescription: """
 You will be given a list of jumbled sentences. Arrange the words in the correct order to form meaning sentences. Refer to the example given and complete the task accordingly.
 

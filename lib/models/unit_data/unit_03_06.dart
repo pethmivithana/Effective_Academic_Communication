@@ -9,9 +9,9 @@ Think about a time when you were in the middle of doing something. For example:
 "I was watching a movie when the power went out."
 Here, the past continuous tense (was watching) helps describe an action that was happening when another event interrupted it. The past continuous helps bring stories to life! It gives more detail about what was happening at a certain moment.
 By the end of this lesson, you will be able to:
-- Understand the past continuous and when to use it.
-- Form past continuous sentences correctly.
-- Use past continuous in real-life conversations to describe past events.
+1. Understand the past continuous and when to use it.
+2. Form past continuous sentences correctly.
+3. Use past continuous in real-life conversations to describe past events.
 """,
 
   preClassActivityDescription: """
@@ -80,7 +80,7 @@ Complete these sentences using the correct form of the past continuous:
   practiceActivityDescription2: """
 Step 01: Visit the following website.
 
-Step 02: Record yourself saying five past continuous sentences about your day yesterday.
+Step 02: Record yourself saying five past continuous sentences about your yesterday.
 
 Step 03: Play your recording and check for any mistakes.
 

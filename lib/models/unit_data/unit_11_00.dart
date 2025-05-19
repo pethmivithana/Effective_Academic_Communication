@@ -40,11 +40,10 @@ Scrambled Phrases:
 	Furthermore, this method allows for easier real-time implementation.
 	That decision was based on both practical constraints and performance needs.
 	I’d be happy to elaborate on that if needed.
-
 """,
 
-  practiceActivityQuestions1:[
-  PracticeQuestion1(
+  practiceActivityMCQ:[
+    PracticeQuestionMCQ(
     questionText: "Which is the correct order to form a clear academic viva response?",
     options: [
       "1. Let me begin by stating the problem this study addresses. → 2. Firstly, let me explain how the data was collected. → 3. That decision was based on both practical constraints and performance needs. → 4. From my findings, this algorithm performs better on sparse datasets. → 5. Furthermore, this method allows for easier real-time implementation. → 6. To conclude, the selected model improves efficiency by 20%. → 7. I’d be happy to elaborate on that if needed.",
@@ -52,16 +51,19 @@ Scrambled Phrases:
       "1. Firstly, let me explain how the data was collected. → 2. Let me begin by stating the problem this study addresses. → 3. From my findings, this algorithm performs better on sparse datasets. → 4. That decision was based on both practical constraints and performance needs. → 5. Furthermore, this method allows for easier real-time implementation. → 6. To conclude, the selected model improves efficiency by 20%. → 7. I’d be happy to elaborate on that if needed.",
     ],
     correctOptionIndex: 0,
-    isTextAnswer: false,
   ),
   ],
 
 
   practiceActivityDescription2: """
 Form a 20-second answer for the question, “What technical issues do/did you face when you try/tried to design a website?” (You can talk about your experiences or imagine you have had the experience)
+
 Include:	Technical issues 
+
 What you did/ can do to minimize the issues
+
 Why it matters
+
 Record your answer through this  and share the audio link here!
 """,
 
@@ -79,8 +81,7 @@ Feel free to take notes—especially when you hear helpful phrases, sentence sta
   summary: """
 In this lesson, you’ve taken your first real steps toward mastering oral exams and viva voce presentations. We explored how to deliver clear, confident, and well-structured responses—even when you're under pressure. You practiced reordering academic responses, creating technical pitches, selecting strong academic phrases, and matching emotions to coping strategies. With these tools, you’re more than ready to handle those tough questions with poise and professionalism. Whether you’re explaining a technical decision or clarifying a misunderstood point, remember: structure, clarity, and confidence are your best friends!
 
-Keep practicing, stay calm, and trust in what you know. You’ve got this!
-""",
+Keep practicing, stay calm, and trust in what you know. You’ve got this!""",
 
   inClassActivity: """
 Now that you’ve completed the lesson, it’s time to bring your viva skills to life in the classroom. When we meet in person, we’ll build on what you’ve learned through fun, practical activities designed to boost your confidence and help you speak more clearly and professionally. This is your chance to ask questions, try out academic phrases, and practice responding to typical viva-style prompts in a supportive environment.
@@ -89,7 +90,7 @@ If there’s anything from the lesson that felt unclear or tricky, don’t worry
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. What’s the main purpose of a viva voce?",
+      question: "What’s the main purpose of a viva voce?",
       options: [
         "a) To confuse students",
         "b) To test how well you party",
@@ -100,7 +101,7 @@ If there’s anything from the lesson that felt unclear or tricky, don’t worry
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "2. Which is the BEST way to begin explaining a technical decision?",
+      question: "Which is the BEST way to begin explaining a technical decision?",
       options: [
         "a) Let me explain the logic behind my choice",
         "b) I read it somewhere",
@@ -111,7 +112,7 @@ If there’s anything from the lesson that felt unclear or tricky, don’t worry
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "3. Which of these phrases shows polite disagreement?",
+      question: "Which of these phrases shows polite disagreement?",
       options: [
         "a) You’re wrong.",
         "b) That’s ridiculous.",
@@ -122,7 +123,7 @@ If there’s anything from the lesson that felt unclear or tricky, don’t worry
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "4. Fill in the blank: “_______, the algorithm offers higher accuracy on real-time data.”",
+      question: "Fill in the blank: “_______, the algorithm offers higher accuracy on real-time data.”",
       options: [
         "a) Anyway",
         "b) Actually",
@@ -133,7 +134,7 @@ If there’s anything from the lesson that felt unclear or tricky, don’t worry
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "5. In a viva, if you don’t understand the question, you should say:",
+      question: "In a viva, if you don’t understand the question, you should say:",
       options: [
         "a) Can you please rephrase the question?",
         "b) Speak properly, please!",
@@ -144,7 +145,7 @@ If there’s anything from the lesson that felt unclear or tricky, don’t worry
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "6. One good way to stay calm before a viva is:",
+      question: "One good way to stay calm before a viva is:",
       options: [
         "a) Ignore it till the last minute",
         "b) Practice common questions aloud",
@@ -155,7 +156,7 @@ If there’s anything from the lesson that felt unclear or tricky, don’t worry
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: "7. Complete this academic phrase: “________, I would like to clarify my earlier point.”",
+      question: "Complete this academic phrase: “________, I would like to clarify my earlier point.”",
       options: [
         "a) If you don't get it",
         "b) As mentioned before",

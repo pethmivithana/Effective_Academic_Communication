@@ -42,7 +42,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
 
   void _setupTts() {
     flutterTts.setLanguage("en-US");
-    flutterTts.setSpeechRate(0.4);
+    flutterTts.setSpeechRate(0.5);
     flutterTts.setPitch(1.0);
 
     flutterTts.setCompletionHandler(() {

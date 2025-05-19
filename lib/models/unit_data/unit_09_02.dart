@@ -19,19 +19,19 @@ Before we begin the lesson, think about the last time you had to speak in front 
 """,
   preClassQuestions:[
     PreClassQuestion(
-      questionText: '• What part of the presentation made you most nervous? (e.g., starting, making eye contact, forgetting something...)',
+      questionText: 'What part of the presentation made you most nervous? (e.g., starting, making eye contact, forgetting something...)',
       isTextAnswer: true,
     ),
     PreClassQuestion(
-      questionText: '• How did your body react? (e.g., fast heartbeat, dry mouth, shaky hands...)',
+      questionText: 'How did your body react? (e.g., fast heartbeat, dry mouth, shaky hands...)',
       isTextAnswer: true,
     ),
     PreClassQuestion(
-      questionText: '• Did you prepare in any way to reduce the nerves?',
+      questionText: 'Did you prepare in any way to reduce the nerves?',
       isTextAnswer: true,
     ),
     PreClassQuestion(
-      questionText: '• What is one thing you wish you had done differently?',
+      questionText: 'What is one thing you wish you had done differently?',
       isTextAnswer: true,
     ),
   ],
@@ -39,9 +39,9 @@ Before we begin the lesson, think about the last time you had to speak in front 
   practiceActivityDescription1: """ 
 Match the anxiety symptom with a useful tip. Draw lines to connect each symptom to a helpful strategy.
 """,
-  practiceActivityQuestions1:[
-    PracticeQuestion1(
-      questionText: '1) Racing heartbeat',
+  practiceActivityMCQ:[
+    PracticeQuestionMCQ(
+      questionText: 'Racing heartbeat',
       options: [
         'a) Sip water & speak slowly',
         'b) Focus on helping the audience understand, not impressing them',
@@ -52,8 +52,8 @@ Match the anxiety symptom with a useful tip. Draw lines to connect each symptom 
       ],
       correctOptionIndex: 3,
     ),
-    PracticeQuestion1(
-      questionText: '2) Fear of forgetting',
+    PracticeQuestionMCQ(
+      questionText: 'Fear of forgetting',
       options: [
         'a) Sip water & speak slowly',
         'b) Focus on helping the audience understand, not impressing them',
@@ -64,8 +64,8 @@ Match the anxiety symptom with a useful tip. Draw lines to connect each symptom 
       ],
       correctOptionIndex: 4,
     ),
-    PracticeQuestion1(
-      questionText: '3) Dry mouth',
+    PracticeQuestionMCQ(
+      questionText: 'Dry mouth',
       options: [
         'a) Sip water & speak slowly',
         'b) Focus on helping the audience understand, not impressing them',
@@ -76,8 +76,8 @@ Match the anxiety symptom with a useful tip. Draw lines to connect each symptom 
       ],
       correctOptionIndex: 0,
     ),
-    PracticeQuestion1(
-      questionText: '4) Feeling shaky',
+    PracticeQuestionMCQ(
+      questionText: 'Feeling shaky',
       options: [
         'a) Sip water & speak slowly',
         'b) Focus on helping the audience understand, not impressing them',
@@ -88,8 +88,8 @@ Match the anxiety symptom with a useful tip. Draw lines to connect each symptom 
       ],
       correctOptionIndex: 5,
     ),
-    PracticeQuestion1(
-      questionText: '5) Mind going blank',
+    PracticeQuestionMCQ(
+      questionText: 'Mind going blank',
       options: [
         'a) Sip water & speak slowly',
         'b) Focus on helping the audience understand, not impressing them',
@@ -100,8 +100,8 @@ Match the anxiety symptom with a useful tip. Draw lines to connect each symptom 
       ],
       correctOptionIndex: 2,
     ),
-    PracticeQuestion1(
-      questionText: '6) Worry about judgment',
+    PracticeQuestionMCQ(
+      questionText: 'Worry about judgment',
       options: [
         'a) Sip water & speak slowly',
         'b) Focus on helping the audience understand, not impressing them',
@@ -117,9 +117,9 @@ Match the anxiety symptom with a useful tip. Draw lines to connect each symptom 
   practiceActivityDescription2: """
 Imagine you're about to start your presentation and feel nervous. Tap the best internal phrase to help you stay calm and focused:
 """,
-  practiceActivityQuestions2:[
-    PracticeQuestion2(
-      questionText: '1. “Everyone’s staring at me. What if I mess up?”',
+  practiceActivityMCQ2:[
+    PracticeQuestionMCQ2(
+      questionText: '“Everyone’s staring at me. What if I mess up?”',
       options: [
         'a) “I’ve practiced. I don’t have to be perfect—just clear.”',
         'b) “They’re probably judging me.”',
@@ -127,8 +127,8 @@ Imagine you're about to start your presentation and feel nervous. Tap the best i
       ],
       correctOptionIndex: 0,
     ),
-    PracticeQuestion2(
-      questionText: '2. "I just forgot what I was going to say!"',
+    PracticeQuestionMCQ2(
+      questionText: '"I just forgot what I was going to say!"',
       options: [
         'a) “I should just stop now.”',
         'b) “This is a disaster.”',
@@ -136,8 +136,8 @@ Imagine you're about to start your presentation and feel nervous. Tap the best i
       ],
       correctOptionIndex: 2,
     ),
-    PracticeQuestion2(
-      questionText: '3. "My voice is shaking!"',
+    PracticeQuestionMCQ2(
+      questionText: '"My voice is shaking!"',
       options: [
         'a) “I can’t do this.”',
         'b) “It’s okay to be nervous—keep going, it will get better.”',
@@ -145,8 +145,8 @@ Imagine you're about to start your presentation and feel nervous. Tap the best i
       ],
       correctOptionIndex: 1,
     ),
-    PracticeQuestion2(
-      questionText: '4. “I saw someone in the audience yawn. That means I’m boring!”',
+    PracticeQuestionMCQ2(
+      questionText: '“I saw someone in the audience yawn. That means I’m boring!”',
       options: [
         'a) “I’m not interesting at all.”',
         'b) “I should stop now before more people fall asleep.”',
@@ -154,8 +154,8 @@ Imagine you're about to start your presentation and feel nervous. Tap the best i
       ],
       correctOptionIndex: 2,
     ),
-    PracticeQuestion2(
-      questionText: '5. “I stumbled over a word. Everyone noticed!”',
+    PracticeQuestionMCQ2(
+      questionText: '“I stumbled over a word. Everyone noticed!”',
       options: [
         'a) “Mistakes happen—just correct it and keep going.”',
         'b) “Now they think I don’t know anything.”',
@@ -163,8 +163,8 @@ Imagine you're about to start your presentation and feel nervous. Tap the best i
       ],
       correctOptionIndex: 0,
     ),
-    PracticeQuestion2(
-      questionText: '6. “I feel like my hands are shaking too much.”',
+    PracticeQuestionMCQ2(
+      questionText: '“I feel like my hands are shaking too much.”',
       options: [
         'a) “I bet everyone can tell I’m anxious.”',
         'b) “I’ll hold the podium and take a calming breath.”',
@@ -172,8 +172,8 @@ Imagine you're about to start your presentation and feel nervous. Tap the best i
       ],
       correctOptionIndex: 1,
     ),
-    PracticeQuestion2(
-      questionText: '7. “Someone asked a question I didn’t expect.”',
+    PracticeQuestionMCQ2(
+      questionText: '“Someone asked a question I didn’t expect.”',
       options: [
         'a) “I should have known that—this proves I’m not ready.”',
         'b) “It’s okay to pause and think—I can say, ‘Let me think about that.’”',
@@ -181,8 +181,8 @@ Imagine you're about to start your presentation and feel nervous. Tap the best i
       ],
       correctOptionIndex: 1,
     ),
-    PracticeQuestion2(
-      questionText: '8. “I keep thinking about messing up instead of focusing on my message.”',
+    PracticeQuestionMCQ2(
+      questionText: '“I keep thinking about messing up instead of focusing on my message.”',
       options: [
         'a) “I’ll focus on explaining my ideas clearly—that’s what matters most.”',
         'b) “If I mess up even once, the whole thing is ruined.”',
@@ -201,8 +201,7 @@ Take notes during the video where you hear something that you’d like to try or
 
   summary: """
 In this lesson, you learned that presentation anxiety is a normal and manageable experience. We explored what causes nerves—like fear of forgetting, judgment, or failure—and learned practical ways to handle those feelings. Whether it’s breathing deeply, repeating calming thoughts, rehearsing your opening line, or visualizing success, small changes can make a big difference. You also practiced shifting negative thoughts into empowering ones, focusing on your message rather than your fear.
-As computing students, your ability to present clearly is just as important as writing code or running simulations. With preparation and mindset tools, you can turn anxiety into energy and speak with confidence. Keep practicing your calm-down strategies, you’re on your way to becoming a more confident speaker!
-""",
+As computing students, your ability to present clearly is just as important as writing code or running simulations. With preparation and mindset tools, you can turn anxiety into energy and speak with confidence. Keep practicing your calm-down strategies, you’re on your way to becoming a more confident speaker!""",
 
   inClassActivity: """
 Now that you’ve completed this lesson, it’s time to apply what you’ve learned in a real situation. In our classroom session, we will do some engaging activities that will help you reduce your nervousness. 
@@ -211,7 +210,7 @@ Always remember, before presenting any presentation, take a minute to practice o
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What is one physical symptom of presentation anxiety?',
+      question: 'What is one physical symptom of presentation anxiety?',
       options: [
         'a) Hunger',
         'b) Shaky hands',
@@ -221,7 +220,7 @@ Always remember, before presenting any presentation, take a minute to practice o
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2. What is “box breathing”?',
+      question: 'What is “box breathing”?',
       options: [
         'a) Breathing into a box',
         'b) A type of singing exercise',
@@ -231,7 +230,7 @@ Always remember, before presenting any presentation, take a minute to practice o
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '3. Which of these helps reduce anxiety before a presentation?',
+      question: 'Which of these helps reduce anxiety before a presentation?',
       options: [
         'a) Skipping meals',
         'b) Focusing only on your notes',
@@ -241,15 +240,15 @@ Always remember, before presenting any presentation, take a minute to practice o
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '4. What is one good way to calm your mind right before speaking?',
+      question: 'What is one good way to calm your mind right before speaking?',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5. Rewrite this thought in a more positive way:\n“I’m going to fail.”',
+      question: 'Rewrite this thought in a more positive way:\n“I’m going to fail.”',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '6. What is one reason why people feel nervous before presenting?',
+      question: 'What is one reason why people feel nervous before presenting?',
       options: [
         'a) They love speaking',
         'b) They want to fail',
@@ -259,7 +258,7 @@ Always remember, before presenting any presentation, take a minute to practice o
       correctOptionIndex: 3,
     ),
     QuizQuestion(
-      question: '7. What should you focus on during your presentation to feel less nervous?',
+      question: 'What should you focus on during your presentation to feel less nervous?',
       options: [
         'a) Helping the audience understand your ideas',
         'b) Speaking faster',

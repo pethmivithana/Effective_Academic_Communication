@@ -94,7 +94,7 @@ Watch this short video for additional techniques to improve communication skills
 Now that you have completed the pre-class activity, it’s time to watch the recorded lecture. This lecture provides clear explanations and examples of each type of question.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=N1hvY0tvek1wT182NzcxNg==",
 
   summary: """
 In this lesson, we’ve discussed the different types of questions we use in communication. By understanding how to form and use these questions, you will be better equipped to engage in conversations, both casual and professional. Remember to practice using these questions in a variety of situations to become more confident in your communication skills.""",

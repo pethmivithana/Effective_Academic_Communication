@@ -4,7 +4,7 @@ final UnitModel unit2_0 = UnitModel(
   unitIndex: 2,
     unitName: "Basic Grammar Skills",
     introductionText: """
-Hello everyone, Welcome to Unit 02 
+Hello everyone, Welcome to Unit 2 
 This lesson introduces basic grammar in spoken English. Before we move on to more advanced topics such as word order and types of sentences, it is important to first understand the fundamental role of grammar in communication. Take a moment to reflect on how you currently structure sentences and recognize areas where you might need improvement.
 This lesson will focus on building both accuracy and confidence in forming grammatically correct sentences. We will explore how grammar structures impact meaning and help create clear and effective communication—a key skill for expressing your ideas in English. To start, let’s take a moment to clarify our objectives. Knowing what we aim to accomplish will help you stay focused and motivated throughout the lesson. With that in mind, let’s go over the lesson goals.
 By the end of this lesson, you will be able to:
@@ -17,7 +17,7 @@ Watch a short video clip where common grammar mistakes are made in spoken Englis
 
 Write down at least three grammar errors you notice and explain why you think they are wrong.
 
-Use the padlet given to answer the questions.""",
+Use the discussion forum given to answer the questions.""",
 
   preClassActivityVideo:"https://www.youtube.com/watch?v=ePVZvMjSMvE ",
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=359261",

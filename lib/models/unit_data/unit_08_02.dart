@@ -23,7 +23,7 @@ Once you’ve finished watching, try answering the following multiple-choice que
   preClassActivityVideo:"https://www.youtube.com/watch?v=75Bwtfwd9uc ",
   preClassQuestions:[
   PreClassQuestion(
-    questionText: '1. What does the “P” in PEE stand for?',
+    questionText: 'What does the “P” in PEE stand for?',
     options: [
       'a) Paragraph',
       'b) Point',
@@ -33,7 +33,7 @@ Once you’ve finished watching, try answering the following multiple-choice que
     correctOptionIndex: 1,
   ),
   PreClassQuestion(
-    questionText: '2. What should “Evidence” include?',
+    questionText: 'What should “Evidence” include?',
     options: [
       'a) A random thought',
       'b) A fact, example, or statistic that supports the point',
@@ -43,7 +43,7 @@ Once you’ve finished watching, try answering the following multiple-choice que
     correctOptionIndex: 1,
   ),
   PreClassQuestion(
-    questionText: '3. What does “Explanation” do in the PEE method?',
+    questionText: 'What does “Explanation” do in the PEE method?',
     options: [
       'a) Introduces a new point',
       'b) Repeats the evidence',
@@ -53,7 +53,7 @@ Once you’ve finished watching, try answering the following multiple-choice que
     correctOptionIndex: 2,
   ),
   PreClassQuestion(
-    questionText: '4. Why is the PEE method useful in academic discussions?',
+    questionText: 'Why is the PEE method useful in academic discussions?',
     options: [
       'a) It helps structure answers clearly and logically',
       'b) It makes writing more complicated',
@@ -63,7 +63,7 @@ Once you’ve finished watching, try answering the following multiple-choice que
     correctOptionIndex: 0,
   ),
   PreClassQuestion(
-    questionText: '5. Which sentence is an example of a Point in the PEE method?',
+    questionText: 'Which sentence is an example of a Point in the PEE method?',
     options: [
       'a) "Eating fruits is good for your health."',
       'b) "According to a health study, people who eat fruits daily have a lower risk of illness."',
@@ -76,36 +76,42 @@ Once you’ve finished watching, try answering the following multiple-choice que
 
   practiceActivityDescription1: """ 
 Let’s now look at an example paragraph and break it down into its three parts: Point, Evidence, and Explanation.
+
 Read the paragraph below and identify which sentence represents the Point, which is the Evidence, and which is the Explanation.
+
 “Regular exercise is essential for maintaining good mental health. A study by Harvard Medical School found that people who exercise at least 30 minutes a day have a 40% lower risk of depression. This is because physical activity releases endorphins, which improve mood and reduce stress.”
+
 Step 1: Write down your answers.
+
 Step 2: Share your response in the discussion forum.
 """,
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription2: """
 Now it’s your turn to apply what you’ve learned! Choose one of the topics below and write a short paragraph using the PEE structure.
+
 Write 3–4 sentences including:
 •	Point – Your main idea.
 •	Evidence – A fact, example, or statistic to support your point.
 •	Explanation – A sentence that connects your evidence back to your point.
+
  Topics to choose from:
 •	The impact of social media on students
 •	Why reading books is important
 •	The importance of learning English
+
 Upload your work to the submit portal once you’ve completed your paragraph.
 """,
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 We have prepared a short, recorded lecture introducing the PEE method and how it helps in academic discussions and writing. Please watch it carefully before moving on to the activities. Taking notes is encouraged!
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=Y3dyU2x5WDV5cF82NzcyMQ==",
 
   summary: """
-In this lesson, we explored the Point-Evidence-Explanation (PEE) method, a simple yet powerful tool for structuring academic arguments and responses. You learned how to identify the three parts in examples, how to write your own PEE paragraphs, and how this method helps make your ideas clearer and more convincing. Whether you’re preparing for exams, writing essays, or taking part in discussions, the PEE method will help you communicate more effectively.
-""",
+In this lesson, we explored the Point-Evidence-Explanation (PEE) method, a simple yet powerful tool for structuring academic arguments and responses. You learned how to identify the three parts in examples, how to write your own PEE paragraphs, and how this method helps make your ideas clearer and more convincing. Whether you’re preparing for exams, writing essays, or taking part in discussions, the PEE method will help you communicate more effectively.""",
 
   inClassActivity: """
 Looking forward to seeing you in class! 
@@ -117,7 +123,7 @@ Let’s make this a fun and productive session together!
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What is the correct order of the PEE method?',
+      question: 'What is the correct order of the PEE method?',
       options: [
         'a) Explanation → Point → Evidence',
         'b) Evidence → Explanation → Point',
@@ -127,7 +133,7 @@ Let’s make this a fun and productive session together!
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '2. Which of the following best represents Evidence?',
+      question: 'Which of the following best represents Evidence?',
       options: [
         'a) "Regular exercise improves mental health."',
         'b) "A study from Harvard University found that people who exercise regularly experience 30% lower stress levels."',
@@ -137,7 +143,7 @@ Let’s make this a fun and productive session together!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '3. Why is the Explanation step important?',
+      question: 'Why is the Explanation step important?',
       options: [
         'a) It provides an opinion without proof.',
         'b) It connects the evidence to the main point and explains its significance.',
@@ -147,7 +153,7 @@ Let’s make this a fun and productive session together!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '4. Which of the following is NOT true about the PEE method?',
+      question: 'Which of the following is NOT true about the PEE method?',
       options: [
         'a) It helps organize ideas logically.',
         'b) It is only used in written work, not in speaking.',

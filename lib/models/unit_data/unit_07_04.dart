@@ -16,12 +16,14 @@ By the end of this lesson, you will be able to:
 
   preClassActivityDescription: """
 Let’s reflect on commonly used informal words in computing and explore more academic alternatives before the lesson begins. Follow the instructions given. 
-	Open the Padlet link provided 
-	Follow the instructions given there. 
-	This is an individual task, so do not edit others’ posts. But feel free to scroll through the wall and see how your peers are thinking, you might discover a few new words!
 
+Open the Padlet link provided 
+
+Follow the instructions given there. 
+
+This is an individual task, so do not edit others’ posts. But feel free to scroll through the wall and see how your peers are thinking, you might discover a few new words!
 """,
-  preClassActivityLink:"https://padlet.com/nilakmaw/Vocabulary_Swap_Challenge ",
+  preClassActivityLink:"https://padlet.com/nilakmaw/Vocabulary_Swap_Challenge",
 
   practiceActivityDescription1: """ 
 Read each sentence and examine the word or phrase that should be replaced. Then write the best academic replacement in the space provided.
@@ -80,26 +82,33 @@ Read each sentence and examine the word or phrase that should be replaced. Then 
   ],
 
   practiceActivityDescription2: """
-	Below, you will find a sample technical discussion with informal phrases often used in technical or computing-related discussions.
-	Your task is to prepare a short-spoken response using academic equivalents instead.
-	You CANNOT use the sample given; you need to make your own discussion. 
-	Use a voice recorder to record your response and paste the record link here.
+Below, you will find a sample technical discussion with informal phrases often used in technical or computing-related discussions.
+
+Your task is to prepare a short-spoken response using academic equivalents instead.
+
+You CANNOT use the sample given; you need to make your own discussion. 
+
+Use a voice recorder to record your response and paste the record link here.
 
 In each response, try to:
-	Begin with a short sentence explaining a computing process or scenario.
-	Use the academic version of the informal word or phrase in context.
-	Speak clearly and naturally.
+Begin with a short sentence explaining a computing process or scenario.
+Use the academic version of the informal word or phrase in context.
+Speak clearly and naturally.
 
 Sample Informal Discussion
-Student A: Hey, we need to fix that login bug before the next update. It’s been messing things up for some users.
-Student B: Yeah, I noticed it too. I think we can get the error logs from the server and check what’s going on.
-Student A: Good idea. After that, let’s put together a quick report so we can show the team tomorrow.
-Student B: Sure. Also, I was thinking we should come up with a better way to handle login attempts—maybe add some sort of lockout feature?
-Student A: Definitely. There are a lot of failed login attempts in the logs, so it makes sense to do that.
 
+Student A: Hey, we need to fix that login bug before the next update. It’s been messing things up for some users.
+
+Student B: Yeah, I noticed it too. I think we can get the error logs from the server and check what’s going on.
+
+Student A: Good idea. After that, let’s put together a quick report so we can show the team tomorrow.
+
+Student B: Sure. Also, I was thinking we should come up with a better way to handle login attempts—maybe add some sort of lockout feature?
+
+Student A: Definitely. There are a lot of failed login attempts in the logs, so it makes sense to do that.
 """,
-  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
-  practiceUploadLink2:"",
+  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Now, let’s watch the video lesson below. You’ll explore the differences between informal and academic language, and why it’s important to use academic vocabulary in computing-related writing. The video will show you how to spot casual phrases and suggest more formal, professional alternatives. Pay attention to the structure of example sentences in technical documentation and reports. You’ll also learn tips for recognizing tone and register, so you know when to adjust your word choice depending on the context.
@@ -108,8 +117,7 @@ Now, let’s watch the video lesson below. You’ll explore the differences betw
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, you learned how to replace everyday informal words with academic equivalents to make your writing and speaking more professional. You explored the difference between casual and formal tone, particularly in computing-related communication. By practicing with both written and spoken exercises, you gained confidence in selecting more suitable vocabulary for technical contexts. Academic word choices like obtain instead of get or resolve instead of fix enhance the clarity, precision, and formality of your message. These skills are essential for writing reports, delivering presentations, and collaborating in academic and workplace environments. You are now better prepared to express your ideas with authority and academic style.
-""",
+In this lesson, you learned how to replace everyday informal words with academic equivalents to make your writing and speaking more professional. You explored the difference between casual and formal tone, particularly in computing-related communication. By practicing with both written and spoken exercises, you gained confidence in selecting more suitable vocabulary for technical contexts. Academic word choices like obtain instead of get or resolve instead of fix enhance the clarity, precision, and formality of your message. These skills are essential for writing reports, delivering presentations, and collaborating in academic and workplace environments. You are now better prepared to express your ideas with authority and academic style.""",
 
   inClassActivity: """
 In our upcoming classroom session, we’ll play a game called “Upgrade That Sentence!” where each student will receive a casual computing-related sentence. Your task is to rewrite it using more academic vocabulary. We’ll then review answers together and vote on the most improved version. You’ll also work individually with real excerpts from student reports or sample documentation and highlight informal terms that need upgrading. Bring your voice too—we’ll do a lightning round where students read both versions aloud and reflect on how the tone changes. Let’s sharpen your academic voice together!
@@ -117,32 +125,32 @@ In our upcoming classroom session, we’ll play a game called “Upgrade That Se
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. Which of the following is the best academic replacement for “get”?',
+      question: 'Which of the following is the best academic replacement for “get”?',
       options: ['obtain', 'grab', 'take', 'have'],
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: '2. What is a better academic word for “make sure”?',
+      question: 'What is a better academic word for “make sure”?',
       options: ['fix', 'create', 'ensure', 'guarantee'],
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '3. Which word is more formal: “a lot of” or “significant”?',
+      question: 'Which word is more formal: “a lot of” or “significant”?',
       correctTextAnswer: 'significant',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '4. Rewrite this sentence using academic vocabulary:\nWe had to fix a lot of bugs to make sure the app worked well.',
+      question: 'Rewrite this sentence using academic vocabulary:\nWe had to fix a lot of bugs to make sure the app worked well.',
       correctTextAnswer: 'We had to resolve numerous bugs to ensure the application functioned effectively.',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5. What is an academic alternative to “deal with”?',
+      question: 'What is an academic alternative to “deal with”?',
       options: ['run away', 'handle', 'ignore', 'get rid of'],
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '6. Choose the best revision:\nThe students got good results after the test.',
+      question: 'Choose the best revision:\nThe students got good results after the test.',
       options: [
         'The students got nice results.',
         'The students obtained excellent results.',

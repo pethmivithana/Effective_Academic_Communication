@@ -216,7 +216,7 @@ Please watch the recorded video on Peer Feedback & Group Discussion. The video w
 •	How to participate effectively in group conversations, including listening skills, turn-taking, and responding to others’ ideas
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=QTNLOTE2eGlLUl82NzcyOQ==",
 
   summary: """
 In this final lesson, you explored how peer feedback and group discussion support your development as a confident academic communicator. Giving and receiving feedback allows for growth, and discussions build collaboration and critical thinking. These skills will remain useful in any setting where communication matters.

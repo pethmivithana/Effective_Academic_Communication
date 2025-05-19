@@ -19,27 +19,27 @@ Read the following scenarios and choose whether the person is giving an academic
 """,
   preClassQuestions:[
     PreClassQuestion(
-      questionText: '1. Sam is showing his final year project to lecturers and industry experts.',
+      questionText: 'Sam is showing his final year project to lecturers and industry experts.',
       options: ['Academic Presentation', 'Casual Talk'],
       correctOptionIndex: 0,
     ),
     PreClassQuestion(
-      questionText: '2. Laila is telling her friend about a new AI tool she found online.',
+      questionText: 'Laila is telling her friend about a new AI tool she found online.',
       options: ['Academic Presentation', 'Casual Talk'],
       correctOptionIndex: 1,
     ),
     PreClassQuestion(
-      questionText: '3. A team is presenting their mobile app at a university tech fair.',
+      questionText: 'A team is presenting their mobile app at a university tech fair.',
       options: ['Academic Presentation', 'Casual Talk'],
       correctOptionIndex: 0,
     ),
     PreClassQuestion(
-      questionText: '4. Nina is explaining her research results during a group video call with her professor.',
+      questionText: 'Nina is explaining her research results during a group video call with her professor.',
       options: ['Academic Presentation', 'Casual Talk'],
       correctOptionIndex: 0,
     ),
     PreClassQuestion(
-      questionText: '5. Raj is describing what he has learnt at school to his brother.',
+      questionText: 'Raj is describing what he has learnt at school to his brother.',
       options: ['Academic Presentation', 'Casual Talk'],
       correctOptionIndex: 1,
     ),
@@ -49,54 +49,59 @@ Read the following scenarios and choose whether the person is giving an academic
 Match the casual statements to their improved academic versions.
 
 A)	This feature provides a user-friendly experience with streamlined functionality.
+
 B)	Ultimately, the problem was resolved after thorough testing and adjustments. 
+
 C)	This method demonstrates efficiency in data processing.
+
 D)	In conclusion, we’ve demonstrated a working solution that meets our objectives. 
+
 E)	Our team developed a mobile application designed to...
+
 F)	After encountering a bug, we resolved it by refactoring the function.
+
 G)	We encountered unexpected issues during the implementation phase.
+
 H)	This section highlights the most innovative feature of our project.
-
-
 """,
   practiceActivityQuestions1:[
   PracticeQuestion1(
-    questionText: '1. So, like, we kinda made this app...',
+    questionText: 'So, like, we kinda made this app...',
     correctAnswer: 'E',
     isTextAnswer: true,
   ),
   PracticeQuestion1(
-    questionText: '2. You guys are gonna love this part.',
+    questionText: 'You guys are gonna love this part.',
     correctAnswer: 'H',
     isTextAnswer: true,
   ),
   PracticeQuestion1(
-    questionText: '3. Basically, the code didn’t work, and we fixed it.',
+    questionText: 'Basically, the code didn’t work, and we fixed it.',
     correctAnswer: 'F',
     isTextAnswer: true,
   ),
   PracticeQuestion1(
-    questionText: '4. It’s super cool.',
+    questionText: 'It’s super cool.',
     correctAnswer: 'A',
     isTextAnswer: true,
   ),
   PracticeQuestion1(
-    questionText: '5. We ran into some weird stuff while coding.',
+    questionText: 'We ran into some weird stuff while coding.',
     correctAnswer: 'G',
     isTextAnswer: true,
   ),
   PracticeQuestion1(
-    questionText: '6. Anyway, it all worked out somehow.',
+    questionText: 'Anyway, it all worked out somehow.',
     correctAnswer: 'B',
     isTextAnswer: true,
   ),
   PracticeQuestion1(
-    questionText: '7. Check this out, it’s kinda awesome.',
+    questionText: 'Check this out, it’s kinda awesome.',
     correctAnswer: 'C',
     isTextAnswer: true,
   ),
   PracticeQuestion1(
-    questionText: '8. Umm... yeah, that’s it, I guess.',
+    questionText: 'Umm... yeah, that’s it, I guess.',
     correctAnswer: 'D',
     isTextAnswer: true,
   ),
@@ -104,18 +109,20 @@ H)	This section highlights the most innovative feature of our project.
 
   practiceActivityDescription2: """
 Imagine that you are about to give a short presentation about ‘How language games help you learn English’. Follow the steps given below:
-	Make your introductory speech of about 1-2 minutes. It should include:
+
+Make your introductory speech of about 1-2 minutes. It should include:
 o	Greetings
 o	Introduce the topic of your presentation
 o	Purpose of the presentation
 o	Structure of your presentation
-	Record your speech.
-	Copy the link/URL of the best version of your speech and paste it here!
 
+Record your speech.
+
+Copy the link/URL of the best version of your speech and paste it here!
 """,
 
   practiceActivityLink2:"https://www.speakpipe.com/messages",
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Watch the video lesson carefully to understand what academic presentations are and how they differ from everyday conversations. The video will highlight key features, tone, and structure used in effective presentations, with examples. Feel free to take down notes wherever you think something is useful or interesting, you might find helpful phrases, sentence starters, or techniques that you can use in your own presentations later on.
@@ -124,8 +131,7 @@ Watch the video lesson carefully to understand what academic presentations are a
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, you explored the essentials of making academic presentations. You learned how they differ from casual conversations, the importance of using formal and structured language, and how to set the right tone from the start. Academic presentations allow you to explain your ideas, research, or work to an audience in a clear and organized way. By understanding your purpose, audience, and message, you can create presentations that are both informative and engaging. This introduction is just the beginning—soon, you’ll discover how to structure your content effectively and handle presentation anxiety like a pro!
-""",
+In this lesson, you explored the essentials of making academic presentations. You learned how they differ from casual conversations, the importance of using formal and structured language, and how to set the right tone from the start. Academic presentations allow you to explain your ideas, research, or work to an audience in a clear and organized way. By understanding your purpose, audience, and message, you can create presentations that are both informative and engaging. This introduction is just the beginning—soon, you’ll discover how to structure your content effectively and handle presentation anxiety like a pro!""",
 
   inClassActivity: """
 Now that you’ve completed the lesson, it’s time to put your presentation skills into action. In our classroom session, you’ll take part in a quick individual speaking challenge where you’ll present a computing-related topic of your choice in just one minute—no slides needed! This is your chance to practice using academic language, proper structure, and confident delivery in a friendly, low-pressure environment.
@@ -135,7 +141,7 @@ We can’t wait to hear what you have to share!
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What is the main goal of an academic presentation?',
+      question: 'What is the main goal of an academic presentation?',
       options: [
         'a) To entertain the audience',
         'b) To share research, findings, or information clearly and formally',
@@ -144,7 +150,7 @@ We can’t wait to hear what you have to share!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '2. Which of the following is a feature of academic speaking?',
+      question: 'Which of the following is a feature of academic speaking?',
       options: [
         'a) Informal vocabulary and slang',
         'b) Telling jokes throughout',
@@ -153,7 +159,7 @@ We can’t wait to hear what you have to share!
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '3. Which is not part of an academic presentation?',
+      question: 'Which is not part of an academic presentation?',
       options: [
         'a) A clear introduction',
         'b) A slide full of memes',
@@ -162,11 +168,11 @@ We can’t wait to hear what you have to share!
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '4. Why is it important to avoid casual language in academic presentations?',
+      question: 'Why is it important to avoid casual language in academic presentations?',
       isTextAnswer: true,
     ),
     QuizQuestion(
-      question: '5. What would be a good way to start an academic presentation?',
+      question: 'What would be a good way to start an academic presentation?',
       options: [
         'a) Good morning. Today we’ll be discussing our project on...',
         'b) So, like, we made a thing...',
@@ -175,7 +181,7 @@ We can’t wait to hear what you have to share!
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: '6. Write one sentence you could use to introduce a computing project in an academic setting.',
+      question: 'Write one sentence you could use to introduce a computing project in an academic setting.',
       isTextAnswer: true,
     ),
   ],

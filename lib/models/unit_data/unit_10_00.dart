@@ -16,13 +16,17 @@ By the end of this lesson, students will be able to:
 
   preClassActivityDescription: """
 Before we begin, think about a time when you listened to a presentation that was hard to follow. What made it difficult to understand?
+
 Reflect on and answer these questions:
+
 1.	What challenges do you face when organizing your ideas in a presentation?
+
 2.	Have you ever struggled to keep an audience engaged? Why?
+
 Please share your responses in the discussion forum. 
 """,
 
-  preClassActivityUploadLink:"",
+  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
 
   practiceActivityDescription1: """ 
 Now that you have an understanding of how to maintain the logical flow of a presentation, it's time to practice at home.
@@ -48,29 +52,31 @@ Step 4 – Take a screenshot of the best attempt of your PowerPoint Coach report
 Step 5 – Upload the screenshot of your report to the portal.
 """,
 
-  practiceUploadLink:"",
+  practiceUploadLink:"https://example.com/upload-practice-activity",
 
 
   practiceActivityDescription2: """
 Imagine that you are about to give a short presentation about ‘How language games help you learn English’. Follow the steps given below:
-	Make your introductory speech of about 1-2 minutes. It should include:
+
+Make your introductory speech of about 1-2 minutes. It should include:
 o	Greetings
 o	Introduce the topic of your presentation
 o	Purpose of the presentation
 o	Structure of your presentation
-	Record your speech.
-	Copy the link/URL of the best version of your speech and paste it here!
 
+Record your speech.
+
+Copy the link/URL of the best version of your speech and paste it here!
 """,
 
   practiceActivityLink2:"https://www.speakpipe.com/messages",
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 To get started, watch this short recorded lecture on structuring spoken presentations. It will introduce you to key techniques that will improve coherence and logical flow.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=djE0anZST2FEal82NzcyMw==",
 
   summary: """
 In this lesson, we explored the importance of coherence and logical flow in spoken presentations. We discussed strategies for organizing ideas, using signposting language, and applying transitions to guide your audience. With the help of PowerPoint’s Presenter Coach, you practiced refining your delivery and received valuable feedback to improve your performance.
@@ -82,7 +88,7 @@ We will engage in interactive activities in class to help you apply the skills y
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What is the main purpose of using signposting language in a presentation?',
+      question: 'What is the main purpose of using signposting language in a presentation?',
       options: [
         'a) To entertain the audience',
         'b) To introduce new vocabulary',
@@ -92,7 +98,7 @@ We will engage in interactive activities in class to help you apply the skills y
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '2. Which of the following is an example of a transition phrase you can use in your presentation?',
+      question: 'Which of the following is an example of a transition phrase you can use in your presentation?',
       options: [
         'a) “I don’t know”',
         'b) “Let me explain”',
@@ -102,7 +108,7 @@ We will engage in interactive activities in class to help you apply the skills y
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: '3. Why is it important to have a clear structure in your presentation?',
+      question: 'Why is it important to have a clear structure in your presentation?',
       options: [
         'a) It makes the speaker feel confident',
         'b) It helps the audience follow your message easily',
@@ -112,7 +118,7 @@ We will engage in interactive activities in class to help you apply the skills y
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '4. Which of these is the most effective way to introduce the main points in a presentation?',
+      question: 'Which of these is the most effective way to introduce the main points in a presentation?',
       options: [
         'a) Simply reading from the slides',
         'b) Using a signposting phrase like “First, I will talk about...”',
@@ -122,7 +128,7 @@ We will engage in interactive activities in class to help you apply the skills y
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: '5. Which part of your presentation is the best place to summarize your main points and conclude?',
+      question: 'Which part of your presentation is the best place to summarize your main points and conclude?',
       options: [
         'a) Introduction',
         'b) Main Points',

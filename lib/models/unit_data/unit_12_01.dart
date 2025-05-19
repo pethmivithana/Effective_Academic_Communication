@@ -89,7 +89,7 @@ Step 5 – Do the same presentation using zoom and download it. Now you can shar
 Watch the video lesson where we discuss the power of reflection and how it can be a game-changer in your academic journey. We’ll break down how to identify patterns in your performance and how those insights can fuel progress.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=SHdHNUdldVFiRF82NzcyOA==",
 
   summary: """
 Self-assessment and reflection are essential tools for personal and academic growth. By identifying your strengths and weaknesses in communication, you gain clarity on how to move forward. Setting SMART goals gives your progress direction and purpose, making you more confident and effective in your academic journey.

@@ -36,6 +36,8 @@ Watch this video on note-taking methods.
 
   practiceActivityDescription2: """
 Now, apply one of the note-taking methods you just learned. Watch the following lecture on Artificial Intelligence and take notes using your chosen method. 
+
+You can take down the note on a piece of paper while watching the video, and after you complete the note please take a photo of your note and upload it in the given submission portal.
 """,
   practiceVideoUrl:"https://www.youtube.com/watch?v=mJeNghZXtMo ",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
@@ -44,7 +46,7 @@ Now, apply one of the note-taking methods you just learned. Watch the following 
 Once you’ve completed the pre-class activity, please watch the recorded mini lesson provided. It will introduce note-taking techniques and strategies to use in real academic lectures.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=V3RyOFl4ZkVpdl82NzY4Ng==",
 
   summary: """
 In this lesson, we explored how to become a more effective listener during academic lectures. You learned the value of active listening, discovered several note-taking methods, and practiced applying them using real-world content. The goal is not just to take notes—but to take useful notes that help you retain and understand the content.""",

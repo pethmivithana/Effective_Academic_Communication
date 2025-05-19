@@ -94,7 +94,7 @@ Watch this short video for additional techniques to improve communication skills
 Now that you’ve identified your own communication challenges, please listen to the recorded lecture on communication strategies. Take notes, especially on strategies such as paraphrasing, asking for repetition, and active listening
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=S2hJenVGRHJTZ182NzcxNQ==",
 
   summary: """
 In this lesson, we explored essential communication strategies such as asking for clarification, paraphrasing, active listening, and overcoming communication barriers. You completed a self-assessment to reflect on your communication challenges, listened to a lecture for deeper understanding, and practiced real-life conversations with an AI.

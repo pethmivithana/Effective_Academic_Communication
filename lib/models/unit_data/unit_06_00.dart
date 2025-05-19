@@ -56,7 +56,7 @@ This could relate to how you respond in conversations, your body language, how w
 We’ve prepared a short recorded lecture that introduces the concept of communication strategies and their importance. Please listen to the lecture carefully before attempting the practice activities.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=QzNNTnROdUZMdl82NzY4OA==",
 
   summary: """
 In this lesson, we covered:

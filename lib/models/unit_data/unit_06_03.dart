@@ -85,7 +85,7 @@ Watch this video for additional strategies to improve your summarizing skills.
 Listen to the recorded lecture on effective techniques for summarizing discussions. Take notes on the key strategies such as identifying main points, using transition phrases, and structuring your summary.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=anE0ZlBpWEdMUl82NzcxNw==",
 
   summary: """
 In this lesson, we focused on effective techniques for summarizing key points in discussions. You learned to identify the main points, use transition phrases, and structure your summaries to communicate ideas concisely. We also practiced identifying essential information in discussions and applied techniques such as active listening and paraphrasing. These strategies are essential in both academic and professional settings for clear and effective communication.""",

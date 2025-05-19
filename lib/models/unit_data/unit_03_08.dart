@@ -7,10 +7,9 @@ final UnitModel unit3_8 = UnitModel(
 Hello everyone, welcome back!
 In today’s lesson, we will explore the simple future tense, one of the essential tenses in English that helps you talk about actions or events that will happen in the future. The simple future tense is commonly used in spoken English to express plans, predictions, and spontaneous decisions.
 By the end of this lesson, you will be able to:
--	Understand the simple future tense and its uses in spoken English.
--	Form sentences correctly using "will" and "be going to."
--	Use the simple future tense in real-life conversations with confidence.
-
+1.	Understand the simple future tense and its uses in spoken English.
+2.	Form sentences correctly using "will" and "be going to."
+3.	Use the simple future tense in real-life conversations with confidence.
 """,
 
   preClassActivityDescription: """
@@ -18,7 +17,7 @@ Before we begin, let's have some fun predicting the future!
 
 Think about the future of technology, the world, or your personal life.
 
-Write 05 sentences predicting what might happen using the simple future tense 
+Write 05 sentences predicting what might happen using the simple future tense. 
 Example: In 2050, robots will do most of our jobs.
 """,
 
@@ -41,16 +40,15 @@ Example: In the future, AI will be able to create entire programs without human 
 """,
   practiceActivityLink:"https://whiteboard.office.com/me/whiteboards",
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
-
   practiceActivityDescription2: """
-Click on the link below and complete the given quiz.""",
+Click on the link below and complete the given quiz.
+Please take a screenshot and submit into the given portal as proof of completion""",
 
   practiceActivityLink2: "https://quizizz.com/join",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
 
   instructionsText: """
-Before we dive into the activities, watch the video lesson on how to use the simple future tense in spoken English. Pay close attention to how “will” and “be going to” are used in different situations. Take notes while watching to reinforce your learning.
+Before we attempt the activities, watch the video lesson on how to use the simple future tense in spoken English. Pay close attention to how “will” and “be going to” are used in different situations. Take notes while watching to reinforce your learning.
 """,
 
   instructionVideoId: "8laYlyAFd0o",

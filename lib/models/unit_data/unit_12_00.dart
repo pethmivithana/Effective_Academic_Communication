@@ -20,21 +20,22 @@ Before we begin the lesson, take a few minutes to reflect on your academic commu
 
   preClassQuestions:[
     PreClassQuestion(
-      questionText: "1. What do you believe is your strongest communication skill?",
+      questionText: "What do you believe is your strongest communication skill?",
       isTextAnswer: true,
     ),
     PreClassQuestion(
-      questionText: "2. Which area of communication do you find most challenging? (e.g., speaking fluently, structuring arguments, using academic vocabulary, etc.)",
+      questionText: "Which area of communication do you find most challenging? (e.g., speaking fluently, structuring arguments, using academic vocabulary, etc.)",
       isTextAnswer: true,
     ),
     PreClassQuestion(
-      questionText: "3. How would you rate your overall academic communication skills on a scale from 1 to 10 (1 = very weak, 10 = excellent)?",
+      questionText: "How would you rate your overall academic communication skills on a scale from 1 to 10 (1 = very weak, 10 = excellent)?",
       isTextAnswer: true,
     ),
   ],
 
   practiceActivityDescription1: """ 
 As a reflective exercise, we’d like you to write 50–100 words about your experience in this course so far. Think about what you’ve learned, any challenges you’ve faced, and how the course has helped improve your academic communication skills.
+
 Use the following prompts to guide your reflection:
 •	What has been most helpful to you?
 •	Which areas do you feel you have improved in?
@@ -68,13 +69,13 @@ Step 5 – Do the same presentation using zoom and download it. Now you can shar
 
 """,
 
-  practiceUploadLink2:"",
+  practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
 Watch the short recorded lecture on the importance of self-assessment and reflection in academic communication. The lecture will provide useful tips on identifying your strengths and weaknesses and setting personal goals for improvement.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=WmZwY1ExcXpVV182NzcyNw==",
 
   summary: """
 In this lesson, we explored the role of self-reflection and goal-setting in enhancing academic communication. You assessed your own communication skills, identified areas of strength and improvement, and created personal action plans for growth. Self-assessment is a lifelong skill that supports academic, professional, and personal development.

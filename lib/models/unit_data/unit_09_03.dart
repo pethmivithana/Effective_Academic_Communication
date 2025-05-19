@@ -19,7 +19,7 @@ Below are jumbled parts of some short presentations. Your task is to guess which
   preClassQuestions:[
     PreClassQuestion(
       questionText:
-      '1. Topic: Cybersecurity in Daily Life\n\n'
+      'Topic: Cybersecurity in Daily Life\n\n'
           'A. Let’s look at how strong passwords, two-factor authentication, and secure browsing habits help prevent cyber threats.\n'
           'B. In this presentation, I’ll explain how cybersecurity affects our everyday routines and why small actions can protect us.\n'
           'C. To wrap up, basic cybersecurity practices can make a big difference. Let’s stay aware and stay safe online.\n\n'
@@ -41,7 +41,7 @@ Below are jumbled parts of some short presentations. Your task is to guess which
     // Cloud Storage Solutions
     PreClassQuestion(
       questionText:
-      '2. Topic: Cloud Storage Solutions\n\n'
+      'Topic: Cloud Storage Solutions\n\n'
           'A. Our goal was to compare cloud storage providers based on speed, security, and pricing.\n'
           'B. Based on the data; Google Drive offered the best performance for students on a budget.\n'
           'C. In this presentation, I’ll explain the benefits of cloud storage and how we selected the top three platforms.\n\n'
@@ -63,7 +63,7 @@ Below are jumbled parts of some short presentations. Your task is to guess which
     // Mobile App Development
     PreClassQuestion(
       questionText:
-      '3. Topic: Mobile App Development\n\n'
+      'Topic: Mobile App Development\n\n'
           'A. To summarize, our app helps users stay consistent by using personalized reminders and simple visuals.\n'
           'B. Today, I’ll present the process of developing a habit-tracking app for students.\n'
           'C. The app was tested using five different Android devices and was rated high for usability.\n\n'
@@ -85,7 +85,7 @@ Below are jumbled parts of some short presentations. Your task is to guess which
     // Virtual Reality in Education
     PreClassQuestion(
       questionText:
-      '4. Topic: Virtual Reality in Education\n\n'
+      'Topic: Virtual Reality in Education\n\n'
           'A. Virtual reality allows students to explore 3D environments, making learning more interactive and immersive.\n'
           'B. In conclusion, VR is a promising tool for education, but more affordable solutions are needed.\n'
           'C. This presentation will explore how VR is used in classrooms and what benefits it brings to computer science education.\n\n'
@@ -143,7 +143,7 @@ Step 03: Record your speech using below option.
 Step 04: Paste the audio link here!
 
 """,
-  practiceActivityLink2:"https://vocaroo.com/ ",
+  practiceActivityLink2:"https://vocaroo.com/",
   practiceUploadLink2:"https://example.com/upload-practice-activity",
 
   instructionsText: """
@@ -154,8 +154,7 @@ Watch the video lesson carefully to learn how to organize a presentation into th
 
   summary: """
 In this lesson, you learned how to structure your presentations so that your audience can follow your ideas easily. Just like writing code, presentations need a plan: a clear introduction that tells your audience what you’ll talk about, a main body that presents your key points, and a conclusion that wraps things up and leaves your audience with something to remember. You practiced identifying these parts in examples, writing your own versions, and understanding how each piece fits together.
-Structure is what turns a list of thoughts into a story your audience can follow. When your presentation flows smoothly, you’ll feel more confident, and your message will be more powerful. Keep using this structure as you plan future talks—it’s a simple but strong way to organize any presentation.
-""",
+Structure is what turns a list of thoughts into a story your audience can follow. When your presentation flows smoothly, you’ll feel more confident, and your message will be more powerful. Keep using this structure as you plan future talks—it’s a simple but strong way to organize any presentation.""",
 
   inClassActivity: """
 Now it’s time to put your planning into practice! In class, you’ll be given more activities to help you practice. Your lecturer will help you polish the flow and give suggestions to improve. Bring your notes and ideas, this is a low-pressure chance to try out your structure before doing a full presentation. Think of it as your blueprint. Once you have a good structure, everything else becomes easier!
@@ -163,7 +162,7 @@ Now it’s time to put your planning into practice! In class, you’ll be given 
 
   quizQuestions: [
     QuizQuestion(
-      question: '1. What are the three basic parts of an academic presentation?',
+      question: 'What are the three basic parts of an academic presentation?',
       options: [
         'a) Start, Pause, End',
         'b) Intro, Details, Finish',
@@ -174,7 +173,7 @@ Now it’s time to put your planning into practice! In class, you’ll be given 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: '2. What should your introduction do?',
+      question: 'What should your introduction do?',
       options: [
         'a) Share jokes',
         'b) Explain the topic and purpose',
@@ -185,7 +184,7 @@ Now it’s time to put your planning into practice! In class, you’ll be given 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: '3. What is a good way to organize your main body?',
+      question: 'What is a good way to organize your main body?',
       options: [
         'a) Say everything at once',
         'b) Use 2–3 key points in order',
@@ -196,7 +195,7 @@ Now it’s time to put your planning into practice! In class, you’ll be given 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: '4. What belongs in your conclusion?',
+      question: 'What belongs in your conclusion?',
       options: [
         'a) A strong summary and final message',
         'b) A list of random facts',
@@ -207,7 +206,7 @@ Now it’s time to put your planning into practice! In class, you’ll be given 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: '5. Why is structure important in a presentation?',
+      question: 'Why is structure important in a presentation?',
       options: [
         'a) It fills time',
         'b) It makes the talk longer',
@@ -218,7 +217,7 @@ Now it’s time to put your planning into practice! In class, you’ll be given 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: '6. Which of the following is a good closing line?',
+      question: 'Which of the following is a good closing line?',
       options: [
         'a) “That’s it I guess…”',
         'b) “Thanks and goodbye.”',
@@ -229,7 +228,7 @@ Now it’s time to put your planning into practice! In class, you’ll be given 
       isTextAnswer: false,
     ),
     QuizQuestion(
-      question: '7. Rewrite this sentence using academic tone:\n“We’re gonna talk about our app that does stuff.”',
+      question: 'Rewrite this sentence using academic tone:\n“We’re gonna talk about our app that does stuff.”',
       correctTextAnswer: 'We will discuss our application that performs various functions.',
       isTextAnswer: true,
     ),

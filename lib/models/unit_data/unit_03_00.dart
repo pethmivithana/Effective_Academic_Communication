@@ -22,7 +22,7 @@ We are sure you have heard of “tenses” before! From your point of view, why 
 
   preClassQuestions: [
     PreClassQuestion(
-      questionText: 'Write your thoughts in the given Padlet.',
+      questionText: 'Write your thoughts in the given blank.',
       correctAnswer: """We use different tenses to show the timing of an action or event. Without tenses, we wouldn't know if something happened in the past, is happening now, or will happen in the future.""",
     ),
   ],
@@ -37,13 +37,13 @@ Dear all, now that you have watched the recorded lecture, we have another video 
 Since you have now watched two videos on tenses, it’s time to take a quiz on mixed tenses and assess your strengths and weaknesses. This quiz is for self-awareness only—we will not check your marks. The goal is to help you identify which areas you need to focus on in future lessons. After completing the quiz, take a screenshot of the final page showing your answers and upload it to the designated submission portal as proof of completion.
   """,
   practiceUploadLink2: "https://example.com/upload-practice-activity",
-  practiceActivityLink2:"",
+  practiceActivityLink2:"https://www.ego4u.com/en/cram-up/tests/language-course",
 
   instructionsText: """
 We have a brief recorded video introducing different tenses. Please watch it before moving on to the activities. Feel free to take notes, as this will help you remember and understand the concepts better.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=bXJUbW1IOXRjd182NzY1Nw==",
 
   summary: """
   This lesson is an introduction to our third unit, where we will learn about the most commonly used tenses. The main goal is to check your current understanding of tenses since they are important for daily communication. In the next lessons, we will focus on each tense separately and do speaking activities to help you use them correctly.""",

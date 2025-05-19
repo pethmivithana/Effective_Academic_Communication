@@ -8,10 +8,10 @@ Hello and welcome!
 In this lesson, we’ll explore what a viva voce is and how to prepare for it with confidence and clarity. A viva voce—often simply called a viva—is an oral examination where you present and defend your academic work, such as your final year project or research report. For computing undergraduates, this means explaining your code, decisions, methods, and even the bugs you fixed!
 Unlike written exams, a viva requires you to think on your feet, express ideas fluently, and engage in a professional discussion. It’s not just about knowing your subject—it’s about communicating it effectively. You’ll be assessed on your technical understanding, clarity of explanation, and your ability to respond thoughtfully to questions. In this lesson, we’ll break down the purpose of a viva, typical structures, and common question types so you’ll know exactly what to expect—and how to shine!
 By the end of this lesson, you will be able to:
-•	Understand the purpose and format of a viva voce
-•	Identify common types of viva questions and how to respond
-•	Practice introducing your project and defending key decisions
-•	Build confidence using academic and technical vocabulary in speech
+1. Understand the purpose and format of a viva voce
+2. Identify common types of viva questions and how to respond
+3.	Practice introducing your project and defending key decisions
+4.	Build confidence using academic and technical vocabulary in speech
 """,
 
   preClassActivityDescription: """
@@ -90,7 +90,7 @@ Record a short 60-second introduction to your imaginary final-year project. Use 
 
 -After recording, copy the link and submit your audio response here.
 """,
-  practiceActivityLink2: "https://www.vocaroo.com ",
+  practiceActivityLink2: "https://www.vocaroo.com",
   practiceUploadLink2: "https://example.com/upload-practice-activity",
 
   instructionsText: """

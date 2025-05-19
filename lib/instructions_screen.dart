@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:eng_app_2/models/unit_model.dart';
 import 'package:eng_app_2/practice_activity_screen_1.dart';
 
@@ -22,23 +22,16 @@ class InstructionsScreen extends StatefulWidget {
 }
 
 class _InstructionsScreenState extends State<InstructionsScreen> {
-  YoutubePlayerController? _controller;
-
-  @override
-  void initState() {
-    super.initState();
-    if (widget.unitData != null && widget.unitData!.instructionVideoId != null) {
-      _controller = YoutubePlayerController(
-        initialVideoId: widget.unitData!.instructionVideoId!,
-        flags: const YoutubePlayerFlags(autoPlay: false),
+  Future<void> _launchVideoUrl(String videoUrl) async {
+    final Uri url = Uri.parse(videoUrl);
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Could not open video link'),
+          backgroundColor: Colors.red,
+        ),
       );
     }
-  }
-
-  @override
-  void dispose() {
-    _controller?.dispose();
-    super.dispose();
   }
 
   @override
@@ -105,27 +98,23 @@ class _InstructionsScreenState extends State<InstructionsScreen> {
 
             const SizedBox(height: 30),
 
-            // YouTube Video Player (if available)
-            if (_controller != null) ...[
-              const Row(
-                children: const [
-                  Icon(Icons.play_circle_fill, size: 26, color: Colors.redAccent),
-                  SizedBox(width: 8),
-                  Text(
-                    "Watch Instructional Video",
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+            // Video Button (if available)
+            if (unit.instructionVideoId != null && unit.instructionVideoId!.isNotEmpty) ...[
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  onPressed: () {
+                    _launchVideoUrl(unit.instructionVideoId!);
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.red,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    elevation: 3,
                   ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: YoutubePlayer(
-                  controller: _controller!,
-                  showVideoProgressIndicator: true,
-                  progressColors: const ProgressBarColors(
-                    playedColor: Colors.red,
-                    handleColor: Colors.redAccent,
+                  icon: const Icon(Icons.play_circle_fill, color: Colors.white),
+                  label: const Text(
+                    "See Instructional Video",
+                    style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
