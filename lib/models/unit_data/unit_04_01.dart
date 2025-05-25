@@ -27,7 +27,7 @@ Reflect on your experience:
 Share your thoughts in a short-written paragraph.
 """,
   preClassActivityVideo:"https://www.youtube.com/watch?v=O5nskjZ_GoI ",
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=375185",
 
   practiceActivityDescription1: """
 Watch this video on note-taking methods. 
@@ -40,7 +40,7 @@ Now, apply one of the note-taking methods you just learned. Watch the following 
 You can take down the note on a piece of paper while watching the video, and after you complete the note please take a photo of your note and upload it in the given submission portal.
 """,
   practiceVideoUrl:"https://www.youtube.com/watch?v=mJeNghZXtMo ",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375186",
 
   instructionsText: """
 Once you’ve completed the pre-class activity, please watch the recorded mini lesson provided. It will introduce note-taking techniques and strategies to use in real academic lectures.

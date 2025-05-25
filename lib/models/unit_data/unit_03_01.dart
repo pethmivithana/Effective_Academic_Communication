@@ -30,7 +30,7 @@ Step 3: Ask about daily routines, hobbies, food, travel, and other interests.
 Step 4: Take screenshots of your conversation and upload them as proof of completing this activity.
   """,
   practiceActivityLink: "https://replika.ai/",
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375153",
 
   practiceActivityDescription2: """
 Step 1 - Go to the task site below and access the activity.
@@ -38,7 +38,7 @@ Step 1 - Go to the task site below and access the activity.
 Step 2 - Complete the exercise and upload screenshots as proof of completion.
  """,
   practiceActivityLink2:"https://www.liveworksheets.com/w/en/english-second-language-esl/209039#google_vignette",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375154",
 
   instructionsText: """
   Watch the recorded session on the simple present tense. Feel free to take notes and write down answers to any questions asked by the lecturer. This will help reinforce your understanding.

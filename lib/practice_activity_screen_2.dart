@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart' show LaunchMode, launchUrl;
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import 'package:eng_app_2/models/unit_model.dart';
 import 'package:eng_app_2/quiz_screen.dart';
+import 'dart:math' as math;
 
 class PracticeQuestion2 {
   final String questionText;
@@ -29,12 +31,29 @@ class PracticeActivityScreen2 extends StatefulWidget {
   State<PracticeActivityScreen2> createState() => _PracticeActivityScreen2State();
 }
 
-class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
+class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> with TickerProviderStateMixin {
   YoutubePlayerController? _youtubeController;
   List<TextEditingController> _controllers = [];
   List<String?> selectedAnswers = [];
   bool submitted = false;
   bool showErrors = false;
+
+  // TTS related variables
+  final FlutterTts _flutterTts = FlutterTts();
+  bool _isSpeaking = false;
+  bool _isPaused = false;
+  List<String> _sentences = [];
+  int _currentSentenceIndex = -1;
+
+  // Congratulatory messages
+  final List<String> congratulatoryMessages = [
+    "You're almost there! Keep up the excellent work! 🌟",
+    "Amazing progress! You're so close to completing this unit! 🚀",
+    "Outstanding effort! Just one more step to go! 💪",
+    "Fantastic job! You're nearly at the finish line! 🏆",
+    "Incredible work! The final challenge awaits! ✨",
+    "Brilliant progress! You're almost done with this unit! 🎯"
+  ];
 
   @override
   void initState() {
@@ -62,6 +81,264 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
     if (widget.unitData?.practiceActivityMCQ2 != null) {
       selectedAnswers = List<String?>.filled(widget.unitData!.practiceActivityMCQ2!.length, null);
     }
+
+    // Setup TTS for description
+    final unit = widget.unitData;
+    if (unit != null && unit.practiceActivityDescription2.isNotEmpty) {
+      _sentences = unit.practiceActivityDescription2.split(RegExp(r'(?<=[.!?])\s+'));
+      _setupTts();
+    }
+  }
+
+  void _setupTts() async {
+    await _flutterTts.setLanguage("en-US");
+    await _flutterTts.setSpeechRate(0.5);
+    await _flutterTts.setPitch(1.0);
+
+    _flutterTts.setCompletionHandler(() async {
+      if (_currentSentenceIndex + 1 < _sentences.length) {
+        _speakNextSentence(_currentSentenceIndex + 1);
+      } else {
+        setState(() {
+          _isSpeaking = false;
+          _currentSentenceIndex = -1;
+        });
+      }
+    });
+
+    _flutterTts.setStartHandler(() {
+      setState(() => _isSpeaking = true);
+    });
+  }
+
+  Future<void> _speakNextSentence(int index) async {
+    if (index >= 0 && index < _sentences.length) {
+      await _flutterTts.stop();
+      setState(() {
+        _currentSentenceIndex = index;
+        _isPaused = false;
+      });
+      await _flutterTts.speak(_sentences[index]);
+    }
+  }
+
+  Future<void> _pauseOrResumeSpeech() async {
+    if (_isSpeaking) {
+      await _flutterTts.pause();
+      setState(() {
+        _isSpeaking = false;
+        _isPaused = true;
+      });
+    } else if (_isPaused) {
+      await _flutterTts.speak(_sentences[_currentSentenceIndex]);
+      setState(() {
+        _isSpeaking = true;
+        _isPaused = false;
+      });
+    }
+  }
+
+  Future<void> _stopSpeaking() async {
+    await _flutterTts.stop();
+    setState(() {
+      _isSpeaking = false;
+      _isPaused = false;
+      _currentSentenceIndex = -1;
+    });
+  }
+
+  String getRandomCongratulatoryMessage() {
+    final random = math.Random();
+    return congratulatoryMessages[random.nextInt(congratulatoryMessages.length)];
+  }
+
+  void _showCongratulatoryDialog() {
+    final congratulatoryMessage = getRandomCongratulatoryMessage();
+
+    showGeneralDialog(
+      context: context,
+      barrierColor: Colors.black54,
+      barrierDismissible: false,
+      pageBuilder: (_, __, ___) => Container(),
+      transitionDuration: const Duration(milliseconds: 400),
+      transitionBuilder: (context, animation, secondaryAnimation, child) {
+        final curvedAnimation = CurvedAnimation(
+          parent: animation,
+          curve: Curves.elasticOut,
+        );
+
+        return ScaleTransition(
+          scale: curvedAnimation,
+          child: FadeTransition(
+            opacity: animation,
+            child: Dialog(
+              insetPadding: const EdgeInsets.symmetric(horizontal: 20),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              backgroundColor: Colors.transparent,
+              child: SingleChildScrollView(
+                child: Container(
+                  padding: const EdgeInsets.all(24),
+                  decoration: BoxDecoration(
+                    gradient: const LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: [
+                        Color(0xFF010066),
+                        Color(0xFF0066CC),
+                      ],
+                    ),
+                    borderRadius: BorderRadius.circular(20),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.3),
+                        blurRadius: 20,
+                        offset: const Offset(0, 10),
+                      ),
+                    ],
+                  ),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      // Animated icon
+                      TweenAnimationBuilder(
+                        duration: const Duration(milliseconds: 800),
+                        tween: Tween<double>(begin: 0, end: 1),
+                        builder: (context, double value, child) {
+                          return Transform.scale(
+                            scale: value,
+                            child: Container(
+                              width: 80,
+                              height: 80,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                shape: BoxShape.circle,
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.white.withOpacity(0.3),
+                                    blurRadius: 15,
+                                    spreadRadius: 5,
+                                  ),
+                                ],
+                              ),
+                              child: const Icon(
+                                Icons.emoji_events,
+                                color: Color(0xFF010066),
+                                size: 40,
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+
+                      const SizedBox(height: 24),
+
+                      // Title with animation
+                      TweenAnimationBuilder(
+                        duration: const Duration(milliseconds: 600),
+                        tween: Tween<double>(begin: 0, end: 1),
+                        builder: (context, double value, child) {
+                          return Opacity(
+                            opacity: value,
+                            child: Transform.translate(
+                              offset: Offset(0, 20 * (1 - value)),
+                              child: const Text(
+                                "You're Almost Complete!",
+                                style: TextStyle(
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+
+                      const SizedBox(height: 16),
+
+                      // Message with animation
+                      TweenAnimationBuilder(
+                        duration: const Duration(milliseconds: 800),
+                        tween: Tween<double>(begin: 0, end: 1),
+                        builder: (context, double value, child) {
+                          return Opacity(
+                            opacity: value,
+                            child: Transform.translate(
+                              offset: Offset(0, 20 * (1 - value)),
+                              child: Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 10),
+                                child: Text(
+                                  congratulatoryMessage,
+                                  textAlign: TextAlign.center,
+                                  style: const TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                    height: 1.4,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+
+                      const SizedBox(height: 32),
+
+                      // Button with animation
+                      TweenAnimationBuilder(
+                        duration: const Duration(milliseconds: 1000),
+                        tween: Tween<double>(begin: 0, end: 1),
+                        builder: (context, double value, child) {
+                          return Transform.scale(
+                            scale: value,
+                            child: ElevatedButton.icon(
+                              onPressed: value == 1 ? () {
+                                Navigator.pop(context);
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => QuizScreen(
+                                      unitIndex: widget.unitIndex,
+                                      subunitIndex: widget.subunitIndex,
+                                      subunitTitle: widget.subunitTitle,
+                                      unitData: widget.unitData,
+                                    ),
+                                  ),
+                                );
+                              } : null,
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                foregroundColor: const Color(0xFF010066),
+                                padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 32),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(25),
+                                ),
+                                elevation: 5,
+                              ),
+                              icon: const Icon(Icons.quiz, size: 20),
+                              label: const Text(
+                                "Start Quiz",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        );
+      },
+    );
   }
 
   @override
@@ -70,6 +347,7 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
     for (var controller in _controllers) {
       controller.dispose();
     }
+    _flutterTts.stop();
     super.dispose();
   }
 
@@ -151,9 +429,80 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                   ],
                   border: Border.all(color: Colors.grey.shade300),
                 ),
-                child: Text(
-                  unit.practiceActivityDescription2,
-                  style: const TextStyle(fontSize: 16, height: 1.6),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // Description text with highlighting for current sentence
+                    Wrap(
+                      spacing: 4,
+                      runSpacing: 8,
+                      children: List.generate(_sentences.length, (index) {
+                        final sentence = _sentences[index];
+                        final isActive = index == _currentSentenceIndex;
+
+                        return GestureDetector(
+                          onTap: () => _speakNextSentence(index),
+                          child: AnimatedContainer(
+                            duration: const Duration(milliseconds: 300),
+                            padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 6),
+                            decoration: BoxDecoration(
+                              color: isActive ? const Color(0xFFFFE0B2) : Colors.transparent,
+                              borderRadius: BorderRadius.circular(6),
+                              border: Border.all(
+                                color: isActive ? const Color(0xFFFF6100) : Colors.transparent,
+                                width: 1.5,
+                              ),
+                            ),
+                            child: Text(
+                              sentence,
+                              style: TextStyle(
+                                fontSize: 16,
+                                height: 1.6,
+                                fontWeight: isActive ? FontWeight.bold : FontWeight.normal,
+                                color: isActive ? const Color(0xFF010066) : Colors.black87,
+                              ),
+                            ),
+                          ),
+                        );
+                      }),
+                    ),
+
+                    const SizedBox(height: 12),
+
+                    // TTS Controls
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Tooltip(
+                          message: "Play from beginning",
+                          child: IconButton(
+                            icon: const Icon(Icons.play_circle_fill, size: 32, color: Color(0xFF010066)),
+                            onPressed: () {
+                              if (_sentences.isNotEmpty) {
+                                _speakNextSentence(0);
+                              }
+                            },
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        Tooltip(
+                          message: "Pause/Resume",
+                          child: IconButton(
+                            icon: const Icon(Icons.pause_circle_filled, size: 36, color: Colors.amber),
+                            onPressed: _pauseOrResumeSpeech,
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        Tooltip(
+                          message: "Stop",
+                          child: IconButton(
+                            icon: const Icon(Icons.stop_circle, size: 32, color: Colors.red),
+                            onPressed: _stopSpeaking,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
               ),
 
@@ -388,29 +737,20 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> {
                 ),
               ),
 
-            const SizedBox(height: 10),
+            const SizedBox(height: 40),
 
             ElevatedButton.icon(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => QuizScreen(
-                      unitIndex: widget.unitIndex,
-                      subunitIndex: widget.subunitIndex,
-                      subunitTitle: widget.subunitTitle,
-                      unitData: widget.unitData,
-                    ),
-                  ),
-                );
+                _flutterTts.stop(); // Stop TTS when navigating away
+                _showCongratulatoryDialog(); // Show popup before navigation
               },
               icon: const Icon(Icons.quiz, color: Colors.white),
               label: const Text(
-                "Go to Quiz",
+                "End Lesson Quiz",
                 style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFF010066),
+                backgroundColor: Colors.red,
                 minimumSize: const Size(double.infinity, 50),
               ),
             ),

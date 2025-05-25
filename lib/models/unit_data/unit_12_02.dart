@@ -17,7 +17,8 @@ By the end of this lesson, students will be able to:
 
   preClassActivityDescription: """
 Today as the end-of-lesson quiz, we are inviting you to fill out a survey. This survey is to find out how helpful this course was for you. Your honest responses will help us do this better for future learners. 
-Course effectiveness survey
+Course effectiveness survey.
+
 Thank you for completing this course! We would greatly appreciate your feedback to help improve the learning experience for future students. Your input is invaluable. Please take a moment to fill out this survey.
 """,
 
@@ -193,7 +194,7 @@ Take a few moments to reflect on your own experiences with giving and receiving 
 Share your thoughts in the discussion forum. 
 """,
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375243",
 
 
   practiceActivityDescription2: """
@@ -229,12 +230,12 @@ Looking forward to seeing you in our next live session! We’ll be engaging in s
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. True/False: Self-assessment helps you identify areas for improvement in your communication skills.",
+      question: "True/False: Self-assessment helps you identify areas for improvement in your communication skills.",
       options: ["True", "False"],
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: "2. What does a SMART goal stand for?",
+      question: "What does a SMART goal stand for?",
       options: [
         "a) Specific, Measurable, Achievable, Realistic, Time-bound",
         "b) Simple, Measurable, Achievable, Realistic, Timely",
@@ -243,7 +244,7 @@ Looking forward to seeing you in our next live session! We’ll be engaging in s
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "3. Describe one area of communication skills that you’d like to improve and explain why it is important.",
+      question: "Describe one area of communication skills that you’d like to improve and explain why it is important.",
       isTextAnswer: true,
       correctTextAnswer: "Open-ended response based on learner reflection",
     ),

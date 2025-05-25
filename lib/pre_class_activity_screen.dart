@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:video_player/video_player.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import 'package:eng_app_2/models/unit_model.dart';
 import 'package:eng_app_2/instructions_screen.dart';
 
@@ -34,9 +35,17 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
   VideoPlayerController? _localVideoController;
   bool showVideo = false;
 
+  // Enhanced TTS variables
+  final FlutterTts _flutterTts = FlutterTts();
+  bool _isSpeaking = false;
+  bool _isPaused = false;
+  List<String> _sentences = [];
+  int _currentSentenceIndex = -1;
+
   @override
   void initState() {
     super.initState();
+    _setupTts();
 
     final unit = widget.unitData;
     if (unit != null) {
@@ -63,6 +72,13 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
         );
       }
 
+      // Setup TTS for description
+      if (unit.preClassActivityDescription.isNotEmpty) {
+        // Remove ** markers and split into sentences
+        String cleanText = unit.preClassActivityDescription.replaceAll(RegExp(r'\*\*(.*?)\*\*'), r'$1');
+        _sentences = cleanText.split(RegExp(r'(?<=[.!?])\s+'));
+      }
+
       // Initialize video controllers
       final videoUrl = unit.preClassActivityVideo;
       if (videoUrl != null && videoUrl.isNotEmpty) {
@@ -85,8 +101,67 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
     }
   }
 
+  void _setupTts() async {
+    await _flutterTts.setLanguage("en-US");
+    await _flutterTts.setSpeechRate(0.5);
+    await _flutterTts.setVolume(1.0);
+    await _flutterTts.setPitch(1.0);
+
+    _flutterTts.setCompletionHandler(() async {
+      if (_currentSentenceIndex + 1 < _sentences.length) {
+        _speakNextSentence(_currentSentenceIndex + 1);
+      } else {
+        setState(() {
+          _isSpeaking = false;
+          _currentSentenceIndex = -1;
+        });
+      }
+    });
+
+    _flutterTts.setStartHandler(() {
+      setState(() => _isSpeaking = true);
+    });
+  }
+
+  Future<void> _speakNextSentence(int index) async {
+    if (index >= 0 && index < _sentences.length) {
+      await _flutterTts.stop();
+      setState(() {
+        _currentSentenceIndex = index;
+        _isPaused = false;
+      });
+      await _flutterTts.speak(_sentences[index]);
+    }
+  }
+
+  Future<void> _pauseOrResumeSpeech() async {
+    if (_isSpeaking) {
+      await _flutterTts.pause();
+      setState(() {
+        _isSpeaking = false;
+        _isPaused = true;
+      });
+    } else if (_isPaused) {
+      await _flutterTts.speak(_sentences[_currentSentenceIndex]);
+      setState(() {
+        _isSpeaking = true;
+        _isPaused = false;
+      });
+    }
+  }
+
+  Future<void> _stopSpeaking() async {
+    await _flutterTts.stop();
+    setState(() {
+      _isSpeaking = false;
+      _isPaused = false;
+      _currentSentenceIndex = -1;
+    });
+  }
+
   @override
   void dispose() {
+    _flutterTts.stop();
     _youtubeController?.dispose();
     _localVideoController?.dispose();
     for (var controller in questionControllers) {
@@ -160,6 +235,143 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
     }
   }
 
+  // Helper function to detect and style bold text
+  Widget _buildRichText(String text) {
+    // Regular expression to find text between ** markers
+    final RegExp boldPattern = RegExp(r'\*\*(.*?)\*\*');
+
+    // Find all matches
+    final matches = boldPattern.allMatches(text);
+
+    // If no bold text is found, return regular text
+    if (matches.isEmpty) {
+      return Text(text, style: const TextStyle(fontSize: 15));
+    }
+
+    // Build rich text with styled spans
+    final List<TextSpan> spans = [];
+    int lastIndex = 0;
+
+    for (final match in matches) {
+      // Add text before the bold part
+      if (match.start > lastIndex) {
+        spans.add(TextSpan(
+          text: text.substring(lastIndex, match.start),
+          style: const TextStyle(fontSize: 15),
+        ));
+      }
+
+      // Add the bold text without the ** markers
+      spans.add(TextSpan(
+        text: match.group(1), // This gets the text between ** markers
+        style: const TextStyle(
+          fontSize: 15,
+          fontWeight: FontWeight.bold,
+          color: Color(0xFF010066), // Using the app's primary color for bold text
+        ),
+      ));
+
+      lastIndex = match.end;
+    }
+
+    // Add any remaining text after the last bold part
+    if (lastIndex < text.length) {
+      spans.add(TextSpan(
+        text: text.substring(lastIndex),
+        style: const TextStyle(fontSize: 15),
+      ));
+    }
+
+    return RichText(
+      text: TextSpan(
+        style: const TextStyle(color: Colors.black), // Default text style
+        children: spans,
+      ),
+    );
+  }
+
+  // Enhanced description widget with interactive TTS
+  Widget _buildInteractiveDescription(String text) {
+    // Clean text for sentence splitting (remove ** markers)
+    String cleanText = text.replaceAll(RegExp(r'\*\*(.*?)\*\*'), r'$1');
+    List<String> cleanSentences = cleanText.split(RegExp(r'(?<=[.!?])\s+'));
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Interactive sentence display
+        Wrap(
+          spacing: 4,
+          runSpacing: 8,
+          children: List.generate(cleanSentences.length, (index) {
+            final sentence = cleanSentences[index];
+            final isActive = index == _currentSentenceIndex;
+
+            return GestureDetector(
+              onTap: () => _speakNextSentence(index),
+              child: AnimatedContainer(
+                duration: const Duration(milliseconds: 300),
+                padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 6),
+                decoration: BoxDecoration(
+                  color: isActive ? const Color(0xFFFFE0B2) : Colors.transparent,
+                  borderRadius: BorderRadius.circular(6),
+                  border: Border.all(
+                    color: isActive ? const Color(0xFFFF6100) : Colors.transparent,
+                    width: 1.5,
+                  ),
+                ),
+                child: Text(
+                  sentence,
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: isActive ? FontWeight.bold : FontWeight.normal,
+                    color: isActive ? const Color(0xFF010066) : Colors.black87,
+                  ),
+                ),
+              ),
+            );
+          }),
+        ),
+
+        const SizedBox(height: 12),
+
+        // TTS Controls
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Tooltip(
+              message: "Play from beginning",
+              child: IconButton(
+                icon: const Icon(Icons.play_circle_fill, size: 32, color: Color(0xFF010066)),
+                onPressed: () {
+                  if (_sentences.isNotEmpty) {
+                    _speakNextSentence(0);
+                  }
+                },
+              ),
+            ),
+            const SizedBox(width: 8),
+            Tooltip(
+              message: "Pause/Resume",
+              child: IconButton(
+                icon: const Icon(Icons.pause_circle_filled, size: 36, color: Colors.amber),
+                onPressed: _pauseOrResumeSpeech,
+              ),
+            ),
+            const SizedBox(width: 8),
+            Tooltip(
+              message: "Stop",
+              child: IconButton(
+                icon: const Icon(Icons.stop_circle, size: 32, color: Colors.red),
+                onPressed: _stopSpeaking,
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+
   Widget _buildSurveyQuestion(SurveyQuestion question, int surveyIndex) {
     return Card(
       elevation: 6,
@@ -178,10 +390,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
             // Add description if available
             if (question.description != null) ...[
               const SizedBox(height: 8),
-              Text(
-                question.description!,
-                style: const TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
-              ),
+              _buildRichText(question.description!), // Use rich text for description
             ],
 
             const SizedBox(height: 12),
@@ -204,7 +413,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                   final option = entry.value;
                   // Make sure surveySelections has the right dimensions
                   return CheckboxListTile(
-                    title: Text(option),
+                    title: _buildRichText(option), // Use rich text for options
                     value: surveyIndex < surveySelections.length &&
                         index < surveySelections[surveyIndex].length ?
                     surveySelections[surveyIndex][index] : false,
@@ -226,7 +435,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                   final option = entry.value;
                   // Make sure surveySelections has the right dimensions
                   return RadioListTile<String>(
-                    title: Text(option),
+                    title: _buildRichText(option), // Use rich text for options
                     value: option,
                     groupValue: surveyIndex < surveySelections.length &&
                         index < surveySelections[surveyIndex].length &&
@@ -306,7 +515,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                     ),
                   ),
                   child: RadioListTile<int>(
-                    title: Text(optionText),
+                    title: _buildRichText(optionText), // Use rich text for options
                     value: optionIndex,
                     groupValue: mcqSelections[index],
                     onChanged: isSubmitted
@@ -458,17 +667,12 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    unit.preClassActivityDescription,
-                    style: const TextStyle(fontSize: 15),
-                  ),
+                  const SizedBox(height: 12),
+                  _buildInteractiveDescription(unit.preClassActivityDescription),
                 ],
               ),
             ),
             const SizedBox(height: 16),
-
-
 
             // Local Video and Upload Button
             if (unit.preClassActivityLocalVideo != null &&
@@ -477,10 +681,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    unit.preClassActivityDescription,
-                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
-                  ),
+                  _buildRichText(unit.preClassActivityDescription), // Use rich text for description
                   const SizedBox(height: 10),
                   if (_localVideoController != null && _localVideoController!.value.isInitialized)
                     Column(
@@ -643,6 +844,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
               ),
               onPressed: (isSubmitted == true || !shouldShowSubmitButton())
                   ? () {
+                _flutterTts.stop(); // Stop TTS when navigating away
                 Navigator.push(
                   context,
                   MaterialPageRoute(

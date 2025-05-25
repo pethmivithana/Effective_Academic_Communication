@@ -26,7 +26,7 @@ Reflect on and answer these questions:
 Please share your responses in the discussion forum. 
 """,
 
-  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
+  preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375232",
 
   practiceActivityDescription1: """ 
 Now that you have an understanding of how to maintain the logical flow of a presentation, it's time to practice at home.
@@ -52,7 +52,7 @@ Step 4 – Take a screenshot of the best attempt of your PowerPoint Coach report
 Step 5 – Upload the screenshot of your report to the portal.
 """,
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375234",
 
 
   practiceActivityDescription2: """
@@ -79,8 +79,7 @@ To get started, watch this short recorded lecture on structuring spoken presenta
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=djE0anZST2FEal82NzcyMw==",
 
   summary: """
-In this lesson, we explored the importance of coherence and logical flow in spoken presentations. We discussed strategies for organizing ideas, using signposting language, and applying transitions to guide your audience. With the help of PowerPoint’s Presenter Coach, you practiced refining your delivery and received valuable feedback to improve your performance.
-""",
+In this lesson, we explored the importance of coherence and logical flow in spoken presentations. We discussed strategies for organizing ideas, using signposting language, and applying transitions to guide your audience. With the help of PowerPoint’s Presenter Coach, you practiced refining your delivery and received valuable feedback to improve your performance.""",
 
   inClassActivity: """
 We will engage in interactive activities in class to help you apply the skills you’ve learned today. These activities will include group discussions on presentation structures and opportunities to practice using transitions and signposting language. I’m excited to see you all actively participating and enhancing your presentation skills in real-time!

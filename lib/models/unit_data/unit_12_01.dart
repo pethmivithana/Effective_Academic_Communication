@@ -25,23 +25,23 @@ Before we begin the lesson, take a few minutes to reflect on your academic commu
 
   preClassSurvey:[
     SurveyQuestion(
-      questionText: "1. I can express my ideas clearly in presentations.",
+      questionText: "I can express my ideas clearly in presentations.",
       options: ["1 (Never)", "2", "3", "4", "5 (Always)"],
     ),
     SurveyQuestion(
-      questionText: "2. I feel confident speaking in front of an audience.",
+      questionText: "I feel confident speaking in front of an audience.",
       options: ["1 (Never)", "2", "3", "4", "5 (Always)"],
     ),
     SurveyQuestion(
-      questionText: "3. I can give constructive feedback to peers.",
+      questionText: "I can give constructive feedback to peers.",
       options: ["1 (Never)", "2", "3", "4", "5 (Always)"],
     ),
     SurveyQuestion(
-      questionText: "4. I actively listen when others are speaking.",
+      questionText: "I actively listen when others are speaking.",
       options: ["1 (Never)", "2", "3", "4", "5 (Always)"],
     ),
     SurveyQuestion(
-      questionText: "5. I stay calm and composed during oral exams or presentations.",
+      questionText: "I stay calm and composed during oral exams or presentations.",
       options: ["1 (Never)", "2", "3", "4", "5 (Always)"],
     ),
   ],
@@ -59,28 +59,33 @@ Step 3: Share your reflection and SMART goal in the class discussion forum.
 
   practiceActivityVideo:"https://www.youtube.com/watch?v=1-SvuFIQjK8",
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375242",
 
 
   practiceActivityDescription2: """
 Goal: Deliver a short presentation using rapport-building strategies. 
+
 Please follow the steps given below. 
+
 Step 1 - Choose one topic:
 o	A new AI-based product
 o	A cybersecurity concept
 o	The impact of social media on communication
+
 Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
+
 Step 3 - Use a mirror or camera to observe your:
 o	Facial expressions
 o	Hand gestures
 o	Voice modulation
+
 Step 4 - Self-assess with the checklist below:
 ✅ Did I make eye contact?
 ✅ Was my tone engaging and varied?
 ✅ Did I connect with the audience?
 ✅ Did I use relevant and relatable examples?
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 
+Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 """,
 
   practiceUploadLink2:"https://example.com/upload-practice-activity",
@@ -101,12 +106,12 @@ Looking forward to seeing you in our next live session! We’ll be engaging in s
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. True/False: Self-assessment helps you identify areas for improvement in your communication skills.",
+      question: "True/False: Self-assessment helps you identify areas for improvement in your communication skills.",
       options: ["True", "False"],
       correctOptionIndex: 0,
     ),
     QuizQuestion(
-      question: "2. What does a SMART goal stand for?",
+      question: "What does a SMART goal stand for?",
       options: [
         "a) Specific, Measurable, Achievable, Realistic, Time-bound",
         "b) Simple, Measurable, Achievable, Realistic, Timely",
@@ -115,7 +120,7 @@ Looking forward to seeing you in our next live session! We’ll be engaging in s
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "3. Describe one area of communication skills that you’d like to improve and explain why it is important.",
+      question: "Describe one area of communication skills that you’d like to improve and explain why it is important.",
       isTextAnswer: true,
       correctTextAnswer: "Open-ended response based on learner reflection",
     ),

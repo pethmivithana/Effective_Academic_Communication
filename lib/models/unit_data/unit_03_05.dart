@@ -23,7 +23,7 @@ After watching the video, please take the quiz linked below. Complete the quiz a
 
   preClassActivityVideo: "https://www.youtube.com/watch?v=PgsG98vByiw",
   preClassActivityLink: "https://test-english.com/grammar-points/a2/past-simple-form-use/",
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375168",
 
   practiceActivityDescription1: """
 Step 1 - Type this prompt into ChatGPT:
@@ -34,7 +34,7 @@ Step 2 - After receiving the story, read the AI's response and note down at leas
 Step 3 - Take a screenshot of the story and your verb list, then upload it for review.
 """,
 
-  practiceUploadLink: "https://example.com/upload-practice-activity",
+  practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375169",
 
   practiceActivityDescription2: """
 Step 1 – Use Chat GPT voice. 
@@ -45,7 +45,7 @@ Step 2 - Start with this prompt:
 Step 3 - Answer ChatGPT’s questions and pay attention to the feedback. This will help you perfect your use of the Simple Past Tense in real-time conversations.
 """,
 
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375170",
 
   instructionsText: """
 Once you've watched the video and completed the quiz, you'll have a better understanding of how the Simple Past Tense works. Now, please move on to the recorded lecture on the Simple Past Tense. This short video will cover the usage, structure, and provide examples to help reinforce your understanding of this tense.

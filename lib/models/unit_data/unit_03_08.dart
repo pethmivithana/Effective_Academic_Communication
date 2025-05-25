@@ -21,7 +21,7 @@ Write 05 sentences predicting what might happen using the simple future tense.
 Example: In 2050, robots will do most of our jobs.
 """,
 
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=375176",
 
   practiceActivityDescription1: """
 Imagine that you are an AI developer in the future. Your task is to describe how technology will change in the next 10 years using the simple future tense.
@@ -45,7 +45,7 @@ Click on the link below and complete the given quiz.
 Please take a screenshot and submit into the given portal as proof of completion""",
 
   practiceActivityLink2: "https://quizizz.com/join",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375177",
 
   instructionsText: """
 Before we attempt the activities, watch the video lesson on how to use the simple future tense in spoken English. Pay close attention to how “will” and “be going to” are used in different situations. Take notes while watching to reinforce your learning.

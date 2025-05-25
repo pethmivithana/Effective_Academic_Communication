@@ -5,12 +5,12 @@ final UnitModel unit9_1 = UnitModel(
   unitName: "Introduction to Academic Presentations",
   introductionText: """
 Hello everyone, Welcome to Unit 9.1! 
-Academic presentations are a key part of university life, especially in fields like computing, where ideas, findings, and technical processes must be communicated clearly. Whether you're explaining a coding project, presenting a case study, or sharing research, an academic presentation helps your audience understand your thinking. Unlike casual speaking, academic presentations use a formal structure, planned visuals, and precise language. In this lesson, you'll dive deeper into what makes a presentation academic, explore real examples, and learn how to analyze presentation content like a pro. This lesson builds on what you learned in the previous unit and prepares you for future lessons on reducing anxiety and structuring your message. Let's take your skills one level up!
+Academic presentations are a key part of university life, especially in fields like computing, where ideas, findings, and technical processes must be communicated clearly. Whether you're explaining a coding project, presenting a case study, or sharing research, an academic presentation helps your audience understand your thinking. Unlike casual speaking, academic presentations use a formal structure, planned visuals, and precise language. In this lesson, you'll study about what makes a presentation academic, explore real examples, and learn how to analyze presentation content like a pro. This lesson builds on what you learned in the previous unit and prepares you for future lessons on reducing anxiety and structuring your message. Let's take your skills one level up!
 By the end of this lesson, you will be able to:
-•	Identify the key components of academic presentations
-•	Distinguish between academic and non-academic presentation features
-•	Analyze the purpose and structure of sample academic presentations
-•	Apply key phrases used in professional computing presentations.
+1.	Identify the key components of academic presentations.
+2.	Distinguish between academic and non-academic presentation features.
+3.	Analyze the purpose and structure of sample academic presentations.
+4.	Apply key phrases used in professional computing presentations.
 """,
 
   preClassActivityDescription: """
@@ -63,7 +63,7 @@ Look at the following pairs of presentation excerpts. Choose the more academic v
   practiceActivityDescription1: """ 
 Now let’s practice what you have learnt!
 
-You’re given a short project summary. Drag and drop each sentence into the correct part of an academic presentation (There can be more than one sentence in each part):
+You’re given a short project summary. Write the number of each sentence into the correct part of an academic presentation (There can be more than one sentence in each part):
 
 Summary Sentences:
 1.	We developed a Python-based tool to automate backup tasks.

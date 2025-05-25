@@ -21,7 +21,7 @@ Watch the video linked below and complete the quiz provided. Once you have compl
 
   preClassActivityVideo: "https://www.youtube.com/watch?v=7O-Ye9HF2DI",
   preClassActivityLink: "https://www.englishclub.com/grammar/verb-tenses_present-continuous_quiz.php#google_vignette",
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375155",
 
   practiceActivityDescription1: """
 1. Use a free chatbot like ChatGPT (chat.openai.com) or Poe to interact in real-time.
@@ -37,14 +37,14 @@ Example: "Describe what is happening in a busy restaurant right now."
 5. Take a screenshot of the most interesting part of the conversation and upload it as proof of completion.
   """,
 
-  practiceUploadLink: "https://example.com/upload-practice-activity",
+  practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375156",
 
   practiceActivityDescription2: """
 Watch the videos linked below and complete the quiz. After finishing, upload screenshots of your results as proof.
   """,
 
   practiceActivityLink2: "https://www.liveworksheets.com/w/en/english-second-language-esl/63676",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375157",
 
   instructionsText: """
 Now that you have watched the video and completed a simple quiz, you should have a basic understanding of the Present Continuous Tense. Next, watch the recorded lecture to learn more about its usage, structure, and how it differs from the Simple Present Tense

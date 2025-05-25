@@ -31,7 +31,7 @@ In a short paragraph (3–5 sentences), answer the following:
 
 Then, watch the following video and reflect on the differences between an effective and ineffective presentation:
 """,
-  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
+  preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375223",
   preClassActivityVideo:"https://www.youtube.com/watch?v=V8eLdbKXGzk ",
 
   practiceActivityDescription1: """ 
@@ -45,7 +45,7 @@ Step 3: Take a screenshot of your completed mind map and upload it to the learni
 
 (You can use pen and paper or any online tool like MindMup, Coggle, etc.)
 """,
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375224",
 
   practiceActivityDescription2: """
 Now, let’s try outlining your ideas in a more structured way.
@@ -63,9 +63,9 @@ o	Point 3
 
 •	Conclusion – Summary or final thoughts
 
-Step 3: Using your outline, record a short 2-minute oral presentation via Zoom or any recording tool. Try to speak naturally and avoid reading word-for-word. Upload the recording as proof of completion. You can first upload the recording to the drive and attach the drive link to the submission portal, if it doesn’t allow you to upload the video. 
+Step 3: Using your outline, record a short 2-minute oral presentation via Zoom or any recording tool. Try to speak naturally and avoid reading word-by-word. Upload the recording as proof of completion. You can first upload the recording to the drive and attach the drive link to the submission portal, if it doesn’t allow you to upload the video. 
 """,
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375225",
 
   instructionsText: """
 We’ve prepared a short, recorded lecture for you that explains the value of organizing thoughts and introduces helpful strategies. Please watch this video before proceeding with the practice activities. Tip: Take notes while watching—it helps retain key information!

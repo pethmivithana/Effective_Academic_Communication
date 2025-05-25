@@ -87,7 +87,7 @@ Step 03: Play your recording and check for any mistakes.
 Step 04: Submit your best recording by copying the link they provide and pasting it here.
 """,
   practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375171",
 
   instructionsText: """
 You will now watch an instructional video on the usage and formats of Past Continuous tense in the spoken English world! Take down notes where necessary. 

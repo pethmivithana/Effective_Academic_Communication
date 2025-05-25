@@ -8,10 +8,10 @@ Hey everyone! Let’s talk about speaking up—with confidence and clarity!
 Ever had a moment where you knew the answer, but your voice got shaky or your words didn’t come out right? Don’t worry, it happens to all of us. But here’s the good news: clear, confident speaking isn’t a talent you’re born with—it’s a skill you can build. In this lesson, you’ll learn how to organize your thoughts, use strong and clear language, and sound more confident when you speak—whether it’s in a classroom, a meeting, or even an interview.
 In the computing world, how you explain your ideas is just as important as the ideas themselves. Whether you're presenting your final-year project, pitching a new app, or joining a team meeting, you'll need to speak in a way that others understand and respect. This lesson will help you get there, step by step!
 By the end of this lesson, you will be able to:
-•	Use techniques to sound more confident when speaking.
-•	Organize your ideas clearly and express them smoothly.
-•	Recognize and avoid common habits that make speech unclear.
-•	Practice building stronger body language and voice tone.
+1.	Use techniques to sound more confident when speaking.
+2.	Organize your ideas clearly and express them smoothly.
+3.	Recognize and avoid common habits that make speech unclear.
+4.	Practice building stronger body language and voice tone.
 """,
 
   preClassActivityDescription: """
@@ -117,7 +117,7 @@ This software solution uses a multi-layered security protocol. It’s efficient,
 
   practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
 
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375239",
 
   instructionsText: """
 Watch the video lesson carefully to understand what confident and clear speaking looks like in academic and professional settings. The video will break down tone, body language, pacing, and word choice with real examples. Listen to strong sentence starters and expressions that make communication feel organized and effective.
@@ -128,8 +128,7 @@ Feel free to take notes when something clicks for you—whether it’s a phrase,
 
   summary: """
 In this lesson, you’ve explored how to speak with more confidence and clarity—two essential skills for your academic and professional success. You learned how to build your thoughts into well-structured responses, avoid unclear language, and manage your pace and tone while speaking. From reading exercises to speech rhythm games, each activity helped you strengthen the way you express yourself. Whether you're giving a presentation, answering questions, or just introducing your ideas, you’re now better equipped to speak up—and be heard.
-Keep practicing, stay calm, and remember: your voice matters. Speak with purpose!
-""",
+Keep practicing, stay calm, and remember: your voice matters. Speak with purpose!""",
 
   inClassActivity: """
 Now that you’ve completed the lesson, we’ll take your speaking practice further during our in-person session. In the classroom, we’ll explore fun and practical ways to apply everything you’ve learned—from using confident tones to structuring your ideas on the spot.

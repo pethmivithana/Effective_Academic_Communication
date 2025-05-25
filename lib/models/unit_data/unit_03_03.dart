@@ -37,7 +37,7 @@ Step 3 - After your conversation, highlight at least three sentences that use th
 Step 4 - Write down these sentences and submit them for the portal given. This will help you see how the Present Perfect is used in context.
   """,
 
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375160",
 
   practiceActivityDescription1: """
 Step 1 - Watch the brief lecture session, then head to the quiz.
@@ -49,7 +49,7 @@ Step 3 - Don’t rush! Take your time with each question. It’s all about learn
 Step 4 - Once you’ve finished, upload a screenshot of your completed quiz to show you’ve finished. We want to make sure you’re reflecting on what you’ve learned.
   """,
   practiceActivityLink:"https://elt.oup.com/student/grammarfriends/level05/tests/test2?srsltid=AfmBOooNw3ChsBs91pNpzIQgZpNJsEx8_b6U_SZoNEAKkfI2Yy_5stSj&cc=global&selLanguage=en ",
-  practiceUploadLink: "https://example.com/upload-practice-activity",
+  practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375163",
 
   practiceActivityDescription2: """
 Step 1 - Use ChatGPT’s voice feature 
@@ -64,7 +64,7 @@ Step 4 - You’ll notice that both Present Perfect and Simple Past tenses will p
 Step 5 - Once you’ve finished, reflect on the activity by writing a short paragraph about how it helped you practice. Don’t forget to submit your reflection!
  """,
 
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375164",
 
   instructionsText: """
 By now, you’ve had a chance to see Present Perfect in action through the pre-class activity. Now, let’s take a short detour and watch a recorded session. This video will break down the tense, explain its structure, and highlight how it's different from the Simple Past tense. Don’t worry—it’s brief and packed with examples, so you’ll get a solid understanding of the concept.

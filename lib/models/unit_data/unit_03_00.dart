@@ -36,7 +36,7 @@ Dear all, now that you have watched the recorded lecture, we have another video 
   practiceActivityDescription2: """
 Since you have now watched two videos on tenses, it’s time to take a quiz on mixed tenses and assess your strengths and weaknesses. This quiz is for self-awareness only—we will not check your marks. The goal is to help you identify which areas you need to focus on in future lessons. After completing the quiz, take a screenshot of the final page showing your answers and upload it to the designated submission portal as proof of completion.
   """,
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=374545",
   practiceActivityLink2:"https://www.ego4u.com/en/cram-up/tests/language-course",
 
   instructionsText: """

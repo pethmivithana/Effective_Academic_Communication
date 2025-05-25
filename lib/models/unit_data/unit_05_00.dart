@@ -98,7 +98,7 @@ Check the speech-to-text output to see if it reflects your intended message.
 Submit your final audio with clear pronunciation and tone.
 """,
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375192",
 
   instructionsText: """
 Watch the video lesson given below. You’ll learn about the purpose of a viva, the expectations in academic discussions, and how to present ideas clearly. Take notes while watching. Focus on how to introduce an idea, phrases to agree or disagree respectfully and the body language tips.

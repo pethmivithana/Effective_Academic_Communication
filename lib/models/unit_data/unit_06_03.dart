@@ -31,17 +31,6 @@ Start by reflecting on your summarizing skills with the following self-assessmen
     questionText: "What challenges do you face when summarizing long conversations?",
     isTextAnswer: true,
   ),
-  PreClassQuestion(
-    questionText: "Which skills do you think are most important for summarizing well?",
-    options: [
-      "Listening",
-      "Note-taking",
-      "Organizing ideas",
-      "Concise wording",
-    ],
-    correctOptionIndex: null, // No correct answer provided
-    isTextAnswer: false,
-  ),
   ],
 
   preClassSurvey:[
@@ -54,7 +43,7 @@ Start by reflecting on your summarizing skills with the following self-assessmen
         "d) Making the summary as short as possible",
 
       ],
-      allowsMultipleAnswers: false,
+      allowsMultipleAnswers: true,
     ),
     SurveyQuestion(
       questionText: "When summarizing a discussion, what should you avoid?",
@@ -64,7 +53,17 @@ Start by reflecting on your summarizing skills with the following self-assessmen
         "c) Organizing ideas clearly",
         "d) Highlighting the speaker’s main arguments",
       ],
-      allowsMultipleAnswers: false,
+      allowsMultipleAnswers: true,
+    ),
+    SurveyQuestion(
+      questionText: "Which skills do you think are most important for summarizing well?",
+      options: [
+        "Listening",
+        "Note-taking",
+        "Organizing ideas",
+        "Concise wording",
+      ],
+      allowsMultipleAnswers: true,
     ),
   ],
 
@@ -74,7 +73,7 @@ Step 1: Listen to the short video on artificial intelligence by Prof. Mike Woold
 Step 2: Upload the summary document to the portal for review.
 """,
   practiceActivityVideo:"https://www.youtube.com/watch?v=D2JY38VShxI&t=68s ",
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375205",
 
   practiceActivityDescription2: """
 Watch this video for additional strategies to improve your summarizing skills. 

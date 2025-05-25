@@ -33,7 +33,7 @@ Step 4 – Write your self-introduction in the given space so we can get to know
 
 Click the button below to open the discussion forum and submit your answers. You can type your responses directly on the forum, and they’ll be saved automatically.
      """,
-    preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=359261",
+    preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=374526",
 
     practiceActivityDescription1: """
 It’s time to do an individual activity to practice what you learnt. You can simply follow the steps given.
@@ -44,7 +44,7 @@ Step 2: Use Speechify or NaturalReader to listen to your introduction and check 
 
 Step 3: Upload your final recording to the given submission link. 
     """,
-    practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=359261",
+    practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=374527",
 
     practiceActivityDescription2: """
 Next we’ll watch a YouTube video which is about “self-introductions”. These videos can be a good source of information for you to improve your proficiency.

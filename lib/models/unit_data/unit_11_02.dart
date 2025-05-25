@@ -10,19 +10,19 @@ Hi everyone!
 Imagine this: you’re in a viva or an oral exam, answering confidently… and suddenly, the examiner asks a question that completely catches you off guard. What now? Do you freeze? Guess? Or can you take a breath, stay calm, and respond smartly?
 This lesson is all about helping you handle difficult and unexpected questions with confidence. Whether the question is too technical, off-topic, or something you’ve never thought about, you can still give a strong response by using the right strategies and language. Together, we’ll explore how to buy time, reframe tricky questions, and stay calm under pressure—all while keeping your tone polite and academic. These skills are incredibly useful not only in viva exams, but also in job interviews, presentations, and even team meetings in your future career.
 By the end of this lesson, you will be able to:
-•	Recognize different types of challenging or unexpected questions.
-•	Use strategies to stay calm and composed when unsure.
-•	Politely ask for clarification or rephrase your answer.
-•	Use sentence starters and phrases to structure your response clearly.
+1.	Recognize different types of challenging or unexpected questions.
+2.	Use strategies to stay calm and composed when unsure.
+3.	Politely ask for clarification or rephrase your answer.
+4.	Use sentence starters and phrases to structure your response clearly.
 """,
 
   preClassActivityDescription: """
 In this warm-up, you'll read three real-world tricky questions that a computing student might face in a viva or interview.
 For each one, choose one of the following:
-	I’d panic
-	I’d try to guess
-	I’d ask for clarification
-	I’d give a structured answer
+-	I’d panic
+-	I’d try to guess
+-	I’d ask for clarification
+-	I’d give a structured answer
 """,
 
   preClassSurvey:[

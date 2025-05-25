@@ -40,7 +40,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
 
   void _setupTts() async {
     await _flutterTts.setLanguage("en-US");
-    await _flutterTts.setSpeechRate(0.4);
+    await _flutterTts.setSpeechRate(0.5);
     await _flutterTts.setPitch(1.0);
 
     _flutterTts.setCompletionHandler(() async {

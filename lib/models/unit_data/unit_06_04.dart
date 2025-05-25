@@ -19,7 +19,7 @@ As the pre-class activity, you have to watch a video today. You can get an idea 
 """,
 
 
-  preClassActivityUploadLink:"https://www.youtube.com/watch?v=oiM0x0ApVL8",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=oiM0x0ApVL8",
 
   practiceActivityDescription1: """ 
 Since you have learnt about paraphrasing and the strategies that you can use to do it, it’s time for you to engage in practice activities. 
@@ -35,13 +35,11 @@ Public speaking is a skill that many people fear, yet it is an essential part of
     ),
   ],
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
-
   practiceActivityDescription2: """
-We have selected a short video related to technology. Watch both videos and paraphrase what the speakers say. Please keep in mind this activity focuses on paraphrasing, not summarizing. 
+We have selected a short video related to technology. Watch the video and paraphrase what the speakers say. Please keep in mind this activity focuses on paraphrasing, not summarizing. 
 """,
   practiceVideoUrl:"https://www.youtube.com/watch?v=5kOIFj4EhWw ",
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375210",
 
   instructionsText: """
 Now that you’ve watched the video and have a general understanding of paraphrasing, please listen to this recorded lecture for a more in-depth explanation of the concept and additional strategies for paraphrasing.

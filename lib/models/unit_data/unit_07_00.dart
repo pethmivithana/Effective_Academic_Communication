@@ -7,15 +7,16 @@ final UnitModel unit7_0 = UnitModel(
 In this unit, we’ll explore how to expand your vocabulary using context. Words do not exist in isolation, they live in sentences, paragraphs, and conversations. By understanding how a word is used in a sentence, we can often guess its meaning, determine its tone, or choose a better alternative. This approach is especially useful in computing, where unfamiliar academic or technical terms are common. Whether you’re reading documentation, writing reports, or listening to lectures, context-based vocabulary development will help you decode meaning, use appropriate words, and improve your academic fluency.
 This unit sets the foundation for future lessons, where we’ll dive into how to change word forms, use context clues, distinguish between formal and informal expressions, and replace everyday words with academic equivalents. But first, let’s learn how to notice the clues all around a word—so we can truly understand and use it effectively.
 By the end of this lesson, you will be able to:
-•	Understand what context-based vocabulary development means.
-•	Recognize how surrounding words influence the meaning of unfamiliar terms.
-•	Practice identifying appropriate vocabulary based on sentence clues.
-•	Apply context awareness in reading, writing, and listening tasks.
+1.	Understand what context-based vocabulary development means.
+2.	Recognize how surrounding words influence the meaning of unfamiliar terms.
+3.	Practice identifying appropriate vocabulary based on sentence clues.
+4.	Apply context awareness in reading, writing, and listening tasks.
 """,
 
   preClassActivityDescription: """
 Read the short paragraph below and guess the meanings of the underlined words based on context. Then, choose the best definition from the options given.
-The programmer was praised for her meticulous documentation. Every function was clearly explained, and even the edge cases were handled with precision. Her attention to detail made the system more robust and easier for others to maintain.
+
+**The programmer was praised for her meticulous documentation. Every function was clearly explained, and even the edge cases were handled with precision. Her attention to detail made the system more robust and easier for others to maintain.**
 """,
   preClassQuestions:[
   PreClassQuestion(

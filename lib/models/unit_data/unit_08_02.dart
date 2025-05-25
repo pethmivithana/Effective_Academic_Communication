@@ -7,12 +7,12 @@ final UnitModel unit8_2 = UnitModel(
 Introduction
 Hello everyone! 
 In our previous lesson, we looked at how to organize our thoughts before writing or speaking, using tools like mind mapping and outlining. Today, we're going one step further to explore a powerful technique to help you present your ideas clearly and logically—both in speaking and in writing.
-This method is called the Point-Evidence-Explanation (PEE) method. It’s a simple yet effective way to build strong academic arguments and communicate clearly. Once you learn it, you’ll notice how it improves the quality of your responses—whether you're writing a paragraph, answering a question, or participating in a discussion.
+This method is called the Point-Evidence-Explanation (P-E-E) method. It’s a simple yet effective way to build strong academic arguments and communicate clearly. Once you learn it, you’ll notice how it improves the quality of your responses—whether you're writing a paragraph, answering a question, or participating in a discussion.
 Lesson Objectives
 By the end of this lesson, you should be able to:
-1.	Understand what the PEE method is and why it is useful in academic discussions and writing.
+1.	Understand what the "P-E-E" method is and why it is useful in academic discussions and writing.
 2.	Identify the three key components—Point, Evidence, and Explanation—in written examples.
-3.	Apply the PEE method to structure your own responses logically and effectively.
+3.	Apply the "P-E-E" method to structure your own responses logically and effectively.
 """,
 
   preClassActivityDescription: """
@@ -85,7 +85,7 @@ Step 1: Write down your answers.
 
 Step 2: Share your response in the discussion forum.
 """,
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375226",
 
   practiceActivityDescription2: """
 Now it’s your turn to apply what you’ve learned! Choose one of the topics below and write a short paragraph using the PEE structure.
@@ -102,7 +102,7 @@ Write 3–4 sentences including:
 
 Upload your work to the submit portal once you’ve completed your paragraph.
 """,
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375227",
 
   instructionsText: """
 We have prepared a short, recorded lecture introducing the PEE method and how it helps in academic discussions and writing. Please watch it carefully before moving on to the activities. Taking notes is encouraged!

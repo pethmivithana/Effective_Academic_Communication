@@ -45,28 +45,33 @@ Use the following prompts to guide your reflection:
 Submit your response in the given portal. 
 """,
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375241",
 
 
   practiceActivityDescription2: """
 Goal: Deliver a short presentation using rapport-building strategies. 
-Please follow the steps given below. 
+
+Please follow the steps given below.
+ 
 Step 1 - Choose one topic:
 o	A new AI-based product
 o	A cybersecurity concept
 o	The impact of social media on communication
+
 Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
+
 Step 3 - Use a mirror or camera to observe your:
 o	Facial expressions
 o	Hand gestures
 o	Voice modulation
+
 Step 4 - Self-assess with the checklist below:
 ✅ Did I make eye contact?
 ✅ Was my tone engaging and varied?
 ✅ Did I connect with the audience?
 ✅ Did I use relevant and relatable examples?
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 
+Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 """,
 
   practiceUploadLink2:"https://example.com/upload-practice-activity",
@@ -78,8 +83,7 @@ Watch the short recorded lecture on the importance of self-assessment and reflec
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=WmZwY1ExcXpVV182NzcyNw==",
 
   summary: """
-In this lesson, we explored the role of self-reflection and goal-setting in enhancing academic communication. You assessed your own communication skills, identified areas of strength and improvement, and created personal action plans for growth. Self-assessment is a lifelong skill that supports academic, professional, and personal development.
-""",
+In this lesson, we explored the role of self-reflection and goal-setting in enhancing academic communication. You assessed your own communication skills, identified areas of strength and improvement, and created personal action plans for growth. Self-assessment is a lifelong skill that supports academic, professional, and personal development.""",
 
   inClassActivity: """
 I’m looking forward to seeing all of you in class for some fun and interactive activities! We’ll reflect together, discuss your responses, and engage in some hands-on communication exercises. See you soon!
@@ -87,7 +91,7 @@ I’m looking forward to seeing all of you in class for some fun and interactive
 
   quizQuestions: [
     QuizQuestion(
-      question: "1. Which of the following strategies do you find most effective for self-improvement in academic communication?",
+      question: "Which of the following strategies do you find most effective for self-improvement in academic communication?",
       options: [
         "a) Regular practice and reflection",
         "b) Seeking feedback from peers and instructors",
@@ -97,17 +101,17 @@ I’m looking forward to seeing all of you in class for some fun and interactive
       correctOptionIndex: 3,
     ),
     QuizQuestion(
-      question: "2. Peer feedback is only useful when the person giving the feedback is an expert in the subject.",
+      question: "Peer feedback is only useful when the person giving the feedback is an expert in the subject.",
       options: ["True", "False"],
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "3. How do you plan to continue improving your academic communication skills beyond this course?",
+      question: "How do you plan to continue improving your academic communication skills beyond this course?",
       isTextAnswer: true,
       correctTextAnswer: "Open-ended",
     ),
     QuizQuestion(
-      question: "4. Which of the following is the best way to maintain self-improvement in academic communication after this course?",
+      question: "Which of the following is the best way to maintain self-improvement in academic communication after this course?",
       options: [
         "a) Never practicing public speaking again",
         "b) Continuously setting goals for speaking and writing skills",

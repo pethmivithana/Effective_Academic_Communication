@@ -27,7 +27,7 @@ Let’s begin with a quick self-assessment to reflect on your current communicat
       "Guess and respond anyway",
       "Change the topic",
     ],
-    allowsMultipleAnswers: false,
+    allowsMultipleAnswers: true,
   ),
   SurveyQuestion(
     questionText: "What makes you nervous when speaking in English?",
@@ -37,8 +37,19 @@ Let’s begin with a quick self-assessment to reflect on your current communicat
       "Speaking too slowly",
       "All of the above",
     ],
-    allowsMultipleAnswers: false,
+    allowsMultipleAnswers: true,
   ),
+    SurveyQuestion(
+      questionText: "Which communication problems do you face the most?",
+      options: [
+        "Pronunciation",
+        "Vocabulary",
+        "Listening",
+        "Confidence",
+        "Grammar",
+      ],
+      allowsMultipleAnswers: true,
+    ),
   ],
   preClassQuestions:[
   PreClassQuestion(
@@ -52,17 +63,6 @@ Let’s begin with a quick self-assessment to reflect on your current communicat
   PreClassQuestion(
     questionText: "Think about the last time you had difficulty communicating in English. What happened?",
     isTextAnswer: true,
-  ),
-  PreClassQuestion(
-    questionText: "Which communication problems do you face the most?",
-    options: [
-      "Pronunciation",
-      "Vocabulary",
-      "Listening",
-      "Confidence",
-      "Grammar",
-    ],
-    isTextAnswer: false,
   ),
   ],
 
@@ -83,7 +83,7 @@ Step 4 - Take a screenshot of your conversation and upload it as proof of comple
 This activity will help you practice clarification, confidence, and fluency in everyday settings.
 
 """,
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375201",
 
   practiceActivityDescription2: """
 Watch this short video for additional techniques to improve communication skills in English.

@@ -42,6 +42,7 @@ import 'package:eng_app_2/models/unit_data/unit_10_02.dart';
 import 'package:eng_app_2/models/unit_data/unit_11_00.dart';
 import 'package:eng_app_2/models/unit_data/unit_11_01.dart';
 import 'package:eng_app_2/models/unit_data/unit_11_02.dart';
+import 'package:eng_app_2/models/unit_data/unit_11_03.dart';
 import 'package:eng_app_2/models/unit_data/unit_12_00.dart';
 import 'package:eng_app_2/models/unit_data/unit_12_01.dart';
 import 'package:eng_app_2/models/unit_data/unit_12_02.dart';
@@ -98,6 +99,7 @@ final List<UnitModel> units = [
   unit11_0,
   unit11_1,
   unit11_2,
+  unit11_3,
   unit12_0,
   unit12_1,
   unit12_2,

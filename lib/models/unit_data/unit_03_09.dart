@@ -22,7 +22,7 @@ In five years, I will be working on advanced cybersecurity solutions for tech co
 In 2050, people will be living in smart cities with AI-controlled transportation systems.
 """,
 
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=375178",
 
   practiceActivityDescription1: """
 Follow the instructions given:
@@ -48,7 +48,7 @@ Submit your best recording by pasting the link in the submission portal.
 """,
   practiceActivityLink:"https://reverb.chat/uses/online-voice-recorder/",
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375179",
 
   practiceActivityDescription2: """
 Let’s visualize a day in your future life and describe what you will be doing at different times using the future continuous tense.
@@ -64,7 +64,7 @@ At 2 PM, I will be presenting my first project to my company’s leadership team
 """,
 
   practiceActivityLink2: "https://adayinmyfuturelife.slack.com/",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375180",
 
   instructionsText: """
 Before you start the activities, watch the video lesson on the future continuous tense. 

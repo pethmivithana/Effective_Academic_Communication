@@ -9,10 +9,10 @@ Hello everyone, welcome to lesson 7.3!
 In this unit, we’ll explore how to recognize and use formal and informal expressions in your communication. Every context, whether academic, professional, or casual—requires a different tone. In computing, you might speak casually during a team meeting but use formal language in documentation, emails, or presentations. Being able to switch between formal and informal expressions is a key communication skill that helps you sound appropriate and professional.
 As future IT professionals, you’ll need to write emails to clients, contribute in technical reports, chat with colleagues, or present projects to an audience. Each of these scenarios demands the right level of formality. In this lesson, you’ll learn how to identify tones, replace informal words with formal ones, and adjust your language to suit academic and technical environments.
 By the end of this lesson, you will be able to:
-•	Identify formal and informal expressions in English.
-•	Distinguish between appropriate and inappropriate tone in academic and professional settings.
-•	Replace informal expressions with formal ones, especially in computing-related communication.
-•	Apply the correct level of formality in writing and speaking tasks.
+1.	Identify formal and informal expressions in English.
+2.	Distinguish between appropriate and inappropriate tone in academic and professional settings.
+3.	Replace informal expressions with formal ones, especially in computing-related communication.
+4.	Apply the correct level of formality in writing and speaking tasks.
 """,
 
   preClassActivityDescription: """
@@ -54,22 +54,22 @@ Read each sentence and tap the informal word to switch it to a formal one. Then 
 """,
   practiceActivityMCQ:[
     PracticeQuestionMCQ(
-      questionText: "We gotta test the software again.",
+      questionText: "We **gotta** test the software again.",
       options: ["must", "maybe", "can"],
       correctOptionIndex: 0, // a) must
     ),
     PracticeQuestionMCQ(
-      questionText: "The thing isn’t working properly.",
+      questionText: "The **thing** isn’t working properly.",
       options: ["mechanism", "gadget", "process"],
       correctOptionIndex: 0, // a) mechanism
     ),
     PracticeQuestionMCQ(
-      questionText: "The report looks kinda weird.",
+      questionText: "The report looks **kinda** weird.",
       options: ["somewhat", "totally", "extremely"],
       correctOptionIndex: 0, // a) somewhat
     ),
     PracticeQuestionMCQ(
-      questionText: "Hey guys, here’s my part of the doc!",
+      questionText: "**Hey guys**, here’s my part of the doc!",
       options: ["Good day team", "Yo peeps", "Dear all"],
       correctOptionIndex: 0, // a) Good day team
     ),
@@ -89,8 +89,8 @@ Then record your formal version using the same link and paste that link here as 
 
 02 record links should be submitted. 
 """,
-  practiceActivityLink:"https://www.speakpipe.com/voice-recorder ",
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375219",
 
   instructionsText: """
 Watch the video lesson below to understand when and how to use formal vs. informal language. You’ll learn to spot differences in grammar, word choice, and tone. Make notes where necessary.

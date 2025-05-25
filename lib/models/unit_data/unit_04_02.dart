@@ -24,7 +24,7 @@ Take a screenshot of your final results page and upload it to the platform.
 
 """,
   preClassActivityLink: "https://www.merriam-webster.com/games/vocabulary-quiz",
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375188",
 
   practiceActivityDescription1: """ 
 Step 1:
@@ -39,7 +39,7 @@ Complete at least 3 vocabulary exercises on Duolingo and take screenshots of the
 Step 4:
 Write down 5 new words you learned from the exercises. Try to use them in your own sentences!
 """,
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375189",
 
   practiceActivityDescription2: """
 Step 1:
@@ -52,7 +52,7 @@ Step 3:
 Take a screenshot of your final score/result page after checking your answers and upload it as proof of completion.
 """,
   practiceActivityLink2:"https://www.englishclub.com/vocabulary/computer-quiz.php#google_vignette ",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375191",
 
   instructionsText: """
 Once you’ve completed the pre-class activity, watch the recorded mini-lesson provided. It explains various strategies and apps you can use to expand your vocabulary, both for general and academic purposes. 

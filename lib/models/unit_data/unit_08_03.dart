@@ -6,7 +6,7 @@ final UnitModel unit8_3 = UnitModel(
   introductionText: """
 Hello everyone! 
 Welcome back to Unit 8: Structuring Ideas for Academic Discussions.
-In our previous lesson, we learned how to build well-developed arguments using the Point-Evidence-Explanation (PEE) method. Today, we shift our focus to another essential academic writing and speaking skill—using topic sentences and supporting details. Mastering this technique will help you express your ideas more clearly and effectively in both written and spoken academic contexts.
+In our previous lesson, we learned how to build well-developed arguments using the Point-Evidence-Explanation method. Today, we shift our focus to another essential academic writing and speaking skill—using topic sentences and supporting details. Mastering this technique will help you express your ideas more clearly and effectively in both written and spoken academic contexts.
 Lesson Objectives
 By the end of this lesson, you will be able to:
 1.	Identify topic sentences in paragraphs.
@@ -62,7 +62,7 @@ Step 2: Type your own topic sentence and let ChatGPT help you expand it with sup
 
 Step 3: Take a screenshot of the final paragraph and upload it to the learning portal.
 """,
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375228",
 
   practiceActivityDescription2: """
 Step 1: Choose one of the following topic sentences and write a paragraph including at least three supporting details:
@@ -74,7 +74,7 @@ Step 2: Review your paragraph and check if the supporting details clearly relate
 
 Step 3: Submit your paragraph to the assigned portal.
 """,
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375229",
 
   instructionsText: """
 Please listen to the short recorded lecture explaining how to write effective topic sentences and use appropriate supporting details. This will guide you through the upcoming practice tasks.

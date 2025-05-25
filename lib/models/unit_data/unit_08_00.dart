@@ -18,7 +18,7 @@ Before we begin, think about a time when you were part of an academic discussion
 •	Why is it important to structure your ideas when participating in academic discussions?
 Please share your thoughts in the discussion forum. We’d love to hear your reflections! 
 """,
-  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
+  preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375221",
 
   practiceActivityDescription1: """ 
 Now, after watching the recorded video, watch this YouTube video designed to provide further insight into structuring ideas in a real academic discussion setting. Don't worry if some parts aren't immediately clear – we'll cover them in future lessons to strengthen these specific skills.
@@ -35,7 +35,7 @@ Have a discussion about this topic with ChatGPT, and evaluate your own participa
 
 Step 3 – Take a screenshot of your conversation and submit it to the portal given as the proof of the completion of the activity. 
 """,
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375222",
 
   instructionsText: """
 We have a brief recorded video introducing the concept of structuring ideas in discussions. Be sure to watch it before moving on to the activities, as it will give you a solid foundation for the tasks ahead. Take notes to help retain the key points!

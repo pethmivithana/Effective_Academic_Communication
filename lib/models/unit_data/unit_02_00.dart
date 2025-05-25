@@ -20,7 +20,7 @@ Write down at least three grammar errors you notice and explain why you think th
 Use the discussion forum given to answer the questions.""",
 
   preClassActivityVideo:"https://www.youtube.com/watch?v=ePVZvMjSMvE ",
-  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=359261",
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=374530",
 
     practiceActivityDescription1: """
 We hope that you now have a clear understanding of the basic grammar skills needed for Spoken English. Let’s test what you have learnt so far! Follow the instructions accordingly. 
@@ -35,7 +35,7 @@ Step 04: Upload the screenshot to the submission portal.
    """,
 
     practiceActivityLink: "https://quizizz.com/join?gc=28179076" ,
-    practiceUploadLink: "https://example.com/upload-practice-activity",
+    practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=374533",
     practiceActivityDescription2: """
 Let’s practice more! Follow the instructions.
     
@@ -49,7 +49,7 @@ Step 04: Record your final attempt and submit your best recording here!
     """,
 
     practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
-    practiceUploadLink2: "https://example.com/upload-practice-activity",
+    practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=374532",
     instructionsText: """
 Please click on the given link. 
 You will now watch a video lesson explaining the basic grammar skills you need to know when practicing spoken English. Listen very carefully and you may take down notes whenever necessary. Enjoy!

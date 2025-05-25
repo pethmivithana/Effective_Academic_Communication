@@ -7,10 +7,10 @@ final UnitModel unit6_0 = UnitModel(
 Hello everyone!
 We’ve reached the halfway point of our English course — Unit 6, and we’re so proud of how far you’ve come! We hope you enjoyed the first five units where we explored a variety of essential topics to improve your language skills.
 In this unit, we shift our focus to something just as important — Communication Strategies. This introduction will give you a solid foundation and help you reflect on how you currently communicate. Throughout Unit 6, we’ll cover four exciting lessons:
-•	Understanding Communication Strategies
-•	Types of Questions
-•	Summarizing Key Points in Discussions
-•	Paraphrasing for Better Understanding
+6.1	Understanding Communication Strategies
+6.2	Types of Questions
+6.3	Summarizing Key Points in Discussions
+6.4	Paraphrasing for Better Understanding
 This introductory lesson aims to prepare you for the upcoming content while giving you the chance to assess your current communication habits.
 Lesson Objectives
 By the end of this lesson, you should be able to:
@@ -39,7 +39,7 @@ Step 2:
 •	Write three key facts from the video that stood out to you.
 """,
   practiceActivityVideo:"https://www.youtube.com/watch?v=MfqPp37KGBQ",
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375198",
 
   practiceActivityDescription2: """
 Self-Reflection Time!
@@ -50,7 +50,7 @@ Write a short reflection (4–5 sentences) on the communication weaknesses you t
 
 This could relate to how you respond in conversations, your body language, how well you listen, or any difficulties you face when expressing ideas.
 """,
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/forum/view.php?id=375200",
 
   instructionsText: """
 We’ve prepared a short recorded lecture that introduces the concept of communication strategies and their importance. Please listen to the lecture carefully before attempting the practice activities.

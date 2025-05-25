@@ -222,7 +222,31 @@ class _HomeScreenState extends State<HomeScreen> {
                 ...subunits.map<Widget>((subunit) {
                   int subIndex = subunits.indexOf(subunit);
                   return ListTile(
-                    leading: const Icon(Icons.play_circle_outline, color: Color(0xFF010066)),
+                    leading: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Container(
+                          width: 30,
+                          height: 30,
+                          decoration: BoxDecoration(
+                            color: const Color(0xFF010066),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          child: Center(
+                            child: Text(
+                              '$subIndex',
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        const Icon(Icons.play_circle_outline, color: Color(0xFF010066)),
+                      ],
+                    ),
                     title: Text(
                       subunit['name'],
                       style: const TextStyle(fontWeight: FontWeight.w600),
@@ -312,11 +336,30 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       child: Column(
                         children: [
-                          CircleAvatar(
-
-                            backgroundColor: const Color(0xFFFF6100),
-                            radius: 35,
-                            child: Icon(unit['icon'], color: Colors.white),
+                          Stack(
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: const Color(0xFFFF6100),
+                                radius: 35,
+                                child: Icon(unit['icon'], color: Colors.white),
+                              ),
+                              Positioned(
+                                top: 0,
+                                right: 0,
+                                child: CircleAvatar(
+                                  backgroundColor: const Color(0xFF010066),
+                                  radius: 12,
+                                  child: Text(
+                                    '${index + 1}',
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                           const SizedBox(height: 12),
                           Expanded(

@@ -8,14 +8,14 @@ Hello, future computing professionals!
 Oral exams and viva voce sessions can feel a little intimidating, can’t they? You're asked to speak clearly, explain your work, and respond on the spot. But here’s a secret: you can totally master them with the right tools and mindset! In this lesson, we’ll focus on how to prepare for and ace your viva by organizing your thoughts, using academic language, and showing confidence—even when you feel nervous inside.
 In computing fields, you're often asked to justify your decisions—whether it's your choice of algorithm, programming logic, or system design. The viva isn’t just about what you know, but how well you can explain and defend your knowledge. This lesson will help you sound more professional, calm, and structured during your oral assessments. By the end, you’ll be well on your way to becoming a viva pro!
 By the end of this lesson, you will be able to:
-•	Understand how to structure a strong oral response.
-•	Use polite and academic phrases to agree, disagree, and clarify.
-•	Present your technical decisions clearly and confidently.
-•	Practice techniques to manage anxiety and stay calm under pressure.
+1.	Understand how to structure a strong oral response.
+2.	Use polite and academic phrases to agree, disagree, and clarify.
+3.	Present your technical decisions clearly and confidently.
+4.	Practice techniques to manage anxiety and stay calm under pressure.
 """,
 
   preClassActivityDescription: """
-Before we dive in, let’s check how you feel about oral exams. Select one emoji that best describes your confidence level right now:
+Before we start, let’s check how you feel about oral exams. Select one emoji that best describes your confidence level right now:
 🫣 – I panic just thinking about it
 😬 – I’ve tried it but I freeze
 🙂 – I can manage with some help
@@ -33,22 +33,22 @@ Before we dive in, let’s check how you feel about oral exams. Select one emoji
 Here’s a messy viva response. Rearrange the pieces into a clear, logical academic answer.
 
 Scrambled Phrases:
-	Let me begin by stating the problem this study addresses.
-	Firstly, let me explain how the data was collected.
-	From my findings, this algorithm performs better on sparse datasets.
-	To conclude, the selected model improves efficiency by 20%.
-	Furthermore, this method allows for easier real-time implementation.
-	That decision was based on both practical constraints and performance needs.
-	I’d be happy to elaborate on that if needed.
+1.	Let me begin by stating the problem this study addresses.
+2.	Firstly, let me explain how the data was collected.
+3.	From my findings, this algorithm performs better on sparse datasets.
+4.	To conclude, the selected model improves efficiency by 20%.
+5.	Furthermore, this method allows for easier real-time implementation.
+6.	That decision was based on both practical constraints and performance needs.
+7.	I’d be happy to elaborate on that if needed.
 """,
 
   practiceActivityMCQ:[
     PracticeQuestionMCQ(
     questionText: "Which is the correct order to form a clear academic viva response?",
     options: [
-      "1. Let me begin by stating the problem this study addresses. → 2. Firstly, let me explain how the data was collected. → 3. That decision was based on both practical constraints and performance needs. → 4. From my findings, this algorithm performs better on sparse datasets. → 5. Furthermore, this method allows for easier real-time implementation. → 6. To conclude, the selected model improves efficiency by 20%. → 7. I’d be happy to elaborate on that if needed.",
-      "1. To conclude, the selected model improves efficiency by 20%. → 2. Firstly, let me explain how the data was collected. → 3. From my findings, this algorithm performs better on sparse datasets. → 4. Let me begin by stating the problem this study addresses. → 5. Furthermore, this method allows for easier real-time implementation. → 6. That decision was based on both practical constraints and performance needs. → 7. I’d be happy to elaborate on that if needed.",
-      "1. Firstly, let me explain how the data was collected. → 2. Let me begin by stating the problem this study addresses. → 3. From my findings, this algorithm performs better on sparse datasets. → 4. That decision was based on both practical constraints and performance needs. → 5. Furthermore, this method allows for easier real-time implementation. → 6. To conclude, the selected model improves efficiency by 20%. → 7. I’d be happy to elaborate on that if needed.",
+      "1 → 2 → 6 → 3 → 5 → 4 → 7",
+      "4 → 2 → 3 → 1 → 5 → 6 → 7",
+      "2 → 1 → 3 → 6 → 5 → 4 → 7",
     ],
     correctOptionIndex: 0,
   ),
@@ -69,7 +69,7 @@ Record your answer through this  and share the audio link here!
 
   practiceActivityLink2:"https://record.reverb.chat/",
 
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375238",
 
   instructionsText: """
 Watch the video lesson carefully to understand what a viva voce is and how it differs from everyday question-and-answer sessions. The video will explain the structure, tone, and types of questions typically asked in an oral exam, especially in computing-related disciplines. You’ll see how students explain their decisions, clarify misunderstandings, and handle unexpected questions.

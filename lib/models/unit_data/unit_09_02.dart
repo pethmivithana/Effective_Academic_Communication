@@ -8,10 +8,10 @@ Hello everyone, Welcome to Unit 9.2
 Almost everyone feels nervous before a presentation—even experienced speakers. Your heart races, your palms sweat, and suddenly, the words you practiced vanish. But the good news is: anxiety is normal, and it can be managed. In this lesson, you’ll learn simple, science-backed tips to reduce presentation anxiety so you can focus on what really matters—sharing your ideas with clarity and confidence.
 As computing students, you’ll often present your projects, research, or code explanations in front of peers, lecturers, or even panels. This lesson will help you prepare mentally and emotionally by giving you practical strategies like breathing techniques, rehearsal methods, body language tips, and positive mindset tools. Let’s take the fear out of speaking—step by step.
 By the end of this lesson, you will be able to:
-•	Understand the causes and effects of presentation anxiety
-•	Apply strategies to calm your mind and body before speaking
-•	Use preparation techniques to increase confidence
-•	Practice body language and vocal tools to feel more in control
+1.	Understand the causes and effects of presentation anxiety.
+2.	Apply strategies to calm your mind and body before speaking.
+3.	Use preparation techniques to increase confidence.
+4.	Practice body language and vocal tools to feel more in control.
 """,
 
   preClassActivityDescription: """

@@ -21,7 +21,7 @@ Watch this short clip.
 Describe the type of student shown. 
 """,
   preClassActivityLocalVideo:"assets/videos/video_5.2.mp4",
-  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
+  preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375194",
 
   practiceActivityDescription1: """ 
 Choose suitable words/phrases from the box and fill in the blanks to form a well-structured viva response.
@@ -69,7 +69,7 @@ Follow the ISE structure:
 Submit your final voice recording link here.
 """,
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375195",
 
   instructionsText: """
 Watch this mini-lesson on how to structure answers using the ISE technique:

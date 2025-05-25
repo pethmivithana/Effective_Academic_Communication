@@ -57,7 +57,7 @@ Save and submit your audio link via the app.
 Don’t worry about being perfect—this is all about practicing your response style and tone.
 """,
   practiceActivityLink:"https://vocaroo.com",
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375197",
 
   practiceActivityDescription2: """
 Fill in the blanks using the correct phrases from the word bank to complete the dialogue between a student and an examiner.

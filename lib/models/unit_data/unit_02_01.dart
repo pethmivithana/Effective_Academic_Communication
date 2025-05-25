@@ -111,7 +111,7 @@ Okay, now that you have gone through the lesson, let’s practice what you have 
 
 •	Submit a screenshot of your test to the given link as proof. """,
     practiceActivityLink2:"https://www.englisch-hilfen.de/en/complex_tests/word_order1/task.php#google_vignette",
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=374534",
     instructionsText: """
 You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!
 """,

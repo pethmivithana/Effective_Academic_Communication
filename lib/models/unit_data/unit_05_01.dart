@@ -91,7 +91,7 @@ Record a short 60-second introduction to your imaginary final-year project. Use 
 -After recording, copy the link and submit your audio response here.
 """,
   practiceActivityLink2: "https://www.vocaroo.com",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375193",
 
   instructionsText: """
 Watch the video lesson below, where we walk you through the structure of a viva voce, the examiner’s role, common question types, and how to stay calm and confident. You can take notes on how to introduce your project, what kinds of questions you may be asked and some tips for staying professional under pressure. 

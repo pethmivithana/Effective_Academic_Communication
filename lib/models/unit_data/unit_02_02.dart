@@ -98,7 +98,7 @@ Step 02: Have a conversation with ChatGPT on any of the given topics. Make sure 
 Step 03: Take a Screenshot/Screenshots of your conversation and submit it! 
   """,
 
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=374535",
 
   instructionsText: """
 You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!

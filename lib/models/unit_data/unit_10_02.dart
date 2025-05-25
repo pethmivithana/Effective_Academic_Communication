@@ -73,7 +73,7 @@ Step 3: Reflect on your performance using these questions:
 Step 4: Upload your final recorded presentation to the app for lecturer feedback. If the file size is too large, you can upload the video to the drive and share the link. 
 """,
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375237",
 
 
   practiceActivityDescription2: """
@@ -98,8 +98,8 @@ Step 4 - Self-assess with the checklist below:
 ✅ Was my tone engaging and varied?
 ✅ Did I connect with the audience?
 ✅ Did I use relevant and relatable examples?
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 
+Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 """,
 
   practiceUploadLink2:"https://example.com/upload-practice-activity",
@@ -111,8 +111,7 @@ Watch the recorded lecture provided. It outlines practical techniques for mainta
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=c0hkdzFJb1BUMV82NzcyNQ==",
 
   summary: """
-In this lesson, you learned how to refine your delivery for both online and in-person presentations. We explored how to adjust your tone, pace, and use of body language to create an impactful and engaging presentation. You also practiced using Microsoft PowerPoint Coach for feedback and reflection.
-""",
+In this lesson, you learned how to refine your delivery for both online and in-person presentations. We explored how to adjust your tone, pace, and use of body language to create an impactful and engaging presentation. You also practiced using Microsoft PowerPoint Coach for feedback and reflection.""",
 
   inClassActivity: """
 I’m looking forward to seeing you in class where we’ll practice delivering presentations together. Let’s engage in interactive activities and supportive peer feedback to polish your delivery even more!
@@ -138,7 +137,7 @@ I’m looking forward to seeing you in class where we’ll practice delivering p
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: 'Clarity and Enunciation',
+      question: 'Clarity and Pronunciation',
       options: [
         'a) My speech was unclear.',
         'b) Some words were unclear.',

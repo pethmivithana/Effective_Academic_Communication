@@ -94,7 +94,7 @@ Step 3: After recording, click “Save & Share” and copy the audio link and su
 """,
 
   practiceActivityLink2: "https://vocaroo.com",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375181",
 
   instructionsText: """
 Watch the short video given below, which explains how to use the Future Perfect Tense in real-life conversations. Focus on the formula and examples. You can take notes on the structure, the keywords like ‘by next week, by 2025, before the deadline’, and contexts where it's commonly used.

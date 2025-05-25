@@ -39,7 +39,7 @@ Example Sentences:
 🔹 Scientists had been working on the first computer for years before it was finally completed in 1945.
 
 """,
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375173",
 
   practiceActivityDescription2: """
 Let’s  create a short story using the past perfect continuous tense!
@@ -70,7 +70,7 @@ Now it’s your turn! Create and record your story using past perfect continuous
 """,
 
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375174",
 
   instructionsText: """
 Before we attempt the activities, watch this short video on the formats and usage of the past perfect continuous tense in spoken English. It will help you understand how this tense is used in real conversations. Feel free to take notes to reinforce your learning!

@@ -10,16 +10,17 @@ Welcome to lesson 7.2!
 As computing students, you’ll often encounter unfamiliar technical or academic terms while reading documentation, research papers, or system interfaces. Instead of pausing every time to consult a dictionary, there’s a smarter strategy—using context clues. Context clues are the hints found in the words, phrases, or sentences surrounding an unfamiliar word. These clues can help you make educated guesses about meanings, which boosts your reading speed, comprehension, and confidence.
 In this lesson, we’ll learn how to spot five key types of context clues: definition, synonym, antonym, example, and inference. Mastering these will help you decode unfamiliar vocabulary more naturally and apply this skill across any computing-related text—from user manuals to technical blogs. Ready to become a vocabulary detective?
 By the end of this lesson, you will be able to:
-•	Identify the main types of context clues.
-•	Use context clues to infer the meaning of unfamiliar words.
-•	Improve your reading fluency in technical and academic contexts.
-•	Apply this strategy to computing-related texts and documentation.
+1.	Identify the main types of context clues.
+2.	Use context clues to infer the meaning of unfamiliar words.
+3.	Improve your reading fluency in technical and academic contexts.
+4.	Apply this strategy to computing-related texts and documentation.
 """,
 
   preClassActivityDescription: """
 Below is a paragraph from a software engineering article. Read it carefully and guess the meaning of the underlined words using the context.
+
 Text:
-To avoid redundancy, the developer used modular functions, which can be reused in different parts of the code. This practice improves maintainability, making the code easier to update and debug.
+**To avoid redundancy, the developer used modular functions, which can be reused in different parts of the code. This practice improves maintainability, making the code easier to update and debug.**
 
 Now answer the following:
 """,
@@ -98,7 +99,7 @@ The program was deprecated, meaning it is no longer supported or recommended.
 Explain: What does “deprecated” mean, and what clue helped you?
 """,
   practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375218",
 
   instructionsText: """
 Now, let’s watch the video lesson below. You’ll learn how to use different types of context clues to guess the meaning of unfamiliar words. While watching, pay close attention to examples drawn from computing topics—like documentation, system descriptions, and feature summaries. Take notes on the five types of clues: definition, synonym, antonym, example, and inference. This will help you build confidence in understanding new vocabulary without needing constant translation.
@@ -107,8 +108,7 @@ Now, let’s watch the video lesson below. You’ll learn how to use different t
   instructionVideoId: "8laYlyAFd0o",
 
   summary: """
-In this lesson, you learned how to use context clues to understand unfamiliar words—an essential strategy for academic success in computing. We explored five types of clues: definitions, which directly explain the word; synonyms and antonyms, which offer comparisons; examples, which give real-life scenarios; and inferences, which require you to think critically about the meaning. By practicing these techniques, you’ve taken a big step toward becoming an independent reader. Instead of stopping at every unfamiliar term, you can now use the context around it to make sense of what you’re reading. This skill will help you understand documentation, analyze reports, and follow discussions with more ease—making you a more confident communicator in your field.
-""",
+In this lesson, you learned how to use context clues to understand unfamiliar words—an essential strategy for academic success in computing. We explored five types of clues: definitions, which directly explain the word; synonyms and antonyms, which offer comparisons; examples, which give real-life scenarios; and inferences, which require you to think critically about the meaning. By practicing these techniques, you’ve taken a big step toward becoming an independent reader. Instead of stopping at every unfamiliar term, you can now use the context around it to make sense of what you’re reading. This skill will help you understand documentation, analyze reports, and follow discussions with more ease—making you a more confident communicator in your field.""",
 
   inClassActivity: """
 During our next class, we’ll explore context clues through real computing texts—like open-source project readme files or documentation snippets. You’ll work individually to highlight unfamiliar words, identify the clue type used, and guess the word’s meaning. Then, we’ll compare answers as a group and discuss different interpretations. To make it more fun, we’ll wrap up with a “Context Clue Showdown,” where you’ll compete in teams to solve tricky vocabulary challenges using only clues from sentences. Come prepared to think fast and learn collaboratively!

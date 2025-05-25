@@ -35,7 +35,7 @@ Next, it’s time to test your understanding with an online quiz. This quiz will
 Please complete the quiz and upload the screenshot of your completed quiz to the platform as proof of completion.
  """,
   practiceActivityLink:"https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/ ",
-  practiceUploadLink: "https://example.com/upload-practice-activity",
+  practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375165",
 
   practiceActivityDescription2: """
 Step 1 - Open ChatGPT and use the voice feature for a more interactive experience.
@@ -48,7 +48,7 @@ Step 3 - ChatGPT will ask you a series of questions. Try to answer them in detai
 Step 4 - Take a screenshot of your conversation and upload it in the submission portal as proof of completion of the activity.
 """,
 
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375166",
 
   instructionsText: """
 Now that you've watched the video and started thinking about the Present Perfect Continuous tense, there is a brief recorded session that you should watch next. This session will cover all the details you need to know, including the structure, usage, and how to distinguish this tense from the Present Perfect tense.

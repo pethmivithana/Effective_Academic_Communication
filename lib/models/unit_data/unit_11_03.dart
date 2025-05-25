@@ -73,7 +73,7 @@ Step 4 – Write Your Final Response
 Submit your response in the space provided. 
 """,
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375240",
 
 
   practiceActivityDescription2: """

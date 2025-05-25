@@ -7,10 +7,10 @@ final UnitModel unit9_3 = UnitModel(
 Hi there! Ready to level up your presentation skills? So far, you've learned what academic presentations are and how to stay calm while speaking—but now, it’s time to learn how to organize your content. A well-structured presentation isn’t just about throwing some ideas together; it's about guiding your audience through your thoughts clearly and logically. If your ideas are great but your structure is messy, your message will get lost.
 In this lesson, we’ll break down the basic building blocks of a strong presentation: introduction, main body, and conclusion. Think of it like designing a program—you wouldn’t start coding without a plan, right? Presentations work the same way. Once you learn how to organize your ideas effectively, your confidence will grow, and your audience will stay engaged from start to finish.
 By the end of this lesson, you will be able to:
-•	Recognize the three key parts of an academic presentation
-•	Use simple planning techniques to structure your talk
-•	Create effective opening and closing lines
-•	Organize the main body with clear, logical flow
+1.	Recognize the three key parts of an academic presentation.
+2.	Use simple planning techniques to structure your talk.
+3.	Create effective opening and closing lines.
+4.	Organize the main body with clear, logical flow.
 """,
 
   preClassActivityDescription: """
@@ -144,7 +144,7 @@ Step 04: Paste the audio link here!
 
 """,
   practiceActivityLink2:"https://vocaroo.com/",
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375231",
 
   instructionsText: """
 Watch the video lesson carefully to learn how to organize a presentation into three effective parts: introduction, body, and conclusion. You’ll see how strong speakers begin with a clear purpose, explain their key points in a logical order, and end with a strong summary or recommendation. While watching, take note of how the presenter transitions between each section and what phrases they use to keep the flow smooth. These examples will help you build your own well-structured presentations in future activities and real-life settings.

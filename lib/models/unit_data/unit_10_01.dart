@@ -60,7 +60,7 @@ Step 2 - Watch your recording and identify strengths and areas for improvement.
 Step 3 - Upload your recording to the portal for feedback. (This can be done in zoom or just before any camera.) 
 """,
 
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375235",
 
 
   practiceActivityDescription2: """
@@ -89,7 +89,7 @@ Step 4 - Self-assess with the checklist below:
 Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 """,
 
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375236",
 
   instructionsText: """
 Watch the recorded lecture provided. It outlines practical techniques for maintaining rapport throughout your presentation and will support you in completing the activities.

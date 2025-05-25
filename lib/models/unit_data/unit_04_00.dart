@@ -97,14 +97,14 @@ After watching the video, write 6 skills that you need to develop.
 """,
 
   practiceActivityVideo: "https://www.youtube.com/watch?v=CPxSzxylRCI",
-  practiceUploadLink:"https://example.com/upload-practice-activity",
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375182",
 
   practiceActivityDescription2: """
 Since this lesson is a brief introduction to essential study skills, as the Practice Activity 2, you're suppose to watch the given Youtube video and write 3 things that you would like to develop within yourself. 
 """,
 
   practiceVideoUrl: "https://www.youtube.com/watch?v=jMhhaAQK1NQ",
-  practiceUploadLink2: "https://example.com/upload-practice-activity",
+  practiceUploadLink2: "https://courseweb.sliit.lk/mod/forum/view.php?id=375184",
 
   instructionsText: """
 After completing the pre-class activity, you are here for the lecture. Please note that Unit 4’s introduction will only give you a brief overview of what we will discuss in the upcoming lessons. We hope you’ll watch it and enjoy!

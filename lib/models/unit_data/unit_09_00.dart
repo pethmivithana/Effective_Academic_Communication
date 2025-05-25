@@ -6,12 +6,12 @@ final UnitModel unit9_0 = UnitModel(
   introductionText: """
 Welcome back! 
 Did you know? Academic presentations are more than just talking in front of a screen—they’re a powerful way to share your ideas, research, or solutions with an audience? 
-In computing, you might present a project, explain how an algorithm works, or pitch a new app design. This lesson introduces the basics of academic presentations: what they are, why they matter, and how they’re different from casual speaking. You’ll explore how to engage your audience, use clear language, and present your content with confidence. Whether you’re new to public speaking or just want to level up your skills, this is the perfect place to begin. This unit lays the groundwork for upcoming lessons where we’ll dive deeper into effective presentation structure, strategies to manage nervousness, and how to make your delivery stand out. Let’s start your presentation journey here.
+In computing, you might present a project, explain how an algorithm works, or pitch a new app design. This lesson introduces the basics of academic presentations: what they are, why they matter, and how they’re different from casual speaking. You’ll explore how to engage your audience, use clear language, and present your content with confidence. Whether you’re new to public speaking or just want to level up your skills, this is the perfect place to begin. This unit lays the groundwork for upcoming lessons where we’ll discuss in detail about where effective presentation structure, strategies to manage nervousness, and how to make your delivery stand out. Let’s start your presentation journey here.
 By the end of this lesson, you will be able to:
-•	Understand the purpose and key features of academic presentations.
-•	Identify the differences between casual and academic speaking.
-•	Recognize the expectations of an academic audience.
-•	Apply basic techniques to plan and prepare an academic presentation.
+1.	Understand the purpose and key features of academic presentations.
+2.	Identify the differences between casual and academic speaking.
+3.	Recognize the expectations of an academic audience.
+4.	Apply basic techniques to plan and prepare an academic presentation.
 """,
 
   preClassActivityDescription: """
@@ -122,7 +122,7 @@ Copy the link/URL of the best version of your speech and paste it here!
 """,
 
   practiceActivityLink2:"https://www.speakpipe.com/messages",
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375230",
 
   instructionsText: """
 Watch the video lesson carefully to understand what academic presentations are and how they differ from everyday conversations. The video will highlight key features, tone, and structure used in effective presentations, with examples. Feel free to take down notes wherever you think something is useful or interesting, you might find helpful phrases, sentence starters, or techniques that you can use in your own presentations later on.
