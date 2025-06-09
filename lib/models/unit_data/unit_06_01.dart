@@ -86,9 +86,9 @@ This activity will help you practice clarification, confidence, and fluency in e
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375201",
 
   practiceActivityDescription2: """
-Watch this short video for additional techniques to improve communication skills in English.
+Hello students! As for the practice activity 2, you are supposed to watch this video. We are sure you’ll enjoy it! 
 """,
-  practiceVideoUrl:"https://www.youtube.com/watch?v=CAU2zx2Ri_M ",
+  practiceVideoUrl:"https://www.youtube.com/watch?v=rpFmRq5KeJs",
 
   instructionsText: """
 Now that you’ve identified your own communication challenges, please listen to the recorded lecture on communication strategies. Take notes, especially on strategies such as paraphrasing, asking for repetition, and active listening

@@ -16,16 +16,10 @@ By the end of this lesson, students should be able to:
   """,
 
   preClassActivityDescription: """
-We are sure you have heard of “tenses” before! From your point of view, why do we have different tenses? 
+We are sure you have heard of “tenses” before! From your point of view, why do we have different tenses? Write your thoughts in the given Discussion Forum.
   """,
 
-
-  preClassQuestions: [
-    PreClassQuestion(
-      questionText: 'Write your thoughts in the given blank.',
-      correctAnswer: """We use different tenses to show the timing of an action or event. Without tenses, we wouldn't know if something happened in the past, is happening now, or will happen in the future.""",
-    ),
-  ],
+  preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=374540",
 
   practiceActivityDescription1: """
 Dear all, now that you have watched the recorded lecture, we have another video for you. This video, taken from BBC Learning English, will reinforce what you learned in the previous video. If you don’t understand everything in this video, don’t worry! There will be separate lessons on the most common tenses later.

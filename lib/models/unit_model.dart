@@ -32,7 +32,8 @@ class UnitModel {
 
   String summary;
   String inClassActivity;
-  List<QuizQuestion> quizQuestions;
+  List<QuizQuestion>? quizQuestions;
+  String? quizDescription;
 
   UnitModel({
     required this.unitIndex,
@@ -67,7 +68,8 @@ class UnitModel {
 
     required this.summary,
     required this.inClassActivity,
-    required this.quizQuestions,
+    this.quizQuestions,
+    this.quizDescription,
 
   });
 }

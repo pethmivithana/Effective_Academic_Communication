@@ -25,15 +25,11 @@ As the pre-class activity, you have to watch a video today. You can get an idea 
 Since you have learnt about paraphrasing and the strategies that you can use to do it, it’s time for you to engage in practice activities. 
 
 Paragraph:
-Public speaking is a skill that many people fear, yet it is an essential part of professional and academic life. To become a confident speaker, individuals must practice regularly, learn to organize their thoughts clearly, and develop strategies to manage nervousness.
+**Public speaking is a skill that many people fear, yet it is an essential part of professional and academic life. To become a confident speaker, individuals must practice regularly, learn to organize their thoughts clearly, and develop strategies to manage nervousness.**
+Paraphrase the above paragraph. Submit your paraphrased version to the given forum.
 """,
-  practiceActivityQuestions1:[
-    PracticeQuestion1(
-      questionText: "Paraphrase the above paragraph. Submit your paraphrased version below.",
-      correctAnswer:"Public speaking is important but often feared. Confidence grows through practice, clear thinking, and managing nerves",
-      isTextAnswer: true,
-    ),
-  ],
+
+  practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375207",
 
   practiceActivityDescription2: """
 We have selected a short video related to technology. Watch the video and paraphrase what the speakers say. Please keep in mind this activity focuses on paraphrasing, not summarizing. 

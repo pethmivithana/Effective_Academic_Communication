@@ -77,32 +77,9 @@ Submit your response in the space provided.
 
 
   practiceActivityDescription2: """
-Goal: Deliver a short presentation using rapport-building strategies. 
+We have given an interesting video taken from TED-Ed about “critical thinking.” This will refresh your mind.""",
 
-Please follow the steps given below. 
-
-Step 1 - Choose one topic:
-o	A new AI-based product
-o	A cybersecurity concept
-o	The impact of social media on communication
-
-Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
-
-Step 3 - Use a mirror or camera to observe your:
-o	Facial expressions
-o	Hand gestures
-o	Voice modulation
-
-Step 4 - Self-assess with the checklist below:
-✅ Did I make eye contact?
-✅ Was my tone engaging and varied?
-✅ Did I connect with the audience?
-✅ Did I use relevant and relatable examples?
-
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
-""",
-
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceVideoUrl:"https://www.youtube.com/watch?v=JpYA7WXkHyI",
 
   instructionsText: """
 Now, let's go through a brief recorded lecture where we discuss the practical use of critical thinking during oral exams and vivas. After watching, complete the practice tasks that follow.

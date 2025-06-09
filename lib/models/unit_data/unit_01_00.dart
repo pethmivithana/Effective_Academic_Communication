@@ -17,9 +17,8 @@ By the end of this lesson, you will be able to:
 1.	Introduce yourself confidently by stating your name, background, and interests.
 2.	Use appropriate greetings in formal and informal contexts.
 3.	Engage in small talk by asking and responding to basic questions about personal information.
-4.	Practice active listening skills to respond appropriately in conversations.
+4.	Practice active listening skills to respond appropriately in conversations. """,
 
-    """,
     preClassActivityDescription: """
 Follow the steps given and complete it. 
 
@@ -31,8 +30,8 @@ Step 3 – Practice your self-introduction again and check for grammar errors an
 
 Step 4 – Write your self-introduction in the given space so we can get to know you!
 
-Click the button below to open the discussion forum and submit your answers. You can type your responses directly on the forum, and they’ll be saved automatically.
-     """,
+Click the button below to open the discussion forum and submit your answers. You can type your responses directly on the forum, and they’ll be saved automatically.""",
+
     preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=374526",
 
     practiceActivityDescription1: """
@@ -42,23 +41,27 @@ Step 1: Record a 30-second video or audio introducing yourself.
 
 Step 2: Use Speechify or NaturalReader to listen to your introduction and check your pronunciation.
 
-Step 3: Upload your final recording to the given submission link. 
-    """,
+Step 3: Upload your final recording to the given submission link.""",
+
     practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=374527",
 
     practiceActivityDescription2: """
-Next we’ll watch a YouTube video which is about “self-introductions”. These videos can be a good source of information for you to improve your proficiency.
-    """,
+Next we’ll watch a YouTube video which is about “self-introductions”. These videos can be a good source of information for you to improve your proficiency.""",
 
     practiceVideoUrl: "https://www.youtube.com/watch?v=8laYlyAFd0o",
+
     instructionsText: """
 Play the brief recorded session which will give you more information about self-introductions.""",
+
     instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=VjhLdGIyTENEcF82NzY1Ng==",
+
     summary: """
 We completed our very first lesson today! The main focus of the lesson was to provide you with background information about the program and what we will be doing in the future. We also covered the lesson on “Self-Introductions,” which will be very helpful for getting to know each other at university. Additionally, you can use this knowledge when a lecturer asks you to introduce yourself.
 
 We hope this lesson was interesting and gave you some motivation to improve your English proficiency!""",
+
     inClassActivity: "Hello students! We believe you have completed the lesson and are ready to attend the physical class. We will have an interactive session with casual conversations and will use different AI tools to make it more engaging. See you soon!",
+
     quizQuestions: [
       QuizQuestion(
         question: "What is the best way to introduce yourself in a professional setting?",

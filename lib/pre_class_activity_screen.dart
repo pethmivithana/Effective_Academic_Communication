@@ -753,7 +753,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
               Padding(
                 padding: const EdgeInsets.only(top: 10),
                 child: ElevatedButton.icon(
-                  onPressed: () => _launchURL(unit.practiceUploadLink2!),
+                  onPressed: () => _launchURL(unit.preClassActivityUploadLink!),
                   icon: const Icon(Icons.upload_file, color: Colors.white),
                   label: const Text("Upload Your Answer", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                   style: ElevatedButton.styleFrom(

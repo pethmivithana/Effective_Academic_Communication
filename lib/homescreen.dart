@@ -173,6 +173,67 @@ class _HomeScreenState extends State<HomeScreen> {
     },
   ];
 
+  @override
+  void initState() {
+    super.initState();
+    _initializeProgress();
+  }
+
+  void _initializeProgress() {
+    // Check if this is the first time user is logging in
+    List<dynamic>? completedUnits = box.read('completed_units');
+    if (completedUnits == null) {
+      // First time user - initialize with empty progress
+      box.write('completed_units', <int>[]);
+    }
+  }
+
+  List<int> _getCompletedUnits() {
+    List<dynamic>? completed = box.read('completed_units');
+    if (completed == null) return <int>[];
+    return completed.cast<int>();
+  }
+
+  bool _isUnitUnlocked(int unitIndex) {
+    List<int> completedUnits = _getCompletedUnits();
+
+    // First unit (index 0) is always unlocked
+    if (unitIndex == 0) return true;
+
+    // For other units, check if the previous unit's last subunit is completed
+    int previousUnitLastSubunitIndex = _getLastSubunitIndex(unitIndex - 1);
+    return completedUnits.contains(previousUnitLastSubunitIndex);
+  }
+
+  bool _isSubunitUnlocked(int unitIndex, int subunitIndex) {
+    List<int> completedUnits = _getCompletedUnits();
+
+    // First subunit of first unit is always unlocked
+    if (unitIndex == 0 && subunitIndex == 0) return true;
+
+    // Check if unit is unlocked first
+    if (!_isUnitUnlocked(unitIndex)) return false;
+
+    // First subunit of an unlocked unit is always unlocked
+    if (subunitIndex == 0) return true;
+
+    // For other subunits, check if previous subunit is completed
+    int previousSubunitUnitIndex = units[unitIndex]['subunits'][subunitIndex - 1]['unitIndex'];
+    return completedUnits.contains(previousSubunitUnitIndex);
+  }
+
+  int _getLastSubunitIndex(int unitIndex) {
+    if (unitIndex < 0 || unitIndex >= units.length) return -1;
+    List<dynamic> subunits = units[unitIndex]['subunits'];
+    if (subunits.isEmpty) return -1;
+    return subunits.last['unitIndex'];
+  }
+
+  bool _isSubunitCompleted(int unitIndex) {
+    List<int> completedUnits = _getCompletedUnits();
+    return completedUnits.contains(unitIndex);
+  }
+
   UnitModel? _getUnitData(int? unitIndex) {
     if (unitIndex == null) return null;
     final unit = unit_data.units.firstWhere(
@@ -183,6 +244,11 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _navigateToScreen(int unitIndex, int subunitIndex) {
+    if (!_isSubunitUnlocked(unitIndex, subunitIndex)) {
+      _showLockedDialog();
+      return;
+    }
+
     final subunit = units[unitIndex]['subunits'][subunitIndex];
     final unitData = _getUnitData(subunit['unitIndex'] as int?);
 
@@ -199,7 +265,46 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  void _showLockedDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Row(
+            children: const [
+              Icon(Icons.lock, color: Colors.orange),
+              SizedBox(width: 8),
+              Text("Unit Locked", style: TextStyle(fontWeight: FontWeight.bold)),
+            ],
+          ),
+          content: const Text(
+            "Complete the previous unit to unlock this one!",
+            style: TextStyle(fontSize: 16),
+          ),
+          actions: [
+            ElevatedButton(
+              onPressed: () => Navigator.pop(context),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF010066),
+                foregroundColor: Colors.white,
+              ),
+              child: const Text("OK"),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   void _showSubunitModal(int unitIndex) {
+    if (!_isUnitUnlocked(unitIndex)) {
+      _showLockedDialog();
+      return;
+    }
+
     final subunits = units[unitIndex]['subunits'];
 
     showModalBottomSheet(
@@ -221,6 +326,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 ...subunits.map<Widget>((subunit) {
                   int subIndex = subunits.indexOf(subunit);
+                  bool isUnlocked = _isSubunitUnlocked(unitIndex, subIndex);
+                  bool isCompleted = _isSubunitCompleted(subunit['unitIndex']);
+
                   return ListTile(
                     leading: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -229,11 +337,29 @@ class _HomeScreenState extends State<HomeScreen> {
                           width: 30,
                           height: 30,
                           decoration: BoxDecoration(
-                            color: const Color(0xFF010066),
+                            color: isCompleted
+                                ? Colors.green
+                                : isUnlocked
+                                ? const Color(0xFF010066)
+                                : Colors.grey,
                             borderRadius: BorderRadius.circular(15),
                           ),
                           child: Center(
-                            child: Text(
+                            child: isCompleted
+                                ? Stack(
+                              alignment: Alignment.center,
+                              children: [
+                                Text(
+                                  '$subIndex',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            )
+                                : Text(
                               '$subIndex',
                               style: const TextStyle(
                                 color: Colors.white,
@@ -244,19 +370,38 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                         const SizedBox(width: 8),
-                        const Icon(Icons.play_circle_outline, color: Color(0xFF010066)),
+                        Icon(
+                          isCompleted
+                              ? Icons.check_circle
+                              : isUnlocked
+                              ? Icons.play_circle_outline
+                              : Icons.lock,
+                          color: isCompleted
+                              ? Colors.green
+                              : isUnlocked
+                              ? const Color(0xFF010066)
+                              : Colors.grey,
+                        ),
                       ],
                     ),
                     title: Text(
                       subunit['name'],
-                      style: const TextStyle(fontWeight: FontWeight.w600),
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        color: isUnlocked ? Colors.black : Colors.grey,
+                      ),
                     ),
-                    trailing: const Icon(Icons.arrow_forward_ios_rounded, size: 12),
-                    onTap: () {
+                    trailing: isUnlocked
+                        ? const Icon(Icons.arrow_forward_ios_rounded, size: 12)
+                        : const Icon(Icons.lock, size: 12, color: Colors.grey),
+                    onTap: isUnlocked
+                        ? () {
                       Navigator.pop(context);
                       _navigateToScreen(unitIndex, subIndex);
-                    },
+                    }
+                        : () => _showLockedDialog(),
                   );
+
                 }).toList(),
               ],
             ),
@@ -274,7 +419,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: const Color(0xFF010066),
         title: Text(
           'Welcome, ${widget.username} 👋',
-          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20,color: Colors.white),
+          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
         ),
         elevation: 0,
         iconTheme: const IconThemeData(color: Colors.white),
@@ -298,7 +443,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: 4),
                 Text(
-                  "Explore units below and start learning.",
+                  "Complete units in order to unlock new content.🏆📈",
                   style: TextStyle(color: Colors.white70),
                 ),
               ],
@@ -318,36 +463,53 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 itemBuilder: (context, index) {
                   final unit = units[index];
+                  bool isUnlocked = _isUnitUnlocked(index);
+                  bool isCompleted = _getLastSubunitIndex(index) != -1 &&
+                      _isSubunitCompleted(_getLastSubunitIndex(index));
+
                   return GestureDetector(
                     onTap: () => _showSubunitModal(index),
                     child: AnimatedContainer(
                       duration: const Duration(milliseconds: 300),
                       padding: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                        color: Colors.white,
+                        color: isUnlocked ? Colors.white : Colors.grey[100],
                         borderRadius: BorderRadius.circular(20),
-                        boxShadow: const [
+                        boxShadow: [
                           BoxShadow(
-                            color: Colors.black12,
+                            color: isUnlocked ? Colors.black12 : Colors.black26,
                             blurRadius: 6,
-                            offset: Offset(0, 4),
+                            offset: const Offset(0, 4),
                           ),
                         ],
+                        border: isCompleted
+                            ? Border.all(color: Colors.green, width: 2)
+                            : null,
                       ),
                       child: Column(
                         children: [
                           Stack(
                             children: [
                               CircleAvatar(
-                                backgroundColor: const Color(0xFFFF6100),
+                                backgroundColor: isCompleted
+                                    ? Colors.green
+                                    : isUnlocked
+                                    ? const Color(0xFFFF6100)
+                                    : Colors.grey,
                                 radius: 35,
-                                child: Icon(unit['icon'], color: Colors.white),
+                                child: isCompleted
+                                    ? const Icon(Icons.check, color: Colors.white, size: 30)
+                                    : isUnlocked
+                                    ? Icon(unit['icon'], color: Colors.white)
+                                    : const Icon(Icons.lock, color: Colors.white),
                               ),
                               Positioned(
                                 top: 0,
                                 right: 0,
                                 child: CircleAvatar(
-                                  backgroundColor: const Color(0xFF010066),
+                                  backgroundColor: isUnlocked
+                                      ? const Color(0xFF010066)
+                                      : Colors.grey,
                                   radius: 12,
                                   child: Text(
                                     '${index + 1}',
@@ -361,22 +523,40 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             ],
                           ),
-                          const SizedBox(height: 12),
+                          const SizedBox(height: 8),
                           Expanded(
                             child: Text(
                               unit['title'],
                               textAlign: TextAlign.center,
                               maxLines: 4,
                               overflow: TextOverflow.ellipsis,
-                              style: const TextStyle(
+                              style: TextStyle(
                                 fontWeight: FontWeight.w600,
                                 fontSize: 14,
-                                color: Color(0xFF010066),
+                                color: isUnlocked
+                                    ? const Color(0xFF010066)
+                                    : Colors.grey,
                               ),
                             ),
                           ),
-                          const SizedBox(height: 8),
-                          const Icon(Icons.touch_app_rounded, color: Colors.grey, size: 18),
+                          const SizedBox(height:1), // Give a bit more space above the icon
+                          Padding(
+                            padding: const EdgeInsets.only(top: 1), // Push it down a bit
+                            child: Icon(
+                              isCompleted
+                                  ? Icons.check_circle
+                                  : isUnlocked
+                                  ? Icons.touch_app_rounded
+                                  : Icons.lock,
+                              color: isCompleted
+                                  ? Colors.green
+                                  : isUnlocked
+                                  ? Colors.grey
+                                  : Colors.grey,
+                              size: 18,
+                            ),
+                          ),
+
                         ],
                       ),
                     ),

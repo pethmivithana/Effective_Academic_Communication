@@ -56,21 +56,9 @@ Step 5 – Upload the screenshot of your report to the portal.
 
 
   practiceActivityDescription2: """
-Imagine that you are about to give a short presentation about ‘How language games help you learn English’. Follow the steps given below:
+As the practice activity 2, we have shared a video with you which was done by Kara Roning about speaking with clarity. This video will guide you how to improve your clarity in speaking too.""",
 
-Make your introductory speech of about 1-2 minutes. It should include:
-o	Greetings
-o	Introduce the topic of your presentation
-o	Purpose of the presentation
-o	Structure of your presentation
-
-Record your speech.
-
-Copy the link/URL of the best version of your speech and paste it here!
-""",
-
-  practiceActivityLink2:"https://www.speakpipe.com/messages",
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceVideoUrl:"https://www.youtube.com/watch?v=npsJwLk5vjU",
 
   instructionsText: """
 To get started, watch this short recorded lecture on structuring spoken presentations. It will introduce you to key techniques that will improve coherence and logical flow.

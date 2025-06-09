@@ -31,7 +31,7 @@ Think about a time when you were asked a challenging question in class or during
 Use phrases like: “I should have clarified…”, “Next time, I would say…”, “I could respond more confidently by…”
 """,
 
-  preClassActivityUploadLink:"https://example.com/upload-practice-activity",
+  preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375196",
 
   practiceActivityDescription1: """ 
 It’s time to practice thinking and speaking under pressure—just like in a viva!

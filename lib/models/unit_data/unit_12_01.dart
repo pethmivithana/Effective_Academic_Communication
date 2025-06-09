@@ -63,32 +63,10 @@ Step 3: Share your reflection and SMART goal in the class discussion forum.
 
 
   practiceActivityDescription2: """
-Goal: Deliver a short presentation using rapport-building strategies. 
-
-Please follow the steps given below. 
-
-Step 1 - Choose one topic:
-o	A new AI-based product
-o	A cybersecurity concept
-o	The impact of social media on communication
-
-Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
-
-Step 3 - Use a mirror or camera to observe your:
-o	Facial expressions
-o	Hand gestures
-o	Voice modulation
-
-Step 4 - Self-assess with the checklist below:
-✅ Did I make eye contact?
-✅ Was my tone engaging and varied?
-✅ Did I connect with the audience?
-✅ Did I use relevant and relatable examples?
-
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
+Watch this short video on smart goals which will help you to plan out your academic journey. 
 """,
 
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceVideoUrl:"https://www.youtube.com/watch?v=SVBOjp2uxZE",
 
   instructionsText: """
 Watch the video lesson where we discuss the power of reflection and how it can be a game-changer in your academic journey. We’ll break down how to identify patterns in your performance and how those insights can fuel progress.
@@ -97,8 +75,7 @@ Watch the video lesson where we discuss the power of reflection and how it can b
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=SHdHNUdldVFiRF82NzcyOA==",
 
   summary: """
-Self-assessment and reflection are essential tools for personal and academic growth. By identifying your strengths and weaknesses in communication, you gain clarity on how to move forward. Setting SMART goals gives your progress direction and purpose, making you more confident and effective in your academic journey.
-""",
+Self-assessment and reflection are essential tools for personal and academic growth. By identifying your strengths and weaknesses in communication, you gain clarity on how to move forward. Setting SMART goals gives your progress direction and purpose, making you more confident and effective in your academic journey.""",
 
   inClassActivity: """
 Looking forward to seeing you in our next live session! We’ll be engaging in some fun, reflective, and interactive tasks that will help you put your SMART goals into action. Can’t wait to hear about your reflections and the goals you’ve set!

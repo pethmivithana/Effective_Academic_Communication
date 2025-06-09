@@ -12,6 +12,7 @@ By the end of this lesson, you will be able to:
 1. Recognize the basic word order in English (Subject-Verb-Object structure).
 2.	Construct grammatically correct sentences in computing-related contexts.
 3.	 Identify and correct word order mistakes in simple and complex sentences.""",
+
     preClassActivityDescription: """
 You will be given a list of jumbled sentences. Arrange the words in the correct order to form meaning sentences. Refer to the example given and complete the task accordingly.
 
@@ -53,8 +54,10 @@ Debugging is good practice. """,
         correctAnswer: "Always protect your data securely.",
       ),
     ],
+
     practiceActivityDescription1: """
 Okay, now that you have gone through the lesson, let’s practice what you have learned from the lesson again .""",
+
   practiceActivityQuestions1: [
       PracticeQuestion1(
         questionText: "networking / computers / of / a / system / interconnected / is",
@@ -109,19 +112,24 @@ Okay, now that you have gone through the lesson, let’s practice what you have 
 
 •	Click on the “Start test” and complete the activities given. 
 
-•	Submit a screenshot of your test to the given link as proof. """,
+•	Submit a screenshot of your test to the given link as proof.""",
+
     practiceActivityLink2:"https://www.englisch-hilfen.de/en/complex_tests/word_order1/task.php#google_vignette",
+
   practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=374534",
+
     instructionsText: """
-You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!
-""",
+You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!""",
+
     instructionVideoId: "8laYlyAFd0o",
+
     summary: """
 Now, we have come to the end of Lesson 2.1. In this lesson, we explored the basic rules of word order in English, which generally follows the Subject-Verb-Object (SVO) structure. Using the correct word order is essential for making sentences clear and meaningful, especially when communicating in academic, professional, and technical settings. Misplacing words can lead to confusion, so applying these rules correctly helps ensure that your messages are understood as intended. Whether you are writing documentation, sending emails, or having conversations, following proper word order will improve both accuracy and fluency in your communication.""",
+
     inClassActivity: """
 Join us in the classroom as we put word order into practice! In this session, you'll get the chance to refine your skills in structuring sentences clearly and effectively in spoken English. It’s also the perfect time to ask your lecturer any questions and gain confidence in applying these rules in real conversations.
-Hope you enjoyed learning and see you there!
-""",
+Hope you enjoyed learning and see you there!""",
+
   quizQuestions: [
     QuizQuestion(
       question: "Which sentence has the correct word order?",
@@ -165,7 +173,7 @@ Hope you enjoyed learning and see you there!
     ),
     QuizQuestion(
       question: """Rearrange the words to form a correct sentence: 
-          to / every / school / goes / morning / she""",
+to / every / school / goes / morning / she""",
       isTextAnswer: true,
       correctTextAnswer: "She goes to school every morning.",
     ),

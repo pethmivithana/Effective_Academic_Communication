@@ -7,8 +7,7 @@
         </intent>
     </queries>
     <application
-        android:label="eng_app_2"
-        android:name="${applicationName}"
+        android:label="Effective Academic Communication"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

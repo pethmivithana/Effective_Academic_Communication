@@ -6,6 +6,21 @@ allprojects {
 }
 
 rootProject.buildDir = "../build"
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0"
+        // Add only build plugins here, NOT support libraries
+    }
+}
+
+// ✅ Remove implementation/classpath of support libraries here — move to module if needed
+
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
 }

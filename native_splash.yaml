@@ -1,21 +1,21 @@
 flutter_native_splash:
-  color: "#050a30"
-  color_dark: "#050a30"
-  image: assets/logo02.png
-  image_dark: assets/logo02.png
-  branding_mode: bottom  # Positions branding at the bottom
+  color: "#ffffff"            # White background for all platforms
+  color_dark: "#ffffff"       # White background for dark mode too
+  image: assets/Logo03.png
+  image_dark: assets/Logo03.png
+  branding_mode: bottom       # Positions branding at the bottom
 
   android_12:
-    color: "#050a30"  # White Background
-    image: assets/logo02.png
-    image_dark: assets/logo02.png
-
+    color: "#ffffff"          # White background for Android 12 splash
+    color_dark: "#ffffff"     # White background in dark mode too
+    image: assets/Logo03.png
+    image_dark: assets/Logo03.png
 
   android: true
   ios: true
   web: false
 
   fullscreen: true
-  android_gravity: center  # Ensures image covers the screen
-  ios_content_mode: scaleToFill  # Ensures proper scaling on iOS
+  android_gravity: fill     # Keeps logo centered
+  ios_content_mode: scaleToFill  # Scales the logo to fill splash on iOS
   web_image_mode: center

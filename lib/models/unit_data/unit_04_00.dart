@@ -121,44 +121,44 @@ We will engage in some interactive activities in class to help reinforce the ski
 
   quizQuestions: [
     QuizQuestion(
-      question: "Choose the sentence that uses the Future Perfect Tense correctly:",
+      question: 'Which of the following is a recommended way to identify key points in a lecture?',
       options: [
-        "a) I have finished the task by Friday.",
-        "b) I will be finishing the task by Friday.",
-        "c) I will have finished the task by Friday.",
-        "d) I finish the task by Friday.",
+        'Writing everything the lecturer says',
+        'Focusing only on the PowerPoint slides',
+        'Listening for repetition and transition words',
+        'Ignoring examples and focusing only on definitions',
       ],
       correctOptionIndex: 2,
     ),
     QuizQuestion(
-      question: "What is the correct structure of the Future Perfect Tense?",
+      question: 'What is one common challenge students face when listening to lectures in English?',
       options: [
-        "a) will + be + verb-ing",
-        "b) will + have + past participle",
-        "c) have + been + verb-ing",
-        "d) had + verb",
+        'Taking notes in their first language',
+        'Finding the lecture room',
+        'Understanding fast speech and identifying key ideas',
+        'Having too many books',
+      ],
+      correctOptionIndex: 2,
+    ),
+    QuizQuestion(
+      question: 'Which of these is a good vocabulary learning strategy?',
+      options: [
+        'Ignoring unfamiliar words',
+        'Using flashcards and writing definitions',
+        'Only reading vocabulary lists before exams',
+        'Memorizing without using the words',
       ],
       correctOptionIndex: 1,
     ),
     QuizQuestion(
-      question: "Which of these sentences describes an action that will be complete before another future moment?",
+      question: 'After taking notes in a lecture, what is the best follow-up action to improve learning?',
       options: [
-        "a) I am writing the code.",
-        "b) I will write the code.",
-        "c) I wrote the code.",
-        "d) I will have written the code.",
+        'Throw away your notes',
+        'Leave them untouched until the exam',
+        'Organize and rewrite your notes for better understanding',
+        'Ask a friend to do it for you',
       ],
-      correctOptionIndex: 3,
-    ),
-    QuizQuestion(
-      question: "Rewrite the following sentence using Future Perfect Tense:\nShe submits the final assignment before midnight.",
-      correctTextAnswer: "She will have submitted the final assignment before midnight",
-      isTextAnswer: true,
-    ),
-    QuizQuestion(
-      question: "Explain one use of the Future Perfect Tense in a real-life computing scenario. Give an example.",
-      correctTextAnswer: "The Future Perfect Tense can be used to describe an action that will be completed before a future deadline. For example: 'By the time the system goes live, the QA team will have tested all major features.'",
-      isTextAnswer: true,
+      correctOptionIndex: 2,
     ),
   ],
 );

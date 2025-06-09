@@ -49,32 +49,10 @@ Submit your response in the given portal.
 
 
   practiceActivityDescription2: """
-Goal: Deliver a short presentation using rapport-building strategies. 
-
-Please follow the steps given below.
- 
-Step 1 - Choose one topic:
-o	A new AI-based product
-o	A cybersecurity concept
-o	The impact of social media on communication
-
-Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
-
-Step 3 - Use a mirror or camera to observe your:
-o	Facial expressions
-o	Hand gestures
-o	Voice modulation
-
-Step 4 - Self-assess with the checklist below:
-✅ Did I make eye contact?
-✅ Was my tone engaging and varied?
-✅ Did I connect with the audience?
-✅ Did I use relevant and relatable examples?
-
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
+Hello everyone, watch this video to understand “who we are” and you’ll learn how that knowledge will help you to achieve success in life. 
 """,
 
-  practiceUploadLink2:"https://example.com/upload-practice-activity",
+  practiceVideoUrl:"https://www.youtube.com/watch?v=4lTbWQ8zD3w",
 
   instructionsText: """
 Watch the short recorded lecture on the importance of self-assessment and reflection in academic communication. The lecture will provide useful tips on identifying your strengths and weaknesses and setting personal goals for improvement.

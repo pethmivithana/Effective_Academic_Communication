@@ -86,9 +86,8 @@ Step 2 – Engage in a Q&A session with ChatGPT. Take a screenshot of the conver
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375204",
 
   practiceActivityDescription2: """
-Watch this short video for additional techniques to improve communication skills in English.
-""",
-  practiceVideoUrl:"https://www.youtube.com/watch?v=CAU2zx2Ri_M ",
+Hello everyone, please watch this video to get an understanding of how to ask better questions in conversations.""",
+  practiceVideoUrl:"https://www.youtube.com/watch?v=XeJ03dDGlCk",
 
   instructionsText: """
 Now that you have completed the pre-class activity, it’s time to watch the recorded lecture. This lecture provides clear explanations and examples of each type of question.

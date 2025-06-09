@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to:
 """,
 
   preClassActivityDescription: """
-Before joining the lesson, please watch this short and engaging video on the Point-Evidence-Explanation (PEE) method. 
+Before joining the lesson, please watch this short and engaging video on the Point-Evidence-Explanation (P-E-E) method. 
 
 Once you’ve finished watching, try answering the following multiple-choice questions. Don’t worry—they’re easy and fun!
 """,
@@ -88,7 +88,7 @@ Step 2: Share your response in the discussion forum.
   practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375226",
 
   practiceActivityDescription2: """
-Now it’s your turn to apply what you’ve learned! Choose one of the topics below and write a short paragraph using the PEE structure.
+Now it’s your turn to apply what you’ve learned! Choose one of the topics below and write a short paragraph using the P-E-E structure.
 
 Write 3–4 sentences including:
 •	Point – Your main idea.
@@ -105,19 +105,19 @@ Upload your work to the submit portal once you’ve completed your paragraph.
   practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375227",
 
   instructionsText: """
-We have prepared a short, recorded lecture introducing the PEE method and how it helps in academic discussions and writing. Please watch it carefully before moving on to the activities. Taking notes is encouraged!
+We have prepared a short, recorded lecture introducing the P-E-E method and how it helps in academic discussions and writing. Please watch it carefully before moving on to the activities. Taking notes is encouraged!
 """,
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=Y3dyU2x5WDV5cF82NzcyMQ==",
 
   summary: """
-In this lesson, we explored the Point-Evidence-Explanation (PEE) method, a simple yet powerful tool for structuring academic arguments and responses. You learned how to identify the three parts in examples, how to write your own PEE paragraphs, and how this method helps make your ideas clearer and more convincing. Whether you’re preparing for exams, writing essays, or taking part in discussions, the PEE method will help you communicate more effectively.""",
+In this lesson, we explored the Point-Evidence-Explanation (P-E-E) method, a simple yet powerful tool for structuring academic arguments and responses. You learned how to identify the three parts in examples, how to write your own P-E-E paragraphs, and how this method helps make your ideas clearer and more convincing. Whether you’re preparing for exams, writing essays, or taking part in discussions, the P-E-E method will help you communicate more effectively.""",
 
   inClassActivity: """
 Looking forward to seeing you in class! 
 We will be doing some interactive activities where you will:
-•	Work in pairs or small groups to identify and write PEE paragraphs.
-•	Practice speaking using the PEE method in short oral discussions.
+•	Work in pairs or small groups to identify and write P-E-E paragraphs.
+•	Practice speaking using the P-E-E method in short oral discussions.
 Let’s make this a fun and productive session together!
 """,
 

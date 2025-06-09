@@ -737,7 +737,7 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> with 
                 ),
               ),
 
-            const SizedBox(height: 40),
+            const SizedBox(height: 10),
 
             ElevatedButton.icon(
               onPressed: () {

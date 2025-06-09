@@ -118,6 +118,26 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
     });
   }
 
+  void _saveProgress() {
+    // Get current completed units
+    List<dynamic>? completed = box.read('completed_units');
+    List<int> completedUnits = completed?.cast<int>() ?? <int>[];
+
+    // Get the current unit index from unitData
+    if (widget.unitData != null) {
+      int currentUnitIndex = widget.unitData!.unitIndex;
+
+      // Add current unit to completed if not already there
+      if (!completedUnits.contains(currentUnitIndex)) {
+        completedUnits.add(currentUnitIndex);
+        box.write('completed_units', completedUnits);
+
+        print('Progress saved: Unit $currentUnitIndex completed');
+        print('Total completed units: $completedUnits');
+      }
+    }
+  }
+
   @override
   void dispose() {
     _confettiController.dispose();
@@ -190,7 +210,7 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
                       ),
                       const SizedBox(height: 30),
                       const Text(
-                        "Another level unlocked!",
+                        "Unit Completed!",
                         style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                       ),
                       const SizedBox(height: 10),
@@ -200,6 +220,16 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
                           celebrationMessage,
                           textAlign: TextAlign.center,
                           style: const TextStyle(fontSize: 18, color: Colors.black54),
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      const Text(
+                        "🎉 Next unit unlocked! 🎉",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.green,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       const SizedBox(height: 30),
@@ -219,7 +249,7 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
                           padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 40),
                         ),
                         child: const Text(
-                          "Finish",
+                          "Continue Learning",
                           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
                         ),
                       ),
@@ -390,8 +420,8 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(16),
                           ),
-                          title: const Text("Confirm Finish", style: TextStyle(fontWeight: FontWeight.bold)),
-                          content: const Text("Are you sure you want to finish this activity?"),
+                          title: const Text("Level complete!🎉🛹", style: TextStyle(fontWeight: FontWeight.bold)),
+                          content: const Text("The next one’s trembling already.😎🎮You’re on fire! 🔥 Ready to melt the next one?"),
                           actions: [
                             TextButton(
                               onPressed: () => Navigator.pop(context, false),
@@ -404,7 +434,7 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
                                 foregroundColor: Colors.white,
                                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
                               ),
-                              child: const Text("Yes, Finish", style: TextStyle(fontSize: 16)),
+                              child: const Text("Complete Unit", style: TextStyle(fontSize: 16)),
                             ),
                           ],
                         ),
@@ -415,12 +445,13 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
 
                 if (confirm == true) {
                   _flutterTts.stop(); // Stop TTS before showing celebration
+                  _saveProgress(); // Save the progress
                   _showCelebrationDialog();
                 }
               },
-              icon: const Icon(Icons.tab_sharp, color: Colors.white),
+              icon: const Icon(Icons.check_circle, color: Colors.white),
               label: const Text(
-                "Finish Activity",
+                "Complete Unit",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
               ),
               style: ElevatedButton.styleFrom(

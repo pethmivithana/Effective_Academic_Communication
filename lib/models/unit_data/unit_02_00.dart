@@ -10,8 +10,8 @@ This lesson will focus on building both accuracy and confidence in forming gramm
 By the end of this lesson, you will be able to:
 -	Understand the importance of grammar in spoken English.
 -	Recognize and use basic sentence structures (Subject-Verb-Object).
--	Identify and correct common grammatical mistakes in speech.
-    """,
+-	Identify and correct common grammatical mistakes in speech.""",
+
     preClassActivityDescription: """
 Watch a short video clip where common grammar mistakes are made in spoken English.
 
@@ -20,6 +20,7 @@ Write down at least three grammar errors you notice and explain why you think th
 Use the discussion forum given to answer the questions.""",
 
   preClassActivityVideo:"https://www.youtube.com/watch?v=ePVZvMjSMvE ",
+
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=374530",
 
     practiceActivityDescription1: """
@@ -31,11 +32,12 @@ Step 02: Enter your name and click on “start game”. Select the correct answe
 
 Step 03: After finishing the quiz, click on “Skip to summary” and take a screenshot of the ‘Performance Stats’.
 
-Step 04: Upload the screenshot to the submission portal. 
-   """,
+Step 04: Upload the screenshot to the submission portal.""",
 
-    practiceActivityLink: "https://quizizz.com/join?gc=28179076" ,
+    practiceActivityLink: "https://quizizz.com/join?gc=28179076",
+
     practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=374533",
+
     practiceActivityDescription2: """
 Let’s practice more! Follow the instructions.
     
@@ -45,24 +47,26 @@ Step 02: Read aloud 5 sentences about your daily routine, focusing on correct gr
 
 Step 03: Review the speech-to-text result and identify any mistakes. If there are errors, record the sentence again until you say it correctly.
 
-Step 04: Record your final attempt and submit your best recording here!
-    """,
+Step 04: Record your final attempt and submit your best recording here!""",
 
     practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
+
     practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=374532",
+
     instructionsText: """
 Please click on the given link. 
-You will now watch a video lesson explaining the basic grammar skills you need to know when practicing spoken English. Listen very carefully and you may take down notes whenever necessary. Enjoy!
-""",
+You will now watch a video lesson explaining the basic grammar skills you need to know when practicing spoken English. Listen very carefully and you may take down notes whenever necessary. Enjoy!""",
+
     instructionVideoId: "8laYlyAFd0o",
+
     summary: """
 Now, we have come to the end of Unit 2. In this lesson, we explored the fundamental role of grammar in spoken English, focusing on building accuracy and confidence in forming correct sentences. We discussed the importance of sentence structure, particularly the Subject-Verb-Object (SVO) pattern, and how proper grammar usage enhances clarity in communication. Common grammatical mistakes were also highlighted, reinforcing the need for accuracy in both speech and writing. Applying these grammar rules correctly will help you express your thoughts more effectively, whether in casual conversations or professional settings.""",
 
     inClassActivity: """
     Join us in the classroom as we put our basic grammar skills into practice! This is your chance to refine your understanding of sentence structure, avoid common mistakes, and build confidence in forming clear, grammatically correct sentences. Have any questions? Your lecturer will be there to guide you.
     
-Keep practicing and see you in the next lesson!
-""",
+Keep practicing and see you in the next lesson.""",
+
   quizQuestions: [
     QuizQuestion(
       question: "Which of the following sentences is grammatically correct?",

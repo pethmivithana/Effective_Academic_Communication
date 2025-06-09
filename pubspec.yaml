@@ -48,9 +48,17 @@ dependencies:
   video_player: ^2.9.5
   confetti: ^0.8.0
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+flutter icons:
+  image_path: "assets/Logo03.png"
+  android: true
+  ios: true
+  icon: true
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -71,13 +79,12 @@ flutter:
   uses-material-design: true
   assets:
      - assets/logo02.png
-     - assets/logo2.png
      - assets/onboarding/ob1.jpg
-     - assets/onboarding/ob2.jpg
      - assets/onboarding/ob5.png
-     - assets/BlackLogo.png
      - assets/videos/video_5.2.mp4
      - assets/login_image.png
+     - assets/Logo3.png
+     - assets/Logo03.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
