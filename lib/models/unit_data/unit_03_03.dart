@@ -48,7 +48,7 @@ Step 3 - Don’t rush! Take your time with each question. It’s all about learn
 
 Step 4 - Once you’ve finished, upload a screenshot of your completed quiz to show you’ve finished. We want to make sure you’re reflecting on what you’ve learned.
   """,
-  practiceActivityLink:"https://elt.oup.com/student/grammarfriends/level05/tests/test2?srsltid=AfmBOooNw3ChsBs91pNpzIQgZpNJsEx8_b6U_SZoNEAKkfI2Yy_5stSj&cc=global&selLanguage=en ",
+  practiceActivityLink:"https://elt.oup.com/student/grammarfriends/level05/tests/test2?srsltid=AfmBOooNw3ChsBs91pNpzIQgZpNJsEx8_b6U_SZoNEAKkfI2Yy_5stSj&cc=global&selLanguage=en",
   practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375163",
 
   practiceActivityDescription2: """

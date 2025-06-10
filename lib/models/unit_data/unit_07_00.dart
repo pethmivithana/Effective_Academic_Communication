@@ -125,7 +125,7 @@ You're a vocabulary agent decoding mysterious computing texts! Your task is to u
 Now, let’s watch the video lesson below. You’ll learn how context helps shape meaning and how to identify clues in a sentence to understand unknown words. While watching the video try to take notes on the types of context clues (definition, synonym, antonym, example, inference), how to guess meaning without using a dictionary and the examples from computing-related texts and documentation. 
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=VzlhYXJhNXNKd182NzgzNA==",
 
   summary: """
 In this lesson, you’ve been introduced to context-based vocabulary development—a skill that allows you to learn and use new words more naturally by analyzing their surroundings. You’ve seen how definitions, examples, synonyms, antonyms, and general logic in a sentence can provide clues about a word’s meaning. Instead of memorizing words in isolation, you now understand how to decode and retain vocabulary by observing how it functions in real-world texts. This skill is especially important in computing, where documentation, error messages, and reports are full of specialized terms. By using context to guide your understanding, you’ll build a more flexible and adaptive vocabulary that supports academic success and professional communication.""",

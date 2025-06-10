@@ -76,7 +76,7 @@ Watch the video lesson carefully to understand what a viva voce is and how it di
 Feel free to take notes—especially when you hear helpful phrases, sentence starters, or expressions that sound natural and professional. These can become powerful tools in your own responses during future vivas. Pay attention to both what is said and how it’s said—tone, body language, and pacing are just as important as the content!
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=c1BrcFc0Q1RSVl82Nzg0NQ==",
 
   summary: """
 In this lesson, you’ve taken your first real steps toward mastering oral exams and viva voce presentations. We explored how to deliver clear, confident, and well-structured responses—even when you're under pressure. You practiced reordering academic responses, creating technical pitches, selecting strong academic phrases, and matching emotions to coping strategies. With these tools, you’re more than ready to handle those tough questions with poise and professionalism. Whether you’re explaining a technical decision or clarifying a misunderstood point, remember: structure, clarity, and confidence are your best friends!

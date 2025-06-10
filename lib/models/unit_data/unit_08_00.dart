@@ -23,7 +23,7 @@ Please share your thoughts in the discussion forum. We’d love to hear your ref
   practiceActivityDescription1: """ 
 Now, after watching the recorded video, watch this YouTube video designed to provide further insight into structuring ideas in a real academic discussion setting. Don't worry if some parts aren't immediately clear – we'll cover them in future lessons to strengthen these specific skills.
 """,
-  practiceActivityVideo:"https://www.youtube.com/watch?v=YY2yjEEoB3U ",
+  practiceActivityVideo:"https://www.youtube.com/watch?v=YY2yjEEoB3U",
   practiceActivityDescription2: """
 Imagine you are in a discussion about the pros and cons of using artificial intelligence tools for study purposes. 
 

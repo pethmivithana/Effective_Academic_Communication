@@ -75,7 +75,7 @@ Watch the following video and complete the quiz to get a basic idea of the lesso
     ),
   ],
 
-  preClassActivityVideo:"https://www.youtube.com/watch?v=1dO0dO__wmE&t=100s ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=1dO0dO__wmE&t=100s",
 
   practiceActivityDescription1: """ 
 Step 1 – Access ChatGPT voice and clearly say the following:

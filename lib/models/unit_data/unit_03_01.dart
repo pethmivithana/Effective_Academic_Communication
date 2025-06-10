@@ -18,7 +18,7 @@ By the end of this lesson, you should be able to:
   """,
 
 
-  preClassActivityVideo: "https://www.youtube.com/watch?v=OsW5sV3GMDM ",
+  preClassActivityVideo: "https://www.youtube.com/watch?v=OsW5sV3GMDM",
 
   practiceActivityDescription1: """
 Step 1: Visit Replika AI (you can use the free version).

@@ -104,7 +104,7 @@ Step 03: Take a Screenshot/Screenshots of your conversation and submit it!
 You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!
   """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=OXF6NWVkczR4dF82NzgyMw==",
 
   summary: """
 In this lesson, we explored the four types of sentences and their importance in communication. Understanding sentence types helps in structuring messages clearly and effectively. Keep practicing by identifying different sentence types in daily conversations and writing exercises.""",

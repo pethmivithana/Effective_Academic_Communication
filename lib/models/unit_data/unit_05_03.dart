@@ -89,7 +89,7 @@ If I understand you correctly – That’s a great question – Let me clarify t
 Now let’s watch a short video lesson explaining how to handle different types of examiner questions. You’ll learn practical phrases and techniques like asking for clarification, using pauses effectively, and staying polite—even when unsure. You can take notes on the question types: clarification, justification, reflection and useful phrases: “That’s an interesting point…”, “If I understand you correctly…”, “Let me clarify…”
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=Qk90WEw0M0cyQ182NzgzMw==",
 
   summary: """
 You’ve successfully completed a crucial lesson in viva and academic communication! In this unit, you learned how to handle examiner questions effectively—whether they’re asking for clarification, challenging your choices, or requesting further explanation. You practiced using academic expressions like “Let me clarify that” and “That’s an interesting question,” which help you stay calm, polite, and professional in high-stakes conversations.

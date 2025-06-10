@@ -76,7 +76,7 @@ Watch the video carefully. Take notes on key points, including sentence structur
 After watching the video, move on to the practice activities!
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=eEZmRU5tYlJxWV82NzgyNw==",
 
   summary: """
 Great job completing this lesson! You now understand how to use the simple future tense to talk about upcoming events, predictions, and spontaneous decisions. We covered its structure with "will" and "be going to" and explored how these forms are used in spoken English. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using the simple future tense in your conversations to improve fluency and confidence. Keep up the great work and see you in the next lesson!""",

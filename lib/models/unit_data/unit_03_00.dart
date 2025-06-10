@@ -25,7 +25,7 @@ We are sure you have heard of “tenses” before! From your point of view, why 
 Dear all, now that you have watched the recorded lecture, we have another video for you. This video, taken from BBC Learning English, will reinforce what you learned in the previous video. If you don’t understand everything in this video, don’t worry! There will be separate lessons on the most common tenses later.
 """,
 
-  practiceActivityVideo:"https://www.youtube.com/watch?v=GiI3wjFWSXQ&t=20s ",
+  practiceActivityVideo:"https://www.youtube.com/watch?v=GiI3wjFWSXQ&t=20s",
 
   practiceActivityDescription2: """
 Since you have now watched two videos on tenses, it’s time to take a quiz on mixed tenses and assess your strengths and weaknesses. This quiz is for self-awareness only—we will not check your marks. The goal is to help you identify which areas you need to focus on in future lessons. After completing the quiz, take a screenshot of the final page showing your answers and upload it to the designated submission portal as proof of completion.

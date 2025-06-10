@@ -56,7 +56,7 @@ Debugging is good practice. """,
     ],
 
     practiceActivityDescription1: """
-Okay, now that you have gone through the lesson, let’s practice what you have learned from the lesson again .""",
+Okay, now that you have gone through the lesson, let’s practice what you have learned from the lesson again.""",
 
   practiceActivityQuestions1: [
       PracticeQuestion1(
@@ -121,7 +121,7 @@ Okay, now that you have gone through the lesson, let’s practice what you have 
     instructionsText: """
 You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!""",
 
-    instructionVideoId: "8laYlyAFd0o",
+    instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=c0c1MUdPUFVaRV82NzgyNA==",
 
     summary: """
 Now, we have come to the end of Lesson 2.1. In this lesson, we explored the basic rules of word order in English, which generally follows the Subject-Verb-Object (SVO) structure. Using the correct word order is essential for making sentences clear and meaningful, especially when communicating in academic, professional, and technical settings. Misplacing words can lead to confusion, so applying these rules correctly helps ensure that your messages are understood as intended. Whether you are writing documentation, sending emails, or having conversations, following proper word order will improve both accuracy and fluency in your communication.""",

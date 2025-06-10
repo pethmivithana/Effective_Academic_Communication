@@ -93,7 +93,7 @@ Step 04: Submit your best recording by copying the link they provide and pasting
 You will now watch an instructional video on the usage and formats of Past Continuous tense in the spoken English world! Take down notes where necessary. 
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=R2pIczZKVUhKSF82NzgyNQ==",
 
   summary: """
 Great job! In this lesson, you learned how to use the past continuous tense in spoken English to describe actions in progress at a specific time in the past, simultaneous events, and interruptions. We discussed how to correctly form sentences using was/were + verb-ing and practiced applying this tense in different contexts. Understanding and using the past continuous tense helps make your conversations more detailed and natural, especially when telling stories or explaining past events. Keep practicing by using past continuous sentences in your daily speech, and don’t forget to review the key rules.""",

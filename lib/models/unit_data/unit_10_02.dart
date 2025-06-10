@@ -20,7 +20,7 @@ Watch this short video on the key differences between online and in-person prese
  
 After watching, answer the following quiz:
 """,
-  preClassActivityVideo:"https://www.youtube.com/watch?v=asHncB7zDDA  ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=asHncB7zDDA",
 
   preClassQuestions:[
     PreClassQuestion(

@@ -27,7 +27,7 @@ Watch this video on effective communication:
 
 Think about how this applies to your daily communication.
 """,
-  preClassActivityVideo:"https://www.youtube.com/watch?v=gCfzeONu3Mo&t=58s ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=gCfzeONu3Mo&t=58s",
 
   practiceActivityDescription1: """ 
 Let’s think about the strategies that can help us become better communicators.

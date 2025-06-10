@@ -114,7 +114,7 @@ Student A: Definitely. There are a lot of failed login attempts in the logs, so 
 Now, let’s watch the video lesson below. You’ll explore the differences between informal and academic language, and why it’s important to use academic vocabulary in computing-related writing. The video will show you how to spot casual phrases and suggest more formal, professional alternatives. Pay attention to the structure of example sentences in technical documentation and reports. You’ll also learn tips for recognizing tone and register, so you know when to adjust your word choice depending on the context.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=TURhSDFlejRsWF82NzgzOA==",
 
   summary: """
 In this lesson, you learned how to replace everyday informal words with academic equivalents to make your writing and speaking more professional. You explored the difference between casual and formal tone, particularly in computing-related communication. By practicing with both written and spoken exercises, you gained confidence in selecting more suitable vocabulary for technical contexts. Academic word choices like obtain instead of get or resolve instead of fix enhance the clarity, precision, and formality of your message. These skills are essential for writing reports, delivering presentations, and collaborating in academic and workplace environments. You are now better prepared to express your ideas with authority and academic style.""",

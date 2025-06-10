@@ -97,7 +97,7 @@ Record a short 60-second introduction to your imaginary final-year project. Use 
 Watch the video lesson below, where we walk you through the structure of a viva voce, the examiner’s role, common question types, and how to stay calm and confident. You can take notes on how to introduce your project, what kinds of questions you may be asked and some tips for staying professional under pressure. 
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=aUViVzdFbG5Dd182NzgzMQ==",
 
   summary: """
 You’ve now taken your first step into understanding the viva voce process. In this lesson, you learned what a viva is, why it's important, and what to expect in terms of structure and examiner interaction. We explored the types of questions typically asked—ranging from project explanations to justifying your decisions—and discussed how to respond with confidence and clarity. Through individual practice activities, you applied academic language to real-world scenarios, building both fluency and professionalism.

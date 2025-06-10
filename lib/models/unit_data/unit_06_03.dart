@@ -72,7 +72,7 @@ Step 1: Listen to the short video on artificial intelligence by Prof. Mike Woold
 
 Step 2: Upload the summary document to the portal for review.
 """,
-  practiceActivityVideo:"https://www.youtube.com/watch?v=D2JY38VShxI&t=68s ",
+  practiceActivityVideo:"https://www.youtube.com/watch?v=D2JY38VShxI&t=68s",
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375205",
 
   practiceActivityDescription2: """

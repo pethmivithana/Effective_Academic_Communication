@@ -1,4 +1,4 @@
-package com.example.eng_app_2
+package com.effective.academicsliit
 
 import io.flutter.embedding.android.FlutterActivity
 

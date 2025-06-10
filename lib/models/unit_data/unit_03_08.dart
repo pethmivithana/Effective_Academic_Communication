@@ -51,7 +51,7 @@ Please take a screenshot and submit into the given portal as proof of completion
 Before we attempt the activities, watch the video lesson on how to use the simple future tense in spoken English. Pay close attention to how “will” and “be going to” are used in different situations. Take notes while watching to reinforce your learning.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=VW1tdlMwYnJTVV82NzgyOA==",
 
   summary: """
 Great job completing this lesson! You now understand how to use the simple future tense to talk about upcoming events, predictions, and spontaneous decisions. We covered its structure with "will" and "be going to" and explored how these forms are used in spoken English. Through interactive activities, you practiced forming sentences and applying this tense in everyday situations. Keep using the simple future tense in your conversations to improve fluency and confidence. Keep up the great work and see you in the next lesson!""",

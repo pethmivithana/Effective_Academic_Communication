@@ -128,7 +128,7 @@ Copy the link/URL of the best version of your speech and paste it here!
 Watch the video lesson carefully to understand what academic presentations are and how they differ from everyday conversations. The video will highlight key features, tone, and structure used in effective presentations, with examples. Feel free to take down notes wherever you think something is useful or interesting, you might find helpful phrases, sentence starters, or techniques that you can use in your own presentations later on.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=WVRBeWVDWjNOc182NzgzOQ==",
 
   summary: """
 In this lesson, you explored the essentials of making academic presentations. You learned how they differ from casual conversations, the importance of using formal and structured language, and how to set the right tone from the start. Academic presentations allow you to explain your ideas, research, or work to an audience in a clear and organized way. By understanding your purpose, audience, and message, you can create presentations that are both informative and engaging. This introduction is just the beginning—soon, you’ll discover how to structure your content effectively and handle presentation anxiety like a pro!""",

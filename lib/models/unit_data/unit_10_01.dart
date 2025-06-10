@@ -18,7 +18,7 @@ Before we begin, watch this short video on audience engagement and rapport in pr
 
 After watching, complete the short quiz below to check your understanding.
 """,
-  preClassActivityVideo:"https://www.youtube.com/watch?v=aY_UToxtrms ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=aY_UToxtrms",
 
   preClassQuestions:[
   PreClassQuestion(

@@ -53,11 +53,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.14.3
-flutter icons:
-  image_path: "assets/Logo03.png"
-  android: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
   ios: true
-  icon: true
+  image_path: "assets/playstore.png"
+
 
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -78,13 +79,13 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-     - assets/logo02.png
      - assets/onboarding/ob1.jpg
      - assets/onboarding/ob5.png
      - assets/videos/video_5.2.mp4
      - assets/login_image.png
-     - assets/Logo3.png
      - assets/Logo03.png
+     - assets/LogoF.png
+     - assets/playstore.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

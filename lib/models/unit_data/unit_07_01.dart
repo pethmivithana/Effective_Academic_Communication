@@ -94,7 +94,7 @@ Describe how your team developed a software project. Use words like ‘develop�
 Now, let’s watch the video lesson below. You’ll learn how to recognize and change word forms. These transformations are common in academic and technical communication, especially in the field of computing. Try to note examples where different word forms are used in real-world tech contexts like documentation, reports, or instructions. 
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=STRKYlZZRGI4Wl82NzgzNQ==",
 
   summary: """
 In this lesson, you explored how to change word forms to match academic and technical language needs. You learned how one base word can transform into different grammatical forms depending on its role in a sentence. By identifying the appropriate suffixes and understanding usage patterns, you now have greater control over how you write and speak—essential for clarity in documentation, presentations, and discussions. For example, knowing when to use "analyze" vs. "analysis" or "develop" vs. "development" allows you to communicate ideas precisely. These transformation skills are especially valuable in computing, where concise and correct language improves collaboration and professionalism. Going forward, you’ll be able to spot, build, and use different word forms with greater confidence and fluency.""",

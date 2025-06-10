@@ -76,7 +76,7 @@ Now it’s your turn! Create and record your story using past perfect continuous
 Before we attempt the activities, watch this short video on the formats and usage of the past perfect continuous tense in spoken English. It will help you understand how this tense is used in real conversations. Feel free to take notes to reinforce your learning!
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=bzhPNjlHQlphNV82NzgyNg==",
 
   summary: """
 Great job completing this lesson! 

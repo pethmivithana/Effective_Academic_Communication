@@ -124,7 +124,7 @@ Watch the video lesson carefully to understand what confident and clear speaking
 Feel free to take notes when something clicks for you—whether it’s a phrase, a speaking habit to try, or even a gesture. These small changes can have a big impact on how others perceive your ideas!
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=TEhSa0JQYjhDcF82Nzg0NA==",
 
   summary: """
 In this lesson, you’ve explored how to speak with more confidence and clarity—two essential skills for your academic and professional success. You learned how to build your thoughts into well-structured responses, avoid unclear language, and manage your pace and tone while speaking. From reading exercises to speech rhythm games, each activity helped you strengthen the way you express yourself. Whether you're giving a presentation, answering questions, or just introducing your ideas, you’re now better equipped to speak up—and be heard.

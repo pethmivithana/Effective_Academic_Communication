@@ -26,7 +26,7 @@ Watch this short YouTube video on Present Perfect Continuous. It will introduce 
         I have been reading a book."""
     ),
   ],
-  preClassActivityVideo:"https://www.youtube.com/watch?v=Ttr7DowBUBk ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=Ttr7DowBUBk",
 
 
   practiceActivityDescription1: """
@@ -34,7 +34,7 @@ Next, it’s time to test your understanding with an online quiz. This quiz will
 
 Please complete the quiz and upload the screenshot of your completed quiz to the platform as proof of completion.
  """,
-  practiceActivityLink:"https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/ ",
+  practiceActivityLink:"https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/",
   practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375165",
 
   practiceActivityDescription2: """

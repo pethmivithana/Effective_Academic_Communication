@@ -254,7 +254,7 @@ Watch the video lesson carefully to understand how to deal with difficult and un
 Feel free to pause and take notes when you hear useful phrases or techniques. Look out for tips on tone, structure, and body language—especially how to sound thoughtful instead of panicking. These phrases can become part of your toolkit for oral exams and beyond.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=amhRaHFDWmk0S182Nzg0Ng==",
 
   summary: """
 In this lesson, you explored how to handle those tricky, unpredictable questions that often come up in oral exams and discussions. Whether the question was unclear, outside your preparation, or just plain tough—you now have strategies to stay calm, clarify the question, buy thinking time, and still respond confidently. Through scenario-based games and practical phrase building, you learned to recover from small mistakes and keep your tone respectful and academic. These strategies are valuable not just in your viva, but anytime you're under pressure to speak intelligently. Remember: staying calm is a skill—and you’re learning it well!""",

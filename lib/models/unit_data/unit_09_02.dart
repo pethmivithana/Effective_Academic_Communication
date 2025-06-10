@@ -197,7 +197,7 @@ Watch the video lesson carefully to explore why we feel nervous before speaking 
 Take notes during the video where you hear something that you’d like to try or where you relate to a speaker's experience. Your notes will be useful for the quiz and practice activities later.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=MVJUS3lGVFJPUV82Nzg0MQ==",
 
   summary: """
 In this lesson, you learned that presentation anxiety is a normal and manageable experience. We explored what causes nerves—like fear of forgetting, judgment, or failure—and learned practical ways to handle those feelings. Whether it’s breathing deeply, repeating calming thoughts, rehearsing your opening line, or visualizing success, small changes can make a big difference. You also practiced shifting negative thoughts into empowering ones, focusing on your message rather than your fear.

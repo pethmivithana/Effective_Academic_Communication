@@ -109,7 +109,7 @@ So yeah, we worked on this project that kinda helps with saving files automatica
 Watch the video lesson carefully to understand the structure and tone of academic presentations. As you watch, pay close attention to how the speaker organizes the content and uses formal language. Notice the phrases used to introduce topics, transition between points, and summarize findings. You are encouraged to take notes where you feel necessary—especially when you come across phrases or strategies you might want to use in your own presentations. These notes will help you prepare for future practice activities and real academic presentations.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=TVpwZWdRREpwMV82Nzg0MA==",
 
   summary: """
 In this lesson, you explored what makes a presentation academic in both tone and structure. You learned that academic presentations are formal, clear, and well-organized. They include an introduction, a main body with evidence or examples, and a clear conclusion. In the world of computing, this approach is essential for sharing technical work with professors, peers, or even potential employers. You’ve also practiced using appropriate phrases and rewriting casual language to fit an academic setting. With this foundation, you're now ready to build and deliver structured presentations with confidence.""",

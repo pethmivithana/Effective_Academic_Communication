@@ -3,6 +3,7 @@ import 'package:get_storage/get_storage.dart';
 import 'homescreen.dart';
 import 'login.dart';
 import 'onboarding_screen.dart';
+import 'second_splash.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,20 +16,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final box = GetStorage();
-    bool isFirstTime = box.read('first_time') ?? true; // Show onboarding if first time
-    String? username = box.read('username'); // Read saved username
-
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: isFirstTime
-          ? '/onboarding'
-          : (username == null ? '/login' : '/home'),
-
+      initialRoute: '/second_splash', // Always start with second splash
       routes: {
+        '/second_splash': (context) => SecondSplashScreen(),
         '/onboarding': (context) => OnboardingScreen(),
         '/login': (context) => LoginScreen(),
-        '/home': (context) => HomeScreen(username: username ?? ''),
+        '/home': (context) {
+          final box = GetStorage();
+          String? username = box.read('username');
+          return HomeScreen(username: username ?? '');
+        },
       },
     );
   }

@@ -19,7 +19,7 @@ Write down at least three grammar errors you notice and explain why you think th
 
 Use the discussion forum given to answer the questions.""",
 
-  preClassActivityVideo:"https://www.youtube.com/watch?v=ePVZvMjSMvE ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=ePVZvMjSMvE",
 
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=374530",
 
@@ -57,7 +57,7 @@ Step 04: Record your final attempt and submit your best recording here!""",
 Please click on the given link. 
 You will now watch a video lesson explaining the basic grammar skills you need to know when practicing spoken English. Listen very carefully and you may take down notes whenever necessary. Enjoy!""",
 
-    instructionVideoId: "8laYlyAFd0o",
+    instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=MVEwOEVhanNmNl82NzgyMQ==",
 
     summary: """
 Now, we have come to the end of Unit 2. In this lesson, we explored the fundamental role of grammar in spoken English, focusing on building accuracy and confidence in forming correct sentences. We discussed the importance of sentence structure, particularly the Subject-Verb-Object (SVO) pattern, and how proper grammar usage enhances clarity in communication. Common grammatical mistakes were also highlighted, reinforcing the need for accuracy in both speech and writing. Applying these grammar rules correctly will help you express your thoughts more effectively, whether in casual conversations or professional settings.""",

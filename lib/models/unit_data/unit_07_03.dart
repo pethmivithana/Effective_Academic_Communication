@@ -89,7 +89,7 @@ Then record your formal version using the same link and paste that link here as 
 
 02 record links should be submitted. 
 """,
-  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder ",
+  practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375219",
 
   instructionsText: """
@@ -97,7 +97,7 @@ Watch the video lesson below to understand when and how to use formal vs. inform
 By the end, you’ll be more confident choosing the right tone in any setting—whether you’re chatting with peers or writing to a supervisor.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=bktaUDJrOThKZF82NzgzNw==",
 
   summary: """
 In this lesson, you learned the importance of selecting the right tone in your communication. Whether you are speaking with a classmate, emailing a lecturer, or documenting your work, understanding the difference between formal and informal expressions helps you communicate more clearly and appropriately. You practiced identifying tone, replacing casual words with formal equivalents, and even transformed your own speech. This skill is especially valuable in the computing field, where emails, presentations, and reports often require a polished, professional tone. By mastering this balance, you’ll not only sound more confident but also build credibility in academic and workplace settings.""",

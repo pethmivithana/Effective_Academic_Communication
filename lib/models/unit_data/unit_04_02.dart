@@ -51,7 +51,7 @@ Complete the quiz and check your answers.
 Step 3:
 Take a screenshot of your final score/result page after checking your answers and upload it as proof of completion.
 """,
-  practiceActivityLink2:"https://www.englishclub.com/vocabulary/computer-quiz.php#google_vignette ",
+  practiceActivityLink2:"https://www.englishclub.com/vocabulary/computer-quiz.php#google_vignette",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375191",
 
   instructionsText: """

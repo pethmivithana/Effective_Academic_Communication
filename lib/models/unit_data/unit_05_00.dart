@@ -104,7 +104,7 @@ Submit your final audio with clear pronunciation and tone.
 Watch the video lesson given below. You’ll learn about the purpose of a viva, the expectations in academic discussions, and how to present ideas clearly. Take notes while watching. Focus on how to introduce an idea, phrases to agree or disagree respectfully and the body language tips.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=U08xcWZnZzBjdF82NzgzMA==",
 
   summary: """
 In this lesson, you were introduced to the foundations of academic discussion and how they relate to viva preparation. You learned that academic discussions are structured, formal, and goal-oriented conversations, where clarity, relevance, and respectful responses are key. We explored how to express opinions, clarify ideas, and use proper academic language in a computing context. Through video observation, interactive games, and speaking practice, you’ve begun to develop the confidence and skills needed for more complex discussions. These communication strategies are not only useful for viva exams but are essential in your academic journey and future career.

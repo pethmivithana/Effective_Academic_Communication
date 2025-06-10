@@ -105,7 +105,7 @@ Explain: What does “deprecated” mean, and what clue helped you?
 Now, let’s watch the video lesson below. You’ll learn how to use different types of context clues to guess the meaning of unfamiliar words. While watching, pay close attention to examples drawn from computing topics—like documentation, system descriptions, and feature summaries. Take notes on the five types of clues: definition, synonym, antonym, example, and inference. This will help you build confidence in understanding new vocabulary without needing constant translation.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=aDJyc3hwYk13M182NzgzNg==",
 
   summary: """
 In this lesson, you learned how to use context clues to understand unfamiliar words—an essential strategy for academic success in computing. We explored five types of clues: definitions, which directly explain the word; synonyms and antonyms, which offer comparisons; examples, which give real-life scenarios; and inferences, which require you to think critically about the meaning. By practicing these techniques, you’ve taken a big step toward becoming an independent reader. Instead of stopping at every unfamiliar term, you can now use the context around it to make sense of what you’re reading. This skill will help you understand documentation, analyze reports, and follow discussions with more ease—making you a more confident communicator in your field.""",

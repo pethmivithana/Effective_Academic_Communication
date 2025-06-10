@@ -32,7 +32,7 @@ In a short paragraph (3–5 sentences), answer the following:
 Then, watch the following video and reflect on the differences between an effective and ineffective presentation:
 """,
   preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375223",
-  preClassActivityVideo:"https://www.youtube.com/watch?v=V8eLdbKXGzk ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=V8eLdbKXGzk",
 
   practiceActivityDescription1: """ 
 It’s time to try organizing your ideas visually! Mind maps are a great way to brainstorm and structure your thoughts.

@@ -150,7 +150,7 @@ Step 04: Paste the audio link here!
 Watch the video lesson carefully to learn how to organize a presentation into three effective parts: introduction, body, and conclusion. You’ll see how strong speakers begin with a clear purpose, explain their key points in a logical order, and end with a strong summary or recommendation. While watching, take note of how the presenter transitions between each section and what phrases they use to keep the flow smooth. These examples will help you build your own well-structured presentations in future activities and real-life settings.
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=TzgyV1VMWmQ4Nl82Nzg0Mg==",
 
   summary: """
 In this lesson, you learned how to structure your presentations so that your audience can follow your ideas easily. Just like writing code, presentations need a plan: a clear introduction that tells your audience what you’ll talk about, a main body that presents your key points, and a conclusion that wraps things up and leaves your audience with something to remember. You practiced identifying these parts in examples, writing your own versions, and understanding how each piece fits together.

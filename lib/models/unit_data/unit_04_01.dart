@@ -26,20 +26,20 @@ Reflect on your experience:
 
 Share your thoughts in a short-written paragraph.
 """,
-  preClassActivityVideo:"https://www.youtube.com/watch?v=O5nskjZ_GoI ",
+  preClassActivityVideo:"https://www.youtube.com/watch?v=O5nskjZ_GoI",
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=375185",
 
   practiceActivityDescription1: """
 Watch this video on note-taking methods. 
 """,
-  practiceActivityVideo:"https://www.youtube.com/watch?v=X8Wgu6-d2Pc ",
+  practiceActivityVideo:"https://www.youtube.com/watch?v=X8Wgu6-d2Pc",
 
   practiceActivityDescription2: """
 Now, apply one of the note-taking methods you just learned. Watch the following lecture on Artificial Intelligence and take notes using your chosen method. 
 
 You can take down the note on a piece of paper while watching the video, and after you complete the note please take a photo of your note and upload it in the given submission portal.
 """,
-  practiceVideoUrl:"https://www.youtube.com/watch?v=mJeNghZXtMo ",
+  practiceVideoUrl:"https://www.youtube.com/watch?v=mJeNghZXtMo",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375186",
 
   instructionsText: """

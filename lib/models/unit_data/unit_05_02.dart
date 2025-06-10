@@ -78,7 +78,7 @@ S – Support with explanation or example
 E – End with a short summary or conclusion
 """,
 
-  instructionVideoId: "8laYlyAFd0o",
+  instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=ZTM0cVB0SnlTRF82NzgzMg==",
 
   summary: """
 Excellent work! In this lesson, you’ve taken a deep dive into how to structure your answers effectively for a viva. You learned the value of organizing your thoughts using the ISE method—Introduce, Support, and End. Whether you're answering a technical question about your project or explaining your reasoning to an examiner, a structured response helps you stay focused and sound professional.
