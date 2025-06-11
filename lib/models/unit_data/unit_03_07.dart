@@ -16,29 +16,33 @@ By the end of this lesson, you will be able to:
 """,
 
   preClassActivityDescription: """
-Step 01: Visit the website.
+Before we begin, think about a time when you had been doing something for a long period before something else happened.""",
 
-Step 02: Choose the sticky note option from the tools given in the left side of the screen.
-
-Step 03: Write three sentences describing a situation using the past perfect continuous.
- Example: I had been coding for three hours when the power went out.
-""",
-
-  preClassActivityLink: "https://miro.com/app/board/uXjVIIxsSyE=/?inviteKey=ckdyZ3JTVW1ncGc5UHczWWlMSmExYmZtZ1BJdU9FUkNRcEw0d3VGaDFEMS9VcW5iZzNMdXR6b1Y4anlMVHN6WDJjRDlBMWJIbnV4Y2VsTmgwRktMVmZJeXN5OVdmdGI3eTRQMm1yRTFqU2k1RTRPU0pBaUVQajNxZHZPdVNqMUphWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=",
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
+  preClassQuestions: [
+    PreClassQuestion(
+        questionText: """Write 05 sentences describing a situation using the past perfect continuous.
+        Example: I had been coding for three hours when the power went out.""",
+        correctAnswer: """
+Sample Answers:
+I had been studying for the exam all night when I finally fell asleep at my desk.
+She had been waiting at the bus stop for over an hour when the bus finally arrived.
+They had been working on the project for weeks before the deadline was suddenly moved up.
+He had been jogging every morning before he injured his ankle last weekend.
+We had been planning the trip for months when the airline canceled our flight."""
+    ),
+  ],
 
   practiceActivityDescription1: """
 Imagine you are a time traveler who just returned from an exciting journey to the past. Your mission is to describe what had been happening before a major historical event.
 Follow the instructions given below:
 
-Step 01: Choose a historical event or make up a fictional event. (The invention of the first computer, the day dinosaurs disappeared, or an alien invasion.)
+Step 1: Choose a historical event or make up a fictional event. (The invention of the first computer, the day dinosaurs disappeared, or an alien invasion.)
 
-Step 02: Write 06 sentences using the past perfect continuous tense to describe what had been happening before the event occurred.
+Step 2: Write 06 sentences using the past perfect continuous tense to describe what had been happening before the event occurred.
 
 Example Sentences:
-🔹 Scientists had been working on the first computer for years before it was finally completed in 1945.
+🔹 Scientists had been working on the first computer for years before it was finally completed in 1945.""",
 
-""",
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375173",
 
   practiceActivityDescription2: """
@@ -66,15 +70,13 @@ Scenarios (Choose One!)
 
 Example Response: I had been coding for hours when my laptop suddenly froze. I tried restarting it, but it wouldn’t turn on. I had been working so hard on my project that I forgot to save my progress! When I finally got it to work again, everything was gone.
 
-Now it’s your turn! Create and record your story using past perfect continuous. Have fun!
-""",
+Now it’s your turn! Create and record your story using past perfect continuous. Have fun!""",
 
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375174",
 
   instructionsText: """
-Before we attempt the activities, watch this short video on the formats and usage of the past perfect continuous tense in spoken English. It will help you understand how this tense is used in real conversations. Feel free to take notes to reinforce your learning!
-""",
+Before we attempt the activities, watch this short video on the formats and usage of the past perfect continuous tense in spoken English. It will help you understand how this tense is used in real conversations. Feel free to take notes to reinforce your learning!""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=bzhPNjlHQlphNV82NzgyNg==",
 
@@ -86,9 +88,7 @@ You now understand how to use the past perfect continuous tense to describe acti
 That’s a wrap for this lesson!
 Now that you’ve learned how to use the past perfect continuous tense, it’s time to put it into practice. We’ll meet in the classroom to apply what you’ve learned through interactive exercises and discussions. If you have any questions or need clarification on anything from the lesson, feel free to bring them to class, and the lecturer will be happy to help. 
 
-Looking forward to seeing you there soon!
-
-""",
+Looking forward to seeing you there soon!""",
 
   quizQuestions: [
     QuizQuestion(

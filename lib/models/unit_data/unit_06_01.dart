@@ -71,14 +71,14 @@ Let’s begin with a quick self-assessment to reflect on your current communicat
 Practice is the key to improvement! Try out this fun role-play using an AI chatbot.
 
 Steps to follow:
-Step 1 - Go to ChatGPT or any preferred AI platform.
+Step 1: Go to ChatGPT or any preferred AI platform.
 
-Step 2 - Type this prompt:
+Step 2: Type this prompt:
 "Let's do a role-play where I'm a customer at a restaurant, and you're the waiter. I will practice ordering food, and you should respond naturally. Please correct any mistakes I make."
 
-Step 3 - Start chatting! Begin with text and then switch to speech if possible.
+Step 3: Start chatting! Begin with text and then switch to speech if possible.
 
-Step 4 - Take a screenshot of your conversation and upload it as proof of completion.
+Step 4: Take a screenshot of your conversation and upload it as proof of completion.
 
 This activity will help you practice clarification, confidence, and fluency in everyday settings.
 

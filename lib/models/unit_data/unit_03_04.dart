@@ -15,8 +15,7 @@ By the end of today’s lesson, you should be able to:
   """,
 
   preClassActivityDescription: """
-Watch this short YouTube video on Present Perfect Continuous. It will introduce you to the structure and usage of the tense.
-""",
+Watch this short YouTube video on Present Perfect Continuous. It will introduce you to the structure and usage of the tense.""",
 
   preClassQuestions: [
     PreClassQuestion(
@@ -32,27 +31,25 @@ Watch this short YouTube video on Present Perfect Continuous. It will introduce 
   practiceActivityDescription1: """
 Next, it’s time to test your understanding with an online quiz. This quiz will help you compare the Present Perfect tense and the Present Perfect Continuous tense. 
 
-Please complete the quiz and upload the screenshot of your completed quiz to the platform as proof of completion.
- """,
+Please complete the quiz and upload the screenshot of your completed quiz to the platform as proof of completion.""",
+
   practiceActivityLink:"https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/",
   practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375165",
 
   practiceActivityDescription2: """
-Step 1 - Open ChatGPT and use the voice feature for a more interactive experience.
+Step 1: Open ChatGPT and use the voice feature for a more interactive experience.
 
-Step 2 - Give this prompt to ChatGPT:
+Step 2: Give this prompt to ChatGPT:
 “Hi, I want to practice speaking in the Present Perfect Continuous tense. Can you ask me questions about what I’ve been doing recently?”
 
-Step 3 - ChatGPT will ask you a series of questions. Try to answer them in detail, using the Present Perfect Continuous tense. Have a natural conversation as you explain what you’ve been doing.
+Step 3: ChatGPT will ask you a series of questions. Try to answer them in detail, using the Present Perfect Continuous tense. Have a natural conversation as you explain what you’ve been doing.
 
-Step 4 - Take a screenshot of your conversation and upload it in the submission portal as proof of completion of the activity.
-""",
+Step 4: Take a screenshot of your conversation and upload it in the submission portal as proof of completion of the activity.""",
 
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375166",
 
   instructionsText: """
-Now that you've watched the video and started thinking about the Present Perfect Continuous tense, there is a brief recorded session that you should watch next. This session will cover all the details you need to know, including the structure, usage, and how to distinguish this tense from the Present Perfect tense.
-""",
+Now that you've watched the video and started thinking about the Present Perfect Continuous tense, there is a brief recorded session that you should watch next. This session will cover all the details you need to know, including the structure, usage, and how to distinguish this tense from the Present Perfect tense.""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=cmpuTjBwUENQOF82NzY4Mw==",
 
@@ -60,8 +57,7 @@ Now that you've watched the video and started thinking about the Present Perfect
 In today’s lesson, we explored the Present Perfect tense, which is essential for discussing past experiences that are relevant to the present. Through a series of engaging activities, such as chatting with AI to highlight Present Perfect sentences and completing a mock interview, you got a hands-on opportunity to practice using the tense in real-life situations. By the end of the lesson, you should feel confident in recognizing and using the Present Perfect in conversations, especially in computing contexts.""",
 
   inClassActivity: """
-As we move forward, get ready for some exciting in-class activities! In our upcoming classes, we’ll be focusing on making learning more interactive. We’ll dive into discussions, group exercises, and role-plays that will help you apply what you’ve learned about the Present Perfect tense in real-time. These activities are designed to be fun and engaging, and they will give you the chance to practice speaking and listening in a collaborative, dynamic environment.
- """,
+As we move forward, get ready for some exciting in-class activities! In our upcoming classes, we’ll be focusing on making learning more interactive. We’ll dive into discussions, group exercises, and role-plays that will help you apply what you’ve learned about the Present Perfect tense in real-time. These activities are designed to be fun and engaging, and they will give you the chance to practice speaking and listening in a collaborative, dynamic environment.""",
 
   quizQuestions: [
     QuizQuestion(

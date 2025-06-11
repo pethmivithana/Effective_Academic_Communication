@@ -10,8 +10,8 @@ This lesson will focus on building both accuracy and confidence in forming sente
 To start, let’s take a moment to clarify our objectives. Knowing what we aim to accomplish will help you stay focused and motivated throughout the lesson. With that in mind, let’s go over the lesson goals.
 By the end of this lesson, you will be able to:
 1. Recognize the basic word order in English (Subject-Verb-Object structure).
-2.	Construct grammatically correct sentences in computing-related contexts.
-3.	 Identify and correct word order mistakes in simple and complex sentences.""",
+2. Construct grammatically correct sentences in computing-related contexts.
+3. Identify and correct word order mistakes in simple and complex sentences.""",
 
     preClassActivityDescription: """
 You will be given a list of jumbled sentences. Arrange the words in the correct order to form meaning sentences. Refer to the example given and complete the task accordingly.
@@ -104,15 +104,15 @@ Okay, now that you have gone through the lesson, let’s practice what you have 
     practiceActivityDescription2: """
  Instructions:
  
-•	Please click on the link given below. 
+Step 1:	Please click on the link given below. 
 
-•	Once you get directed to the website, scroll down and you will find a sentence “I would like to answer [….] selected from [….]. 
+Step 2:	Once you get directed to the website, scroll down and you will find a sentence “I would like to answer [….] selected from [….]. 
 
-•	Please select 15 exercises and 04 parts as the answer to the above blanks. 
+Step 3:	Please select 15 exercises and 04 parts as the answer to the above blanks. 
 
-•	Click on the “Start test” and complete the activities given. 
+Step 4:	Click on the “Start test” and complete the activities given. 
 
-•	Submit a screenshot of your test to the given link as proof.""",
+Step 5:	Submit a screenshot of your test to the given link as proof.""",
 
     practiceActivityLink2:"https://www.englisch-hilfen.de/en/complex_tests/word_order1/task.php#google_vignette",
 

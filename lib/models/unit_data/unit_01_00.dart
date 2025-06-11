@@ -22,13 +22,13 @@ By the end of this lesson, you will be able to:
     preClassActivityDescription: """
 Follow the steps given and complete it. 
 
-Step 1 – Introduce yourself in 3-4 sentences, including your name, academic background, interests, and life goals. Keep it simple!
+Step 1: Introduce yourself in 3-4 sentences, including your name, academic background, interests, and life goals. Keep it simple!
 
-Step 2 – Use ChatGPT to ask for feedback on your introduction. Then, let the AI tool generate a sample introduction.
+Step 2: Use ChatGPT to ask for feedback on your introduction. Then, let the AI tool generate a sample introduction.
 
-Step 3 – Practice your self-introduction again and check for grammar errors and clarity using Grammarly (free version available).
+Step 3: Practice your self-introduction again and check for grammar errors and clarity using Grammarly (free version available).
 
-Step 4 – Write your self-introduction in the given space so we can get to know you!
+Step 4: Write your self-introduction in the given space so we can get to know you!
 
 Click the button below to open the discussion forum and submit your answers. You can type your responses directly on the forum, and they’ll be saved automatically.""",
 

@@ -19,8 +19,7 @@ Imagine that you have a time machine that can take you anywhere in the future. W
 
 Example:	Next year, I will be studying artificial intelligence at a top university.
 In five years, I will be working on advanced cybersecurity solutions for tech companies.
-In 2050, people will be living in smart cities with AI-controlled transportation systems.
-""",
+In 2050, people will be living in smart cities with AI-controlled transportation systems.""",
 
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=375178",
 
@@ -29,23 +28,23 @@ Follow the instructions given:
 
 Choose a scenario from the list below.
 
-a)	A Day in the Future! – Describe what you will be doing on a specific day in the future (e.g., your graduation day, your first job interview, or your first day at work).
+1: A Day in the Future! – Describe what you will be doing on a specific day in the future (e.g., your graduation day, your first job interview, or your first day at work).
 
-b)	The Year 2050! – Imagine life in the year 2050. What will people be doing daily?
+2: The Year 2050! – Imagine life in the year 2050. What will people be doing daily?
 
-c)	A Space Adventure! – You are on a space mission. What will you be doing at different times?
+3: A Space Adventure! – You are on a space mission. What will you be doing at different times?
 
 Create a short story (5-8 sentences) describing what will be happening in one of the above scenarios.
 
 Record yourself reading your story aloud using Reverb Recorder (follow the steps below)
--	When you go to the website, click on Record Now. 
--	Click on Start Recording when you are ready. 
--	After you finish, write your student number as the Title and click on Save.
+Step 1: When you go to the website, click on Record Now. 
+Step 2: Click on Start Recording when you are ready. 
+Step 3: After you finish, write your student number as the Title and click on Save.
 
 Listen to your recording and check for fluency and accuracy.
 
-Submit your best recording by pasting the link in the submission portal.
-""",
+Submit your best recording by pasting the link in the submission portal.""",
+
   practiceActivityLink:"https://reverb.chat/uses/online-voice-recorder/",
 
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375179",
@@ -54,14 +53,13 @@ Submit your best recording by pasting the link in the submission portal.
 Let’s visualize a day in your future life and describe what you will be doing at different times using the future continuous tense.
 
 Follow the below steps:
-•	Choose a specific future day (e.g., your birthday next year, the day of your first job, your first international trip).
+Step 1: Choose a specific future day (e.g., your birthday next year, the day of your first job, your first international trip).
 
-•	Write about your activities at different times throughout the day using the future continuous tense.
+Step 2: Write about your activities at different times throughout the day using the future continuous tense.
 Example:	At 8 AM, I will be having breakfast at a café in Paris.
 At 2 PM, I will be presenting my first project to my company’s leadership team.
 
-•	Share your passage in Our canvas 
-""",
+Step 3: Share your passage in Our canvas""",
 
   practiceActivityLink2: "https://adayinmyfuturelife.slack.com/",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375180",
@@ -73,8 +71,7 @@ This video will help you understand how to form the future continuous tense usin
 
 Watch the video carefully. Take notes on key points, including sentence structures and real-life applications. Try to identify examples where this tense is used naturally in everyday speech.
 
-After watching the video, move on to the practice activities!
-""",
+After watching the video, move on to the practice activities!""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=eEZmRU5tYlJxWV82NzgyNw==",
 
@@ -84,9 +81,7 @@ Great job completing this lesson! You now understand how to use the simple futur
   inClassActivity: """
 That’s a wrap for this lesson!
 Now that you’ve learned how to use the simple future tense, it’s time to put it into practice. We’ll meet in the classroom to apply what you’ve learned through interactive exercises and discussions. If you have any questions or need clarification, feel free to bring them to class, and the lecturer will be happy to help.
-Looking forward to seeing you there soon!
-
-""",
+Looking forward to seeing you there soon!""",
 
   quizQuestions: [
     QuizQuestion(

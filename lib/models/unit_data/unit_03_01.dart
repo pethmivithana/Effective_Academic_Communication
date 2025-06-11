@@ -14,8 +14,7 @@ By the end of this lesson, you should be able to:
   """,
 
   preClassActivityDescription: """
-🎥 Watch the BBC video linked below and try to answer the questions before the real contestants do!
-  """,
+🎥 Watch the BBC video linked below and try to answer the questions before the real contestants do!""",
 
 
   preClassActivityVideo: "https://www.youtube.com/watch?v=OsW5sV3GMDM",
@@ -33,16 +32,15 @@ Step 4: Take screenshots of your conversation and upload them as proof of comple
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375153",
 
   practiceActivityDescription2: """
-Step 1 - Go to the task site below and access the activity.
+Step 1: Go to the task site below and access the activity.
 
-Step 2 - Complete the exercise and upload screenshots as proof of completion.
+Step 2: Complete the exercise and upload screenshots as proof of completion.
  """,
   practiceActivityLink2:"https://www.liveworksheets.com/w/en/english-second-language-esl/209039#google_vignette",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375154",
 
   instructionsText: """
-  Watch the recorded session on the simple present tense. Feel free to take notes and write down answers to any questions asked by the lecturer. This will help reinforce your understanding.
-""",
+  Watch the recorded session on the simple present tense. Feel free to take notes and write down answers to any questions asked by the lecturer. This will help reinforce your understanding.""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=elJVdE9VaXFUVF82NzY1OA==",
 
@@ -52,8 +50,7 @@ We also practiced real-life conversations, listened to spoken examples, and test
 Using the correct tense is essential for clear and effective communication.""",
 
   inClassActivity: """
-  Get ready for more fun activities to apply what you've learned! See you soon! 
-""",
+  Get ready for more fun activities to apply what you've learned! See you soon!""",
 
   quizQuestions: [
     QuizQuestion(

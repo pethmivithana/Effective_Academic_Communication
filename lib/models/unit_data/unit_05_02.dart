@@ -13,13 +13,12 @@ By the end of this lesson, you will be able to:
 1.	Understand the structure of a clear and complete viva response
 2.	Use linking phrases to organize and guide your speech
 3.	Practice giving answers with a strong opening, explanation, and closing
-4.	Apply logical response frameworks in computing-related contexts
-""",
+4.	Apply logical response frameworks in computing-related contexts""",
 
   preClassActivityDescription: """
 Watch this short clip. 
-Describe the type of student shown. 
-""",
+Describe the type of student shown.""",
+
   preClassActivityLocalVideo:"assets/videos/video_5.2.mp4",
   preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375194",
 
@@ -27,8 +26,8 @@ Describe the type of student shown.
 Choose suitable words/phrases from the box and fill in the blanks to form a well-structured viva response.
 
 Word Bank:
-To begin with – In addition – This demonstrates – For example – Therefore – Overall – My main point is – Specifically
-""",
+To begin with – In addition – This demonstrates – For example – Therefore – Overall – My main point is – Specifically""",
+
   practiceActivityQuestions1: [
     PracticeQuestion1(
       questionText: "__________, my project focuses on user-friendly design and automation.",
@@ -66,8 +65,8 @@ Follow the ISE structure:
 •	Support with examples or tools you used
 •	End with how you overcame it or what you learned
 
-Submit your final voice recording link here.
-""",
+Submit your final voice recording link here.""",
+
   practiceActivityLink2: "https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375195",
 
@@ -75,8 +74,7 @@ Submit your final voice recording link here.
 Watch this mini-lesson on how to structure answers using the ISE technique:
 I – Introduce your main idea
 S – Support with explanation or example
-E – End with a short summary or conclusion
-""",
+E – End with a short summary or conclusion""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=ZTM0cVB0SnlTRF82NzgzMg==",
 
@@ -98,8 +96,7 @@ If you feel unsure about what to say or how to organize your thoughts, bring you
 
 This is your chance to gain confidence and polish your response strategy in a supportive environment.
 
-Looking forward to hearing your ideas—structured and strong!
-""",
+Looking forward to hearing your ideas—structured and strong!""",
 
   quizQuestions: [
     QuizQuestion(

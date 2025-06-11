@@ -16,39 +16,35 @@ By the end of this lesson, you should be able to:
   """,
 
   preClassActivityDescription: """
-Watch the video linked below and complete the quiz provided. Once you have completed the quiz, take screenshots of your results and upload them as proof of completion.
-  """,
+Watch the video linked below and complete the quiz provided. Once you have completed the quiz, take screenshots of your results and upload them as proof of completion.""",
 
   preClassActivityVideo: "https://www.youtube.com/watch?v=7O-Ye9HF2DI",
   preClassActivityLink: "https://www.englishclub.com/grammar/verb-tenses_present-continuous_quiz.php#google_vignette",
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375155",
 
   practiceActivityDescription1: """
-1. Use a free chatbot like ChatGPT (chat.openai.com) or Poe to interact in real-time.
+Step 1: Use a free chatbot like ChatGPT (chat.openai.com) or Poe to interact in real-time.
 
-2. Introduce yourself to the chatbot and ask: "What are you doing right now?" Observe how it responds using the Present Continuous Tense.
+Step 2: Introduce yourself to the chatbot and ask: "What are you doing right now?" Observe how it responds using the Present Continuous Tense.
 
-3. Describe five things happening around you using the Present Continuous Tense.
+Step 3: Describe five things happening around you using the Present Continuous Tense.
 Example: "I am sitting on my bed and typing on my phone. My brother is watching TV."
 
-4. Ask the chatbot to describe a scene using the Present Continuous Tense.
+Step 4: Ask the chatbot to describe a scene using the Present Continuous Tense.
 Example: "Describe what is happening in a busy restaurant right now."
 
-5. Take a screenshot of the most interesting part of the conversation and upload it as proof of completion.
-  """,
+Step 5: Take a screenshot of the most interesting part of the conversation and upload it as proof of completion.""",
 
   practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375156",
 
   practiceActivityDescription2: """
-Watch the videos linked below and complete the quiz. After finishing, upload screenshots of your results as proof.
-  """,
+Watch the videos linked below and complete the quiz. After finishing, upload screenshots of your results as proof.""",
 
   practiceActivityLink2: "https://www.liveworksheets.com/w/en/english-second-language-esl/63676",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375157",
 
   instructionsText: """
-Now that you have watched the video and completed a simple quiz, you should have a basic understanding of the Present Continuous Tense. Next, watch the recorded lecture to learn more about its usage, structure, and how it differs from the Simple Present Tense
-  """,
+Now that you have watched the video and completed a simple quiz, you should have a basic understanding of the Present Continuous Tense. Next, watch the recorded lecture to learn more about its usage, structure, and how it differs from the Simple Present Tense.""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=R29hcVE5ZE5vOF82NzY1OQ==",
 
@@ -56,8 +52,7 @@ Now that you have watched the video and completed a simple quiz, you should have
 In this lesson, we explored the Present Continuous Tense, focusing on its structure and usage. We discussed its key functions, including describing actions happening right now, temporary actions, and future plans. Additionally, we learned to form affirmative, negative, and interrogative sentences in the Present Continuous Tense and distinguished it from the Simple Present Tense.""",
 
   inClassActivity: """
-In class, we will engage in some interactive and dynamic activities to practice the Present Continuous Tense. These activities are designed to help you reinforce what you have learned and encourage active participation. We’ll focus on real-life scenarios, where you’ll describe things happening around you, role-play conversations, and practice using the Present Continuous Tense in various contexts. These activities will make learning both fun and effective!
-  """,
+In class, we will engage in some interactive and dynamic activities to practice the Present Continuous Tense. These activities are designed to help you reinforce what you have learned and encourage active participation. We’ll focus on real-life scenarios, where you’ll describe things happening around you, role-play conversations, and practice using the Present Continuous Tense in various contexts. These activities will make learning both fun and effective!""",
 
   quizQuestions: [
     QuizQuestion(

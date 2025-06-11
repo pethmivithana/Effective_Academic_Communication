@@ -13,8 +13,7 @@ By the end of this lesson, students will be able to:
 """,
 
   preClassActivityDescription: """
-Fill out the short survey below. Be honest in your responses—there are no right or wrong answers!
-""",
+Fill out the short survey below. Be honest in your responses—there are no right or wrong answers!""",
 
   preClassSurvey: [
     SurveyQuestion(
@@ -93,22 +92,19 @@ Fill out the short survey below. Be honest in your responses—there are no righ
   ],
 
   practiceActivityDescription1: """
-After watching the video, write 6 skills that you need to develop.
-""",
+After watching the video, write 6 skills that you need to develop.""",
 
   practiceActivityVideo: "https://www.youtube.com/watch?v=CPxSzxylRCI",
   practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375182",
 
   practiceActivityDescription2: """
-Since this lesson is a brief introduction to essential study skills, as the Practice Activity 2, you're suppose to watch the given Youtube video and write 3 things that you would like to develop within yourself. 
-""",
+Since this lesson is a brief introduction to essential study skills, as the Practice Activity 2, you're suppose to watch the given Youtube video and write 3 things that you would like to develop within yourself.""",
 
   practiceVideoUrl: "https://www.youtube.com/watch?v=jMhhaAQK1NQ",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/forum/view.php?id=375184",
 
   instructionsText: """
-After completing the pre-class activity, you are here for the lecture. Please note that Unit 4’s introduction will only give you a brief overview of what we will discuss in the upcoming lessons. We hope you’ll watch it and enjoy!
-""",
+After completing the pre-class activity, you are here for the lecture. Please note that Unit 4’s introduction will only give you a brief overview of what we will discuss in the upcoming lessons. We hope you’ll watch it and enjoy!""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=d09zTVBKWnk4cV82NzY4NQ==",
 
@@ -116,8 +112,7 @@ After completing the pre-class activity, you are here for the lecture. Please no
 In this lesson, we discussed the essential study skills needed for academic success in an English-medium instructions. We reflected on strategies for listening to lectures, identified common challenges, and evaluated current note-taking and vocabulary learning methods. Through these activities, we aim to equip you with tools to overcome challenges and improve your academic performance in English.""",
 
   inClassActivity: """
-We will engage in some interactive activities in class to help reinforce the skills you have learned today. These activities will allow you to practice identifying key points during a lecture and improve your note-taking and vocabulary acquisition strategies.
-""",
+We will engage in some interactive activities in class to help reinforce the skills you have learned today. These activities will allow you to practice identifying key points during a lecture and improve your note-taking and vocabulary acquisition strategies.""",
 
   quizQuestions: [
     QuizQuestion(

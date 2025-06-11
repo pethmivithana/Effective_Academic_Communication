@@ -18,8 +18,7 @@ Before we begin, let's have some fun predicting the future!
 Think about the future of technology, the world, or your personal life.
 
 Write 05 sentences predicting what might happen using the simple future tense. 
-Example: In 2050, robots will do most of our jobs.
-""",
+Example: In 2050, robots will do most of our jobs.""",
 
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/forum/view.php?id=375176",
 
@@ -36,20 +35,19 @@ Choose a sticky note from the tools given at the bottom of the page.
 
 Write a paragraph of about 5-8 sentences using the simple future tense to describe future advancements.
 
-Example: In the future, AI will be able to create entire programs without human help.
-""",
+Example: In the future, AI will be able to create entire programs without human help.""",
+
   practiceActivityLink:"https://whiteboard.office.com/me/whiteboards",
 
   practiceActivityDescription2: """
-Click on the link below and complete the given quiz.
-Please take a screenshot and submit into the given portal as proof of completion""",
+Fill the blanks!
+Click on the link below and complete the given quiz.""",
 
-  practiceActivityLink2: "https://quizizz.com/join",
+  practiceActivityLink2: "https://www.liveworksheets.com/worksheet/en/english-second-language-esl/1534091",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375177",
 
   instructionsText: """
-Before we attempt the activities, watch the video lesson on how to use the simple future tense in spoken English. Pay close attention to how “will” and “be going to” are used in different situations. Take notes while watching to reinforce your learning.
-""",
+Before we attempt the activities, watch the video lesson on how to use the simple future tense in spoken English. Pay close attention to how “will” and “be going to” are used in different situations. Take notes while watching to reinforce your learning.""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=VW1tdlMwYnJTVV82NzgyOA==",
 
@@ -59,9 +57,7 @@ Great job completing this lesson! You now understand how to use the simple futur
   inClassActivity: """
 That’s a wrap for this lesson!
 Now that you’ve learned how to use the simple future tense, it’s time to put it into practice. We’ll meet in the classroom to apply what you’ve learned through interactive exercises and discussions. If you have any questions or need clarification, feel free to bring them to class, and the lecturer will be happy to help.
-Looking forward to seeing you there soon!
-
-""",
+Looking forward to seeing you there soon!""",
 
   quizQuestions: [
     QuizQuestion(

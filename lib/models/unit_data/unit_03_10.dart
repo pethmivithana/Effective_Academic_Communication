@@ -16,29 +16,18 @@ By the end of this lesson, you will be able to:
 2. Form sentences using will + have + past participle.
 3. Use the tense confidently in tech-related spoken contexts.
 
-Let’s jump in and start building your grammar for the future!
-""",
+Let’s jump in and start building your grammar for the future!""",
 
   preClassActivityDescription: """
-Imagine you're in the future—it's Sunday night. Look back at your week and list 05 things you will have completed by then. Think of studies, projects, or personal goals.
+Before we begin our lesson, let’s share some interesting things… 
+Now, Imagine you're in the future—it's Sunday night.  Look back at your week and list 05 things you will have completed by then. Think of studies, projects, or personal goals. 
+Then, in the chat, discuss the things you will have completed by the upcoming Sunday. Write sentences using the Future Perfect Tense.""",
 
-Step 1: Go to the timeline generator:
+  preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/chat/view.php?id=377185",
 
-Step 2: Create a 5-frame storyboard. In each frame, write a sentence using the Future Perfect Tense related to your life.
-
-Examples:
-• I will have completed my Python assignment.
-• We will have deployed the updated version of our app.
-
-Step 3: Download or screenshot your timeline and upload it to the given submission portal.
-""",
-
-  preClassActivityUploadLink: "https://example.com/upload-practice-activity",
-  preClassActivityLink: "https://www.storyboardthat.com/storyboard-creator",
 
   practiceActivityDescription1: """
-Use the correct Future Perfect form of the verbs to complete the sentences.
-""",
+Use the correct Future Perfect form of the verbs to complete the sentences.""",
 
   practiceActivityQuestions1: [
     PracticeQuestion1(
@@ -90,15 +79,13 @@ Step 1: Visit this voice recording tool:
 
 Step 2: Click the red “Record” button and speak five Future Perfect sentences of what you will have done if you were the President of Sri Lanka.
 
-Step 3: After recording, click “Save & Share” and copy the audio link and submit it.
-""",
+Step 3: After recording, click “Save & Share” and copy the audio link and submit it.""",
 
   practiceActivityLink2: "https://vocaroo.com",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375181",
 
   instructionsText: """
-Watch the short video given below, which explains how to use the Future Perfect Tense in real-life conversations. Focus on the formula and examples. You can take notes on the structure, the keywords like ‘by next week, by 2025, before the deadline’, and contexts where it's commonly used.
-""",
+Watch the short video given below, which explains how to use the Future Perfect Tense in real-life conversations. Focus on the formula and examples. You can take notes on the structure, the keywords like ‘by next week, by 2025, before the deadline’, and contexts where it's commonly used.""",
 
   instructionVideoId: " https://lecturecapture.sliit.lk/eplayer.php?id=ZmFtWTk0dHRIc182NzgyOQ==",
 
@@ -116,8 +103,7 @@ Now that you’ve explored how to use the Future Perfect Tense in your speaking,
 
 If you’ve got any doubts or want more practice, don’t hesitate to bring your questions—we’ll go through them as a group, and your lecturer will guide you through any tricky points.
 
-Can’t wait to see you and hear your “future accomplishments” in action!
-""",
+Can’t wait to see you and hear your “future accomplishments” in action!""",
 
   quizQuestions: [
     QuizQuestion(

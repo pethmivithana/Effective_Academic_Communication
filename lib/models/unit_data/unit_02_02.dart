@@ -13,11 +13,11 @@ By the end of this lesson, you will be able to:
   """,
 
   preClassActivityDescription: """
-1. Click on the given link and watch the short video. 
+Step 1: Click on the given link and watch the short video. 
 
-2. Listen carefully and identify the sentence types. 
+Step 2: Listen carefully and identify the sentence types. 
 
-3. Write down at least one example of each sentence type (Declarative, Interrogative, Imperative, and Exclamatory) from the video.""",
+Step 3: Write down at least one example of each sentence type (Declarative, Interrogative, Imperative, and Exclamatory) from the video.""",
 
   preClassActivityVideo: "https://www.youtube.com/watch?v=1t9UHQgtDfU",
 
@@ -88,21 +88,19 @@ Now that you have an understanding of sentence types, let’s practice convertin
   ],
 
   practiceActivityDescription2: """
-Step 01: Use ChatGPT voice mode.
+Step 1: Use ChatGPT voice mode.
 
-Step 02: Have a conversation with ChatGPT on any of the given topics. Make sure you use all the types of sentences we have learnt so far in your conversation. 
+Step 2: Have a conversation with ChatGPT on any of the given topics. Make sure you use all the types of sentences we have learnt so far in your conversation. 
 - A conversation about a movie/TV series you have watched.
 - A conversation planning a trip. 
 - A conversation on the development of AI.
 
-Step 03: Take a Screenshot/Screenshots of your conversation and submit it! 
-  """,
+Step 3: Take a Screenshot/Screenshots of your conversation and submit it!""",
 
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=374535",
 
   instructionsText: """
-You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!
-  """,
+You will now watch a video lesson on Word Order. Make sure you go through the whole lesson to understand how to implement word order in spoken language. Take down notes where necessary. Enjoy!""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=OXF6NWVkczR4dF82NzgyMw==",
 

@@ -111,10 +111,10 @@ H)	This section highlights the most innovative feature of our project.
 Imagine that you are about to give a short presentation about ‘How language games help you learn English’. Follow the steps given below:
 
 Make your introductory speech of about 1-2 minutes. It should include:
-o	Greetings
-o	Introduce the topic of your presentation
-o	Purpose of the presentation
-o	Structure of your presentation
+Greetings
+Introduce the topic of your presentation
+Purpose of the presentation
+Structure of your presentation
 
 Record your speech.
 

@@ -13,23 +13,21 @@ By the end of this lesson, you will be able to:
 •	Understand the types of questions commonly asked during a viva
 •	Use polite and clear language to respond to difficult or unexpected questions
 •	Ask for clarification when needed
-•	Apply strategies to stay calm and composed during examiner interactions
-""",
+•	Apply strategies to stay calm and composed during examiner interactions.""",
 
   preClassActivityDescription: """
 Before we start the lesson, let’s do a small activity…  
 Think about a time when you were asked a challenging question in class or during a presentation. Reflect on the experience and answer the following.
 
-1.	What was the question?
+1:	What was the question?
 
-2.	How did you feel at that moment?
+2:	How did you feel at that moment?
 
-3.	How did you respond? 
+3:	How did you respond? 
 
-4.	Looking back, what would you have done differently?
+4:	Looking back, what would you have done differently?
 
-Use phrases like: “I should have clarified…”, “Next time, I would say…”, “I could respond more confidently by…”
-""",
+Use phrases like: “I should have clarified…”, “Next time, I would say…”, “I could respond more confidently by…”""",
 
   preClassActivityUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375196",
 
@@ -54,8 +52,8 @@ Record a one-minute audio using at least three polite academic expressions from 
 
 Save and submit your audio link via the app.
 
-Don’t worry about being perfect—this is all about practicing your response style and tone.
-""",
+Don’t worry about being perfect—this is all about practicing your response style and tone.""",
+
   practiceActivityLink:"https://vocaroo.com",
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375197",
 
@@ -63,8 +61,7 @@ Don’t worry about being perfect—this is all about practicing your response s
 Fill in the blanks using the correct phrases from the word bank to complete the dialogue between a student and an examiner.
 
 Word Bank:
-If I understand you correctly – That’s a great question – Let me clarify that – Based on my findings – I appreciate your feedback – To be honest – In that case – What I intended to show was
-""",
+If I understand you correctly – That’s a great question – Let me clarify that – Based on my findings – I appreciate your feedback – To be honest – In that case – What I intended to show was""",
 
   practiceActivityQuestions2: [
   PracticeQuestion2(

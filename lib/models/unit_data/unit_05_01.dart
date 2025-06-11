@@ -11,12 +11,10 @@ By the end of this lesson, you will be able to:
 1. Understand the purpose and format of a viva voce
 2. Identify common types of viva questions and how to respond
 3.	Practice introducing your project and defending key decisions
-4.	Build confidence using academic and technical vocabulary in speech
-""",
+4.	Build confidence using academic and technical vocabulary in speech""",
 
   preClassActivityDescription: """
-Before we start our lesson, let’s watch a small video on “The viva as an experience”
-""",
+Before we start our lesson, let’s watch a small video on “The viva as an experience”""",
 
   preClassActivityVideo:"https://www.youtube.com/watch?v=C__QSSqoor4 ",
 
@@ -28,8 +26,7 @@ Before we start our lesson, let’s watch a small video on “The viva as an exp
   ],
 
   practiceActivityDescription1: """ 
-Read the questions below that a computing student might be asked during a viva. Choose the most appropriate academic response from the options provided. 
-""",
+Read the questions below that a computing student might be asked during a viva. Choose the most appropriate academic response from the options provided.""",
   practiceActivityMCQ: [
     PracticeQuestionMCQ(
       questionText: "What made you choose this topic for your final project?",
@@ -88,14 +85,13 @@ Record a short 60-second introduction to your imaginary final-year project. Use 
 •	The main objective was to…
 •	One key challenge I faced was…
 
--After recording, copy the link and submit your audio response here.
-""",
+After recording, copy the link and submit your audio response here.""",
+
   practiceActivityLink2: "https://www.vocaroo.com",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375193",
 
   instructionsText: """
-Watch the video lesson below, where we walk you through the structure of a viva voce, the examiner’s role, common question types, and how to stay calm and confident. You can take notes on how to introduce your project, what kinds of questions you may be asked and some tips for staying professional under pressure. 
-""",
+Watch the video lesson below, where we walk you through the structure of a viva voce, the examiner’s role, common question types, and how to stay calm and confident. You can take notes on how to introduce your project, what kinds of questions you may be asked and some tips for staying professional under pressure.""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=aUViVzdFbG5Dd182NzgzMQ==",
 
@@ -111,8 +107,7 @@ Now that you’ve explored the basics of the viva voce and how to respond profes
 
 If you have doubts or need help framing your responses, bring those questions with you—we’ll break them down together, and your lecturer will offer feedback on how to strengthen your delivery.
 
-Let’s get you comfortable, confident, and ready to speak up in your viva!
-""",
+Let’s get you comfortable, confident, and ready to speak up in your viva!""",
 
   quizQuestions: [
     QuizQuestion(

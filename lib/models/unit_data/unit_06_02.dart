@@ -78,10 +78,10 @@ Watch the following video and complete the quiz to get a basic idea of the lesso
   preClassActivityVideo:"https://www.youtube.com/watch?v=1dO0dO__wmE&t=100s",
 
   practiceActivityDescription1: """ 
-Step 1 – Access ChatGPT voice and clearly say the following:
+Step 1: Access ChatGPT voice and clearly say the following:
 "Hi, can I practice different types of questions with you? Can you ask me questions first, so I can answer them? Please ask the questions one by one and provide feedback for my answers."
 
-Step 2 – Engage in a Q&A session with ChatGPT. Take a screenshot of the conversation and upload it as proof of completing the activity.
+Step 2: Engage in a Q&A session with ChatGPT. Take a screenshot of the conversation and upload it as proof of completing the activity.
 """,
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375204",
 

@@ -26,28 +26,28 @@ Use the discussion forum given to answer the questions.""",
     practiceActivityDescription1: """
 We hope that you now have a clear understanding of the basic grammar skills needed for Spoken English. Let’s test what you have learnt so far! Follow the instructions accordingly. 
 
-Step 01: Click on the given link and you will be directed to a website with a quiz.
+Step 1: Click on the given link and you will be directed to a website with a quiz.
+ 
+Step 2: Select the correct answer for all the questions.
 
-Step 02: Enter your name and click on “start game”. Select the correct answer for all the questions.
+Step 3: After finishing the quiz, click on “Submit” and take a screenshot of the ‘Grade / Results’.
 
-Step 03: After finishing the quiz, click on “Skip to summary” and take a screenshot of the ‘Performance Stats’.
+Step 4: Upload the screenshot to the submission portal.”""",
 
-Step 04: Upload the screenshot to the submission portal.""",
-
-    practiceActivityLink: "https://quizizz.com/join?gc=28179076",
+    practiceActivityLink: "https://www.flexiquiz.com/SC/N/Basic_Grammar_Skills",
 
     practiceUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=374533",
 
     practiceActivityDescription2: """
 Let’s practice more! Follow the instructions.
     
-Step 01: Visit the given website 
+Step 1: Visit the given website 
 
-Step 02: Read aloud 5 sentences about your daily routine, focusing on correct grammar and pronunciation.
+Step 2: Read aloud 5 sentences about your daily routine, focusing on correct grammar and pronunciation.
 
-Step 03: Review the speech-to-text result and identify any mistakes. If there are errors, record the sentence again until you say it correctly.
+Step 3: Review the speech-to-text result and identify any mistakes. If there are errors, record the sentence again until you say it correctly.
 
-Step 04: Record your final attempt and submit your best recording here!""",
+Step 4: Record your final attempt and submit your best recording here!""",
 
     practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
 

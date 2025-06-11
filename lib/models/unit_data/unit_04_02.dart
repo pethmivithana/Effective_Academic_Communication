@@ -11,52 +11,39 @@ Lesson Objectives
 By the end of this lesson, you will be able to:
 1.	Identify various vocabulary learning strategies suitable for academic and everyday use.
 2.	Apply appropriate strategies to enhance your vocabulary for academic and professional communication.
-3.	Develop a personalized vocabulary learning plan based on your preferences and goals.
-""",
+3.	Develop a personalized vocabulary learning plan based on your preferences and goals.""",
 
   preClassActivityDescription: """
-Step 1:
-Click the link below and complete the vocabulary quiz to assess your current vocabulary level.
+Step 1: Click the link below and complete the vocabulary quiz to assess your current vocabulary level.
 
-Step 2:
-Take a screenshot of your final results page and upload it to the platform.
- Note: This isn’t for grading purposes, but to confirm that you've completed the activity.
+Step 2: Take a screenshot of your final results page and upload it to the platform.
+ Note: This isn’t for grading purposes, but to confirm that you've completed the activity.""",
 
-""",
   preClassActivityLink: "https://www.merriam-webster.com/games/vocabulary-quiz",
   preClassActivityUploadLink: "https://courseweb.sliit.lk/mod/assign/view.php?id=375188",
 
   practiceActivityDescription1: """ 
-Step 1:
-Download the Duolingo app (if you haven’t already).
+Step 1: Download the Duolingo app (if you haven’t already).
 
-Step 2:
-Set your learning language to English and choose a 10-minute daily goal.
+Step 2: Set your learning language to English and choose a 10-minute daily goal.
 
-Step 3:
-Complete at least 3 vocabulary exercises on Duolingo and take screenshots of the results to upload as proof.
+Step 3: Complete at least 3 vocabulary exercises on Duolingo and take screenshots of the results to upload as proof.
 
-Step 4:
-Write down 5 new words you learned from the exercises. Try to use them in your own sentences!
-""",
+Step 4: Write down 5 new words you learned from the exercises. Try to use them in your own sentences!""",
   practiceUploadLink:"https://courseweb.sliit.lk/mod/forum/view.php?id=375189",
 
   practiceActivityDescription2: """
-Step 1:
-Access the vocabulary quiz on Computer and Technology terms through the following link
+Step 1: Access the vocabulary quiz on Computer and Technology terms through the following link
 
-Step 2:
-Complete the quiz and check your answers.
+Step 2: Complete the quiz and check your answers.
 
-Step 3:
-Take a screenshot of your final score/result page after checking your answers and upload it as proof of completion.
-""",
+Step 3: Take a screenshot of your final score/result page after checking your answers and upload it as proof of completion.""",
+
   practiceActivityLink2:"https://www.englishclub.com/vocabulary/computer-quiz.php#google_vignette",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375191",
 
   instructionsText: """
-Once you’ve completed the pre-class activity, watch the recorded mini-lesson provided. It explains various strategies and apps you can use to expand your vocabulary, both for general and academic purposes. 
-""",
+Once you’ve completed the pre-class activity, watch the recorded mini-lesson provided. It explains various strategies and apps you can use to expand your vocabulary, both for general and academic purposes.""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=MWZuTkxYMG42T182NzY4Nw==",
 
@@ -64,8 +51,7 @@ Once you’ve completed the pre-class activity, watch the recorded mini-lesson p
 In this lesson, we learned that vocabulary expansion is a process that requires consistency and the right strategies. Whether it’s through mobile apps like Duolingo, quizzes, games, or interactive activities, you now have a toolkit to help you become more fluent, articulate, and confident in English communication.""",
 
   inClassActivity: """
-In class, we will conduct a series of interactive activities to reinforce the strategies you’ve learned. See you! 
-""",
+In class, we will conduct a series of interactive activities to reinforce the strategies you’ve learned. See you!""",
 
   quizQuestions: [
     QuizQuestion(

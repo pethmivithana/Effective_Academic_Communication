@@ -48,16 +48,16 @@ Goal: Practice maintaining rapport from the very beginning of your talk.
 
 Please follow the steps given below. 
 
-Step 1 - Choose a technology-related topic and record a 1-minute introduction to your presentation.
+Step 1: Choose a technology-related topic and record a 1-minute introduction to your presentation.
 
 Focus on:
 o	Making eye contact (if using video)
 o	Speaking with confidence and enthusiasm
 o	Using a relatable example or anecdote
 
-Step 2 - Watch your recording and identify strengths and areas for improvement.
+Step 2: Watch your recording and identify strengths and areas for improvement.
 
-Step 3 - Upload your recording to the portal for feedback. (This can be done in zoom or just before any camera.) 
+Step 3: Upload your recording to the portal for feedback. (This can be done in zoom or just before any camera.) 
 """,
 
   practiceUploadLink:"https://courseweb.sliit.lk/mod/assign/view.php?id=375235",
@@ -68,25 +68,25 @@ Goal: Deliver a short presentation using rapport-building strategies.
 
 Please follow the steps given below. 
 
-Step 1 - Choose one topic:
-o	A new AI-based product
-o	A cybersecurity concept
-o	The impact of social media on communication
+Step 1: Choose one topic:
+A new AI-based product
+A cybersecurity concept
+The impact of social media on communication
 
-Step 2 - Prepare and deliver a 2-minute presentation using rapport techniques.
+Step 2: Prepare and deliver a 2-minute presentation using rapport techniques.
 
-Step 3 - Use a mirror or camera to observe your:
-o	Facial expressions
-o	Hand gestures
-o	Voice modulation
+Step 3: Use a mirror or camera to observe your:
+Facial expressions
+Hand gestures
+Voice modulation
 
-Step 4 - Self-assess with the checklist below:
-✅ Did I make eye contact?
-✅ Was my tone engaging and varied?
-✅ Did I connect with the audience?
-✅ Did I use relevant and relatable examples?
+Step 4 : Self-assess with the checklist below:
+Did I make eye contact?
+Was my tone engaging and varied?
+Did I connect with the audience?
+Did I use relevant and relatable examples?
 
-Step 5 – Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
+Step 5: Do the same presentation using zoom and download it. Now you can share it in the portal, so your lecturer can provide feedback. We encourage you to switch on your camera when you present. 
 """,
 
   practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375236",

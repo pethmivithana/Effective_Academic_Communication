@@ -87,7 +87,7 @@ Record your informal version using given tool, copy the record link and paste he
 
 Then record your formal version using the same link and paste that link here as well. 
 
-02 record links should be submitted. 
+2 record links should be submitted. 
 """,
   practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375219",

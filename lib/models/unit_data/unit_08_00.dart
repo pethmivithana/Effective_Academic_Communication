@@ -27,13 +27,13 @@ Now, after watching the recorded video, watch this YouTube video designed to pro
   practiceActivityDescription2: """
 Imagine you are in a discussion about the pros and cons of using artificial intelligence tools for study purposes. 
 
-Step 1- Try to first write the pros and cons based on your thoughts.
+Step 1: Try to first write the pros and cons based on your thoughts.
 
-Step 2 - Use ChatGPT and give this prompt:
+Step 2: Use ChatGPT and give this prompt:
 “I want to have a discussion about the pros and cons of using artificial intelligence tools for study purposes. Can you start the conversation?”
 Have a discussion about this topic with ChatGPT, and evaluate your own participation. Did you use signposts and transitions effectively? How well did you structure your ideas during the conversation? 
 
-Step 3 – Take a screenshot of your conversation and submit it to the portal given as the proof of the completion of the activity. 
+Step 3: Take a screenshot of your conversation and submit it to the portal given as the proof of the completion of the activity. 
 """,
   practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375222",
 

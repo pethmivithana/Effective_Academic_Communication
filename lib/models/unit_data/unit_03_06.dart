@@ -11,28 +11,25 @@ Here, the past continuous tense (was watching) helps describe an action that was
 By the end of this lesson, you will be able to:
 1. Understand the past continuous and when to use it.
 2. Form past continuous sentences correctly.
-3. Use past continuous in real-life conversations to describe past events.
-""",
+3. Use past continuous in real-life conversations to describe past events.""",
 
   preClassActivityDescription: """
 Using the given Padlet link, write down 05 sentences on the following topic. 
 
 What did you used to do when you were a child?
 
-Step 01: Click on the link and go to the Padlet website.
+Step 1: Click on the link and go to the Padlet website.
 
-Step 02: Click on the plus mark (+) at the bottom of the page.
+Step 2: Click on the plus mark (+) at the bottom of the page.
 
-Step 03: Write your student number as the “Subject” and your sentences in the “write something incredible” section. 
+Step 3: Write your student number as the “Subject” and your sentences in the “write something incredible” section. 
 
-Step 04: Click on “Publish”. 
-""",
+Step 4: Click on “Publish”.""",
 
   preClassActivityLink: "https://padlet.com/nwelg211/submission",
 
   practiceActivityDescription1: """
-Complete these sentences using the correct form of the past continuous:
-""",
+Complete these sentences using the correct form of the past continuous:""",
 
   practiceActivityQuestions1: [
     PracticeQuestion1(
@@ -78,20 +75,19 @@ Complete these sentences using the correct form of the past continuous:
   ],
 
   practiceActivityDescription2: """
-Step 01: Visit the following website.
+Step 1: Visit the following website.
 
-Step 02: Record yourself saying five past continuous sentences about your yesterday.
+Step 2: Record yourself saying five past continuous sentences about your yesterday.
 
-Step 03: Play your recording and check for any mistakes.
+Step 3: Play your recording and check for any mistakes.
 
-Step 04: Submit your best recording by copying the link they provide and pasting it here.
-""",
+Step 4: Submit your best recording by copying the link they provide and pasting it here.""",
+
   practiceActivityLink2:"https://www.speakpipe.com/voice-recorder",
   practiceUploadLink2: "https://courseweb.sliit.lk/mod/assign/view.php?id=375171",
 
   instructionsText: """
-You will now watch an instructional video on the usage and formats of Past Continuous tense in the spoken English world! Take down notes where necessary. 
-""",
+You will now watch an instructional video on the usage and formats of Past Continuous tense in the spoken English world! Take down notes where necessary.""",
 
   instructionVideoId: "https://lecturecapture.sliit.lk/eplayer.php?id=R2pIczZKVUhKSF82NzgyNQ==",
 
@@ -100,8 +96,7 @@ Great job! In this lesson, you learned how to use the past continuous tense in s
 
   inClassActivity: """
 Let’s meet in our classroom to further discuss the use of past continuous and to practice the usage some more! If you need any further clarification, you can ask your lecturer and clarify them as well. 
-See you there! 
-""",
+See you there!""",
 
   quizQuestions: [
     QuizQuestion(

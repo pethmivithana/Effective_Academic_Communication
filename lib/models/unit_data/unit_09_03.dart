@@ -129,20 +129,21 @@ Use the prompts below to write your own structured outline for the topic “Use 
 
   practiceActivityDescription2: """
 In this activity, you’ll practice saying each part of a structured presentation—introduction, main body, and conclusion—using a simple tech-related topic of your choice. You don’t need slides—just your voice and your ideas! Follow the steps given below:
-Step 01: Choose one of the topics below or use your own:
+Step 1: Choose one of the topics below or use your own:
 How cloud storage helps students
 My favorite mobile app
 Why open-source matters
 The importance of learning programming
 
-Step 02: Create your speech.
-	Introduce your topic. Say what you will talk about and why it’s important. Use a phrase like: “Today, I’d like to talk about… / This topic is important because…”
-	Share 2 or 3 points about your topic. Give a simple explanation or example for each one. Use transitions like: “First… / Next… / Another reason is…”
-	Wrap up your talk. Repeat your main message and leave the audience with a final thought. Use a phrase like: “To sum up… / In conclusion…”
-Step 03: Record your speech using below option.
-Step 04: Paste the audio link here!
+Step 2: Create your speech.
+Introduce your topic. Say what you will talk about and why it’s important. Use a phrase like: “Today, I’d like to talk about… / This topic is important because…”
+Share 2 or 3 points about your topic. Give a simple explanation or example for each one. Use transitions like: “First… / Next… / Another reason is…”
+Wrap up your talk. Repeat your main message and leave the audience with a final thought. Use a phrase like: “To sum up… / In conclusion…”
 
-""",
+Step 3: Record your speech using below option.
+
+Step 4: Paste the audio link here!""",
+
   practiceActivityLink2:"https://vocaroo.com/",
   practiceUploadLink2:"https://courseweb.sliit.lk/mod/assign/view.php?id=375231",
 

@@ -57,9 +57,9 @@ Step 2: Create a simple outline using the structure below:
 •	Introduction – Brief overview of your topic
 
 •	Body – Three key points or arguments
-o	Point 1
-o	Point 2
-o	Point 3
+Point 1
+Point 2
+Point 3
 
 •	Conclusion – Summary or final thoughts
 

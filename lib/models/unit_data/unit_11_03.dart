@@ -54,21 +54,21 @@ After watching, answer the following simple quiz:
 Question:
 “What are the benefits and challenges of online education compared to traditional classroom learning?”
 
-Step 1 – Analyze the Question
+Step 1: Analyze the Question
 
 Identify the two key parts: benefits and challenges of online education
 
-Step 2 – Structure Your Answer
+Step 2: Structure Your Answer
 
 •	Introduction
 •	Main Body (Benefits and Challenges)
 •	Conclusion
 
- Step 3 – Support Your Answer
+Step 3: Support Your Answer
  
 Give at least one relevant example each for benefits and challenges.
 
-Step 4 – Write Your Final Response
+Step 4: Write Your Final Response
 
 Submit your response in the space provided. 
 """,
