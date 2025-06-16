@@ -7,7 +7,7 @@
         </intent>
     </queries>
     <application
-        android:label="EAC"
+        android:label="EAC SLIIT"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
