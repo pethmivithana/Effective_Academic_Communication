@@ -23,6 +23,9 @@ class InstructionsScreen extends StatefulWidget {
 }
 
 class _InstructionsScreenState extends State<InstructionsScreen> {
+  // Video button state management
+  bool hasVideoButtonBeenClicked = false;
+
   // TTS related variables
   final FlutterTts _flutterTts = FlutterTts();
   bool _isSpeaking = false;
@@ -106,6 +109,11 @@ class _InstructionsScreenState extends State<InstructionsScreen> {
   }
 
   Future<void> _launchVideoUrl(String videoUrl) async {
+    // Mark video button as clicked
+    setState(() {
+      hasVideoButtonBeenClicked = true;
+    });
+
     final Uri url = Uri.parse(videoUrl);
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -115,6 +123,23 @@ class _InstructionsScreenState extends State<InstructionsScreen> {
         ),
       );
     }
+  }
+
+  // Helper method to check if instructional video exists
+  bool hasInstructionalVideo() {
+    final unit = widget.unitData;
+    return (unit?.instructionVideoId != null && unit!.instructionVideoId!.isNotEmpty);
+  }
+
+  // Helper method to determine if Next button should be shown
+  bool shouldShowNextButton() {
+    // If there's no instructional video, show the Next button normally
+    if (!hasInstructionalVideo()) {
+      return true;
+    }
+
+    // If there's an instructional video, only show Next button after video button is clicked
+    return hasVideoButtonBeenClicked;
   }
 
   @override
@@ -275,36 +300,37 @@ class _InstructionsScreenState extends State<InstructionsScreen> {
               const SizedBox(height: 30),
             ],
 
-            // Next Button
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton.icon(
-                onPressed: () {
-                  _flutterTts.stop(); // Stop TTS when navigating away
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => PracticeActivityScreen(
-                        unitIndex: widget.unitIndex,
-                        subunitIndex: widget.subunitIndex,
-                        subunitTitle: widget.subunitTitle,
-                        unitData: widget.unitData,
+            // Next Button - only show when conditions are met
+            if (shouldShowNextButton())
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  onPressed: () {
+                    _flutterTts.stop(); // Stop TTS when navigating away
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => PracticeActivityScreen(
+                          unitIndex: widget.unitIndex,
+                          subunitIndex: widget.subunitIndex,
+                          subunitTitle: widget.subunitTitle,
+                          unitData: widget.unitData,
+                        ),
                       ),
-                    ),
-                  );
-                },
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF010066),
-                  padding: const EdgeInsets.symmetric(vertical: 14),
-                  elevation: 3,
-                ),
-                icon: const Icon(Icons.book_online, color: Colors.white),
-                label: const Text(
-                  "Next: Practice Activity",
-                  style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),
+                    );
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF010066),
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    elevation: 3,
+                  ),
+                  icon: const Icon(Icons.book_online, color: Colors.white),
+                  label: const Text(
+                    "Next: Practice Activity",
+                    style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
-            ),
           ],
         ),
       ),

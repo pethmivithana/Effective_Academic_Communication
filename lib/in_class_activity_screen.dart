@@ -420,8 +420,14 @@ class _InClassActivityScreenState extends State<InClassActivityScreen> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(16),
                           ),
-                          title: const Text("Level complete!🎉🛹", style: TextStyle(fontWeight: FontWeight.bold)),
-                          content: const Text("The next one’s trembling already.😎🎮You’re on fire! 🔥 Ready to melt the next one?"),
+                          title: const Center(
+                            child: Text(
+                              "Congratulations on Completing This Unit!🎉🛹",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            ),
+                          ),
+                          content: const Text("""🎉 Well done on reaching another milestone in your academic communication journey! Keep practicing ✍️, stay consistent, and move on to the next unit when you're ready ✅."""),
                           actions: [
                             TextButton(
                               onPressed: () => Navigator.pop(context, false),

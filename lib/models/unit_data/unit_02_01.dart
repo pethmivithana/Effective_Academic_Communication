@@ -61,10 +61,10 @@ Okay, now that you have gone through the lesson, let’s practice what you have 
   practiceActivityQuestions1: [
       PracticeQuestion1(
         questionText: "networking / computers / of / a / system / interconnected / is",
-        correctAnswer: "Networking is a system of interconnected computers.",
+        correctAnswer: "A system of interconnected computers is networking.",
       ),
       PracticeQuestion1(
-        questionText: "data / CPU / processing / performs / the / main",
+        questionText: "data / CPU / processing / the / performs / the / main",
         correctAnswer: "The CPU performs the main data processing.",
       ),
       PracticeQuestion1(
@@ -76,24 +76,24 @@ Okay, now that you have gone through the lesson, let’s practice what you have 
         correctAnswer: "Programming languages include Python and Java.",
       ),
       PracticeQuestion1(
-        questionText: "internet / a / protocol / communication / is",
-        correctAnswer: "The internet is a communication protocol.",
+        questionText: "internet / a / protocol / communication / is / the",
+        correctAnswer: "A communication protocol is the internet.",
       ),
       PracticeQuestion1(
-        questionText: "artificial / intelligence / machines / exhibit / behavior / where",
+        questionText: "artificial / intelligence / machines / exhibit / behavior / where / is",
         correctAnswer: "Artificial intelligence is where machines exhibit behavior.",
       ),
       PracticeQuestion1(
-        questionText: "memory / RAM / temporary / computer's / is",
+        questionText: "memory / RAM / the / temporary / computer's / is",
         correctAnswer: "RAM is the computer's temporary memory.",
       ),
       PracticeQuestion1(
-        questionText: "hardware / physical / components / include / computer's",
-        correctAnswer: "Hardware includes the computer's physical components.",
+        questionText: "hardware / a / physical / components / include / computer's",
+        correctAnswer: "A computer's physical components include hardware.",
       ),
       PracticeQuestion1(
-        questionText: "operating / system / software / manages / hardware / the",
-        correctAnswer: "The operating system manages the software and hardware.",
+        questionText: "operating / the / system / software / manages / hardware / the",
+        correctAnswer: "The operating system software manages the hardware.",
       ),
       PracticeQuestion1(
         questionText: "cybersecurity / protects / systems / unauthorized / access / from",

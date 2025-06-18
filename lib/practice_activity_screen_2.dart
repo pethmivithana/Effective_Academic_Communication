@@ -38,6 +38,9 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> with 
   bool submitted = false;
   bool showErrors = false;
 
+  // Upload button state management
+  bool hasUploadButtonBeenClicked = false;
+
   // TTS related variables
   final FlutterTts _flutterTts = FlutterTts();
   bool _isSpeaking = false;
@@ -351,8 +354,17 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> with 
     super.dispose();
   }
 
-  void _launchURL(String url) async {
+  // Modified _launchURL method to handle upload button state
+  void _launchURL(String url, {bool isUploadButton = false}) async {
     final uri = Uri.parse(url);
+
+    // If this is an upload button, mark it as clicked
+    if (isUploadButton) {
+      setState(() {
+        hasUploadButtonBeenClicked = true;
+      });
+    }
+
     if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text("Could not launch URL: $url"), backgroundColor: Colors.red),
@@ -383,6 +395,23 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> with 
         const SnackBar(content: Text("Answers submitted!"), backgroundColor: Colors.green),
       );
     }
+  }
+
+  // Helper method to check if upload buttons exist
+  bool hasUploadButtons() {
+    final unit = widget.unitData;
+    return (unit?.practiceUploadLink2 != null && unit!.practiceUploadLink2!.isNotEmpty);
+  }
+
+  // Helper method to determine if Quiz button should be shown
+  bool shouldShowQuizButton() {
+    // If there are no upload buttons, show the Quiz button normally
+    if (!hasUploadButtons()) {
+      return true;
+    }
+
+    // If there are upload buttons, only show Quiz button after upload button is clicked
+    return hasUploadButtonBeenClicked;
   }
 
   @override
@@ -727,7 +756,7 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> with 
               Padding(
                 padding: const EdgeInsets.only(top: 10),
                 child: ElevatedButton.icon(
-                  onPressed: () => _launchURL(unit.practiceUploadLink2!),
+                  onPressed: () => _launchURL(unit.practiceUploadLink2!, isUploadButton: true),
                   icon: const Icon(Icons.upload_file, color: Colors.white),
                   label: const Text("Upload Your Answer", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                   style: ElevatedButton.styleFrom(
@@ -739,21 +768,23 @@ class _PracticeActivityScreen2State extends State<PracticeActivityScreen2> with 
 
             const SizedBox(height: 10),
 
-            ElevatedButton.icon(
-              onPressed: () {
-                _flutterTts.stop(); // Stop TTS when navigating away
-                _showCongratulatoryDialog(); // Show popup before navigation
-              },
-              icon: const Icon(Icons.quiz, color: Colors.white),
-              label: const Text(
-                "End Lesson Quiz",
-                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+            // Quiz Button - only show when conditions are met
+            if (shouldShowQuizButton())
+              ElevatedButton.icon(
+                onPressed: () {
+                  _flutterTts.stop(); // Stop TTS when navigating away
+                  _showCongratulatoryDialog(); // Show popup before navigation
+                },
+                icon: const Icon(Icons.quiz, color: Colors.white),
+                label: const Text(
+                  "End Lesson Quiz",
+                  style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.red,
+                  minimumSize: const Size(double.infinity, 50),
+                ),
               ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.red,
-                minimumSize: const Size(double.infinity, 50),
-              ),
-            ),
           ],
         ),
       ),

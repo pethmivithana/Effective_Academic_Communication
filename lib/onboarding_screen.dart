@@ -26,15 +26,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             children: [
               buildPage(
                 image: 'assets/onboarding/ob1.jpg',
-                title: '🗣️ Speak Like a Pro!',
-                description:
-                'Tired of sounding like a robot? 🤖 Let’s fix that! Our app will help you master English pronunciation, one word at a time. Get ready to talk like a native and impress everyone! 🎤✨',
+                title: """🎙️Your Voice Matters. Let’s Make It Heard.""",
+              description:
+              """Welcome to Effective Academic Communication — the space where your ideas gain structure 🧱, strength 💪, and purpose 🎯. Every great communicator starts here. Start building essential communication skills for academic and professional success.""",
               ),
               buildPage(
-                image: 'assets/onboarding/ob5.png',
-                title: '👂 Listen, Laugh & Learn!',
-                description:
-                'Who said grammar and pronunciation have to be boring? 🤓🎉 We’ve packed this app with hilarious examples, fun challenges, and real-world practice. Get ready to laugh and learn! 😆📚',
+                  image: 'assets/onboarding/ob5.png',
+                  title: '👂 Listen, Laugh & Learn!',
+                  description:
+                  """Who said grammar and pronunciation have to be boring? 🤓🎉 We've packed this app with hilarious examples, fun challenges, and real-world practice. Get ready to laugh and learn! 😆📚""",
               ),
             ],
           ),
@@ -110,6 +110,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         SizedBox(height: 20),
         Text(
           title,
+          textAlign: TextAlign.center,
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         SizedBox(height: 10),

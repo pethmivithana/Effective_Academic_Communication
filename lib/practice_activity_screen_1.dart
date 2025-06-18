@@ -31,6 +31,9 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
   bool allAnswered = false;
   YoutubePlayerController? _youtubeController;
 
+  // Upload button state management
+  bool hasUploadButtonBeenClicked = false;
+
   // TTS related variables
   final FlutterTts _flutterTts = FlutterTts();
   bool _isSpeaking = false;
@@ -171,8 +174,17 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
     });
   }
 
-  void _launchURL(String url) async {
+  // Modified _launchURL method to handle upload button state
+  void _launchURL(String url, {bool isUploadButton = false}) async {
     final Uri uri = Uri.parse(url);
+
+    // If this is an upload button, mark it as clicked
+    if (isUploadButton) {
+      setState(() {
+        hasUploadButtonBeenClicked = true;
+      });
+    }
+
     try {
       if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
         throw 'Could not launch $url';
@@ -234,6 +246,23 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
         children: spans,
       ),
     );
+  }
+
+  // Helper method to check if upload buttons exist
+  bool hasUploadButtons() {
+    final unit = widget.unitData;
+    return (unit?.practiceUploadLink != null && unit!.practiceUploadLink!.isNotEmpty);
+  }
+
+  // Helper method to determine if Next button should be shown
+  bool shouldShowNextButton() {
+    // If there are no upload buttons, show the Next button normally
+    if (!hasUploadButtons()) {
+      return true;
+    }
+
+    // If there are upload buttons, only show Next button after upload button is clicked
+    return hasUploadButtonBeenClicked;
   }
 
   @override
@@ -372,7 +401,7 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
               Padding(
                 padding: const EdgeInsets.only(top: 10),
                 child: ElevatedButton.icon(
-                  onPressed: () => _launchURL(unit.practiceUploadLink!),
+                  onPressed: () => _launchURL(unit.practiceUploadLink!, isUploadButton: true),
                   icon: const Icon(Icons.upload_file, color: Colors.white),
                   label: const Text("Upload Your Answer", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                   style: ElevatedButton.styleFrom(
@@ -529,7 +558,8 @@ class _PracticeActivityScreenState extends State<PracticeActivityScreen> {
                 label: const Text("Submit Answers", style: TextStyle(fontSize: 16, color: Colors.white)),
               ),
 
-            if (canProceed)
+            // Next Button - only show when conditions are met
+            if (canProceed && shouldShowNextButton())
               Padding(
                 padding: const EdgeInsets.only(top: 16),
                 child: ElevatedButton.icon(

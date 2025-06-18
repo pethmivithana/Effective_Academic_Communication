@@ -35,6 +35,9 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
   VideoPlayerController? _localVideoController;
   bool showVideo = false;
 
+  // Upload button state management
+  bool hasUploadButtonBeenClicked = false;
+
   // Enhanced TTS variables
   final FlutterTts _flutterTts = FlutterTts();
   bool _isSpeaking = false;
@@ -226,8 +229,17 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
     });
   }
 
-  void _launchURL(String url) async {
+  // Modified _launchURL method to handle upload button state
+  void _launchURL(String url, {bool isUploadButton = false}) async {
     final Uri uri = Uri.parse(url);
+
+    // If this is an upload button, mark it as clicked
+    if (isUploadButton) {
+      setState(() {
+        hasUploadButtonBeenClicked = true;
+      });
+    }
+
     if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text("Could not launch the link."), backgroundColor: Colors.red),
@@ -601,6 +613,23 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
         (unit?.preClassSurvey != null && unit!.preClassSurvey!.isNotEmpty);
   }
 
+  // Helper method to check if upload buttons exist
+  bool hasUploadButtons() {
+    final unit = widget.unitData;
+    return (unit?.preClassActivityUploadLink != null && unit!.preClassActivityUploadLink!.isNotEmpty);
+  }
+
+  // Helper method to determine if Next button should be shown
+  bool shouldShowNextButton() {
+    // If there are no upload buttons, show the Next button normally
+    if (!hasUploadButtons()) {
+      return true;
+    }
+
+    // If there are upload buttons, only show Next button after upload button is clicked
+    return hasUploadButtonBeenClicked;
+  }
+
   @override
   Widget build(BuildContext context) {
     final unit = widget.unitData;
@@ -710,7 +739,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
                   ElevatedButton.icon(
                     icon: const Icon(Icons.link, color: Colors.white),
                     label: const Text("Submit Your Answers", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-                    onPressed: () => _launchURL(unit.preClassActivityUploadLink!),
+                    onPressed: () => _launchURL(unit.preClassActivityUploadLink!, isUploadButton: true),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.orange,
                       minimumSize: const Size(double.infinity, 50),
@@ -753,7 +782,7 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
               Padding(
                 padding: const EdgeInsets.only(top: 10),
                 child: ElevatedButton.icon(
-                  onPressed: () => _launchURL(unit.preClassActivityUploadLink!),
+                  onPressed: () => _launchURL(unit.preClassActivityUploadLink!, isUploadButton: true),
                   icon: const Icon(Icons.upload_file, color: Colors.white),
                   label: const Text("Upload Your Answer", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                   style: ElevatedButton.styleFrom(
@@ -829,36 +858,37 @@ class _PreClassActivityScreenState extends State<PreClassActivityScreen> with Ti
 
             const SizedBox(height: 20),
 
-            // Next Button
-            ElevatedButton.icon(
-              icon: const Icon(Icons.integration_instructions, size: 20, color: Colors.white),
-              label: const Text(
-                "Next : Instructions",
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
-              ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: (isSubmitted == true || !shouldShowSubmitButton())
-                    ? const Color(0xFF010066)
-                    : Colors.grey,
-                minimumSize: const Size(double.infinity, 50),
-              ),
-              onPressed: (isSubmitted == true || !shouldShowSubmitButton())
-                  ? () {
-                _flutterTts.stop(); // Stop TTS when navigating away
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => InstructionsScreen(
-                      unitIndex: widget.unitIndex,
-                      subunitIndex: widget.subunitIndex,
-                      subunitTitle: widget.subunitTitle,
-                      unitData: widget.unitData,
+            // Next Button - only show when conditions are met
+            if (shouldShowNextButton())
+              ElevatedButton.icon(
+                icon: const Icon(Icons.integration_instructions, size: 20, color: Colors.white),
+                label: const Text(
+                  "Next : Instructions",
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
+                ),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: (isSubmitted == true || !shouldShowSubmitButton())
+                      ? const Color(0xFF010066)
+                      : Colors.grey,
+                  minimumSize: const Size(double.infinity, 50),
+                ),
+                onPressed: (isSubmitted == true || !shouldShowSubmitButton())
+                    ? () {
+                  _flutterTts.stop(); // Stop TTS when navigating away
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => InstructionsScreen(
+                        unitIndex: widget.unitIndex,
+                        subunitIndex: widget.subunitIndex,
+                        subunitTitle: widget.subunitTitle,
+                        unitData: widget.unitData,
+                      ),
                     ),
-                  ),
-                );
-              }
-                  : null,
-            ),
+                  );
+                }
+                    : null,
+              ),
           ],
         ),
       ),
