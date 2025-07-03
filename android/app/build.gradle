@@ -18,8 +18,8 @@ if (localPropertiesFile.exists()) {
 
 def flutterRoot = localProperties.getProperty("flutter.sdk")
 
-def flutterVersionCode = localProperties.getProperty("10002") ?: "10002"
-def flutterVersionName = localProperties.getProperty("1.00.02") ?: "1.00.02"
+def flutterVersionCode = localProperties.getProperty("10003") ?: "10003"
+def flutterVersionName = localProperties.getProperty("1.00.03") ?: "1.00.03"
 
 // Load keystore
 def keystoreProperties = new Properties()
@@ -30,13 +30,13 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "com.effective.academicsliit"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
     ndkVersion = flutter.ndkVersion
 
     defaultConfig {
         applicationId = "com.effective.academicsliit"
         minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        targetSdk = 35
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
     }
